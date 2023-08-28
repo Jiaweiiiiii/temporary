@@ -1,0 +1,2 @@
+/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/mips-linux-gnu-ar qc ../lib/uclibc/libdrivers.a  CMakeFiles/drivers_uclibc_static.dir/mem_manager/buf_list.cc.o CMakeFiles/drivers_uclibc_static.dir/mem_manager/ddr_mem.cc.o CMakeFiles/drivers_uclibc_static.dir/mem_manager/oram.cc.o CMakeFiles/drivers_uclibc_static.dir/drivers/aie_mmap.c.o CMakeFiles/drivers_uclibc_static.dir/drivers/utils.c.o CMakeFiles/drivers_uclibc_static.dir/mem_manager/imp_alloc_api.c.o
+/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/mips-linux-gnu-ranlib ../lib/uclibc/libdrivers.a

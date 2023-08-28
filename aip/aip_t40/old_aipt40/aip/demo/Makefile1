@@ -1,0 +1,30 @@
+CONFIG_UCLIBC_BUILD=y
+CUR_DIR=$(shell pwd)
+
+
+libc = 1
+ifeq ($(libc), 1)
+	CC = mips-linux-uclibc-gnu-g++
+	C++ = mips-linux-uclibc-gnu-g++
+	LIBS = ../aie_nna_driver/build/source/libnna.a
+else
+	CC = mips-linux-gnu-g++
+	C++ = mips-linux-gnu-g++
+	LIBS = ./nna/glibc/libnna.a
+endif
+
+
+LIBS =  ../_install_uclibc/lib/api/libbscaler_api.a  ../_install_uclibc/lib/mdl/libbscaler_mdl.a
+
+INCLUDE_COMMON = -I $(CUR_DIR)../include/  -I $(CUR_DIR)../aie_nna_driver/include/
+
+OUTPUT_NAME := resize_demo
+
+$(OUTPUT_NAME):resize_demo.o
+	$(C++) -o $@ $^ $(LIBS) $(INCLUDE_COMMON) -lpthread
+%.o:%.cc
+	$(C++) -c -o $@ $< $(INCLUDE_COMMON)
+
+.PHONY: clean
+clean:
+	rm -rf $(objs) $(OUTPUT_NAME)

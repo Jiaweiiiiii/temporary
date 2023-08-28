@@ -1,0 +1,16 @@
+/home/jwzhang/work/aip/driver/build/CMakeFiles/install.dir
+/home/jwzhang/work/aip/driver/build/CMakeFiles/list_install_components.dir
+/home/jwzhang/work/aip/driver/build/CMakeFiles/install/strip.dir
+/home/jwzhang/work/aip/driver/build/CMakeFiles/install/local.dir
+/home/jwzhang/work/aip/driver/build/CMakeFiles/rebuild_cache.dir
+/home/jwzhang/work/aip/driver/build/CMakeFiles/edit_cache.dir
+/home/jwzhang/work/aip/driver/build/src/CMakeFiles/install.dir
+/home/jwzhang/work/aip/driver/build/src/CMakeFiles/list_install_components.dir
+/home/jwzhang/work/aip/driver/build/src/CMakeFiles/drivers_glibc_shared.dir
+/home/jwzhang/work/aip/driver/build/src/CMakeFiles/install/strip.dir
+/home/jwzhang/work/aip/driver/build/src/CMakeFiles/install/local.dir
+/home/jwzhang/work/aip/driver/build/src/CMakeFiles/drivers_glibc_static.dir
+/home/jwzhang/work/aip/driver/build/src/CMakeFiles/rebuild_cache.dir
+/home/jwzhang/work/aip/driver/build/src/CMakeFiles/drivers_uclibc_shared.dir
+/home/jwzhang/work/aip/driver/build/src/CMakeFiles/edit_cache.dir
+/home/jwzhang/work/aip/driver/build/src/CMakeFiles/drivers_uclibc_static.dir

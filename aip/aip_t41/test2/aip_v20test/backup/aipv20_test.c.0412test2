@@ -1,0 +1,179 @@
+/*********************************************************
+ * File Name   : aip_resize_demo.c
+ * Author      : jwzhang
+ * Mail        : kevin.jwzhang@ingenic.com
+ * Created Time: 2023-03-1 16:45
+ ********************************************************/
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <pthread.h>
+
+#include "ingenic_aip.h"
+#include "aie_mmap.h"
+#include <sys/mman.h> //mmap
+
+#include "include/test.h"
+#include "include/jz_aip_v20_ioctl.h"
+
+int aip_submit(int fd,  aip_v20_ioctl_submit_t *args)
+{
+    int ret;
+
+    if (args->op > AIP_OP_F)
+        return -1; 
+
+    ret = ioctl(fd, IOCTL_AIP_V20_SUBMIT, args);   
+    return ret;
+}
+
+int aip_wait(int fd, aip_v20_ioctl_wait_t *args)
+{
+    int ret;
+
+    ret = ioctl(fd, IOCTL_AIP_V20_WAIT, args); 
+    return ret;
+}
+
+int main(int argc, char *atgv[])
+{
+	int fd;
+    int err;
+
+	aip_v20_f_node_t f_node;
+	aip_v20_ioctl_submit_t ioctl_submit;
+
+	/* open the device file */
+    fd = open("/dev/aip2.0", O_RDWR);
+    if (fd < 0) {
+        perror("Failed to open device file");
+        goto err_fd;
+    }
+
+	nna_cache_attr_t desram_cache_attr = NNA_UNCACHED_ACCELERATED;
+    nna_cache_attr_t oram_cache_attr = NNA_UNCACHED_ACCELERATED;
+    nna_cache_attr_t ddr_cache_attr = NNA_CACHED;
+    if(__aie_mmap(0x1000000, 1, desram_cache_attr, oram_cache_attr, ddr_cache_attr) < 0){
+		printf("aie_mmp_set() failed!\n");
+		goto err_aie;
+	}
+
+	src_w = 1024;
+	src_h = 576;
+	dst_w = 512;
+	dst_h = 512;
+	src_bpp = 12;
+    dst_bpp = 12;
+	chn = 1;
+    bw = 7;
+	box_num = 1
+
+	src_stride =  src_w;
+    dst_stride =  dst_w;
+    src_size = src_stride * src_h * src_bpp >> 3;
+    dst_size = dst_stride * dst_h * dst_bpp >> 3;
+	x = 0;
+	y = 0;
+
+	src_base = (uint8_t *)ddr_memalign(32, src_size);
+	dst_base = (uint8_t *)ddr_memalign(32, dst_size * box_num);
+	memset(src_base, 0x00, src_size);
+    memset(dst_base, 0x00, dst_size * box_num);
+
+	image_fp = fopen("./day-T40XP_273_w1024h576_w1024_h576.nv12","r");
+    if(image_fp == NULL) {
+        printf("aip_f fopen failed!\n");
+        goto err_aie;
+    }
+    fread(src_base, 32, src_size/32, fp);
+    if(fclose(image_fp) < 0){
+        printf("aip_f flcose faile!\n");
+        goto err_aie;
+    }
+
+	//src->base = __aie_get_ddr_paddr((uint32_t)src_base);
+	//src->base1 = src->base + src_w * src_h;
+	src_base_y = __aie_get_ddr_paddr((uint32_t)src_base);
+	dst_base_y = __aie_get_ddr_paddr((uint32_t)dst_base);
+	src_base_uv = src_base_y + src_w * src_h;
+	dst_base_uv = dst_base_y + dst_w * dst_h;
+
+	scale_x_f = (float)w / (float)dst[i].width;
+	scale_y_f = (float)h / (float)dst[i].height;
+
+	f_node.scale_x = (uint32_t)(scale_x_f * 65536);
+	f_node.scale_y = (uint32_t)(scale_y_f * 65536);
+	f_node.trans_x = (int32_t)((scale_x_f * 0.5 - 0.5) * 65536):
+	f_node.trans_y = (int32_t)((scale_y_f * 0.5 - 0.5) * 65536);
+
+	if(src->base1 == 0x0) {
+            src->base1 = src->base + src->width * src->height;
+    } else {
+            src->base1 = src->base1;
+    }   
+    src_base_uv = src_base_uv;
+    dst_base_uv = dst_base_uv;
+    offset_y    = src_stride * y + x;
+    offset_uv   = src_stride * y / 2 + x;
+
+	f_node.src_width = src_w;
+	f_node.src_height = src_h;
+	f_node.src_base_y = src_base_y + offset_y;
+	f_node.src_base_uv = src_base_uv + offset_uv;
+	f_node.src_stride = src_stride;
+
+	f_node.dst_width = dst_w;
+	f_node.dst_height = dst_y;
+	f_node.dst_base_y = dst_base_y;;
+	f_node.dst_base_uv = dst_base_uv;
+	f_node.dst_stride = dst_stride;
+
+
+    __aie_flushcache_dir((void *)src_base, src_size, NNA_DMA_TO_DEVICE);
+	
+	ioctl_submit.op = AIP_OP_F;                                                                                                                                                    
+    ioctl_submit.oprds.f.f_node = &f_node;
+    ioctl_submit.oprds.f.f_cfg = 7<<7 | 0<<1 | 0;  // NV12, SRC_NMEM, DST_NUM
+    ioctl_submit.oprds.f.box_num = box_num;
+	ioctl_submit.oprds.f.seqno = 0;
+
+	/* submit an IO request to the driver */
+    err = aip_submit(fd, &ioctl_submit);
+    if (err) {
+        perror("Failed to submit IO request");
+        goto err_free;
+    }
+
+	printf("Successfully submitted IOCTL_AIP_V20_SUBMIT \n");
+
+
+#if 0
+    char name[32] = {0};
+    sprintf(name, "%s%d", "./dst_image", 2);
+    fp = fopen(name, "w+");
+    fwrite(dst_base, 32, dst_size/32, fp);
+    fclose(fp);
+#endif
+
+	ddr_free(dst_base);
+    ddr_free(src_base);
+	__aie_munmap();
+    close(fd);
+	return 0;
+
+/* close the device file */
+err_free:
+	ddr_free(dst_base);
+    ddr_free(src_base);
+err_ddr:
+	__aie_munmap();
+err_aie:
+    close(fd);
+err_fd:
+    return -1;
+}
+
+    
+
+
+

@@ -1,0 +1,23 @@
+#ifndef __VERSION_H__
+#define __VERSION_H__
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+#define PROJECT_VERSION_MAJOR	@PROJECT_VERSION_MAJOR@
+#define PROJECT_VERSION_MINOR	@PROJECT_VERSION_MINOR@
+#define PROJECT_VERSION_PATCH	@PROJECT_VERSION_PATCH@
+#define PROJECT_VERSION         "v@PROJECT_VERSION@"
+#define USER_NAME               "@_user_name@"
+#define CMAKE_VERSION           "@CMAKE_VERSION@"
+#define CMAKE_GENERATOR         "@CMAKE_GENERATOR@"
+#define CONFIGURATION_TIME      "@_configuration_time@"
+#define GIT_HASH                "@GIT_HASH@"
+#define CMAKE_C_COMPILER	    "@CMAKE_C_COMPILER@"
+#define CMAKE_CXX_COMPILER	    "@CMAKE_CXX_COMPILER@"
+
+#ifdef __cplusplus
+}
+#endif
+#endif /* __VERSION_H__ */
+

@@ -1,0 +1,272 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AIP_BO_OP_APPEND	include/jz_aip_v20_ioctl.h	/^	AIP_BO_OP_APPEND = 0,$/;"	e	enum:__anon25
+AIP_BO_OP_DESTROY	include/jz_aip_v20_ioctl.h	/^	AIP_BO_OP_DESTROY,$/;"	e	enum:__anon25
+AIP_CH_OP_F	include/jz_aip_v20_ioctl.h	/^	AIP_CH_OP_F,$/;"	e	enum:__anon15
+AIP_CH_OP_P	include/jz_aip_v20_ioctl.h	/^	AIP_CH_OP_P = 0,$/;"	e	enum:__anon15
+AIP_CH_OP_T	include/jz_aip_v20_ioctl.h	/^	AIP_CH_OP_T,$/;"	e	enum:__anon15
+AIP_DAT_POS_DDR	include/jz_aip_v20_ioctl.h	/^        AIP_DAT_POS_DDR = 0,$/;"	e	enum:__anon16
+AIP_DAT_POS_ORAM	include/jz_aip_v20_ioctl.h	/^        AIP_DAT_POS_ORAM = 1,$/;"	e	enum:__anon16
+AIP_F_CFG_BW_MASK	include/backup/iaic_aip_reg.h	5;"	d
+AIP_F_CFG_BW_SHIFT	include/backup/iaic_aip_reg.h	6;"	d
+AIP_F_CFG_IBUS_MASK	include/backup/iaic_aip_reg.h	11;"	d
+AIP_F_CFG_IBUS_SHIFT	include/backup/iaic_aip_reg.h	12;"	d
+AIP_F_CFG_OBUS_MASK	include/backup/iaic_aip_reg.h	8;"	d
+AIP_F_CFG_OBUS_SHIFT	include/backup/iaic_aip_reg.h	9;"	d
+AIP_F_FORMAT_BGRA	include/jz_aip_v20_ioctl.h	/^	AIP_F_FORMAT_BGRA = 2,$/;"	e	enum:__anon17
+AIP_F_FORMAT_C	include/jz_aip_v20_ioctl.h	/^	AIP_F_FORMAT_C = 1,$/;"	e	enum:__anon17
+AIP_F_FORMAT_FEATURE2	include/jz_aip_v20_ioctl.h	/^	AIP_F_FORMAT_FEATURE2 = 3,$/;"	e	enum:__anon17
+AIP_F_FORMAT_FEATURE4	include/jz_aip_v20_ioctl.h	/^	AIP_F_FORMAT_FEATURE4 = 4,$/;"	e	enum:__anon17
+AIP_F_FORMAT_FEATURE8	include/jz_aip_v20_ioctl.h	/^	AIP_F_FORMAT_FEATURE8 = 5,$/;"	e	enum:__anon17
+AIP_F_FORMAT_FEATURE8_H	include/jz_aip_v20_ioctl.h	/^	AIP_F_FORMAT_FEATURE8_H = 6,$/;"	e	enum:__anon17
+AIP_F_FORMAT_NV12	include/jz_aip_v20_ioctl.h	/^	AIP_F_FORMAT_NV12 = 7,$/;"	e	enum:__anon17
+AIP_F_FORMAT_Y	include/jz_aip_v20_ioctl.h	/^	AIP_F_FORMAT_Y = 0,$/;"	e	enum:__anon17
+AIP_OP_F	include/backup/iaic_aip_ioctl.h	/^	AIP_OP_F,$/;"	e	enum:__anon6
+AIP_OP_P	include/backup/iaic_aip_ioctl.h	/^	AIP_OP_P = 0,$/;"	e	enum:__anon6
+AIP_OP_PF	include/backup/iaic_aip_ioctl.h	/^	AIP_OP_PF,$/;"	e	enum:__anon6
+AIP_OP_PT	include/backup/iaic_aip_ioctl.h	/^	AIP_OP_PT,$/;"	e	enum:__anon6
+AIP_OP_PTF	include/backup/iaic_aip_ioctl.h	/^	AIP_OP_PTF,$/;"	e	enum:__anon6
+AIP_OP_T	include/backup/iaic_aip_ioctl.h	/^	AIP_OP_T,$/;"	e	enum:__anon6
+AIP_OP_TF	include/backup/iaic_aip_ioctl.h	/^	AIP_OP_TF,$/;"	e	enum:__anon6
+AIP_V20_BO	include/jz_aip_v20_ioctl.h	15;"	d
+AIP_V20_SUBMIT	include/jz_aip_v20_ioctl.h	13;"	d
+AIP_V20_WAIT	include/jz_aip_v20_ioctl.h	14;"	d
+BS_DATA_ABGR	include/backup/ingenic_aip.h	/^        BS_DATA_ABGR    = 2 | (6  << 16),$/;"	e	enum:__anon1
+BS_DATA_ABRG	include/backup/ingenic_aip.h	/^        BS_DATA_ABRG    = 2 | (9  << 16),$/;"	e	enum:__anon1
+BS_DATA_AGBR	include/backup/ingenic_aip.h	/^        BS_DATA_AGBR    = 2 | (7  << 16),$/;"	e	enum:__anon1
+BS_DATA_AGRB	include/backup/ingenic_aip.h	/^        BS_DATA_AGRB    = 2 | (10 << 16),$/;"	e	enum:__anon1
+BS_DATA_ARBG	include/backup/ingenic_aip.h	/^        BS_DATA_ARBG    = 2 | (8  << 16),$/;"	e	enum:__anon1
+BS_DATA_ARGB	include/backup/ingenic_aip.h	/^        BS_DATA_ARGB    = 2 | (11 << 16),                           $/;"	e	enum:__anon1
+BS_DATA_BGRA	include/backup/ingenic_aip.h	/^        BS_DATA_BGRA    = 2 | (0  << 16), $/;"	e	enum:__anon1
+BS_DATA_BRGA	include/backup/ingenic_aip.h	/^        BS_DATA_BRGA    = 2 | (3  << 16), $/;"	e	enum:__anon1
+BS_DATA_FMU2	include/backup/ingenic_aip.h	/^        BS_DATA_FMU2    = 3,                           $/;"	e	enum:__anon1
+BS_DATA_FMU4	include/backup/ingenic_aip.h	/^        BS_DATA_FMU4    = 4,                           $/;"	e	enum:__anon1
+BS_DATA_FMU8	include/backup/ingenic_aip.h	/^        BS_DATA_FMU8    = 5,                           $/;"	e	enum:__anon1
+BS_DATA_FMU8_H	include/backup/ingenic_aip.h	/^        BS_DATA_FMU8_H  = 6,                                       $/;"	e	enum:__anon1
+BS_DATA_GBRA	include/backup/ingenic_aip.h	/^        BS_DATA_GBRA    = 2 | (1  << 16), $/;"	e	enum:__anon1
+BS_DATA_GRBA	include/backup/ingenic_aip.h	/^        BS_DATA_GRBA    = 2 | (4  << 16), $/;"	e	enum:__anon1
+BS_DATA_NMEM	include/backup/ingenic_aip.h	/^        BS_DATA_NMEM    = 0,\/\/data in nmem$/;"	e	enum:__anon2
+BS_DATA_NV12	include/backup/ingenic_aip.h	/^        BS_DATA_NV12    = 7,                                      $/;"	e	enum:__anon1
+BS_DATA_ORAM	include/backup/ingenic_aip.h	/^        BS_DATA_ORAM    = 1,\/\/data in oram$/;"	e	enum:__anon2
+BS_DATA_RBGA	include/backup/ingenic_aip.h	/^        BS_DATA_RBGA    = 2 | (2  << 16), $/;"	e	enum:__anon1
+BS_DATA_RGBA	include/backup/ingenic_aip.h	/^        BS_DATA_RGBA    = 2 | (5  << 16),$/;"	e	enum:__anon1
+BS_DATA_RMEM	include/backup/ingenic_aip.h	/^        BS_DATA_RMEM    = 2,\/\/data in rmem$/;"	e	enum:__anon2
+BS_DATA_UV	include/backup/ingenic_aip.h	/^        BS_DATA_UV      = 1,                                      $/;"	e	enum:__anon1
+BS_DATA_Y	include/backup/ingenic_aip.h	/^        BS_DATA_Y       = 0, $/;"	e	enum:__anon1
+CC	Makefile	/^CC = mips-linux-uclibc-gcc$/;"	m
+CC	backup/Makefile	/^CC = mips-linux-uclibc-g++$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -Wall -O0$/;"	m
+CFLAGS	backup/Makefile	/^CFLAGS = $/;"	m
+IAIC_AIP_IOCTL_SUBMIT	include/backup/iaic_aip_ioctl.h	5;"	d
+IAIC_AIP_IOCTL_WAIT	include/backup/iaic_aip_ioctl.h	6;"	d
+INCLUDE_COMMON	Makefile	/^INCLUDE_COMMON = -I ..\/model\/include\/drivers\/$/;"	m
+INCLUDE_COMMON	backup/Makefile	/^INCLUDE_COMMON = -I ..\/..\/include\/jz_aip -I ..\/model\/include\/model\/ -I ..\/model\/include\/3rd_party\/ -I ..\/model\/include\/drivers\/$/;"	m
+IOCTL_AIP_V20_BO	include/test.h	3;"	d
+IOCTL_AIP_V20_SUBMIT	include/test.h	1;"	d
+IOCTL_AIP_V20_WAIT	include/test.h	2;"	d
+LIBS_AIP	Makefile	/^LIBS_AIP =  ..\/..\/__release_aip\/lib\/uclibc\/ $/;"	m
+LIBS_AIP	backup/Makefile	/^LIBS_AIP =  ..\/..\/__release_aip\/lib\/uclibc\/ $/;"	m
+LIBS_DRI	Makefile	/^LIBS_DRI = ..\/model\/libdrivers\/uclibc\/$/;"	m
+LIBS_DRI	backup/Makefile	/^LIBS_DRI = ..\/model\/libdrivers\/uclibc\/$/;"	m
+M_CURR_CTX	include/backup/iaic_aip_core.h	7;"	d
+M_CURR_CTX_FD	include/backup/iaic_aip_core.h	8;"	d
+OUTPUT_NAME	Makefile	/^OUTPUT_NAME := aipv20_test$/;"	m
+OUTPUT_NAME	backup/Makefile	/^OUTPUT_NAME := aip_resize_demo$/;"	m
+_JZ_AIP_V20_IOCTL_H_	include/jz_aip_v20_ioctl.h	10;"	d
+__IAIC_AIP_CORE_H__	include/backup/iaic_aip_core.h	3;"	d
+__IAIC_AIP_IOCTL_H__	include/backup/iaic_aip_ioctl.h	3;"	d
+__IAIC__AIP_REG_H__	include/backup/iaic_aip_reg.h	3;"	d
+__INGENIC_AIP_H__	include/backup/ingenic_aip.h	3;"	d
+__anon10::box_num	include/backup/iaic_aip_ioctl.h	/^	int                           box_num;$/;"	m	struct:__anon10	access:public
+__anon10::f_cfg	include/backup/iaic_aip_ioctl.h	/^    	uint32_t                      f_cfg;$/;"	m	struct:__anon10	access:public
+__anon10::f_node	include/backup/iaic_aip_ioctl.h	/^	iaic_aip_f_node_t             *f_node;$/;"	m	struct:__anon10	access:public
+__anon11::f	include/backup/iaic_aip_ioctl.h	/^	iaic_aip_ioctl_submit_f_t     f;$/;"	m	union:__anon11	access:public
+__anon11::p	include/backup/iaic_aip_ioctl.h	/^	iaic_aip_ioctl_submit_p_t     p;$/;"	m	union:__anon11	access:public
+__anon11::t	include/backup/iaic_aip_ioctl.h	/^	iaic_aip_ioctl_submit_t_t     t;$/;"	m	union:__anon11	access:public
+__anon12::op	include/backup/iaic_aip_ioctl.h	/^	iaic_aip_ioctl_op_t           op;$/;"	m	struct:__anon12	access:public
+__anon12::oprds	include/backup/iaic_aip_ioctl.h	/^	iaic_aip_ioctl_submit_oprds_t oprds;$/;"	m	struct:__anon12	access:public
+__anon13::op	include/backup/iaic_aip_ioctl.h	/^	iaic_aip_ioctl_op_t            op;$/;"	m	struct:__anon13	access:public
+__anon14::fd	include/backup/iaic_aip_core.h	/^	int fd;$/;"	m	struct:__anon14	access:public
+__anon18::dst_base_uv	include/jz_aip_v20_ioctl.h	/^	uint32_t                      dst_base_uv[2];$/;"	m	struct:__anon18	access:public
+__anon18::dst_base_y	include/jz_aip_v20_ioctl.h	/^	uint32_t                      dst_base_y[2];$/;"	m	struct:__anon18	access:public
+__anon18::dst_size	include/jz_aip_v20_ioctl.h	/^	uint32_t                      dst_size[2];$/;"	m	struct:__anon18	access:public
+__anon18::f_ctrl	include/jz_aip_v20_ioctl.h	/^	uint32_t                      f_ctrl[2];$/;"	m	struct:__anon18	access:public
+__anon18::scale_x	include/jz_aip_v20_ioctl.h	/^	uint32_t                      scale_x[2];$/;"	m	struct:__anon18	access:public
+__anon18::scale_y	include/jz_aip_v20_ioctl.h	/^	uint32_t                      scale_y[2];$/;"	m	struct:__anon18	access:public
+__anon18::src_base_uv	include/jz_aip_v20_ioctl.h	/^	uint32_t                      src_base_uv[2];$/;"	m	struct:__anon18	access:public
+__anon18::src_base_y	include/jz_aip_v20_ioctl.h	/^	uint32_t                      src_base_y[2];$/;"	m	struct:__anon18	access:public
+__anon18::src_size	include/jz_aip_v20_ioctl.h	/^	uint32_t                      src_size[2];$/;"	m	struct:__anon18	access:public
+__anon18::stride	include/jz_aip_v20_ioctl.h	/^	uint32_t                      stride[2];$/;"	m	struct:__anon18	access:public
+__anon18::timeout	include/jz_aip_v20_ioctl.h	/^	uint32_t                      timeout[2];$/;"	m	struct:__anon18	access:public
+__anon18::trans_x	include/jz_aip_v20_ioctl.h	/^	int32_t                       trans_x[2];$/;"	m	struct:__anon18	access:public
+__anon18::trans_y	include/jz_aip_v20_ioctl.h	/^	int32_t                       trans_y[2];$/;"	m	struct:__anon18	access:public
+__anon19::box_num	include/jz_aip_v20_ioctl.h	/^	int                           box_num;$/;"	m	struct:__anon19	access:public
+__anon20::box_num	include/jz_aip_v20_ioctl.h	/^	int                           box_num;$/;"	m	struct:__anon20	access:public
+__anon21::format	include/jz_aip_v20_ioctl.h	/^	aip_v20_ioctl_f_format_t      format;$/;"	m	struct:__anon21	access:public
+__anon21::node_handle	include/jz_aip_v20_ioctl.h	/^	int                           node_handle;$/;"	m	struct:__anon21	access:public
+__anon21::node_num	include/jz_aip_v20_ioctl.h	/^	size_t                        node_num;$/;"	m	struct:__anon21	access:public
+__anon21::pos_in	include/jz_aip_v20_ioctl.h	/^	aip_v20_ioctl_dat_pos_t       pos_in;$/;"	m	struct:__anon21	access:public
+__anon21::pos_out	include/jz_aip_v20_ioctl.h	/^	aip_v20_ioctl_dat_pos_t       pos_out;$/;"	m	struct:__anon21	access:public
+__anon21::seqno	include/jz_aip_v20_ioctl.h	/^	uint64_t                      seqno;$/;"	m	struct:__anon21	access:public
+__anon22::f	include/jz_aip_v20_ioctl.h	/^	aip_v20_ioctl_submit_f_t      f;$/;"	m	union:__anon22	access:public
+__anon22::p	include/jz_aip_v20_ioctl.h	/^	aip_v20_ioctl_submit_p_t      p;$/;"	m	union:__anon22	access:public
+__anon22::t	include/jz_aip_v20_ioctl.h	/^	aip_v20_ioctl_submit_t_t      t;$/;"	m	union:__anon22	access:public
+__anon23::op	include/jz_aip_v20_ioctl.h	/^	aip_v20_ioctl_ch_op_t         op;$/;"	m	struct:__anon23	access:public
+__anon23::oprds	include/jz_aip_v20_ioctl.h	/^	aip_v20_ioctl_submit_oprds_t  oprds;$/;"	m	struct:__anon23	access:public
+__anon24::op	include/jz_aip_v20_ioctl.h	/^	aip_v20_ioctl_ch_op_t         op;$/;"	m	struct:__anon24	access:public
+__anon24::seqno	include/jz_aip_v20_ioctl.h	/^	uint64_t                      seqno;$/;"	m	struct:__anon24	access:public
+__anon24::timeout_ns	include/jz_aip_v20_ioctl.h	/^	uint64_t                      timeout_ns;$/;"	m	struct:__anon24	access:public
+__anon26::handle	include/jz_aip_v20_ioctl.h	/^	int                           handle;$/;"	m	struct:__anon26	access:public
+__anon26::op	include/jz_aip_v20_ioctl.h	/^	aip_v20_ioctl_bo_op_t         op;$/;"	m	struct:__anon26	access:public
+__anon26::paddr	include/jz_aip_v20_ioctl.h	/^	void                         *paddr;$/;"	m	struct:__anon26	access:public
+__anon26::size	include/jz_aip_v20_ioctl.h	/^	size_t                        size;$/;"	m	struct:__anon26	access:public
+__anon3::h	include/backup/ingenic_aip.h	/^        int                     h;$/;"	m	struct:__anon3	access:public
+__anon3::w	include/backup/ingenic_aip.h	/^        int                     w;$/;"	m	struct:__anon3	access:public
+__anon3::x	include/backup/ingenic_aip.h	/^        int                     x;$/;"	m	struct:__anon3	access:public
+__anon3::y	include/backup/ingenic_aip.h	/^        int                     y;$/;"	m	struct:__anon3	access:public
+__anon4::box	include/backup/ingenic_aip.h	/^        box_info_s              box;\/\/source box$/;"	m	struct:__anon4	access:public
+__anon4::matrix	include/backup/ingenic_aip.h	/^        float                   matrix[9];\/\/fixme$/;"	m	struct:__anon4	access:public
+__anon4::wrap	include/backup/ingenic_aip.h	/^        uint32_t                wrap;$/;"	m	struct:__anon4	access:public
+__anon4::zero_point	include/backup/ingenic_aip.h	/^        uint32_t                zero_point;$/;"	m	struct:__anon4	access:public
+__anon5::base	include/backup/ingenic_aip.h	/^        uint32_t                base;$/;"	m	struct:__anon5	access:public
+__anon5::base1	include/backup/ingenic_aip.h	/^        uint32_t                base1;$/;"	m	struct:__anon5	access:public
+__anon5::chn	include/backup/ingenic_aip.h	/^        int                     chn;$/;"	m	struct:__anon5	access:public
+__anon5::format	include/backup/ingenic_aip.h	/^        bs_data_format_e        format;$/;"	m	struct:__anon5	access:public
+__anon5::height	include/backup/ingenic_aip.h	/^        int                     height;$/;"	m	struct:__anon5	access:public
+__anon5::line_stride	include/backup/ingenic_aip.h	/^        int                     line_stride;$/;"	m	struct:__anon5	access:public
+__anon5::locate	include/backup/ingenic_aip.h	/^        bs_data_locate_e        locate;$/;"	m	struct:__anon5	access:public
+__anon5::width	include/backup/ingenic_aip.h	/^        int                     width;$/;"	m	struct:__anon5	access:public
+__anon7::dst_base_uv	include/backup/iaic_aip_ioctl.h	/^        uint32_t                      dst_base_uv;$/;"	m	struct:__anon7	access:public
+__anon7::dst_base_y	include/backup/iaic_aip_ioctl.h	/^        uint32_t                      dst_base_y;$/;"	m	struct:__anon7	access:public
+__anon7::dst_height	include/backup/iaic_aip_ioctl.h	/^        uint16_t                      dst_height;$/;"	m	struct:__anon7	access:public
+__anon7::dst_stride	include/backup/iaic_aip_ioctl.h	/^        uint16_t                      dst_stride;$/;"	m	struct:__anon7	access:public
+__anon7::dst_width	include/backup/iaic_aip_ioctl.h	/^        uint16_t                      dst_width;$/;"	m	struct:__anon7	access:public
+__anon7::f_ctrl	include/backup/iaic_aip_ioctl.h	/^        uint32_t                      f_ctrl;	$/;"	m	struct:__anon7	access:public
+__anon7::scale_x	include/backup/iaic_aip_ioctl.h	/^        uint32_t                      scale_x;$/;"	m	struct:__anon7	access:public
+__anon7::scale_y	include/backup/iaic_aip_ioctl.h	/^        uint32_t                      scale_y;$/;"	m	struct:__anon7	access:public
+__anon7::src_base_uv	include/backup/iaic_aip_ioctl.h	/^        uint32_t                      src_base_uv;$/;"	m	struct:__anon7	access:public
+__anon7::src_base_y	include/backup/iaic_aip_ioctl.h	/^        uint32_t                      src_base_y;$/;"	m	struct:__anon7	access:public
+__anon7::src_height	include/backup/iaic_aip_ioctl.h	/^        uint16_t                      src_height;$/;"	m	struct:__anon7	access:public
+__anon7::src_stride	include/backup/iaic_aip_ioctl.h	/^        uint16_t                      src_stride;$/;"	m	struct:__anon7	access:public
+__anon7::src_width	include/backup/iaic_aip_ioctl.h	/^        uint16_t                      src_width;$/;"	m	struct:__anon7	access:public
+__anon7::trans_x	include/backup/iaic_aip_ioctl.h	/^        int32_t                       trans_x;$/;"	m	struct:__anon7	access:public
+__anon7::trans_y	include/backup/iaic_aip_ioctl.h	/^        int32_t                       trans_y;$/;"	m	struct:__anon7	access:public
+__anon8::box_num	include/backup/iaic_aip_ioctl.h	/^	int                           box_num;$/;"	m	struct:__anon8	access:public
+__anon9::box_num	include/backup/iaic_aip_ioctl.h	/^	int                           box_num;$/;"	m	struct:__anon9	access:public
+aip_bo	aipv20_test.c	/^int aip_bo(int fd, aip_v20_ioctl_bo_t *args)$/;"	f	signature:(int fd, aip_v20_ioctl_bo_t *args)
+aip_bo	backup/aipv20_0418test_bo.c	/^int aip_bo(int fd, aip_v20_ioctl_bo_t *args)$/;"	f	signature:(int fd, aip_v20_ioctl_bo_t *args)
+aip_submit	aipv20_test.c	/^int aip_submit(int fd,  aip_v20_ioctl_submit_t *args)$/;"	f	signature:(int fd, aip_v20_ioctl_submit_t *args)
+aip_submit	backup/aipv20_0418test_bo.c	/^int aip_submit(int fd,  aip_v20_ioctl_submit_t *args)$/;"	f	signature:(int fd, aip_v20_ioctl_submit_t *args)
+aip_v20_f_node_t	include/jz_aip_v20_ioctl.h	/^} aip_v20_f_node_t;$/;"	t	typeref:struct:__anon18
+aip_v20_ioctl_bo_op_t	include/jz_aip_v20_ioctl.h	/^} aip_v20_ioctl_bo_op_t;$/;"	t	typeref:enum:__anon25
+aip_v20_ioctl_bo_t	include/jz_aip_v20_ioctl.h	/^} aip_v20_ioctl_bo_t;$/;"	t	typeref:struct:__anon26
+aip_v20_ioctl_ch_op_t	include/jz_aip_v20_ioctl.h	/^} aip_v20_ioctl_ch_op_t;$/;"	t	typeref:enum:__anon15
+aip_v20_ioctl_dat_pos_t	include/jz_aip_v20_ioctl.h	/^} aip_v20_ioctl_dat_pos_t;$/;"	t	typeref:enum:__anon16
+aip_v20_ioctl_f_format_t	include/jz_aip_v20_ioctl.h	/^} aip_v20_ioctl_f_format_t;$/;"	t	typeref:enum:__anon17
+aip_v20_ioctl_submit_f_t	include/jz_aip_v20_ioctl.h	/^} aip_v20_ioctl_submit_f_t;$/;"	t	typeref:struct:__anon21
+aip_v20_ioctl_submit_oprds_t	include/jz_aip_v20_ioctl.h	/^} aip_v20_ioctl_submit_oprds_t;$/;"	t	typeref:union:__anon22
+aip_v20_ioctl_submit_p_t	include/jz_aip_v20_ioctl.h	/^} aip_v20_ioctl_submit_p_t;$/;"	t	typeref:struct:__anon19
+aip_v20_ioctl_submit_t	include/jz_aip_v20_ioctl.h	/^} aip_v20_ioctl_submit_t;$/;"	t	typeref:struct:__anon23
+aip_v20_ioctl_submit_t_t	include/jz_aip_v20_ioctl.h	/^} aip_v20_ioctl_submit_t_t;$/;"	t	typeref:struct:__anon20
+aip_v20_ioctl_wait_t	include/jz_aip_v20_ioctl.h	/^} aip_v20_ioctl_wait_t;$/;"	t	typeref:struct:__anon24
+aip_wait	aipv20_test.c	/^int aip_wait(int fd, aip_v20_ioctl_wait_t *args)$/;"	f	signature:(int fd, aip_v20_ioctl_wait_t *args)
+aip_wait	backup/aipv20_0418test_bo.c	/^int aip_wait(int fd, aip_v20_ioctl_wait_t *args)$/;"	f	signature:(int fd, aip_v20_ioctl_wait_t *args)
+aipv20_resize	aipv20_test.c	/^int aipv20_resize()$/;"	f
+aipv20_resize	backup/aipv20_0418test_bo.c	/^int aipv20_resize()$/;"	f
+base	include/backup/ingenic_aip.h	/^        uint32_t                base;$/;"	m	struct:__anon5	access:public
+base1	include/backup/ingenic_aip.h	/^        uint32_t                base1;$/;"	m	struct:__anon5	access:public
+box	include/backup/ingenic_aip.h	/^        box_info_s              box;\/\/source box$/;"	m	struct:__anon4	access:public
+box_affine_info_s	include/backup/ingenic_aip.h	/^} box_affine_info_s;$/;"	t	typeref:struct:__anon4
+box_info_s	include/backup/ingenic_aip.h	/^} box_info_s;$/;"	t	typeref:struct:__anon3
+box_num	include/backup/iaic_aip_ioctl.h	/^	int                           box_num;$/;"	m	struct:__anon10	access:public
+box_num	include/backup/iaic_aip_ioctl.h	/^	int                           box_num;$/;"	m	struct:__anon8	access:public
+box_num	include/backup/iaic_aip_ioctl.h	/^	int                           box_num;$/;"	m	struct:__anon9	access:public
+box_num	include/jz_aip_v20_ioctl.h	/^	int                           box_num;$/;"	m	struct:__anon19	access:public
+box_num	include/jz_aip_v20_ioctl.h	/^	int                           box_num;$/;"	m	struct:__anon20	access:public
+bs_data_format_e	include/backup/ingenic_aip.h	/^} bs_data_format_e;   $/;"	t	typeref:enum:__anon1
+bs_data_locate_e	include/backup/ingenic_aip.h	/^} bs_data_locate_e;$/;"	t	typeref:enum:__anon2
+chn	include/backup/ingenic_aip.h	/^        int                     chn;$/;"	m	struct:__anon5	access:public
+data_info_s	include/backup/ingenic_aip.h	/^} data_info_s;$/;"	t	typeref:struct:__anon5
+dst_base_uv	include/backup/iaic_aip_ioctl.h	/^        uint32_t                      dst_base_uv;$/;"	m	struct:__anon7	access:public
+dst_base_uv	include/jz_aip_v20_ioctl.h	/^	uint32_t                      dst_base_uv[2];$/;"	m	struct:__anon18	access:public
+dst_base_y	include/backup/iaic_aip_ioctl.h	/^        uint32_t                      dst_base_y;$/;"	m	struct:__anon7	access:public
+dst_base_y	include/jz_aip_v20_ioctl.h	/^	uint32_t                      dst_base_y[2];$/;"	m	struct:__anon18	access:public
+dst_height	include/backup/iaic_aip_ioctl.h	/^        uint16_t                      dst_height;$/;"	m	struct:__anon7	access:public
+dst_size	include/jz_aip_v20_ioctl.h	/^	uint32_t                      dst_size[2];$/;"	m	struct:__anon18	access:public
+dst_stride	include/backup/iaic_aip_ioctl.h	/^        uint16_t                      dst_stride;$/;"	m	struct:__anon7	access:public
+dst_width	include/backup/iaic_aip_ioctl.h	/^        uint16_t                      dst_width;$/;"	m	struct:__anon7	access:public
+f	include/backup/iaic_aip_ioctl.h	/^	iaic_aip_ioctl_submit_f_t     f;$/;"	m	union:__anon11	access:public
+f	include/jz_aip_v20_ioctl.h	/^	aip_v20_ioctl_submit_f_t      f;$/;"	m	union:__anon22	access:public
+f_cfg	include/backup/iaic_aip_ioctl.h	/^    	uint32_t                      f_cfg;$/;"	m	struct:__anon10	access:public
+f_ctrl	include/backup/iaic_aip_ioctl.h	/^        uint32_t                      f_ctrl;	$/;"	m	struct:__anon7	access:public
+f_ctrl	include/jz_aip_v20_ioctl.h	/^	uint32_t                      f_ctrl[2];$/;"	m	struct:__anon18	access:public
+f_node	include/backup/iaic_aip_ioctl.h	/^	iaic_aip_f_node_t             *f_node;$/;"	m	struct:__anon10	access:public
+fd	include/backup/iaic_aip_core.h	/^	int fd;$/;"	m	struct:__anon14	access:public
+format	include/backup/ingenic_aip.h	/^        bs_data_format_e        format;$/;"	m	struct:__anon5	access:public
+format	include/jz_aip_v20_ioctl.h	/^	aip_v20_ioctl_f_format_t      format;$/;"	m	struct:__anon21	access:public
+h	include/backup/ingenic_aip.h	/^        int                     h;$/;"	m	struct:__anon3	access:public
+handle	include/jz_aip_v20_ioctl.h	/^	int                           handle;$/;"	m	struct:__anon26	access:public
+height	include/backup/ingenic_aip.h	/^        int                     height;$/;"	m	struct:__anon5	access:public
+iaic_aip_f_node_t	include/backup/iaic_aip_ioctl.h	/^} iaic_aip_f_node_t;$/;"	t	typeref:struct:__anon7
+iaic_aip_ioctl_op_t	include/backup/iaic_aip_ioctl.h	/^} iaic_aip_ioctl_op_t;$/;"	t	typeref:enum:__anon6
+iaic_aip_ioctl_submit_f_t	include/backup/iaic_aip_ioctl.h	/^} iaic_aip_ioctl_submit_f_t;$/;"	t	typeref:struct:__anon10
+iaic_aip_ioctl_submit_oprds_t	include/backup/iaic_aip_ioctl.h	/^} iaic_aip_ioctl_submit_oprds_t;$/;"	t	typeref:union:__anon11
+iaic_aip_ioctl_submit_p_t	include/backup/iaic_aip_ioctl.h	/^} iaic_aip_ioctl_submit_p_t;$/;"	t	typeref:struct:__anon8
+iaic_aip_ioctl_submit_t	include/backup/iaic_aip_ioctl.h	/^} iaic_aip_ioctl_submit_t;$/;"	t	typeref:struct:__anon12
+iaic_aip_ioctl_submit_t_t	include/backup/iaic_aip_ioctl.h	/^} iaic_aip_ioctl_submit_t_t;$/;"	t	typeref:struct:__anon9
+iaic_aip_ioctl_wait_t	include/backup/iaic_aip_ioctl.h	/^} iaic_aip_ioctl_wait_t;$/;"	t	typeref:struct:__anon13
+iaic_context_t	include/backup/iaic_aip_core.h	/^} iaic_context_t;$/;"	t	typeref:struct:__anon14
+line_stride	include/backup/ingenic_aip.h	/^        int                     line_stride;$/;"	m	struct:__anon5	access:public
+locate	include/backup/ingenic_aip.h	/^        bs_data_locate_e        locate;$/;"	m	struct:__anon5	access:public
+main	aipv20_test.c	/^int main()$/;"	f
+main	backup/aipv20_0418test_bo.c	/^int main()$/;"	f
+matrix	include/backup/ingenic_aip.h	/^        float                   matrix[9];\/\/fixme$/;"	m	struct:__anon4	access:public
+model	backup/Makefile	/^model := $(wildcard ..\/..\/model\/*.c) # 显示指定路径下指定文件类型的所有文件$/;"	m
+node_handle	include/jz_aip_v20_ioctl.h	/^	int                           node_handle;$/;"	m	struct:__anon21	access:public
+node_num	include/jz_aip_v20_ioctl.h	/^	size_t                        node_num;$/;"	m	struct:__anon21	access:public
+op	include/backup/iaic_aip_ioctl.h	/^	iaic_aip_ioctl_op_t            op;$/;"	m	struct:__anon13	access:public
+op	include/backup/iaic_aip_ioctl.h	/^	iaic_aip_ioctl_op_t           op;$/;"	m	struct:__anon12	access:public
+op	include/jz_aip_v20_ioctl.h	/^	aip_v20_ioctl_bo_op_t         op;$/;"	m	struct:__anon26	access:public
+op	include/jz_aip_v20_ioctl.h	/^	aip_v20_ioctl_ch_op_t         op;$/;"	m	struct:__anon23	access:public
+op	include/jz_aip_v20_ioctl.h	/^	aip_v20_ioctl_ch_op_t         op;$/;"	m	struct:__anon24	access:public
+oprds	include/backup/iaic_aip_ioctl.h	/^	iaic_aip_ioctl_submit_oprds_t oprds;$/;"	m	struct:__anon12	access:public
+oprds	include/jz_aip_v20_ioctl.h	/^	aip_v20_ioctl_submit_oprds_t  oprds;$/;"	m	struct:__anon23	access:public
+p	include/backup/iaic_aip_ioctl.h	/^	iaic_aip_ioctl_submit_p_t     p;$/;"	m	union:__anon11	access:public
+p	include/jz_aip_v20_ioctl.h	/^	aip_v20_ioctl_submit_p_t      p;$/;"	m	union:__anon22	access:public
+paddr	include/jz_aip_v20_ioctl.h	/^	void                         *paddr;$/;"	m	struct:__anon26	access:public
+pos_in	include/jz_aip_v20_ioctl.h	/^	aip_v20_ioctl_dat_pos_t       pos_in;$/;"	m	struct:__anon21	access:public
+pos_out	include/jz_aip_v20_ioctl.h	/^	aip_v20_ioctl_dat_pos_t       pos_out;$/;"	m	struct:__anon21	access:public
+scale_x	include/backup/iaic_aip_ioctl.h	/^        uint32_t                      scale_x;$/;"	m	struct:__anon7	access:public
+scale_x	include/jz_aip_v20_ioctl.h	/^	uint32_t                      scale_x[2];$/;"	m	struct:__anon18	access:public
+scale_y	include/backup/iaic_aip_ioctl.h	/^        uint32_t                      scale_y;$/;"	m	struct:__anon7	access:public
+scale_y	include/jz_aip_v20_ioctl.h	/^	uint32_t                      scale_y[2];$/;"	m	struct:__anon18	access:public
+seqno	include/jz_aip_v20_ioctl.h	/^	uint64_t                      seqno;$/;"	m	struct:__anon21	access:public
+seqno	include/jz_aip_v20_ioctl.h	/^	uint64_t                      seqno;$/;"	m	struct:__anon24	access:public
+size	include/jz_aip_v20_ioctl.h	/^	size_t                        size;$/;"	m	struct:__anon26	access:public
+src_base_uv	include/backup/iaic_aip_ioctl.h	/^        uint32_t                      src_base_uv;$/;"	m	struct:__anon7	access:public
+src_base_uv	include/jz_aip_v20_ioctl.h	/^	uint32_t                      src_base_uv[2];$/;"	m	struct:__anon18	access:public
+src_base_y	include/backup/iaic_aip_ioctl.h	/^        uint32_t                      src_base_y;$/;"	m	struct:__anon7	access:public
+src_base_y	include/jz_aip_v20_ioctl.h	/^	uint32_t                      src_base_y[2];$/;"	m	struct:__anon18	access:public
+src_height	include/backup/iaic_aip_ioctl.h	/^        uint16_t                      src_height;$/;"	m	struct:__anon7	access:public
+src_size	include/jz_aip_v20_ioctl.h	/^	uint32_t                      src_size[2];$/;"	m	struct:__anon18	access:public
+src_stride	include/backup/iaic_aip_ioctl.h	/^        uint16_t                      src_stride;$/;"	m	struct:__anon7	access:public
+src_width	include/backup/iaic_aip_ioctl.h	/^        uint16_t                      src_width;$/;"	m	struct:__anon7	access:public
+stride	include/jz_aip_v20_ioctl.h	/^	uint32_t                      stride[2];$/;"	m	struct:__anon18	access:public
+t	include/backup/iaic_aip_ioctl.h	/^	iaic_aip_ioctl_submit_t_t     t;$/;"	m	union:__anon11	access:public
+t	include/jz_aip_v20_ioctl.h	/^	aip_v20_ioctl_submit_t_t      t;$/;"	m	union:__anon22	access:public
+timeout	include/jz_aip_v20_ioctl.h	/^	uint32_t                      timeout[2];$/;"	m	struct:__anon18	access:public
+timeout_ns	include/jz_aip_v20_ioctl.h	/^	uint64_t                      timeout_ns;$/;"	m	struct:__anon24	access:public
+trans_x	include/backup/iaic_aip_ioctl.h	/^        int32_t                       trans_x;$/;"	m	struct:__anon7	access:public
+trans_x	include/jz_aip_v20_ioctl.h	/^	int32_t                       trans_x[2];$/;"	m	struct:__anon18	access:public
+trans_y	include/backup/iaic_aip_ioctl.h	/^        int32_t                       trans_y;$/;"	m	struct:__anon7	access:public
+trans_y	include/jz_aip_v20_ioctl.h	/^	int32_t                       trans_y[2];$/;"	m	struct:__anon18	access:public
+w	include/backup/ingenic_aip.h	/^        int                     w;$/;"	m	struct:__anon3	access:public
+width	include/backup/ingenic_aip.h	/^        int                     width;$/;"	m	struct:__anon5	access:public
+wrap	include/backup/ingenic_aip.h	/^        uint32_t                wrap;$/;"	m	struct:__anon4	access:public
+x	include/backup/ingenic_aip.h	/^        int                     x;$/;"	m	struct:__anon3	access:public
+y	include/backup/ingenic_aip.h	/^        int                     y;$/;"	m	struct:__anon3	access:public
+zero_point	include/backup/ingenic_aip.h	/^        uint32_t                zero_point;$/;"	m	struct:__anon4	access:public

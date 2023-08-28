@@ -1,0 +1,14 @@
+/home/jwzhang/work/aip/aip_t40/old_aipt40/drivers/aie_nna_driver/build/CMakeFiles/install.dir
+/home/jwzhang/work/aip/aip_t40/old_aipt40/drivers/aie_nna_driver/build/CMakeFiles/list_install_components.dir
+/home/jwzhang/work/aip/aip_t40/old_aipt40/drivers/aie_nna_driver/build/CMakeFiles/install/strip.dir
+/home/jwzhang/work/aip/aip_t40/old_aipt40/drivers/aie_nna_driver/build/CMakeFiles/install/local.dir
+/home/jwzhang/work/aip/aip_t40/old_aipt40/drivers/aie_nna_driver/build/CMakeFiles/rebuild_cache.dir
+/home/jwzhang/work/aip/aip_t40/old_aipt40/drivers/aie_nna_driver/build/CMakeFiles/edit_cache.dir
+/home/jwzhang/work/aip/aip_t40/old_aipt40/drivers/aie_nna_driver/build/source/CMakeFiles/install.dir
+/home/jwzhang/work/aip/aip_t40/old_aipt40/drivers/aie_nna_driver/build/source/CMakeFiles/list_install_components.dir
+/home/jwzhang/work/aip/aip_t40/old_aipt40/drivers/aie_nna_driver/build/source/CMakeFiles/install/strip.dir
+/home/jwzhang/work/aip/aip_t40/old_aipt40/drivers/aie_nna_driver/build/source/CMakeFiles/install/local.dir
+/home/jwzhang/work/aip/aip_t40/old_aipt40/drivers/aie_nna_driver/build/source/CMakeFiles/nna_static.dir
+/home/jwzhang/work/aip/aip_t40/old_aipt40/drivers/aie_nna_driver/build/source/CMakeFiles/rebuild_cache.dir
+/home/jwzhang/work/aip/aip_t40/old_aipt40/drivers/aie_nna_driver/build/source/CMakeFiles/edit_cache.dir
+/home/jwzhang/work/aip/aip_t40/old_aipt40/drivers/aie_nna_driver/build/source/CMakeFiles/nna.dir

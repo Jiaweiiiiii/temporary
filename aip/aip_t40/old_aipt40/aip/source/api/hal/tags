@@ -1,0 +1,30 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+SYMBOL_EXPORT	bscaler_hal.c	16;"	d	file:
+__LZMA_TC_H__	lzma_hw_api.c	2;"	d	file:
+bsc_chain_hw_cfg	bscaler_hal.c	/^void bsc_chain_hw_cfg(bs_chain_cfg_s *cfg)$/;"	f	signature:(bs_chain_cfg_s *cfg)
+bsc_csum	bscaler_hal.c	/^uint32_t bsc_csum = 0;$/;"	v
+bsc_order_cfg	bscaler_hal.c	/^void bsc_order_cfg(uint8_t order_c)$/;"	f	signature:(uint8_t order_c)
+bscaler_clock_set	bscaler_hal.c	/^void bscaler_clock_set()$/;"	f
+bscaler_common_param_cfg	bscaler_hal.c	/^void bscaler_common_param_cfg(uint32_t *coef, uint8_t *offset, uint8_t alpha)$/;"	f	signature:(uint32_t *coef, uint8_t *offset, uint8_t alpha)
+bscaler_frmc_cfg	bscaler_hal.c	/^void bscaler_frmc_cfg(bsc_hw_once_cfg_s *cfg)$/;"	f	signature:(bsc_hw_once_cfg_s *cfg)
+bscaler_frmc_chain_cfg	bscaler_hal.c	/^bs_chain_ret_s bscaler_frmc_chain_cfg(bsc_hw_once_cfg_s *cfg, uint32_t *addr)$/;"	f	signature:(bsc_hw_once_cfg_s *cfg, uint32_t *addr)
+bscaler_frmc_clkgate_mask_set	bscaler_hal.c	/^void bscaler_frmc_clkgate_mask_set(uint8_t c)$/;"	f	signature:(uint8_t c)
+bscaler_frmc_soft_reset	bscaler_hal.c	/^void bscaler_frmc_soft_reset()$/;"	f
+bscaler_frmt_cfg	bscaler_hal.c	/^void bscaler_frmt_cfg(bst_hw_once_cfg_s *cfg)$/;"	f	signature:(bst_hw_once_cfg_s *cfg)
+bscaler_frmt_cfg_chain	bscaler_hal.c	/^uint32_t bscaler_frmt_cfg_chain(bst_hw_once_cfg_s *cfg, uint32_t *addr)$/;"	f	signature:(bst_hw_once_cfg_s *cfg, uint32_t *addr)
+bscaler_frmt_clkgate_mask_set	bscaler_hal.c	/^void bscaler_frmt_clkgate_mask_set(uint8_t t)$/;"	f	signature:(uint8_t t)
+bscaler_frmt_soft_reset	bscaler_hal.c	/^void bscaler_frmt_soft_reset()$/;"	f
+bst_order_cfg	bscaler_hal.c	/^void bst_order_cfg(uint8_t order_t)$/;"	f	signature:(uint8_t order_t)
+lzma_base_paddr	lzma_hw_api.c	/^static void *lzma_base_paddr = NULL;$/;"	v	file:
+lzma_base_size	lzma_hw_api.c	/^static int lzma_base_size = 0;$/;"	v	file:
+lzma_base_vaddr	lzma_hw_api.c	/^void *lzma_base_vaddr = NULL;$/;"	v
+lzma_cfg	lzma_hw_api.c	/^uint32_t lzma_cfg(LZMA_CFG_S *cfg) {$/;"	f	signature:(LZMA_CFG_S *cfg)
+lzma_mem_init	lzma_hw_api.c	/^void lzma_mem_init(){$/;"	f
+lzma_read_reg	lzma_hw_api.c	/^uint32_t lzma_read_reg(uint32_t reg, uint32_t val) {$/;"	f	signature:(uint32_t reg, uint32_t val)
+lzma_write_reg	lzma_hw_api.c	/^void lzma_write_reg(uint32_t reg, uint32_t val) {$/;"	f	signature:(uint32_t reg, uint32_t val)
+write_chain	bscaler_hal.c	/^int write_chain(uint32_t reg, uint32_t val, uint32_t **addr, uint32_t tm)$/;"	f	signature:(uint32_t reg, uint32_t val, uint32_t **addr, uint32_t tm)

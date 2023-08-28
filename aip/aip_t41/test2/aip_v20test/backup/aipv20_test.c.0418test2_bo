@@ -1,0 +1,238 @@
+/*********************************************************
+ * File Name   : aip_resize_demo.c
+ * Author      : jwzhang
+ * Mail        : kevin.jwzhang@ingenic.com
+ * Created Time: 2023-03-1 16:45
+ ********************************************************/
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <pthread.h>
+#include <fcntl.h>
+#include <unistd.h>
+#include <sys/ioctl.h>
+#include <sys/time.h>
+
+//#include "ingenic_aip.h"
+#include "aie_mmap.h"
+#include <sys/mman.h> //mmap
+
+#include "include/test.h"
+#include "include/jz_aip_v20_ioctl.h"
+
+int aip_submit(int fd,  aip_v20_ioctl_submit_t *args)
+{
+    int ret;
+    if (args->op > AIP_CH_OP_F)
+        return -1; 
+    ret = ioctl(fd, IOCTL_AIP_V20_SUBMIT, args);   
+    return ret;
+}
+
+int aip_wait(int fd, aip_v20_ioctl_wait_t *args)
+{
+    int ret;
+    ret = ioctl(fd, IOCTL_AIP_V20_WAIT, args); 
+    return ret;
+}
+
+int aip_bo(int fd, aip_v20_ioctl_bo_t *args)
+{
+    int ret;
+    ret = ioctl(fd, IOCTL_AIP_V20_BO, args); 
+    return ret;
+}
+
+int aipv20_resize()
+{
+	int aipv20_fd; 
+    int err;
+
+	/* Required parameters for ioctl */
+	aip_v20_f_node_t *fnode;
+	aip_v20_ioctl_bo_t ioctl_bo;
+	aip_v20_ioctl_submit_t ioctl_submit;
+	aip_v20_ioctl_wait_t ioctl_wait;
+
+	/* Picture information parameters */
+    FILE *image_fp;
+    uint32_t src_w, src_h, dst_w, dst_h;
+    uint32_t src_size,dst_size;
+    uint32_t src_bpp, dst_bpp;
+    uint32_t src_stride;
+    uint32_t dst_stride;
+    uint8_t *src_base = NULL, *dst_base = NULL;
+    uint32_t src_base_y, src_base_uv;
+    uint32_t dst_base_y, dst_base_uv;
+    uint32_t offset_y, offset_uv;
+    int box_x, box_y, box_h, box_w, box_num;
+    float scale_x_f, scale_y_f;
+	int fnode_size;
+
+
+	/* Set original and target image information */
+    src_w = 1024;
+    src_h = 576;
+    dst_w = 512;
+    dst_h = 512;
+    src_bpp = 12;
+    dst_bpp = 12;
+    box_num = 40;
+	fnode_size = sizeof(aip_v20_f_node_t) * box_num;
+    src_stride =  src_w;
+    dst_stride =  dst_w;
+    src_size = src_stride * src_h * src_bpp >> 3;
+    dst_size = dst_stride * dst_h * dst_bpp >> 3;
+
+	/* Set box information */
+    box_x = 0;
+    box_y = 0;
+    box_w = src_w;
+    box_h = src_h;
+
+	/* Load images */
+    printf("#### image size = %d, box_num = %d, request space size = %d\n", dst_size, box_num, dst_size * box_num);
+	src_base = (uint8_t *)ddr_memalign(32, src_size);
+    dst_base = (uint8_t *)ddr_memalign(32, dst_size * box_num);
+    memset(src_base, 0x00, src_size);
+    memset(dst_base, 0x00, dst_size * box_num);
+
+    image_fp = fopen("./day-T40XP_273_w1024h576_w1024_h576.nv12","r");
+    if(image_fp == NULL) {
+        printf("aip_f fopen failed!\n");
+        goto err_ddr;
+    }
+    fread(src_base, 32, src_size/32, image_fp);
+    if(fclose(image_fp) < 0){
+        printf("aip_f flcose faile!\n");
+        goto err_ddr;
+    }
+
+	src_base_y = __aie_get_ddr_paddr((uint32_t)src_base);
+    src_base_uv = src_base_y + src_w * src_h;
+    offset_y    = src_stride * box_y + box_x;
+    offset_uv   = src_stride * box_y / 2 + box_x;
+
+    dst_base_y = __aie_get_ddr_paddr((uint32_t)dst_base);
+    dst_base_uv = dst_base_y + dst_w * dst_h;
+
+    scale_x_f = (float)box_w / (float)dst_w;
+    scale_y_f = (float)box_h / (float)dst_h;
+
+	/* open the device file */
+    aipv20_fd = open("/dev/aip2.0", O_RDWR);
+    if (aipv20_fd < 0) {
+        perror("Failed to open device file");
+        goto err_fd;
+    }
+
+	/* apply for ioctl_bo space */
+    ioctl_bo.op = AIP_BO_OP_APPEND;
+    ioctl_bo.size = fnode_size;
+    ioctl_bo.handle = 0; // Invalid configuration, aviod large random value
+    ioctl_bo.paddr = NULL; // Invalid configuration, aviod wild pointer
+    err = aip_bo(aipv20_fd, &ioctl_bo);
+    if (err) {
+        perror("Failed to bo(buffer object) IO request");
+        goto err_free;
+    }
+
+	/* apply for node space and configure information */
+	fnode = (aip_v20_f_node_t *)mmap(NULL, fnode_size, PROT_READ | PROT_WRITE, MAP_SHARED, aipv20_fd, (off_t)ioctl_bo.handle);
+	for (int i = 0; i < box_num; i++){
+		fnode[i].timeout[0] = 0xffffffff;
+		fnode[i].scale_x[0] = (uint32_t)(scale_x_f * 65536);
+		fnode[i].scale_y[0] = (uint32_t)(scale_y_f * 65536);
+		fnode[i].trans_x[0] = (int32_t)((scale_x_f * 0.5 - 0.5) * 65536) + 16;
+		fnode[i].trans_y[0] = (int32_t)((scale_y_f * 0.5 - 0.5) * 65536) + 16;
+		fnode[i].src_base_y[0] = src_base_y + offset_y;
+		fnode[i].src_base_uv[0] = src_base_uv + offset_uv;
+		fnode[i].dst_base_y[0] = dst_base_y;
+		fnode[i].dst_base_uv[0] = dst_base_uv;
+		fnode[i].src_size[0] = box_h<<16 | box_w;;
+		fnode[i].dst_size[0] = dst_h<<16 | dst_w;
+		fnode[i].stride[0] = dst_stride<<16 | src_stride;;
+	}
+
+	/* aipv20_submit */
+    ioctl_submit.op = AIP_CH_OP_F;
+    ioctl_submit.oprds.f.format = AIP_F_FORMAT_NV12; // NV12
+    ioctl_submit.oprds.f.pos_in = AIP_DAT_POS_DDR;  // SRC_DDR
+    ioctl_submit.oprds.f.pos_out = AIP_DAT_POS_DDR; // DST_DDR
+    ioctl_submit.oprds.f.node_handle = ioctl_bo.handle;
+    ioctl_submit.oprds.f.node_num = box_num;
+    ioctl_submit.oprds.f.seqno = 0; // Invalid configuration, aviod large random value
+    err = aip_submit(aipv20_fd, &ioctl_submit);
+    if (err) {
+        perror("Failed to submit IO request");
+        goto err_free;
+    }
+
+	/* aipv20_wait */
+    ioctl_wait.op = AIP_CH_OP_F;
+    ioctl_wait.seqno = ioctl_submit.oprds.f.seqno;
+    ioctl_wait.timeout_ns = 1 * 1000 * 1000 * 1000; // 1s
+    err = aip_wait(aipv20_fd, &ioctl_wait);
+    if (err) {
+        perror("Failed to wait IO request\n");
+        goto err_free;
+    }
+
+	/* destroy ioctl_bo space */
+	ioctl_bo.op = AIP_BO_OP_DESTROY;
+    err = aip_bo(aipv20_fd, &ioctl_bo);
+    if (err) {
+        perror("Failed to bo(buffer object) IO request");
+        goto err_free;
+    }
+
+	/* Get target image */
+    FILE *dst_fp;
+    char name[32] = {0};
+    sprintf(name, "%s%d", "./dst_image", 1); 
+    dst_fp = fopen(name, "w+");
+    if(dst_fp == NULL) {
+        printf("aip_f fopen failed!\n");
+        goto err_free;
+    }   
+    fwrite(dst_base, 32, dst_size/32, dst_fp);
+    printf("Successfully obtained image information\n");
+    if(fclose(dst_fp) < 0){ 
+        printf("aip_f flcose faile!\n");
+        goto err_free;
+    }   
+
+	close(aipv20_fd);
+	ddr_free(dst_base);
+	ddr_free(src_base);
+
+    return 0;
+
+err_free:
+	close(aipv20_fd);
+err_fd:
+	ddr_free(dst_base);
+	ddr_free(src_base);
+err_ddr:
+	return -1;
+}
+
+    
+int main()
+{
+	/* Configure aie space */
+	nna_cache_attr_t desram_cache_attr = NNA_UNCACHED_ACCELERATED;
+    nna_cache_attr_t oram_cache_attr = NNA_UNCACHED_ACCELERATED;
+    nna_cache_attr_t ddr_cache_attr = NNA_CACHED;
+    if(__aie_mmap(0x1000000, 1, desram_cache_attr, oram_cache_attr, ddr_cache_attr) < 0){
+		printf("aie_mmp_set() failed!\n");
+		return -1;
+	}
+
+	aipv20_resize();
+
+	__aie_munmap();
+	return 0;
+}
+
+

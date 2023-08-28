@@ -1,0 +1,97 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AutoTime	AutoTime.cpp	/^AutoTime::AutoTime(int line, const char* func) : Timer() {$/;"	f	class:AutoTime	signature:(int line, const char* func)
+AutoTime::AutoTime	AutoTime.cpp	/^AutoTime::AutoTime(int line, const char* func) : Timer() {$/;"	f	class:AutoTime	signature:(int line, const char* func)
+AutoTime::~AutoTime	AutoTime.cpp	/^AutoTime::~AutoTime() {$/;"	f	class:AutoTime	signature:()
+BSCALER_IO_BASE	bscaler_api.cpp	46;"	d	file:
+DECREASE	bscaler_segmentation.cpp	/^    DECREASE            = 1,$/;"	e	enum:MONO	file:
+INCREASE	bscaler_segmentation.cpp	/^    INCREASE            = 0,$/;"	e	enum:MONO	file:
+MONO	bscaler_segmentation.cpp	/^enum MONO {$/;"	g	file:
+STATIC_INLINE	matrix.c	15;"	d	file:
+SYMBOL_EXPORT	bscaler_api.cpp	31;"	d	file:
+SYMBOL_EXPORT	bscaler_segmentation.cpp	12;"	d	file:
+SYMBOL_EXPORT	hal/bscaler_hal.c	16;"	d	file:
+Timer	AutoTime.cpp	/^Timer::Timer() {$/;"	f	class:Timer	signature:()
+Timer::Timer	AutoTime.cpp	/^Timer::Timer() {$/;"	f	class:Timer	signature:()
+Timer::durationInUs	AutoTime.cpp	/^uint64_t Timer::durationInUs() {$/;"	f	class:Timer	signature:()
+Timer::reset	AutoTime.cpp	/^void Timer::reset()$/;"	f	class:Timer	signature:()
+Timer::~Timer	AutoTime.cpp	/^Timer::~Timer() {$/;"	f	class:Timer	signature:()
+USING_INTERRUPT	bscaler_api.cpp	33;"	d	file:
+USING_INTERRUPT_BST	bscaler_api.cpp	34;"	d	file:
+__LZMA_TC_H__	hal/lzma_hw_api.c	2;"	d	file:
+__bscaler_intc_fd	bscaler_api.cpp	/^static int __bscaler_intc_fd = -1;$/;"	v	file:
+affine_box_split	bscaler_segmentation.cpp	/^void affine_box_split(std::vector<bsc_hw_once_cfg_s> &bs_cfgs,$/;"	f	signature:(std::vector<bsc_hw_once_cfg_s> &bs_cfgs, box_affine_info_s *info, const data_info_s *src, data_info_s *dst, const uint32_t *coef, const uint32_t *offset)
+affine_cac_sub_box	bscaler_segmentation.cpp	/^static void affine_cac_sub_box(box_info_s *src, box_info_s *dst,$/;"	f	file:	signature:(box_info_s *src, box_info_s *dst, int32_t *matrix, box_info_s *wbox)
+affine_resize_box_split	bscaler_segmentation.cpp	/^void affine_resize_box_split(std::vector<bsc_hw_once_cfg_s> &bs_cfgs,$/;"	f	signature:(std::vector<bsc_hw_once_cfg_s> &bs_cfgs, box_affine_info_s *info, const data_info_s *src, data_info_s *dst, const uint32_t *coef, const uint32_t *offset)
+bs_affine_cfg_stuff	bscaler_segmentation.cpp	/^void bs_affine_cfg_stuff(std::vector<bsc_hw_once_cfg_s> &bs_cfgs,$/;"	f	signature:(std::vector<bsc_hw_once_cfg_s> &bs_cfgs, box_affine_info_s *info, const data_info_s *src, data_info_s *dst, const uint32_t *coef, const uint32_t *offset)
+bs_affine_resize_cfg_stuff	bscaler_segmentation.cpp	/^void bs_affine_resize_cfg_stuff(std::vector<bsc_hw_once_cfg_s> &bs_cfgs,$/;"	f	signature:(std::vector<bsc_hw_once_cfg_s> &bs_cfgs, box_affine_info_s *info, const data_info_s *src, data_info_s *dst, const uint32_t *coef, const uint32_t *offset)
+bs_affine_start	bscaler_api.cpp	/^int bs_affine_start(const data_info_s *src,$/;"	f	signature:(const data_info_s *src, const int box_num, const data_info_s *dst, const box_affine_info_s *boxes, const uint32_t *coef, const uint32_t *offset)
+bs_affine_wait	bscaler_api.cpp	/^int bs_affine_wait()$/;"	f	signature:()
+bs_chain_stuff	bscaler_api.cpp	/^static void bs_chain_stuff(std::vector<bsc_hw_once_cfg_s> &bs_cfgs)$/;"	f	file:	signature:(std::vector<bsc_hw_once_cfg_s> &bs_cfgs)
+bs_covert_cfg	bscaler_api.cpp	/^int bs_covert_cfg(const data_info_s *src, const data_info_s *dst,$/;"	f	signature:(const data_info_s *src, const data_info_s *dst, const uint32_t *coef, const uint32_t *offset, const task_info_s *task_info)
+bs_covert_step_start	bscaler_api.cpp	/^int bs_covert_step_start(const task_info_s *task_info, const void *dst_ptr, const bs_data_locate_e locate)$/;"	f	signature:(const task_info_s *task_info, const void *dst_ptr, const bs_data_locate_e locate)
+bs_covert_step_wait	bscaler_api.cpp	/^int bs_covert_step_wait()$/;"	f	signature:()
+bs_cropbox_start	bscaler_api.cpp	/^int bs_cropbox_start(const data_info_s *src,$/;"	f	signature:(const data_info_s *src, const int box_num, const data_info_s *dst, const uint32_t *coef, const uint32_t *offset)
+bs_cropbox_wait	bscaler_api.cpp	/^int bs_cropbox_wait()$/;"	f	signature:()
+bs_format_to_bst	bscaler_segmentation.cpp	/^bst_hw_data_format_e bs_format_to_bst(bs_data_format_e src)$/;"	f	signature:(bs_data_format_e src)
+bs_perspective_cfg_stuff	bscaler_segmentation.cpp	/^void bs_perspective_cfg_stuff(std::vector<bsc_hw_once_cfg_s> &bs_cfgs,$/;"	f	signature:(std::vector<bsc_hw_once_cfg_s> &bs_cfgs, box_affine_info_s *info, const data_info_s *src, data_info_s *dst, const uint32_t *coef, const uint32_t *offset)
+bs_perspective_start	bscaler_api.cpp	/^int bs_perspective_start(const data_info_s *src,$/;"	f	signature:(const data_info_s *src, const int box_num, const data_info_s *dst, const box_affine_info_s *boxes, const uint32_t *coef, const uint32_t *offset)
+bs_perspective_wait	bscaler_api.cpp	/^int bs_perspective_wait()$/;"	f	signature:()
+bs_resize_cfg_stuff	bscaler_segmentation.cpp	/^static void bs_resize_cfg_stuff(std::vector<bsc_hw_once_cfg_s> &bs_cfgs,$/;"	f	file:	signature:(std::vector<bsc_hw_once_cfg_s> &bs_cfgs, const box_resize_info_s *info, const data_info_s *src, const data_info_s *dst, const uint32_t *coef, const uint32_t *offset)
+bs_resize_line_cfg_stuff	bscaler_segmentation.cpp	/^void bs_resize_line_cfg_stuff(std::vector<bsc_hw_once_cfg_s> &bs_cfgs,$/;"	f	signature:(std::vector<bsc_hw_once_cfg_s> &bs_cfgs, std::vector<std::pair<int, const box_resize_info_s *>> &res_resize_boxes, const data_info_s *src, const data_info_s *dst, const uint32_t *coef, const uint32_t *offset)
+bs_resize_start	bscaler_api.cpp	/^int bs_resize_start(const data_info_s *src,$/;"	f	signature:(const data_info_s *src, const int box_num, const data_info_s *dst, const box_resize_info_s *boxes, const uint32_t *coef, const uint32_t *offset)
+bs_resize_wait	bscaler_api.cpp	/^int bs_resize_wait()$/;"	f	signature:()
+bs_version	bscaler_api.cpp	/^void bs_version()$/;"	f	signature:()
+bsc_chain_base	bscaler_api.cpp	/^uint32_t *bsc_chain_base = NULL;$/;"	v
+bsc_chain_hw_cfg	hal/bscaler_hal.c	/^void bsc_chain_hw_cfg(bs_chain_cfg_s *cfg)$/;"	f	signature:(bs_chain_cfg_s *cfg)
+bsc_csum	hal/bscaler_hal.c	/^uint32_t bsc_csum = 0;$/;"	v
+bsc_lock	bscaler_api.cpp	/^static pthread_mutex_t bsc_lock = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+bsc_order_cfg	hal/bscaler_hal.c	/^void bsc_order_cfg(uint8_t order_c)$/;"	f	signature:(uint8_t order_c)
+bscaler_clock_set	hal/bscaler_hal.c	/^void bscaler_clock_set()$/;"	f
+bscaler_common_param_cfg	hal/bscaler_hal.c	/^void bscaler_common_param_cfg(uint32_t *coef, uint8_t *offset, uint8_t alpha)$/;"	f	signature:(uint32_t *coef, uint8_t *offset, uint8_t alpha)
+bscaler_frmc_cfg	hal/bscaler_hal.c	/^void bscaler_frmc_cfg(bsc_hw_once_cfg_s *cfg)$/;"	f	signature:(bsc_hw_once_cfg_s *cfg)
+bscaler_frmc_chain_cfg	hal/bscaler_hal.c	/^bs_chain_ret_s bscaler_frmc_chain_cfg(bsc_hw_once_cfg_s *cfg, uint32_t *addr)$/;"	f	signature:(bsc_hw_once_cfg_s *cfg, uint32_t *addr)
+bscaler_frmc_clkgate_mask_set	hal/bscaler_hal.c	/^void bscaler_frmc_clkgate_mask_set(uint8_t c)$/;"	f	signature:(uint8_t c)
+bscaler_frmc_soft_reset	hal/bscaler_hal.c	/^void bscaler_frmc_soft_reset()$/;"	f
+bscaler_frmt_cfg	hal/bscaler_hal.c	/^void bscaler_frmt_cfg(bst_hw_once_cfg_s *cfg)$/;"	f	signature:(bst_hw_once_cfg_s *cfg)
+bscaler_frmt_cfg_chain	hal/bscaler_hal.c	/^uint32_t bscaler_frmt_cfg_chain(bst_hw_once_cfg_s *cfg, uint32_t *addr)$/;"	f	signature:(bst_hw_once_cfg_s *cfg, uint32_t *addr)
+bscaler_frmt_clkgate_mask_set	hal/bscaler_hal.c	/^void bscaler_frmt_clkgate_mask_set(uint8_t t)$/;"	f	signature:(uint8_t t)
+bscaler_frmt_soft_reset	hal/bscaler_hal.c	/^void bscaler_frmt_soft_reset()$/;"	f
+bst_chain_base	bscaler_api.cpp	/^uint32_t *bst_chain_base = NULL;$/;"	v
+bst_lock	bscaler_api.cpp	/^static pthread_mutex_t bst_lock = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+bst_order_cfg	hal/bscaler_hal.c	/^void bst_order_cfg(uint8_t order_t)$/;"	f	signature:(uint8_t order_t)
+bst_task_num	bscaler_api.cpp	/^static int bst_task_num;$/;"	v	file:
+compute_inv	matrix.c	/^static void compute_inv(float dst[9], const float src[9], float invDet, bool is_persp)$/;"	f	file:	signature:(float dst[9], const float src[9], float invDet, bool is_persp)
+dcross	matrix.c	/^STATIC_INLINE float dcross(float a, float b, float c, float d)$/;"	f	signature:(float a, float b, float c, float d)
+dcross_dscale	matrix.c	/^STATIC_INLINE float dcross_dscale(float a, float b, float c, float d, float scale)$/;"	f	signature:(float a, float b, float c, float d, float scale)
+durationInUs	AutoTime.cpp	/^uint64_t Timer::durationInUs() {$/;"	f	class:Timer	signature:()
+get_build_time	bscaler_api.cpp	/^void get_build_time()$/;"	f	signature:()
+get_exp	bscaler_segmentation.cpp	/^uint32_t get_exp(float scale_y)$/;"	f	signature:(float scale_y)
+get_inverse_matrix	matrix.c	/^void get_inverse_matrix(const float *matrix, float *inverse)$/;"	f	signature:(const float *matrix, float *inverse)
+jz_aip_readl	bscaler_api.cpp	/^unsigned int jz_aip_readl(unsigned int base, unsigned int offset)$/;"	f	signature:(unsigned int base, unsigned int offset)
+jz_aip_writel	bscaler_api.cpp	/^unsigned int jz_aip_writel(unsigned int base, unsigned int offset, unsigned int value)$/;"	f	signature:(unsigned int base, unsigned int offset, unsigned int value)
+lzma_base_paddr	hal/lzma_hw_api.c	/^static void *lzma_base_paddr = NULL;$/;"	v	file:
+lzma_base_size	hal/lzma_hw_api.c	/^static int lzma_base_size = 0;$/;"	v	file:
+lzma_base_vaddr	hal/lzma_hw_api.c	/^void *lzma_base_vaddr = NULL;$/;"	v
+lzma_cfg	hal/lzma_hw_api.c	/^uint32_t lzma_cfg(LZMA_CFG_S *cfg) {$/;"	f	signature:(LZMA_CFG_S *cfg)
+lzma_mem_init	hal/lzma_hw_api.c	/^void lzma_mem_init(){$/;"	f
+lzma_read_reg	hal/lzma_hw_api.c	/^uint32_t lzma_read_reg(uint32_t reg, uint32_t val) {$/;"	f	signature:(uint32_t reg, uint32_t val)
+lzma_write_reg	hal/lzma_hw_api.c	/^void lzma_write_reg(uint32_t reg, uint32_t val) {$/;"	f	signature:(uint32_t reg, uint32_t val)
+matrix_f32_dump	bscaler_segmentation.cpp	/^void matrix_f32_dump(float *matrix)$/;"	f	signature:(float *matrix)
+matrix_s32_dump	bscaler_segmentation.cpp	/^void matrix_s32_dump(int32_t *matrix)$/;"	f	signature:(int32_t *matrix)
+perspective_box_split	bscaler_segmentation.cpp	/^void perspective_box_split(std::vector<bsc_hw_once_cfg_s> &bs_cfgs,$/;"	f	signature:(std::vector<bsc_hw_once_cfg_s> &bs_cfgs, box_affine_info_s *info, const data_info_s *src, data_info_s *dst, const uint32_t *coef, const uint32_t *offset)
+perspective_cac_sub_box	bscaler_segmentation.cpp	/^static void perspective_cac_sub_box(box_info_s *src, box_info_s *dst,$/;"	f	file:	signature:(box_info_s *src, box_info_s *dst, int32_t *matrix, box_info_s *wbox)
+perspective_mono	bscaler_segmentation.cpp	/^static void perspective_mono(int32_t *matrix,$/;"	f	file:	signature:(int32_t *matrix, int32_t *sx_mono, bool *sx_mono_increase, int32_t *sy_mono, bool *sy_mono_increase)
+reset	AutoTime.cpp	/^void Timer::reset()$/;"	f	class:Timer	signature:()
+resize_box_split	bscaler_segmentation.cpp	/^void resize_box_split(std::vector<bsc_hw_once_cfg_s> &bs_cfgs,$/;"	f	signature:(std::vector<bsc_hw_once_cfg_s> &bs_cfgs, const box_resize_info_s *info, const data_info_s *src, const data_info_s *dst, const uint32_t *coef, const uint32_t *offset)
+resize_cac_sub_box	bscaler_segmentation.cpp	/^static void resize_cac_sub_box(box_info_s *src, box_info_s *dst,$/;"	f	file:	signature:(box_info_s *src, box_info_s *dst, box_info_s *wbox, float scale_x, float scale_y, float trans_x, float trans_y)
+scross	matrix.c	/^STATIC_INLINE float scross(float a, float b, float c, float d)$/;"	f	signature:(float a, float b, float c, float d)
+scross_dscale	matrix.c	/^STATIC_INLINE float scross_dscale(float a, float b, float c, float d, float scale)$/;"	f	signature:(float a, float b, float c, float d, float scale)
+substring	bscaler_api.cpp	/^void substring(char *ch, char* subch, int pos, int length)$/;"	f	signature:(char *ch, char* subch, int pos, int length)
+write_chain	hal/bscaler_hal.c	/^int write_chain(uint32_t reg, uint32_t val, uint32_t **addr, uint32_t tm)$/;"	f	signature:(uint32_t reg, uint32_t val, uint32_t **addr, uint32_t tm)
+~AutoTime	AutoTime.cpp	/^AutoTime::~AutoTime() {$/;"	f	class:AutoTime	signature:()
+~Timer	AutoTime.cpp	/^Timer::~Timer() {$/;"	f	class:Timer	signature:()

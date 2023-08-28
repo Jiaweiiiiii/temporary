@@ -1,0 +1,59 @@
+#define HDEC_SEM_KEY 0x1
+#define HDEC_SHM_KEY 0x1
+#define HDEC_ADDR_TAB_DEP 16
+#define HDEC_SHM_SIZE (HDEC_ADDR_TAB_DEP*2+1)
+
+#define CMDCORE_SEM_KEY 0x2
+#define CMDCORE_SHM_KEY 0x2
+#define CMDCORE_SHM_SIZE 16
+
+#define CMDCORE1_SEM_KEY 0x21
+#define CMDCORE1_SHM_KEY 0x21
+#define CMDCORE1_SHM_SIZE 16
+
+#define DDR_SEM_KEY 0x3
+#define DDR_SHM_KEY 0x3
+#define HDEC_ADDR_TAB_DEP 16
+#define DDR_SHM_SIZE (2*HDEC_ADDR_TAB_DEP+1)
+
+#define TCSM0_SEM_KEY 0x26
+#define TCSM0_SHM_KEY 0x26
+
+#define TCSM1_SEM_KEY 0x27
+#define TCSM1_SHM_KEY 0x27
+
+#define SRAM_SEM_KEY 0x28
+#define SRAM_SHM_KEY 0x28
+
+#define SCORE_SEM_KEY 0x29
+#define SCORE_SHM_KEY 0x29
+
+#define INTC_SEM_KEY 0x30
+#define INTC_SHM_KEY 0x30
+#define INTC_SHM_SIZE 16
+
+#define TCSM0_SIZE (16*1024/4)
+#define TCSM1_SIZE (48*1024/4)
+#define SRAM_SIZE (28*1024/4)
+
+#define TCSM0_SHM_SIZE 16
+
+#define RESET_SEM_KEY 0x4
+#define WAVE_SEM_KEY 0x5
+
+#define EYER_WR_SIG 50
+#define EYER_RD_SIG 52
+#define EYER_KILL_SIG 53
+
+#define EYER_TCSM0_WR_SIG 54
+#define EYER_TCSM0_RD_SIG 55
+
+#define EYER_TCSM1_WR_SIG 56
+#define EYER_TCSM1_RD_SIG 57
+
+#define EYER_SRAM_WR_SIG 58
+#define EYER_SRAM_RD_SIG 59
+
+#define EYER_IRQ_SIG 60
+#define EYER_INTC_SIG 61
+

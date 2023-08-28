@@ -1,0 +1,636 @@
+The target system is: Linux -  - 
+The host system is: Linux - 4.15.0-197-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/mips-linux-gnu-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/jwzhang/work/aip/driver/build/CMakeFiles/3.8.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/mips-linux-gnu-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/jwzhang/work/aip/driver/build/CMakeFiles/3.8.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/jwzhang/work/aip/driver/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_386e2/fast"
+make[1]: Entering directory '/home/jwzhang/work/aip/driver/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_386e2.dir/build.make CMakeFiles/cmTC_386e2.dir/build
+make[2]: Entering directory '/home/jwzhang/work/aip/driver/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_386e2.dir/testCCompiler.c.o
+/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/mips-linux-gnu-gcc    -o CMakeFiles/cmTC_386e2.dir/testCCompiler.c.o   -c /home/jwzhang/work/aip/driver/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_386e2
+/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_386e2.dir/link.txt --verbose=1
+/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/mips-linux-gnu-gcc      -rdynamic CMakeFiles/cmTC_386e2.dir/testCCompiler.c.o  -o cmTC_386e2 
+make[2]: Leaving directory '/home/jwzhang/work/aip/driver/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/jwzhang/work/aip/driver/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/jwzhang/work/aip/driver/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_62495/fast"
+make[1]: Entering directory '/home/jwzhang/work/aip/driver/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_62495.dir/build.make CMakeFiles/cmTC_62495.dir/build
+make[2]: Entering directory '/home/jwzhang/work/aip/driver/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_62495.dir/CMakeCCompilerABI.c.o
+/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/mips-linux-gnu-gcc    -o CMakeFiles/cmTC_62495.dir/CMakeCCompilerABI.c.o   -c /home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/share/cmake-3.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_62495
+/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62495.dir/link.txt --verbose=1
+/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/mips-linux-gnu-gcc     -v -rdynamic CMakeFiles/cmTC_62495.dir/CMakeCCompilerABI.c.o  -o cmTC_62495 
+Using built-in specs.
+COLLECT_GCC=/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/mips-linux-gnu-gcc
+COLLECT_LTO_WRAPPER=/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../libexec/gcc/mips-linux-gnu/7.2.0/lto-wrapper
+Target: mips-linux-gnu
+Configured with: /project/Mips-Toolchain/release_5.x.x-gcc7.2.0/src/gcc-7-2017.11/configure --build=i686-pc-linux-gnu --host=i686-pc-linux-gnu --target=mips-linux-gnu --enable-threads --disable-libmudflap --disable-libssp --disable-libstdcxx-pch --with-arch-32=mips32r2 --with-arch-64=mips64r2 --with-float=hard --with-mips-plt --enable-extra-sgxxlite-multilibs --with-gnu-as --with-gnu-ld --with-specs='-D__CS_SOURCERYGXX_MAJ__=2017 -D__CS_SOURCERYGXX_MIN__=11 -D__CS_SOURCERYGXX_REV__=32' --enable-languages=c,c++,fortran,go --enable-shared --enable-lto --enable-symvers=gnu --enable-__cxa_atexit --with-glibc-version=2.29 --with-pkgversion='Ingenic Linux-Release5.1.8-Default_xburst2_glibc2.29 Optimize: jr base on 5.1.6 2023.07-18 08:46:58' --disable-nls --prefix=/project/Mips-Toolchain/release_5.x.x-gcc7.2.0/install/opt/codesourcery --with-sysroot=/project/Mips-Toolchain/release_5.x.x-gcc7.2.0/install/opt/codesourcery/mips-linux-gnu/libc --with-build-sysroot=/project/Mips-Toolchain/release_5.x.x-gcc7.2.0/install/opt/codesourcery/mips-linux-gnu/libc --with-gmp=/project/Mips-Toolchain/release_5.x.x-gcc7.2.0/obj/pkg-2017.11-32-mips-linux-gnu/mips-2017.11-32-mips-linux-gnu.extras/host-libs-i686-pc-linux-gnu/usr --with-mpfr=/project/Mips-Toolchain/release_5.x.x-gcc7.2.0/obj/pkg-2017.11-32-mips-linux-gnu/mips-2017.11-32-mips-linux-gnu.extras/host-libs-i686-pc-linux-gnu/usr --with-mpc=/project/Mips-Toolchain/release_5.x.x-gcc7.2.0/obj/pkg-2017.11-32-mips-linux-gnu/mips-2017.11-32-mips-linux-gnu.extras/host-libs-i686-pc-linux-gnu/usr --with-isl=/project/Mips-Toolchain/release_5.x.x-gcc7.2.0/obj/pkg-2017.11-32-mips-linux-gnu/mips-2017.11-32-mips-linux-gnu.extras/host-libs-i686-pc-linux-gnu/usr --enable-libgomp --disable-libitm --enable-libatomic --disable-libssp --disable-libcc1 --enable-poison-system-directories --with-python-dir=mips-linux-gnu/share/gdb/python --with-build-time-tools=/project/Mips-Toolchain/release_5.x.x-gcc7.2.0/install/opt/codesourcery/mips-linux-gnu/bin --with-build-time-tools=/project/Mips-Toolchain/release_5.x.x-gcc7.2.0/install/opt/codesourcery/mips-linux-gnu/bin --with-private=default_option_mglibc_mfp64 SED=sed
+Thread model: posix
+gcc version 7.2.0 (Ingenic Linux-Release5.1.8-Default_xburst2_glibc2.29 Optimize: jr base on 5.1.6 2023.07-18 08:46:58) 
+COMPILER_PATH=/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../libexec/gcc/mips-linux-gnu/7.2.0/:/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../libexec/gcc/:/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../lib/gcc/mips-linux-gnu/7.2.0/../../../../mips-linux-gnu/bin/
+LIBRARY_PATH=/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../lib/gcc/mips-linux-gnu/7.2.0/:/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../lib/gcc/:/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../lib/gcc/mips-linux-gnu/7.2.0/../../../../mips-linux-gnu/lib/:/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../mips-linux-gnu/libc/lib/:/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../mips-linux-gnu/libc/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_62495' '-march=mips32r2' '-mhard-float' '-mllsc' '-mplt' '-mips32r2' '-msynci' '-mabi=32' '-mglibc' '-mfp64' '-mabs=2008' '-mnan=2008' '-mno-shared' '-EL' '-D' '__CS_SOURCERYGXX_MAJ__=2017' '-D' '__CS_SOURCERYGXX_MIN__=11' '-D' '__CS_SOURCERYGXX_REV__=32'
+ /home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../libexec/gcc/mips-linux-gnu/7.2.0/collect2 -plugin /home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../libexec/gcc/mips-linux-gnu/7.2.0/liblto_plugin.so -plugin-opt=/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../libexec/gcc/mips-linux-gnu/7.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccW2qCiL.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../mips-linux-gnu/libc --eh-frame-hdr -EL -mips32r2 -export-dynamic -dynamic-linker /lib/ld-linux-mipsn8.so.1 -melf32ltsmip -o cmTC_62495 /home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../mips-linux-gnu/libc/usr/lib/crt1.o /home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../mips-linux-gnu/libc/usr/lib/crti.o /home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../lib/gcc/mips-linux-gnu/7.2.0/crtbegin.o -L/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../lib/gcc/mips-linux-gnu/7.2.0 -L/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../lib/gcc -L/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../lib/gcc/mips-linux-gnu/7.2.0/../../../../mips-linux-gnu/lib -L/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../mips-linux-gnu/libc/lib -L/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../mips-linux-gnu/libc/usr/lib CMakeFiles/cmTC_62495.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../lib/gcc/mips-linux-gnu/7.2.0/crtend.o /home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../mips-linux-gnu/libc/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_62495' '-march=mips32r2' '-mhard-float' '-mllsc' '-mplt' '-mips32r2' '-msynci' '-mabi=32' '-mglibc' '-mfp64' '-mabs=2008' '-mnan=2008' '-mno-shared' '-EL' '-D' '__CS_SOURCERYGXX_MAJ__=2017' '-D' '__CS_SOURCERYGXX_MIN__=11' '-D' '__CS_SOURCERYGXX_REV__=32'
+make[2]: Leaving directory '/home/jwzhang/work/aip/driver/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/jwzhang/work/aip/driver/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(mips-linux-gnu-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/jwzhang/work/aip/driver/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_62495/fast"]
+  ignore line: [make[1]: Entering directory '/home/jwzhang/work/aip/driver/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_62495.dir/build.make CMakeFiles/cmTC_62495.dir/build]
+  ignore line: [make[2]: Entering directory '/home/jwzhang/work/aip/driver/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_62495.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/mips-linux-gnu-gcc    -o CMakeFiles/cmTC_62495.dir/CMakeCCompilerABI.c.o   -c /home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/share/cmake-3.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_62495]
+  ignore line: [/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62495.dir/link.txt --verbose=1]
+  ignore line: [/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/mips-linux-gnu-gcc     -v -rdynamic CMakeFiles/cmTC_62495.dir/CMakeCCompilerABI.c.o  -o cmTC_62495 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/mips-linux-gnu-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../libexec/gcc/mips-linux-gnu/7.2.0/lto-wrapper]
+  ignore line: [Target: mips-linux-gnu]
+  ignore line: [Configured with: /project/Mips-Toolchain/release_5.x.x-gcc7.2.0/src/gcc-7-2017.11/configure --build=i686-pc-linux-gnu --host=i686-pc-linux-gnu --target=mips-linux-gnu --enable-threads --disable-libmudflap --disable-libssp --disable-libstdcxx-pch --with-arch-32=mips32r2 --with-arch-64=mips64r2 --with-float=hard --with-mips-plt --enable-extra-sgxxlite-multilibs --with-gnu-as --with-gnu-ld --with-specs='-D__CS_SOURCERYGXX_MAJ__=2017 -D__CS_SOURCERYGXX_MIN__=11 -D__CS_SOURCERYGXX_REV__=32' --enable-languages=c,c++,fortran,go --enable-shared --enable-lto --enable-symvers=gnu --enable-__cxa_atexit --with-glibc-version=2.29 --with-pkgversion='Ingenic Linux-Release5.1.8-Default_xburst2_glibc2.29 Optimize: jr base on 5.1.6 2023.07-18 08:46:58' --disable-nls --prefix=/project/Mips-Toolchain/release_5.x.x-gcc7.2.0/install/opt/codesourcery --with-sysroot=/project/Mips-Toolchain/release_5.x.x-gcc7.2.0/install/opt/codesourcery/mips-linux-gnu/libc --with-build-sysroot=/project/Mips-Toolchain/release_5.x.x-gcc7.2.0/install/opt/codesourcery/mips-linux-gnu/libc --with-gmp=/project/Mips-Toolchain/release_5.x.x-gcc7.2.0/obj/pkg-2017.11-32-mips-linux-gnu/mips-2017.11-32-mips-linux-gnu.extras/host-libs-i686-pc-linux-gnu/usr --with-mpfr=/project/Mips-Toolchain/release_5.x.x-gcc7.2.0/obj/pkg-2017.11-32-mips-linux-gnu/mips-2017.11-32-mips-linux-gnu.extras/host-libs-i686-pc-linux-gnu/usr --with-mpc=/project/Mips-Toolchain/release_5.x.x-gcc7.2.0/obj/pkg-2017.11-32-mips-linux-gnu/mips-2017.11-32-mips-linux-gnu.extras/host-libs-i686-pc-linux-gnu/usr --with-isl=/project/Mips-Toolchain/release_5.x.x-gcc7.2.0/obj/pkg-2017.11-32-mips-linux-gnu/mips-2017.11-32-mips-linux-gnu.extras/host-libs-i686-pc-linux-gnu/usr --enable-libgomp --disable-libitm --enable-libatomic --disable-libssp --disable-libcc1 --enable-poison-system-directories --with-python-dir=mips-linux-gnu/share/gdb/python --with-build-time-tools=/project/Mips-Toolchain/release_5.x.x-gcc7.2.0/install/opt/codesourcery/mips-linux-gnu/bin --with-build-time-tools=/project/Mips-Toolchain/release_5.x.x-gcc7.2.0/install/opt/codesourcery/mips-linux-gnu/bin --with-private=default_option_mglibc_mfp64 SED=sed]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.2.0 (Ingenic Linux-Release5.1.8-Default_xburst2_glibc2.29 Optimize: jr base on 5.1.6 2023.07-18 08:46:58) ]
+  ignore line: [COMPILER_PATH=/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../libexec/gcc/mips-linux-gnu/7.2.0/:/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../libexec/gcc/:/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../lib/gcc/mips-linux-gnu/7.2.0/../../../../mips-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../lib/gcc/mips-linux-gnu/7.2.0/:/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../lib/gcc/:/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../lib/gcc/mips-linux-gnu/7.2.0/../../../../mips-linux-gnu/lib/:/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../mips-linux-gnu/libc/lib/:/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../mips-linux-gnu/libc/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_62495' '-march=mips32r2' '-mhard-float' '-mllsc' '-mplt' '-mips32r2' '-msynci' '-mabi=32' '-mglibc' '-mfp64' '-mabs=2008' '-mnan=2008' '-mno-shared' '-EL' '-D' '__CS_SOURCERYGXX_MAJ__=2017' '-D' '__CS_SOURCERYGXX_MIN__=11' '-D' '__CS_SOURCERYGXX_REV__=32']
+  link line: [ /home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../libexec/gcc/mips-linux-gnu/7.2.0/collect2 -plugin /home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../libexec/gcc/mips-linux-gnu/7.2.0/liblto_plugin.so -plugin-opt=/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../libexec/gcc/mips-linux-gnu/7.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccW2qCiL.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../mips-linux-gnu/libc --eh-frame-hdr -EL -mips32r2 -export-dynamic -dynamic-linker /lib/ld-linux-mipsn8.so.1 -melf32ltsmip -o cmTC_62495 /home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../mips-linux-gnu/libc/usr/lib/crt1.o /home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../mips-linux-gnu/libc/usr/lib/crti.o /home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../lib/gcc/mips-linux-gnu/7.2.0/crtbegin.o -L/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../lib/gcc/mips-linux-gnu/7.2.0 -L/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../lib/gcc -L/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../lib/gcc/mips-linux-gnu/7.2.0/../../../../mips-linux-gnu/lib -L/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../mips-linux-gnu/libc/lib -L/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../mips-linux-gnu/libc/usr/lib CMakeFiles/cmTC_62495.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../lib/gcc/mips-linux-gnu/7.2.0/crtend.o /home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../mips-linux-gnu/libc/usr/lib/crtn.o]
+    arg [/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../libexec/gcc/mips-linux-gnu/7.2.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../libexec/gcc/mips-linux-gnu/7.2.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../libexec/gcc/mips-linux-gnu/7.2.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccW2qCiL.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../mips-linux-gnu/libc] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-mips32r2] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-mipsn8.so.1] ==> ignore
+    arg [-melf32ltsmip] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_62495] ==> ignore
+    arg [/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../mips-linux-gnu/libc/usr/lib/crt1.o] ==> ignore
+    arg [/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../mips-linux-gnu/libc/usr/lib/crti.o] ==> ignore
+    arg [/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../lib/gcc/mips-linux-gnu/7.2.0/crtbegin.o] ==> ignore
+    arg [-L/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../lib/gcc/mips-linux-gnu/7.2.0] ==> dir [/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../lib/gcc/mips-linux-gnu/7.2.0]
+    arg [-L/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../lib/gcc] ==> dir [/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../lib/gcc]
+    arg [-L/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../lib/gcc/mips-linux-gnu/7.2.0/../../../../mips-linux-gnu/lib] ==> dir [/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../lib/gcc/mips-linux-gnu/7.2.0/../../../../mips-linux-gnu/lib]
+    arg [-L/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../mips-linux-gnu/libc/lib] ==> dir [/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../mips-linux-gnu/libc/lib]
+    arg [-L/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../mips-linux-gnu/libc/usr/lib] ==> dir [/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../mips-linux-gnu/libc/usr/lib]
+    arg [CMakeFiles/cmTC_62495.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../lib/gcc/mips-linux-gnu/7.2.0/crtend.o] ==> ignore
+    arg [/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../mips-linux-gnu/libc/usr/lib/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../lib/gcc/mips-linux-gnu/7.2.0] ==> [/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/lib/gcc/mips-linux-gnu/7.2.0]
+  collapse library dir [/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../lib/gcc] ==> [/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/lib/gcc]
+  collapse library dir [/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../lib/gcc/mips-linux-gnu/7.2.0/../../../../mips-linux-gnu/lib] ==> [/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/mips-linux-gnu/lib]
+  collapse library dir [/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../mips-linux-gnu/libc/lib] ==> [/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/mips-linux-gnu/libc/lib]
+  collapse library dir [/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../mips-linux-gnu/libc/usr/lib] ==> [/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/mips-linux-gnu/libc/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/lib/gcc/mips-linux-gnu/7.2.0;/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/lib/gcc;/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/mips-linux-gnu/lib;/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/mips-linux-gnu/libc/lib;/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/mips-linux-gnu/libc/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/jwzhang/work/aip/driver/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b9ce5/fast"
+make[1]: Entering directory '/home/jwzhang/work/aip/driver/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_b9ce5.dir/build.make CMakeFiles/cmTC_b9ce5.dir/build
+make[2]: Entering directory '/home/jwzhang/work/aip/driver/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b9ce5.dir/feature_tests.c.o
+/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/mips-linux-gnu-gcc   -std=c11 -o CMakeFiles/cmTC_b9ce5.dir/feature_tests.c.o   -c /home/jwzhang/work/aip/driver/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_b9ce5
+/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9ce5.dir/link.txt --verbose=1
+/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/mips-linux-gnu-gcc      -rdynamic CMakeFiles/cmTC_b9ce5.dir/feature_tests.c.o  -o cmTC_b9ce5 
+make[2]: Leaving directory '/home/jwzhang/work/aip/driver/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/jwzhang/work/aip/driver/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/jwzhang/work/aip/driver/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ee1d7/fast"
+make[1]: Entering directory '/home/jwzhang/work/aip/driver/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_ee1d7.dir/build.make CMakeFiles/cmTC_ee1d7.dir/build
+make[2]: Entering directory '/home/jwzhang/work/aip/driver/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ee1d7.dir/feature_tests.c.o
+/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/mips-linux-gnu-gcc   -std=c99 -o CMakeFiles/cmTC_ee1d7.dir/feature_tests.c.o   -c /home/jwzhang/work/aip/driver/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_ee1d7
+/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee1d7.dir/link.txt --verbose=1
+/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/mips-linux-gnu-gcc      -rdynamic CMakeFiles/cmTC_ee1d7.dir/feature_tests.c.o  -o cmTC_ee1d7 
+make[2]: Leaving directory '/home/jwzhang/work/aip/driver/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/jwzhang/work/aip/driver/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/jwzhang/work/aip/driver/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_24d40/fast"
+make[1]: Entering directory '/home/jwzhang/work/aip/driver/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_24d40.dir/build.make CMakeFiles/cmTC_24d40.dir/build
+make[2]: Entering directory '/home/jwzhang/work/aip/driver/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_24d40.dir/feature_tests.c.o
+/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/mips-linux-gnu-gcc   -std=c90 -o CMakeFiles/cmTC_24d40.dir/feature_tests.c.o   -c /home/jwzhang/work/aip/driver/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_24d40
+/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24d40.dir/link.txt --verbose=1
+/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/mips-linux-gnu-gcc      -rdynamic CMakeFiles/cmTC_24d40.dir/feature_tests.c.o  -o cmTC_24d40 
+make[2]: Leaving directory '/home/jwzhang/work/aip/driver/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/jwzhang/work/aip/driver/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/jwzhang/work/aip/driver/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_71aa6/fast"
+make[1]: Entering directory '/home/jwzhang/work/aip/driver/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_71aa6.dir/build.make CMakeFiles/cmTC_71aa6.dir/build
+make[2]: Entering directory '/home/jwzhang/work/aip/driver/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_71aa6.dir/testCXXCompiler.cxx.o
+/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/mips-linux-gnu-g++     -o CMakeFiles/cmTC_71aa6.dir/testCXXCompiler.cxx.o -c /home/jwzhang/work/aip/driver/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_71aa6
+/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71aa6.dir/link.txt --verbose=1
+/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/mips-linux-gnu-g++       -rdynamic CMakeFiles/cmTC_71aa6.dir/testCXXCompiler.cxx.o  -o cmTC_71aa6 
+make[2]: Leaving directory '/home/jwzhang/work/aip/driver/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/jwzhang/work/aip/driver/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/jwzhang/work/aip/driver/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6541e/fast"
+make[1]: Entering directory '/home/jwzhang/work/aip/driver/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_6541e.dir/build.make CMakeFiles/cmTC_6541e.dir/build
+make[2]: Entering directory '/home/jwzhang/work/aip/driver/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6541e.dir/CMakeCXXCompilerABI.cpp.o
+/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/mips-linux-gnu-g++     -o CMakeFiles/cmTC_6541e.dir/CMakeCXXCompilerABI.cpp.o -c /home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/share/cmake-3.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_6541e
+/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6541e.dir/link.txt --verbose=1
+/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/mips-linux-gnu-g++      -v -rdynamic CMakeFiles/cmTC_6541e.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_6541e 
+Using built-in specs.
+COLLECT_GCC=/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/mips-linux-gnu-g++
+COLLECT_LTO_WRAPPER=/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../libexec/gcc/mips-linux-gnu/7.2.0/lto-wrapper
+Target: mips-linux-gnu
+Configured with: /project/Mips-Toolchain/release_5.x.x-gcc7.2.0/src/gcc-7-2017.11/configure --build=i686-pc-linux-gnu --host=i686-pc-linux-gnu --target=mips-linux-gnu --enable-threads --disable-libmudflap --disable-libssp --disable-libstdcxx-pch --with-arch-32=mips32r2 --with-arch-64=mips64r2 --with-float=hard --with-mips-plt --enable-extra-sgxxlite-multilibs --with-gnu-as --with-gnu-ld --with-specs='-D__CS_SOURCERYGXX_MAJ__=2017 -D__CS_SOURCERYGXX_MIN__=11 -D__CS_SOURCERYGXX_REV__=32' --enable-languages=c,c++,fortran,go --enable-shared --enable-lto --enable-symvers=gnu --enable-__cxa_atexit --with-glibc-version=2.29 --with-pkgversion='Ingenic Linux-Release5.1.8-Default_xburst2_glibc2.29 Optimize: jr base on 5.1.6 2023.07-18 08:46:58' --disable-nls --prefix=/project/Mips-Toolchain/release_5.x.x-gcc7.2.0/install/opt/codesourcery --with-sysroot=/project/Mips-Toolchain/release_5.x.x-gcc7.2.0/install/opt/codesourcery/mips-linux-gnu/libc --with-build-sysroot=/project/Mips-Toolchain/release_5.x.x-gcc7.2.0/install/opt/codesourcery/mips-linux-gnu/libc --with-gmp=/project/Mips-Toolchain/release_5.x.x-gcc7.2.0/obj/pkg-2017.11-32-mips-linux-gnu/mips-2017.11-32-mips-linux-gnu.extras/host-libs-i686-pc-linux-gnu/usr --with-mpfr=/project/Mips-Toolchain/release_5.x.x-gcc7.2.0/obj/pkg-2017.11-32-mips-linux-gnu/mips-2017.11-32-mips-linux-gnu.extras/host-libs-i686-pc-linux-gnu/usr --with-mpc=/project/Mips-Toolchain/release_5.x.x-gcc7.2.0/obj/pkg-2017.11-32-mips-linux-gnu/mips-2017.11-32-mips-linux-gnu.extras/host-libs-i686-pc-linux-gnu/usr --with-isl=/project/Mips-Toolchain/release_5.x.x-gcc7.2.0/obj/pkg-2017.11-32-mips-linux-gnu/mips-2017.11-32-mips-linux-gnu.extras/host-libs-i686-pc-linux-gnu/usr --enable-libgomp --disable-libitm --enable-libatomic --disable-libssp --disable-libcc1 --enable-poison-system-directories --with-python-dir=mips-linux-gnu/share/gdb/python --with-build-time-tools=/project/Mips-Toolchain/release_5.x.x-gcc7.2.0/install/opt/codesourcery/mips-linux-gnu/bin --with-build-time-tools=/project/Mips-Toolchain/release_5.x.x-gcc7.2.0/install/opt/codesourcery/mips-linux-gnu/bin --with-private=default_option_mglibc_mfp64 SED=sed
+Thread model: posix
+gcc version 7.2.0 (Ingenic Linux-Release5.1.8-Default_xburst2_glibc2.29 Optimize: jr base on 5.1.6 2023.07-18 08:46:58) 
+COMPILER_PATH=/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../libexec/gcc/mips-linux-gnu/7.2.0/:/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../libexec/gcc/:/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../lib/gcc/mips-linux-gnu/7.2.0/../../../../mips-linux-gnu/bin/
+LIBRARY_PATH=/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../lib/gcc/mips-linux-gnu/7.2.0/:/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../lib/gcc/:/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../lib/gcc/mips-linux-gnu/7.2.0/../../../../mips-linux-gnu/lib/:/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../mips-linux-gnu/libc/lib/:/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../mips-linux-gnu/libc/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_6541e' '-shared-libgcc' '-march=mips32r2' '-mhard-float' '-mllsc' '-mplt' '-mips32r2' '-msynci' '-mabi=32' '-mglibc' '-mfp64' '-mabs=2008' '-mnan=2008' '-mno-shared' '-EL' '-D' '__CS_SOURCERYGXX_MAJ__=2017' '-D' '__CS_SOURCERYGXX_MIN__=11' '-D' '__CS_SOURCERYGXX_REV__=32'
+ /home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../libexec/gcc/mips-linux-gnu/7.2.0/collect2 -plugin /home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../libexec/gcc/mips-linux-gnu/7.2.0/liblto_plugin.so -plugin-opt=/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../libexec/gcc/mips-linux-gnu/7.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbumrUp.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../mips-linux-gnu/libc --eh-frame-hdr -EL -mips32r2 -export-dynamic -dynamic-linker /lib/ld-linux-mipsn8.so.1 -melf32ltsmip -o cmTC_6541e /home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../mips-linux-gnu/libc/usr/lib/crt1.o /home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../mips-linux-gnu/libc/usr/lib/crti.o /home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../lib/gcc/mips-linux-gnu/7.2.0/crtbegin.o -L/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../lib/gcc/mips-linux-gnu/7.2.0 -L/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../lib/gcc -L/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../lib/gcc/mips-linux-gnu/7.2.0/../../../../mips-linux-gnu/lib -L/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../mips-linux-gnu/libc/lib -L/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../mips-linux-gnu/libc/usr/lib CMakeFiles/cmTC_6541e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../lib/gcc/mips-linux-gnu/7.2.0/crtend.o /home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../mips-linux-gnu/libc/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_6541e' '-shared-libgcc' '-march=mips32r2' '-mhard-float' '-mllsc' '-mplt' '-mips32r2' '-msynci' '-mabi=32' '-mglibc' '-mfp64' '-mabs=2008' '-mnan=2008' '-mno-shared' '-EL' '-D' '__CS_SOURCERYGXX_MAJ__=2017' '-D' '__CS_SOURCERYGXX_MIN__=11' '-D' '__CS_SOURCERYGXX_REV__=32'
+make[2]: Leaving directory '/home/jwzhang/work/aip/driver/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/jwzhang/work/aip/driver/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(mips-linux-gnu-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/jwzhang/work/aip/driver/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_6541e/fast"]
+  ignore line: [make[1]: Entering directory '/home/jwzhang/work/aip/driver/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_6541e.dir/build.make CMakeFiles/cmTC_6541e.dir/build]
+  ignore line: [make[2]: Entering directory '/home/jwzhang/work/aip/driver/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_6541e.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/mips-linux-gnu-g++     -o CMakeFiles/cmTC_6541e.dir/CMakeCXXCompilerABI.cpp.o -c /home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/share/cmake-3.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_6541e]
+  ignore line: [/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6541e.dir/link.txt --verbose=1]
+  ignore line: [/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/mips-linux-gnu-g++      -v -rdynamic CMakeFiles/cmTC_6541e.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_6541e ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/mips-linux-gnu-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../libexec/gcc/mips-linux-gnu/7.2.0/lto-wrapper]
+  ignore line: [Target: mips-linux-gnu]
+  ignore line: [Configured with: /project/Mips-Toolchain/release_5.x.x-gcc7.2.0/src/gcc-7-2017.11/configure --build=i686-pc-linux-gnu --host=i686-pc-linux-gnu --target=mips-linux-gnu --enable-threads --disable-libmudflap --disable-libssp --disable-libstdcxx-pch --with-arch-32=mips32r2 --with-arch-64=mips64r2 --with-float=hard --with-mips-plt --enable-extra-sgxxlite-multilibs --with-gnu-as --with-gnu-ld --with-specs='-D__CS_SOURCERYGXX_MAJ__=2017 -D__CS_SOURCERYGXX_MIN__=11 -D__CS_SOURCERYGXX_REV__=32' --enable-languages=c,c++,fortran,go --enable-shared --enable-lto --enable-symvers=gnu --enable-__cxa_atexit --with-glibc-version=2.29 --with-pkgversion='Ingenic Linux-Release5.1.8-Default_xburst2_glibc2.29 Optimize: jr base on 5.1.6 2023.07-18 08:46:58' --disable-nls --prefix=/project/Mips-Toolchain/release_5.x.x-gcc7.2.0/install/opt/codesourcery --with-sysroot=/project/Mips-Toolchain/release_5.x.x-gcc7.2.0/install/opt/codesourcery/mips-linux-gnu/libc --with-build-sysroot=/project/Mips-Toolchain/release_5.x.x-gcc7.2.0/install/opt/codesourcery/mips-linux-gnu/libc --with-gmp=/project/Mips-Toolchain/release_5.x.x-gcc7.2.0/obj/pkg-2017.11-32-mips-linux-gnu/mips-2017.11-32-mips-linux-gnu.extras/host-libs-i686-pc-linux-gnu/usr --with-mpfr=/project/Mips-Toolchain/release_5.x.x-gcc7.2.0/obj/pkg-2017.11-32-mips-linux-gnu/mips-2017.11-32-mips-linux-gnu.extras/host-libs-i686-pc-linux-gnu/usr --with-mpc=/project/Mips-Toolchain/release_5.x.x-gcc7.2.0/obj/pkg-2017.11-32-mips-linux-gnu/mips-2017.11-32-mips-linux-gnu.extras/host-libs-i686-pc-linux-gnu/usr --with-isl=/project/Mips-Toolchain/release_5.x.x-gcc7.2.0/obj/pkg-2017.11-32-mips-linux-gnu/mips-2017.11-32-mips-linux-gnu.extras/host-libs-i686-pc-linux-gnu/usr --enable-libgomp --disable-libitm --enable-libatomic --disable-libssp --disable-libcc1 --enable-poison-system-directories --with-python-dir=mips-linux-gnu/share/gdb/python --with-build-time-tools=/project/Mips-Toolchain/release_5.x.x-gcc7.2.0/install/opt/codesourcery/mips-linux-gnu/bin --with-build-time-tools=/project/Mips-Toolchain/release_5.x.x-gcc7.2.0/install/opt/codesourcery/mips-linux-gnu/bin --with-private=default_option_mglibc_mfp64 SED=sed]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.2.0 (Ingenic Linux-Release5.1.8-Default_xburst2_glibc2.29 Optimize: jr base on 5.1.6 2023.07-18 08:46:58) ]
+  ignore line: [COMPILER_PATH=/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../libexec/gcc/mips-linux-gnu/7.2.0/:/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../libexec/gcc/:/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../lib/gcc/mips-linux-gnu/7.2.0/../../../../mips-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../lib/gcc/mips-linux-gnu/7.2.0/:/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../lib/gcc/:/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../lib/gcc/mips-linux-gnu/7.2.0/../../../../mips-linux-gnu/lib/:/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../mips-linux-gnu/libc/lib/:/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../mips-linux-gnu/libc/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_6541e' '-shared-libgcc' '-march=mips32r2' '-mhard-float' '-mllsc' '-mplt' '-mips32r2' '-msynci' '-mabi=32' '-mglibc' '-mfp64' '-mabs=2008' '-mnan=2008' '-mno-shared' '-EL' '-D' '__CS_SOURCERYGXX_MAJ__=2017' '-D' '__CS_SOURCERYGXX_MIN__=11' '-D' '__CS_SOURCERYGXX_REV__=32']
+  link line: [ /home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../libexec/gcc/mips-linux-gnu/7.2.0/collect2 -plugin /home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../libexec/gcc/mips-linux-gnu/7.2.0/liblto_plugin.so -plugin-opt=/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../libexec/gcc/mips-linux-gnu/7.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbumrUp.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../mips-linux-gnu/libc --eh-frame-hdr -EL -mips32r2 -export-dynamic -dynamic-linker /lib/ld-linux-mipsn8.so.1 -melf32ltsmip -o cmTC_6541e /home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../mips-linux-gnu/libc/usr/lib/crt1.o /home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../mips-linux-gnu/libc/usr/lib/crti.o /home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../lib/gcc/mips-linux-gnu/7.2.0/crtbegin.o -L/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../lib/gcc/mips-linux-gnu/7.2.0 -L/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../lib/gcc -L/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../lib/gcc/mips-linux-gnu/7.2.0/../../../../mips-linux-gnu/lib -L/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../mips-linux-gnu/libc/lib -L/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../mips-linux-gnu/libc/usr/lib CMakeFiles/cmTC_6541e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../lib/gcc/mips-linux-gnu/7.2.0/crtend.o /home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../mips-linux-gnu/libc/usr/lib/crtn.o]
+    arg [/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../libexec/gcc/mips-linux-gnu/7.2.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../libexec/gcc/mips-linux-gnu/7.2.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../libexec/gcc/mips-linux-gnu/7.2.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccbumrUp.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../mips-linux-gnu/libc] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-mips32r2] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-mipsn8.so.1] ==> ignore
+    arg [-melf32ltsmip] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_6541e] ==> ignore
+    arg [/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../mips-linux-gnu/libc/usr/lib/crt1.o] ==> ignore
+    arg [/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../mips-linux-gnu/libc/usr/lib/crti.o] ==> ignore
+    arg [/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../lib/gcc/mips-linux-gnu/7.2.0/crtbegin.o] ==> ignore
+    arg [-L/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../lib/gcc/mips-linux-gnu/7.2.0] ==> dir [/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../lib/gcc/mips-linux-gnu/7.2.0]
+    arg [-L/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../lib/gcc] ==> dir [/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../lib/gcc]
+    arg [-L/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../lib/gcc/mips-linux-gnu/7.2.0/../../../../mips-linux-gnu/lib] ==> dir [/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../lib/gcc/mips-linux-gnu/7.2.0/../../../../mips-linux-gnu/lib]
+    arg [-L/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../mips-linux-gnu/libc/lib] ==> dir [/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../mips-linux-gnu/libc/lib]
+    arg [-L/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../mips-linux-gnu/libc/usr/lib] ==> dir [/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../mips-linux-gnu/libc/usr/lib]
+    arg [CMakeFiles/cmTC_6541e.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../lib/gcc/mips-linux-gnu/7.2.0/crtend.o] ==> ignore
+    arg [/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../mips-linux-gnu/libc/usr/lib/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../lib/gcc/mips-linux-gnu/7.2.0] ==> [/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/lib/gcc/mips-linux-gnu/7.2.0]
+  collapse library dir [/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../lib/gcc] ==> [/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/lib/gcc]
+  collapse library dir [/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../lib/gcc/mips-linux-gnu/7.2.0/../../../../mips-linux-gnu/lib] ==> [/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/mips-linux-gnu/lib]
+  collapse library dir [/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../mips-linux-gnu/libc/lib] ==> [/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/mips-linux-gnu/libc/lib]
+  collapse library dir [/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/../mips-linux-gnu/libc/usr/lib] ==> [/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/mips-linux-gnu/libc/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/lib/gcc/mips-linux-gnu/7.2.0;/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/lib/gcc;/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/mips-linux-gnu/lib;/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/mips-linux-gnu/libc/lib;/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/mips-linux-gnu/libc/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /home/jwzhang/work/aip/driver/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b7d79/fast"
+make[1]: Entering directory '/home/jwzhang/work/aip/driver/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_b7d79.dir/build.make CMakeFiles/cmTC_b7d79.dir/build
+make[2]: Entering directory '/home/jwzhang/work/aip/driver/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b7d79.dir/feature_tests.cxx.o
+/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/mips-linux-gnu-g++    -std=c++1z -o CMakeFiles/cmTC_b7d79.dir/feature_tests.cxx.o -c /home/jwzhang/work/aip/driver/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_b7d79
+/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7d79.dir/link.txt --verbose=1
+/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/mips-linux-gnu-g++       -rdynamic CMakeFiles/cmTC_b7d79.dir/feature_tests.cxx.o  -o cmTC_b7d79 
+make[2]: Leaving directory '/home/jwzhang/work/aip/driver/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/jwzhang/work/aip/driver/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/jwzhang/work/aip/driver/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ef664/fast"
+make[1]: Entering directory '/home/jwzhang/work/aip/driver/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_ef664.dir/build.make CMakeFiles/cmTC_ef664.dir/build
+make[2]: Entering directory '/home/jwzhang/work/aip/driver/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ef664.dir/feature_tests.cxx.o
+/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/mips-linux-gnu-g++    -std=c++14 -o CMakeFiles/cmTC_ef664.dir/feature_tests.cxx.o -c /home/jwzhang/work/aip/driver/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_ef664
+/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef664.dir/link.txt --verbose=1
+/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/mips-linux-gnu-g++       -rdynamic CMakeFiles/cmTC_ef664.dir/feature_tests.cxx.o  -o cmTC_ef664 
+make[2]: Leaving directory '/home/jwzhang/work/aip/driver/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/jwzhang/work/aip/driver/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/jwzhang/work/aip/driver/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7d18e/fast"
+make[1]: Entering directory '/home/jwzhang/work/aip/driver/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_7d18e.dir/build.make CMakeFiles/cmTC_7d18e.dir/build
+make[2]: Entering directory '/home/jwzhang/work/aip/driver/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7d18e.dir/feature_tests.cxx.o
+/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/mips-linux-gnu-g++    -std=c++11 -o CMakeFiles/cmTC_7d18e.dir/feature_tests.cxx.o -c /home/jwzhang/work/aip/driver/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_7d18e
+/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d18e.dir/link.txt --verbose=1
+/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/mips-linux-gnu-g++       -rdynamic CMakeFiles/cmTC_7d18e.dir/feature_tests.cxx.o  -o cmTC_7d18e 
+make[2]: Leaving directory '/home/jwzhang/work/aip/driver/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/jwzhang/work/aip/driver/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/jwzhang/work/aip/driver/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a5a96/fast"
+make[1]: Entering directory '/home/jwzhang/work/aip/driver/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_a5a96.dir/build.make CMakeFiles/cmTC_a5a96.dir/build
+make[2]: Entering directory '/home/jwzhang/work/aip/driver/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a5a96.dir/feature_tests.cxx.o
+/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/mips-linux-gnu-g++    -std=c++98 -o CMakeFiles/cmTC_a5a96.dir/feature_tests.cxx.o -c /home/jwzhang/work/aip/driver/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_a5a96
+/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5a96.dir/link.txt --verbose=1
+/home/jwzhang/work/aip/custom/gcc720-glibc229-r518_2/bin/mips-linux-gnu-g++       -rdynamic CMakeFiles/cmTC_a5a96.dir/feature_tests.cxx.o  -o cmTC_a5a96 
+make[2]: Leaving directory '/home/jwzhang/work/aip/driver/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/jwzhang/work/aip/driver/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates

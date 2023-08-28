@@ -1,0 +1,5 @@
+set(CMAKE_SYSTEM_NAME Linux)
+set(CMAKE_C_COMPILER mips-linux-uclibc-gcc)
+set(CMAKE_CXX_COMPILER mips-linux-uclibc-g++)
+#set(CMAKE_FIND_ROOT_PATH "gcc720-uclibc09332-fp64-r517-0705/")
+option(MIPS "Enable MIPS" ON)

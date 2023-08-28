@@ -1,0 +1,568 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+-fields	Makefile	/^	ctags -R --fields=+iaS --extra=+q$/;"	m
+ALLOC_ALREADY_INITIALIZED	src/mem_manager/alloc_manager.h	/^    ALLOC_ALREADY_INITIALIZED,$/;"	e	enum:__anon20
+ALLOC_BUF_BUSY	src/mem_manager/alloc_manager.h	/^    ALLOC_BUF_BUSY,$/;"	e	enum:__anon19
+ALLOC_BUF_FREE	src/mem_manager/alloc_manager.h	/^    ALLOC_BUF_FREE,$/;"	e	enum:__anon19
+ALLOC_IS_INITIALIZED	src/mem_manager/alloc_manager.h	/^    ALLOC_IS_INITIALIZED,$/;"	e	enum:__anon20
+ALLOC_NOT_INITIALIZED	src/mem_manager/alloc_manager.h	/^    ALLOC_NOT_INITIALIZED = 0x12345678,$/;"	e	enum:__anon20
+Alloc	src/mem_manager/alloc_manager.h	/^struct Alloc {$/;"	s
+Alloc	src/mem_manager/alloc_manager.h	/^typedef struct Alloc Alloc;$/;"	t	typeref:struct:Alloc
+Alloc::buf_handle	src/mem_manager/alloc_manager.h	/^    void *buf_handle;$/;"	m	struct:Alloc	access:public
+Alloc::buf_mutex	src/mem_manager/alloc_manager.h	/^    pthread_mutex_t buf_mutex;$/;"	m	struct:Alloc	access:public
+Alloc::buf_root	src/mem_manager/alloc_manager.h	/^    Bufunit_s *buf_root;$/;"	m	struct:Alloc	access:public
+Alloc::init_status	src/mem_manager/alloc_manager.h	/^    AllocInitStatus init_status;$/;"	m	struct:Alloc	access:public
+Alloc::size	src/mem_manager/alloc_manager.h	/^    unsigned int size;$/;"	m	struct:Alloc	access:public
+Alloc::start	src/mem_manager/alloc_manager.h	/^    void *start;$/;"	m	struct:Alloc	access:public
+Alloc::user_root	src/mem_manager/alloc_manager.h	/^    struct list_head user_root;$/;"	m	struct:Alloc	typeref:struct:Alloc::list_head	access:public
+AllocBufStatus_e	src/mem_manager/alloc_manager.h	/^} AllocBufStatus_e;$/;"	t	typeref:enum:__anon19
+AllocInfo	src/mem_manager/alloc_manager.h	/^typedef struct alloc_info AllocInfo;$/;"	t	typeref:struct:alloc_info
+AllocInitStatus	src/mem_manager/alloc_manager.h	/^} AllocInitStatus;$/;"	t	typeref:enum:__anon20
+BSCALER_IO_BASE	src/drivers/aie_mmap.h	28;"	d
+BSCALER_IO_SIZE	src/drivers/aie_mmap.h	26;"	d
+BUF_BUSY	src/mem_manager/buf_list.h	/^typedef enum BufStatus { BUF_FREE, BUF_BUSY } BufStatus_t;$/;"	e	enum:BufStatus
+BUF_FREE	src/mem_manager/buf_list.h	/^typedef enum BufStatus { BUF_FREE, BUF_BUSY } BufStatus_t;$/;"	e	enum:BufStatus
+BUF_MANAGER_NODE_CNT	src/mem_manager/imp_alloc_api.c	47;"	d	file:
+BufList	src/mem_manager/buf_list.h	/^struct BufList {$/;"	s
+BufList	src/mem_manager/buf_list.h	/^typedef struct BufList BufList;$/;"	t	typeref:struct:BufList
+BufList::head	src/mem_manager/buf_list.h	/^    BufNode *head;$/;"	m	struct:BufList	access:public
+BufList::tail	src/mem_manager/buf_list.h	/^    BufNode *tail;$/;"	m	struct:BufList	access:public
+BufNode	src/mem_manager/buf_list.h	/^struct BufNode {$/;"	s
+BufNode	src/mem_manager/buf_list.h	/^typedef struct BufNode BufNode;$/;"	t	typeref:struct:BufNode
+BufNode::length	src/mem_manager/buf_list.h	/^    uint32_t length;$/;"	m	struct:BufNode	access:public
+BufNode::next	src/mem_manager/buf_list.h	/^    BufNode *next;$/;"	m	struct:BufNode	access:public
+BufNode::offset	src/mem_manager/buf_list.h	/^    int32_t offset;$/;"	m	struct:BufNode	access:public
+BufNode::pa	src/mem_manager/buf_list.h	/^    uintptr_t pa;$/;"	m	struct:BufNode	access:public
+BufNode::prev	src/mem_manager/buf_list.h	/^    BufNode *prev;$/;"	m	struct:BufNode	access:public
+BufNode::status	src/mem_manager/buf_list.h	/^    BufStatus status;$/;"	m	struct:BufNode	access:public
+BufNode::usr_pa	src/mem_manager/buf_list.h	/^    uintptr_t usr_pa;$/;"	m	struct:BufNode	access:public
+BufNode::usr_va	src/mem_manager/buf_list.h	/^    uintptr_t usr_va;$/;"	m	struct:BufNode	access:public
+BufNode::va	src/mem_manager/buf_list.h	/^    uintptr_t va;$/;"	m	struct:BufNode	access:public
+BufStatus	src/mem_manager/buf_list.h	/^typedef enum BufStatus { BUF_FREE, BUF_BUSY } BufStatus_t;$/;"	g
+BufStatus_t	src/mem_manager/buf_list.h	/^typedef enum BufStatus { BUF_FREE, BUF_BUSY } BufStatus_t;$/;"	t	typeref:enum:BufStatus
+Bufunit_s	src/mem_manager/alloc_manager.h	/^typedef struct buffer_unit Bufunit_s;$/;"	t	typeref:struct:buffer_unit
+CASESE_NUM	src/drivers/macro_def.h	77;"	d
+CCU_BASE_ADDR	src/drivers/macro_def.h	101;"	d
+CCU_CNT_CLEAR	src/drivers/macro_def.h	98;"	d
+CHECK_NODE_TRUE	src/mem_manager/oram.cc	15;"	d	file:
+CMD_LINE	src/drivers/aie_mmap.c	17;"	d	file:
+CORE0_CODE_START	src/drivers/macro_def.h	154;"	d
+CORE0_DATA_START	src/drivers/macro_def.h	155;"	d
+CORE0_OST_BASE	src/drivers/macro_def.h	64;"	d
+COUNTER0_HI_OFFSET	src/drivers/macro_def.h	92;"	d
+COUNTER0_LO_OFFSET	src/drivers/macro_def.h	91;"	d
+COUNTER1_HI_OFFSET	src/drivers/macro_def.h	95;"	d
+COUNTER1_LO_OFFSET	src/drivers/macro_def.h	94;"	d
+CSE_FAIL_ADDR	src/drivers/macro_def.h	134;"	d
+CSE_PASS_ADDR	src/drivers/macro_def.h	135;"	d
+DRIVERS_VERSION	src/drivers/aie_mmap.c	16;"	d	file:
+DUPLEX_LIST_HEAD	src/mem_manager/duplex_list.h	32;"	d
+EXCEPT_ENTRY_ADDR	src/drivers/macro_def.h	158;"	d
+E_FAIL	src/drivers/macro_def.h	108;"	d
+E_PASS	src/drivers/macro_def.h	107;"	d
+E_RESERVED_CODE	src/drivers/macro_def.h	109;"	d
+E_XFAIL	src/drivers/macro_def.h	106;"	d
+FASTIO_SIZE	src/drivers/aie_mmap.h	27;"	d
+GLOBAL_OST_BASE	src/drivers/macro_def.h	55;"	d
+GLOBAL_OST_CCR	src/drivers/macro_def.h	56;"	d
+GLOBAL_OST_CNTB	src/drivers/macro_def.h	61;"	d
+GLOBAL_OST_CNTH	src/drivers/macro_def.h	59;"	d
+GLOBAL_OST_CNTL	src/drivers/macro_def.h	60;"	d
+GLOBAL_OST_CR	src/drivers/macro_def.h	58;"	d
+GLOBAL_OST_ER	src/drivers/macro_def.h	57;"	d
+IMP_FAILED	src/mem_manager/imp_alloc_api.c	15;"	d	file:
+IMP_SUCCESS	src/mem_manager/imp_alloc_api.c	14;"	d	file:
+IMP_alloc_unit	src/mem_manager/imp_alloc_api.c	/^static void *IMP_alloc_unit(Alloc *alloc, void *handle) {$/;"	f	file:	signature:(Alloc *alloc, void *handle)
+IMP_create_units	src/mem_manager/imp_alloc_api.c	/^static void *IMP_create_units(Alloc *alloc, uint32_t unitsize, uint32_t incunits,$/;"	f	file:	signature:(Alloc *alloc, uint32_t unitsize, uint32_t incunits, const char *name)
+IMP_destroy_units	src/mem_manager/imp_alloc_api.c	/^static void IMP_destroy_units(Alloc *alloc, void *handle) {$/;"	f	file:	signature:(Alloc *alloc, void *handle)
+IMP_free_unit	src/mem_manager/imp_alloc_api.c	/^static void IMP_free_unit(void *handle, void *addr) {$/;"	f	file:	signature:(void *handle, void *addr)
+INIT_DUPLEX_LIST_HEAD	src/mem_manager/duplex_list.h	/^static inline void INIT_DUPLEX_LIST_HEAD(struct list_head *list) {$/;"	f	signature:(struct list_head *list)
+INTC_BASE	src/drivers/macro_def.h	52;"	d
+IOCTL_SOC_NNA_FLUSHCACHE	src/drivers/aie_mmap.c	23;"	d	file:
+IOCTL_SOC_NNA_FLUSHCACHE	src/drivers/soc_nna.h	17;"	d
+IOCTL_SOC_NNA_FREE	src/drivers/aie_mmap.c	22;"	d	file:
+IOCTL_SOC_NNA_FREE	src/drivers/soc_nna.h	16;"	d
+IOCTL_SOC_NNA_MALLOC	src/drivers/aie_mmap.c	21;"	d	file:
+IOCTL_SOC_NNA_MALLOC	src/drivers/soc_nna.h	15;"	d
+IOCTL_SOC_NNA_RDCH_START	src/drivers/aie_mmap.c	25;"	d	file:
+IOCTL_SOC_NNA_RDCH_START	src/drivers/soc_nna.h	19;"	d
+IOCTL_SOC_NNA_SETUP_DES	src/drivers/aie_mmap.c	24;"	d	file:
+IOCTL_SOC_NNA_SETUP_DES	src/drivers/soc_nna.h	18;"	d
+IOCTL_SOC_NNA_VERSION	src/drivers/aie_mmap.c	27;"	d	file:
+IOCTL_SOC_NNA_VERSION	src/drivers/soc_nna.h	21;"	d
+IOCTL_SOC_NNA_WRCH_START	src/drivers/aie_mmap.c	26;"	d	file:
+IOCTL_SOC_NNA_WRCH_START	src/drivers/soc_nna.h	20;"	d
+IRQ_ID_INTC	src/drivers/macro_def.h	130;"	d
+IRQ_ID_MAILBOX	src/drivers/macro_def.h	131;"	d
+IRQ_ID_OST	src/drivers/macro_def.h	132;"	d
+IRQ_NUMBER	src/drivers/macro_def.h	129;"	d
+K_DATA_START_ADDR	src/drivers/macro_def.h	140;"	d
+K_GP_START_ADDR	src/drivers/macro_def.h	141;"	d
+K_MODE_CASESE_NUM_MAX	src/drivers/macro_def.h	73;"	d
+K_PID_MAX	src/drivers/macro_def.h	86;"	d
+K_PID_OFFSET	src/drivers/macro_def.h	85;"	d
+K_PROCS_OFFSET	src/drivers/macro_def.h	139;"	d
+K_PROC_ENTRY_BASE	src/drivers/macro_def.h	138;"	d
+K_SP_START_ADDR	src/drivers/macro_def.h	142;"	d
+LIST_HEAD_INIT	src/mem_manager/duplex_list.h	29;"	d
+Local_Alloc	src/mem_manager/imp_alloc_api.c	/^void *Local_Alloc(void *heap, unsigned int nbytes) { return Local_alignAlloc(heap, 1, nbytes); }$/;"	f	signature:(void *heap, unsigned int nbytes)
+Local_Calloc	src/mem_manager/imp_alloc_api.c	/^void *Local_Calloc(void *heap, unsigned int size, unsigned int n) {$/;"	f	signature:(void *heap, unsigned int size, unsigned int n)
+Local_Dealloc	src/mem_manager/imp_alloc_api.c	/^int Local_Dealloc(void *heap, void *addr) {$/;"	f	signature:(void *heap, void *addr)
+Local_Dump_List	src/mem_manager/imp_alloc_api.c	/^void Local_Dump_List(void *heap) {$/;"	f	signature:(void *heap)
+Local_HeapDeInit	src/mem_manager/imp_alloc_api.c	/^int32_t Local_HeapDeInit(void **list) {$/;"	f	signature:(void **list)
+Local_HeapInit	src/mem_manager/imp_alloc_api.c	/^int32_t Local_HeapInit(void *heap, unsigned int size, void **list) {$/;"	f	signature:(void *heap, unsigned int size, void **list)
+Local_alignAlloc	src/mem_manager/imp_alloc_api.c	/^void *Local_alignAlloc(void *heap, unsigned int alignsize, unsigned int size) {$/;"	f	signature:(void *heap, unsigned int alignsize, unsigned int size)
+MAX_NAME_LEN	src/mem_manager/alloc_manager.h	27;"	d
+MemoryInfo	src/mem_manager/oram.h	/^struct MemoryInfo {$/;"	s
+MemoryInfo::phy_addr	src/mem_manager/oram.h	/^    void *phy_addr;$/;"	m	struct:MemoryInfo	access:public
+MemoryInfo::total_size	src/mem_manager/oram.h	/^    unsigned int total_size;$/;"	m	struct:MemoryInfo	access:public
+MemoryInfo::used_size	src/mem_manager/oram.h	/^    unsigned int used_size;$/;"	m	struct:MemoryInfo	access:public
+MemoryInfo::vir_addr	src/mem_manager/oram.h	/^    void *vir_addr;$/;"	m	struct:MemoryInfo	access:public
+NMEM_INIT	src/drivers/aie_mmap.c	28;"	d	file:
+NMEM_INIT	src/drivers/soc_nna.h	22;"	d
+NMEM_TEST_SIZE	src/drivers/aie_mmap.c	15;"	d	file:
+NMEM_UNINIT	src/drivers/aie_mmap.c	31;"	d	file:
+NNA_CACHED	src/drivers/aie_mmap.h	/^    NNA_CACHED = 0x4,               \/* 1 << 2, cached, optionally to ddr memory *\/$/;"	e	enum:nna_cache_attr
+NNA_DMA_BIDIRECTIONAL	src/drivers/aie_mmap.h	/^    NNA_DMA_BIDIRECTIONAL = 0, \/* write back invalide *\/$/;"	e	enum:nna_dma_data_direction
+NNA_DMA_FROM_DEVICE	src/drivers/aie_mmap.h	/^    NNA_DMA_FROM_DEVICE = 2,   \/* Invalidate *\/$/;"	e	enum:nna_dma_data_direction
+NNA_DMA_NONE	src/drivers/aie_mmap.h	/^    NNA_DMA_NONE = 3,$/;"	e	enum:nna_dma_data_direction
+NNA_DMA_TO_DEVICE	src/drivers/aie_mmap.h	/^    NNA_DMA_TO_DEVICE = 1,     \/* write back invalide *\/$/;"	e	enum:nna_dma_data_direction
+NNA_LOCK	src/drivers/aie_mmap.c	29;"	d	file:
+NNA_ORAM_BASE_ADDR	src/drivers/soc_nna.h	10;"	d
+NNA_ORAM_BASE_SIZE	src/drivers/soc_nna.h	11;"	d
+NNA_UNCACHED	src/drivers/aie_mmap.h	/^    NNA_UNCACHED = 0x1,             \/* 1 << 0, uncached, mainly to io memory, optionally to$/;"	e	enum:nna_cache_attr
+NNA_UNCACHED_ACCELERATED	src/drivers/aie_mmap.h	/^    NNA_UNCACHED_ACCELERATED = 0x2, \/* 1 << 1, cached accelerated, optionally to desram oram, ddr *\/$/;"	e	enum:nna_cache_attr
+NNA_UNLOCK	src/drivers/aie_mmap.c	30;"	d	file:
+NNDBG_IO_SIZE	src/drivers/aie_mmap.h	25;"	d
+NNDMA_DESRAM_BASE	src/drivers/aie_mmap.h	21;"	d
+NNDMA_DESRAM_SIZE	src/drivers/aie_mmap.h	22;"	d
+NNDMA_IO_BASE	src/drivers/aie_mmap.h	23;"	d
+NNDMA_IO_SIZE	src/drivers/aie_mmap.h	24;"	d
+ORAM_TEST_SIZE	src/drivers/aie_mmap.c	14;"	d	file:
+OST_COMPARE_VALUE_ADDR	src/drivers/macro_def.h	67;"	d
+PALLADIUM_OST_COMPARE	src/drivers/macro_def.h	35;"	d
+PID_MAX	src/drivers/macro_def.h	84;"	d
+PID_MIN	src/drivers/macro_def.h	83;"	d
+POINTER_TO_ADDR	src/mem_manager/data.h	99;"	d
+RANDOM	src/drivers/macro_def.h	81;"	d
+RANDOM_NUM_MAX	src/drivers/macro_def.h	79;"	d
+SMP_CORE_NUM	src/drivers/macro_def.h	70;"	d
+SOC_NNA_DEVICE_NAME	src/drivers/soc_nna.h	6;"	d
+SOC_NNA_MAGIC	src/drivers/aie_mmap.c	20;"	d	file:
+SOC_NNA_MAGIC	src/drivers/soc_nna.h	14;"	d
+SOC_NNA_MAX_CHN_CNT	src/drivers/soc_nna.h	7;"	d
+SYSCALL_BASE	src/drivers/macro_def.h	111;"	d
+SYS_CLOSE	src/drivers/macro_def.h	115;"	d
+SYS_FAIL_EXIT	src/drivers/macro_def.h	120;"	d
+SYS_LSEEK	src/drivers/macro_def.h	117;"	d
+SYS_OPEN	src/drivers/macro_def.h	114;"	d
+SYS_PASS_EXIT	src/drivers/macro_def.h	119;"	d
+SYS_READ	src/drivers/macro_def.h	112;"	d
+SYS_THREAD_GET	src/drivers/macro_def.h	122;"	d
+SYS_THREAD_GIVE	src/drivers/macro_def.h	121;"	d
+SYS_WRITE	src/drivers/macro_def.h	113;"	d
+USER_SPACE_MODE	src/drivers/macro_def.h	48;"	d
+U_DATA_START_ADDR	src/drivers/macro_def.h	147;"	d
+U_GP_START_ADDR	src/drivers/macro_def.h	148;"	d
+U_MODE_CASESE_NUM_MAX	src/drivers/macro_def.h	75;"	d
+U_PID_MAX	src/drivers/macro_def.h	88;"	d
+U_PID_OFFSET	src/drivers/macro_def.h	87;"	d
+U_PROCS_OFFSET	src/drivers/macro_def.h	146;"	d
+U_PROC_ENTRY_BASE	src/drivers/macro_def.h	145;"	d
+U_SP_START_ADDR	src/drivers/macro_def.h	149;"	d
+VERSION_MAJOR	src/drivers/macro_def.h	5;"	d
+VERSION_MINOR	src/drivers/macro_def.h	6;"	d
+__AIE_MMAP_H__	src/drivers/aie_mmap.h	13;"	d
+__ALLOC_MANAGER_H__	src/mem_manager/alloc_manager.h	9;"	d
+__BUF_LIST_H__	src/mem_manager/buf_list.h	2;"	d
+__DATA_H__	src/mem_manager/data.h	2;"	d
+__DDR_MEM_H__	src/mem_manager/ddr_mem.h	2;"	d
+__DRIVERS_UTILS_H__	src/drivers/utils.h	2;"	d
+__EXP_HANDLE	src/drivers/macro_def.h	162;"	d
+__INIT	src/drivers/macro_def.h	161;"	d
+__INIT_ENTRY	src/drivers/macro_def.h	160;"	d
+__LOCAL_MEMMGR_H__	src/mem_manager/LocalMemMgr.h	2;"	d
+__MACRO_DEF_H__	src/drivers/macro_def.h	3;"	d
+__ORAM_H__	src/mem_manager/oram.h	2;"	d
+__SOC_NNA_H__	src/drivers/soc_nna.h	2;"	d
+__SVAC_COMMON_LIST_H__	src/mem_manager/duplex_list.h	2;"	d
+__aie_flushcache	src/drivers/aie_mmap.c	/^int __aie_flushcache(void *ddr_mem_vaddr, int ddr_mem_size) {$/;"	f	signature:(void *ddr_mem_vaddr, int ddr_mem_size)
+__aie_flushcache_dir	src/drivers/aie_mmap.c	/^int __aie_flushcache_dir(void *ddr_mem_vaddr, int ddr_mem_size, enum nna_dma_data_direction dir) {$/;"	f	signature:(void *ddr_mem_vaddr, int ddr_mem_size, enum nna_dma_data_direction dir)
+__aie_get_bscaler_io_vbase	src/drivers/aie_mmap.h	/^inline __attribute__((always_inline)) uintptr_t __aie_get_bscaler_io_vbase() {$/;"	f	signature:()
+__aie_get_ddr_cache_attr	src/drivers/aie_mmap.h	/^inline __attribute__((always_inline)) uint32_t __aie_get_ddr_cache_attr() {$/;"	f	signature:()
+__aie_get_ddr_paddr	src/drivers/aie_mmap.h	/^inline __attribute__((always_inline)) uintptr_t __aie_get_ddr_paddr(uint32_t ddr_vaddr) {$/;"	f	signature:(uint32_t ddr_vaddr)
+__aie_get_desram_cache_attr	src/drivers/aie_mmap.h	/^inline __attribute__((always_inline)) uint32_t __aie_get_desram_cache_attr() {$/;"	f	signature:()
+__aie_get_nndbg_io_vbase	src/drivers/aie_mmap.h	/^inline __attribute__((always_inline)) uintptr_t __aie_get_nndbg_io_vbase() {$/;"	f	signature:()
+__aie_get_nndma_desram_vbase	src/drivers/aie_mmap.h	/^inline __attribute__((always_inline)) uintptr_t __aie_get_nndma_desram_vbase() {$/;"	f	signature:()
+__aie_get_nndma_io_vbase	src/drivers/aie_mmap.h	/^inline __attribute__((always_inline)) uintptr_t __aie_get_nndma_io_vbase() {$/;"	f	signature:()
+__aie_get_oram_cache_attr	src/drivers/aie_mmap.h	/^inline __attribute__((always_inline)) uint32_t __aie_get_oram_cache_attr() {$/;"	f	signature:()
+__aie_get_oram_info	src/drivers/aie_mmap.c	/^soc_mem_buf_t __aie_get_oram_info() {$/;"	f
+__aie_get_oram_offset	src/drivers/aie_mmap.h	/^inline __attribute__((always_inline)) uintptr_t __aie_get_oram_offset(uint32_t oram_vaddr) {$/;"	f	signature:(uint32_t oram_vaddr)
+__aie_get_oram_paddr	src/drivers/aie_mmap.h	/^inline __attribute__((always_inline)) uintptr_t __aie_get_oram_paddr(uint32_t oram_vaddr) {$/;"	f	signature:(uint32_t oram_vaddr)
+__aie_get_oram_size	src/drivers/aie_mmap.c	/^int __aie_get_oram_size() { return oram_real_size; }$/;"	f
+__aie_get_oram_vbase	src/drivers/aie_mmap.h	/^inline __attribute__((always_inline)) uintptr_t __aie_get_oram_vbase() {$/;"	f	signature:()
+__aie_lock	src/drivers/aie_mmap.c	/^int __aie_lock() {$/;"	f
+__aie_mmap	src/drivers/aie_mmap.c	/^int __aie_mmap(int ddr_mem_size, int b_use_rmem, nna_cache_attr_t desram_cache_attr,$/;"	f	signature:(int ddr_mem_size, int b_use_rmem, nna_cache_attr_t desram_cache_attr, nna_cache_attr_t oram_cache_attr, nna_cache_attr_t ddr_cache_attr)
+__aie_munmap	src/drivers/aie_mmap.c	/^int __aie_munmap() {$/;"	f
+__aie_unlock	src/drivers/aie_mmap.c	/^int __aie_unlock() {$/;"	f
+__anon10::b2	src/mem_manager/data.h	/^    __ubit2__ b2;$/;"	m	union:__anon10	access:public
+__anon10::b8	src/mem_manager/data.h	/^    uint8_t b8;$/;"	m	union:__anon10	access:public
+__anon11::b4	src/mem_manager/data.h	/^    __ubit4__ b4;$/;"	m	union:__anon11	access:public
+__anon11::b8	src/mem_manager/data.h	/^    uint8_t b8;$/;"	m	union:__anon11	access:public
+__anon12::b6	src/mem_manager/data.h	/^    __ubit6__ b6;$/;"	m	union:__anon12	access:public
+__anon12::b8	src/mem_manager/data.h	/^    uint8_t b8;$/;"	m	union:__anon12	access:public
+__anon13::b10	src/mem_manager/data.h	/^    __ubit10__ b10;$/;"	m	union:__anon13	access:public
+__anon13::b16	src/mem_manager/data.h	/^    uint16_t b16;$/;"	m	union:__anon13	access:public
+__anon14::b10	src/mem_manager/data.h	/^    __bit10__ b10;$/;"	m	union:__anon14	access:public
+__anon14::b16	src/mem_manager/data.h	/^    int16_t b16;$/;"	m	union:__anon14	access:public
+__anon15::b12	src/mem_manager/data.h	/^    __ubit12__ b12;$/;"	m	union:__anon15	access:public
+__anon15::b16	src/mem_manager/data.h	/^    uint16_t b16;$/;"	m	union:__anon15	access:public
+__anon16::b12	src/mem_manager/data.h	/^    __bit12__ b12;$/;"	m	union:__anon16	access:public
+__anon16::b16	src/mem_manager/data.h	/^    int16_t b16;$/;"	m	union:__anon16	access:public
+__anon17::b14	src/mem_manager/data.h	/^    __ubit14__ b14;$/;"	m	union:__anon17	access:public
+__anon17::b16	src/mem_manager/data.h	/^    uint16_t b16;$/;"	m	union:__anon17	access:public
+__anon18::b14	src/mem_manager/data.h	/^    __bit14__ b14;$/;"	m	union:__anon18	access:public
+__anon18::b16	src/mem_manager/data.h	/^    int16_t b16;$/;"	m	union:__anon18	access:public
+__anon1::a	src/mem_manager/data.h	/^    uint8_t a : 2;$/;"	m	struct:__anon1	access:public
+__anon1::b	src/mem_manager/data.h	/^    uint8_t b : 2;$/;"	m	struct:__anon1	access:public
+__anon1::c	src/mem_manager/data.h	/^    uint8_t c : 2;$/;"	m	struct:__anon1	access:public
+__anon1::d	src/mem_manager/data.h	/^    uint8_t d : 2;$/;"	m	struct:__anon1	access:public
+__anon2::a	src/mem_manager/data.h	/^    uint8_t a : 4;$/;"	m	struct:__anon2	access:public
+__anon2::b	src/mem_manager/data.h	/^    uint8_t b : 4;$/;"	m	struct:__anon2	access:public
+__anon3::a	src/mem_manager/data.h	/^    uint8_t a : 6;$/;"	m	struct:__anon3	access:public
+__anon3::n	src/mem_manager/data.h	/^    uint8_t n : 2;$/;"	m	struct:__anon3	access:public
+__anon4::a	src/mem_manager/data.h	/^    uint16_t a : 10;$/;"	m	struct:__anon4	access:public
+__anon4::n	src/mem_manager/data.h	/^    uint16_t n : 6;$/;"	m	struct:__anon4	access:public
+__anon5::a	src/mem_manager/data.h	/^    int16_t a : 10;$/;"	m	struct:__anon5	access:public
+__anon5::n	src/mem_manager/data.h	/^    int16_t n : 6;$/;"	m	struct:__anon5	access:public
+__anon6::a	src/mem_manager/data.h	/^    uint16_t a : 12;$/;"	m	struct:__anon6	access:public
+__anon6::n	src/mem_manager/data.h	/^    uint16_t n : 4;$/;"	m	struct:__anon6	access:public
+__anon7::a	src/mem_manager/data.h	/^    int16_t a : 12;$/;"	m	struct:__anon7	access:public
+__anon7::n	src/mem_manager/data.h	/^    int16_t n : 4;$/;"	m	struct:__anon7	access:public
+__anon8::a	src/mem_manager/data.h	/^    uint16_t a : 14;$/;"	m	struct:__anon8	access:public
+__anon8::n	src/mem_manager/data.h	/^    uint16_t n : 2;$/;"	m	struct:__anon8	access:public
+__anon9::a	src/mem_manager/data.h	/^    int16_t a : 14;$/;"	m	struct:__anon9	access:public
+__anon9::n	src/mem_manager/data.h	/^    int16_t n : 2;$/;"	m	struct:__anon9	access:public
+__b_use_rmem	src/drivers/aie_mmap.c	/^static int __b_use_rmem = 0;$/;"	v	file:
+__bit10__	src/mem_manager/data.h	/^} __bit10__;$/;"	t	typeref:struct:__anon5
+__bit12__	src/mem_manager/data.h	/^} __bit12__;$/;"	t	typeref:struct:__anon7
+__bit14__	src/mem_manager/data.h	/^} __bit14__;$/;"	t	typeref:struct:__anon9
+__c0_context	src/drivers/macro_def.h	166;"	d
+__c1_context	src/drivers/macro_def.h	167;"	d
+__c2_context	src/drivers/macro_def.h	168;"	d
+__c3_context	src/drivers/macro_def.h	169;"	d
+__ddr_nna_buf	src/drivers/aie_mmap.c	/^static soc_nna_buf_t __ddr_nna_buf;$/;"	v	file:
+__ddr_pbase	src/drivers/aie_mmap.c	/^void *__ddr_pbase = NULL;$/;"	v
+__ddr_vbase	src/drivers/aie_mmap.c	/^void *__ddr_vbase = NULL;$/;"	v
+__ddr_vbase_cache_attr	src/drivers/aie_mmap.c	/^unsigned int __ddr_vbase_cache_attr = 0;$/;"	v
+__duplex_list_add	src/mem_manager/duplex_list.h	/^static inline void __duplex_list_add(struct list_head *newnode, struct list_head *prev,$/;"	f	signature:(struct list_head *newnode, struct list_head *prev, struct list_head *next)
+__duplex_list_del	src/mem_manager/duplex_list.h	/^static inline void __duplex_list_del(struct list_head *prev, struct list_head *next) {$/;"	f	signature:(struct list_head *prev, struct list_head *next)
+__duplex_list_del_entry	src/mem_manager/duplex_list.h	/^static inline void __duplex_list_del_entry(struct list_head *entry) {$/;"	f	signature:(struct list_head *entry)
+__duplex_list_for_each	src/mem_manager/duplex_list.h	269;"	d
+__ehb	src/drivers/aie_mmap.h	82;"	d
+__fast_iob	src/drivers/aie_mmap.h	97;"	d
+__init	src/drivers/macro_def.h	164;"	d
+__k0_context	src/drivers/macro_def.h	170;"	d
+__k1_context	src/drivers/macro_def.h	171;"	d
+__kernel_data	src/drivers/macro_def.h	181;"	d
+__memfd	src/drivers/aie_mmap.c	/^static int __memfd = -1;$/;"	v	file:
+__multiprocess_choose	src/drivers/aie_mmap.c	/^static int __multiprocess_choose = 0;$/;"	v	file:
+__nnafd	src/drivers/aie_mmap.c	/^static int __nnafd = -1;$/;"	v	file:
+__nnalockfd	src/drivers/aie_mmap.c	/^static int __nnalockfd = -1;$/;"	v	file:
+__nndma_desram_cache_attr	src/drivers/aie_mmap.c	/^unsigned int __nndma_desram_cache_attr = 0;$/;"	v
+__nndma_desram_vbase	src/drivers/aie_mmap.c	/^void *__nndma_desram_vbase = NULL;$/;"	v
+__nndma_fastio_vbase	src/drivers/aie_mmap.c	/^void *__nndma_fastio_vbase = NULL;$/;"	v
+__nndma_io_vbase	src/drivers/aie_mmap.c	/^void *__nndma_io_vbase = NULL;$/;"	v
+__oram_vbase	src/drivers/aie_mmap.c	/^void *__oram_vbase = NULL;$/;"	v
+__oram_vbase_cache_attr	src/drivers/aie_mmap.c	/^unsigned int __oram_vbase_cache_attr = 0;$/;"	v
+__sync	src/drivers/aie_mmap.h	72;"	d
+__u0_context	src/drivers/macro_def.h	172;"	d
+__u1_context	src/drivers/macro_def.h	173;"	d
+__u2_context	src/drivers/macro_def.h	174;"	d
+__u3_context	src/drivers/macro_def.h	175;"	d
+__u4_context	src/drivers/macro_def.h	176;"	d
+__u5_context	src/drivers/macro_def.h	177;"	d
+__u6_context	src/drivers/macro_def.h	178;"	d
+__u7_context	src/drivers/macro_def.h	179;"	d
+__ubit10__	src/mem_manager/data.h	/^} __ubit10__;$/;"	t	typeref:struct:__anon4
+__ubit12__	src/mem_manager/data.h	/^} __ubit12__;$/;"	t	typeref:struct:__anon6
+__ubit14__	src/mem_manager/data.h	/^} __ubit14__;$/;"	t	typeref:struct:__anon8
+__ubit2__	src/mem_manager/data.h	/^} __ubit2__;$/;"	t	typeref:struct:__anon1
+__ubit4__	src/mem_manager/data.h	/^} __ubit4__;$/;"	t	typeref:struct:__anon2
+__ubit6__	src/mem_manager/data.h	/^} __ubit6__;$/;"	t	typeref:struct:__anon3
+a	src/mem_manager/data.h	/^    int16_t a : 10;$/;"	m	struct:__anon5	access:public
+a	src/mem_manager/data.h	/^    int16_t a : 12;$/;"	m	struct:__anon7	access:public
+a	src/mem_manager/data.h	/^    int16_t a : 14;$/;"	m	struct:__anon9	access:public
+a	src/mem_manager/data.h	/^    uint16_t a : 10;$/;"	m	struct:__anon4	access:public
+a	src/mem_manager/data.h	/^    uint16_t a : 12;$/;"	m	struct:__anon6	access:public
+a	src/mem_manager/data.h	/^    uint16_t a : 14;$/;"	m	struct:__anon8	access:public
+a	src/mem_manager/data.h	/^    uint8_t a : 2;$/;"	m	struct:__anon1	access:public
+a	src/mem_manager/data.h	/^    uint8_t a : 4;$/;"	m	struct:__anon2	access:public
+a	src/mem_manager/data.h	/^    uint8_t a : 6;$/;"	m	struct:__anon3	access:public
+addr	src/drivers/aie_mmap.c	/^    unsigned int addr;$/;"	m	struct:flush_cache_info	file:	access:public
+addr	src/drivers/soc_nna.h	/^    unsigned int addr;$/;"	m	struct:flush_cache_info	access:public
+alloc_bufunit	src/mem_manager/imp_alloc_api.c	/^static Bufunit_s *alloc_bufunit(Alloc *alloc, Bufunit_s *root, int size, uint32_t alignsize) {$/;"	f	file:	signature:(Alloc *alloc, Bufunit_s *root, int size, uint32_t alignsize)
+alloc_info	src/mem_manager/alloc_manager.h	/^struct alloc_info {$/;"	s
+alloc_info::data	src/mem_manager/alloc_manager.h	/^    int8_t data[0];$/;"	m	struct:alloc_info	access:public
+alloc_info::length	src/mem_manager/alloc_manager.h	/^    int32_t length;$/;"	m	struct:alloc_info	access:public
+alloc_info::list	src/mem_manager/alloc_manager.h	/^    struct list_head list;$/;"	m	struct:alloc_info	typeref:struct:alloc_info::list_head	access:public
+b	src/mem_manager/data.h	/^    uint8_t b : 2;$/;"	m	struct:__anon1	access:public
+b	src/mem_manager/data.h	/^    uint8_t b : 4;$/;"	m	struct:__anon2	access:public
+b10	src/mem_manager/data.h	/^    __bit10__ b10;$/;"	m	union:__anon14	access:public
+b10	src/mem_manager/data.h	/^    __ubit10__ b10;$/;"	m	union:__anon13	access:public
+b12	src/mem_manager/data.h	/^    __bit12__ b12;$/;"	m	union:__anon16	access:public
+b12	src/mem_manager/data.h	/^    __ubit12__ b12;$/;"	m	union:__anon15	access:public
+b14	src/mem_manager/data.h	/^    __bit14__ b14;$/;"	m	union:__anon18	access:public
+b14	src/mem_manager/data.h	/^    __ubit14__ b14;$/;"	m	union:__anon17	access:public
+b16	src/mem_manager/data.h	/^    int16_t b16;$/;"	m	union:__anon14	access:public
+b16	src/mem_manager/data.h	/^    int16_t b16;$/;"	m	union:__anon16	access:public
+b16	src/mem_manager/data.h	/^    int16_t b16;$/;"	m	union:__anon18	access:public
+b16	src/mem_manager/data.h	/^    uint16_t b16;$/;"	m	union:__anon13	access:public
+b16	src/mem_manager/data.h	/^    uint16_t b16;$/;"	m	union:__anon15	access:public
+b16	src/mem_manager/data.h	/^    uint16_t b16;$/;"	m	union:__anon17	access:public
+b2	src/mem_manager/data.h	/^    __ubit2__ b2;$/;"	m	union:__anon10	access:public
+b4	src/mem_manager/data.h	/^    __ubit4__ b4;$/;"	m	union:__anon11	access:public
+b6	src/mem_manager/data.h	/^    __ubit6__ b6;$/;"	m	union:__anon12	access:public
+b8	src/mem_manager/data.h	/^    uint8_t b8;$/;"	m	union:__anon10	access:public
+b8	src/mem_manager/data.h	/^    uint8_t b8;$/;"	m	union:__anon11	access:public
+b8	src/mem_manager/data.h	/^    uint8_t b8;$/;"	m	union:__anon12	access:public
+brothers	src/mem_manager/alloc_manager.h	/^    struct list_head brothers;$/;"	m	struct:buffer_unit	typeref:struct:buffer_unit::list_head	access:public
+buf	src/drivers/aie_mmap.c	/^struct buf {$/;"	s	file:
+buf::nmem_extension_buf	src/drivers/aie_mmap.c	/^    uint32_t nmem_extension_buf;$/;"	m	struct:buf	file:	access:public
+buf::nmem_paddr	src/drivers/aie_mmap.c	/^    uint32_t nmem_paddr;$/;"	m	struct:buf	file:	access:public
+buf::nmem_size	src/drivers/aie_mmap.c	/^    uint32_t nmem_size;$/;"	m	struct:buf	file:	access:public
+buf::version_buf	src/drivers/aie_mmap.c	/^    uint32_t version_buf;$/;"	m	struct:buf	file:	access:public
+buf_handle	src/mem_manager/alloc_manager.h	/^    void *buf_handle;$/;"	m	struct:Alloc	access:public
+buf_mutex	src/mem_manager/alloc_manager.h	/^    pthread_mutex_t buf_mutex;$/;"	m	struct:Alloc	access:public
+buf_root	src/mem_manager/alloc_manager.h	/^    Bufunit_s *buf_root;$/;"	m	struct:Alloc	access:public
+buffer	src/mem_manager/ddr_mem.cc	/^int buffer = 0, max_size = 0;$/;"	v
+buffer_unit	src/mem_manager/alloc_manager.h	/^struct buffer_unit {$/;"	s
+buffer_unit::brothers	src/mem_manager/alloc_manager.h	/^    struct list_head brothers;$/;"	m	struct:buffer_unit	typeref:struct:buffer_unit::list_head	access:public
+buffer_unit::children	src/mem_manager/alloc_manager.h	/^    struct list_head children;$/;"	m	struct:buffer_unit	typeref:struct:buffer_unit::list_head	access:public
+buffer_unit::length	src/mem_manager/alloc_manager.h	/^    uint32_t length;$/;"	m	struct:buffer_unit	access:public
+buffer_unit::offset	src/mem_manager/alloc_manager.h	/^    uint32_t offset;$/;"	m	struct:buffer_unit	access:public
+buffer_unit::parents	src/mem_manager/alloc_manager.h	/^    Bufunit_s *parents;$/;"	m	struct:buffer_unit	access:public
+buffer_unit::status	src/mem_manager/alloc_manager.h	/^    AllocBufStatus_e status;$/;"	m	struct:buffer_unit	access:public
+buffer_unit::vaddr	src/mem_manager/alloc_manager.h	/^    uint32_t vaddr;$/;"	m	struct:buffer_unit	access:public
+buflist_add_head	src/mem_manager/buf_list.cc	/^void buflist_add_head(BufList *list, BufNode *node) {$/;"	f	signature:(BufList *list, BufNode *node)
+buflist_add_tail	src/mem_manager/buf_list.cc	/^void buflist_add_tail(BufList *list, BufNode *node) {$/;"	f	signature:(BufList *list, BufNode *node)
+buflist_destory	src/mem_manager/buf_list.cc	/^void buflist_destory(BufList *list) {$/;"	f	signature:(BufList *list)
+buflist_find_node	src/mem_manager/buf_list.cc	/^BufNode *buflist_find_node(BufList *list, uint32_t usr_va) {$/;"	f	signature:(BufList *list, uint32_t usr_va)
+buflist_init	src/mem_manager/buf_list.cc	/^void buflist_init(BufList *list, BufNode *head) {$/;"	f	signature:(BufList *list, BufNode *head)
+buflist_insert_after	src/mem_manager/buf_list.cc	/^void buflist_insert_after(BufList *list, BufNode *current, BufNode *node) {$/;"	f	signature:(BufList *list, BufNode *current, BufNode *node)
+buflist_insert_before	src/mem_manager/buf_list.cc	/^void buflist_insert_before(BufList *list, BufNode *current, BufNode *node) {$/;"	f	signature:(BufList *list, BufNode *current, BufNode *node)
+buflist_merge_node	src/mem_manager/buf_list.cc	/^void buflist_merge_node(BufList *list, BufNode *node) {$/;"	f	signature:(BufList *list, BufNode *node)
+buflist_remove_head	src/mem_manager/buf_list.cc	/^void buflist_remove_head(BufList *list) {$/;"	f	signature:(BufList *list)
+buflist_remove_node	src/mem_manager/buf_list.cc	/^void buflist_remove_node(BufList *list, BufNode *node) {$/;"	f	signature:(BufList *list, BufNode *node)
+buflist_remove_tail	src/mem_manager/buf_list.cc	/^void buflist_remove_tail(BufList *list) {$/;"	f	signature:(BufList *list)
+c	src/mem_manager/data.h	/^    uint8_t c : 2;$/;"	m	struct:__anon1	access:public
+children	src/mem_manager/alloc_manager.h	/^    struct list_head children;$/;"	m	struct:buffer_unit	typeref:struct:buffer_unit::list_head	access:public
+container_of	src/mem_manager/duplex_list.h	8;"	d
+create_bufnode	src/mem_manager/buf_list.h	/^inline void *create_bufnode() { return malloc(sizeof(BufNode)); }$/;"	f	signature:()
+d	src/mem_manager/data.h	/^    uint8_t d : 2;$/;"	m	struct:__anon1	access:public
+data	src/mem_manager/alloc_manager.h	/^    int8_t data[0];$/;"	m	struct:alloc_info	access:public
+data	src/mem_manager/imp_alloc_api.c	/^    char data[0];$/;"	m	struct:memery_header	file:	access:public
+ddr_calloc	src/mem_manager/ddr_mem.cc	/^void *ddr_calloc(unsigned int size, unsigned int n) {$/;"	f	signature:(unsigned int size, unsigned int n)
+ddr_free	src/mem_manager/ddr_mem.cc	/^void ddr_free(void *addr) {$/;"	f	signature:(void *addr)
+ddr_head_ptr	src/mem_manager/ddr_mem.h	/^    unsigned int ddr_head_ptr;$/;"	m	struct:ddr_memory_info	access:public
+ddr_malloc	src/mem_manager/ddr_mem.cc	/^void *ddr_malloc(unsigned int size) {$/;"	f	signature:(unsigned int size)
+ddr_memalign	src/mem_manager/ddr_mem.cc	/^void *ddr_memalign(unsigned int align, unsigned int size) {$/;"	f	signature:(unsigned int align, unsigned int size)
+ddr_memory_deinit	src/mem_manager/ddr_mem.cc	/^void ddr_memory_deinit(void) {$/;"	f	signature:(void)
+ddr_memory_info	src/mem_manager/ddr_mem.h	/^struct ddr_memory_info {$/;"	s
+ddr_memory_info::ddr_head_ptr	src/mem_manager/ddr_mem.h	/^    unsigned int ddr_head_ptr;$/;"	m	struct:ddr_memory_info	access:public
+ddr_memory_info::ddr_total_size	src/mem_manager/ddr_mem.h	/^    unsigned int ddr_total_size;$/;"	m	struct:ddr_memory_info	access:public
+ddr_memory_info::ddr_used_size	src/mem_manager/ddr_mem.h	/^    unsigned int ddr_used_size;$/;"	m	struct:ddr_memory_info	access:public
+ddr_memory_init	src/mem_manager/ddr_mem.cc	/^int ddr_memory_init(void *mp, unsigned int mp_size) {$/;"	f	signature:(void *mp, unsigned int mp_size)
+ddr_total_size	src/mem_manager/ddr_mem.h	/^    unsigned int ddr_total_size;$/;"	m	struct:ddr_memory_info	access:public
+ddr_used_size	src/mem_manager/ddr_mem.h	/^    unsigned int ddr_used_size;$/;"	m	struct:ddr_memory_info	access:public
+delete_bufnode	src/mem_manager/buf_list.h	/^inline void delete_bufnode(void *node) {$/;"	f	signature:(void *node)
+dir	src/drivers/aie_mmap.c	/^    unsigned int dir;$/;"	m	struct:flush_cache_info	file:	access:public
+dir	src/drivers/soc_nna.h	/^    unsigned int dir;$/;"	m	struct:flush_cache_info	access:public
+duplex_list_add	src/mem_manager/duplex_list.h	/^static inline void duplex_list_add(struct list_head *newnode, struct list_head *head) {$/;"	f	signature:(struct list_head *newnode, struct list_head *head)
+duplex_list_add_tail	src/mem_manager/duplex_list.h	/^static inline void duplex_list_add_tail(struct list_head *newnode, struct list_head *head) {$/;"	f	signature:(struct list_head *newnode, struct list_head *head)
+duplex_list_del	src/mem_manager/duplex_list.h	/^static inline void duplex_list_del(struct list_head *entry) {$/;"	f	signature:(struct list_head *entry)
+duplex_list_del_head_entry	src/mem_manager/duplex_list.h	/^static inline void duplex_list_del_head_entry(struct list_head **newnode, struct list_head *head) {$/;"	f	signature:(struct list_head **newnode, struct list_head *head)
+duplex_list_del_init	src/mem_manager/duplex_list.h	/^static inline void duplex_list_del_init(struct list_head *entry) {$/;"	f	signature:(struct list_head *entry)
+duplex_list_empty	src/mem_manager/duplex_list.h	/^static inline int duplex_list_empty(const struct list_head *head) { return head->next == head; }$/;"	f	signature:(const struct list_head *head)
+duplex_list_empty_careful	src/mem_manager/duplex_list.h	/^static inline int duplex_list_empty_careful(const struct list_head *head) {$/;"	f	signature:(const struct list_head *head)
+duplex_list_entry	src/mem_manager/duplex_list.h	221;"	d
+duplex_list_first_entry	src/mem_manager/duplex_list.h	231;"	d
+duplex_list_first_entry_or_null	src/mem_manager/duplex_list.h	251;"	d
+duplex_list_for_each	src/mem_manager/duplex_list.h	259;"	d
+duplex_list_for_each_entry	src/mem_manager/duplex_list.h	304;"	d
+duplex_list_for_each_prev	src/mem_manager/duplex_list.h	276;"	d
+duplex_list_for_each_prev_safe	src/mem_manager/duplex_list.h	295;"	d
+duplex_list_for_each_safe	src/mem_manager/duplex_list.h	285;"	d
+duplex_list_is_last	src/mem_manager/duplex_list.h	/^static inline int duplex_list_is_last(const struct list_head *list, const struct list_head *head) {$/;"	f	signature:(const struct list_head *list, const struct list_head *head)
+duplex_list_last_entry	src/mem_manager/duplex_list.h	241;"	d
+duplex_list_move	src/mem_manager/duplex_list.h	/^static inline void duplex_list_move(struct list_head *list, struct list_head *head) {$/;"	f	signature:(struct list_head *list, struct list_head *head)
+duplex_list_move_tail	src/mem_manager/duplex_list.h	/^static inline void duplex_list_move_tail(struct list_head *list, struct list_head *head) {$/;"	f	signature:(struct list_head *list, struct list_head *head)
+duplex_list_next_insert	src/mem_manager/duplex_list.h	/^static inline void duplex_list_next_insert(struct list_head *list, struct list_head *newnode) {$/;"	f	signature:(struct list_head *list, struct list_head *newnode)
+duplex_list_prev_insert	src/mem_manager/duplex_list.h	/^static inline void duplex_list_prev_insert(struct list_head *list, struct list_head *newnode) {$/;"	f	signature:(struct list_head *list, struct list_head *newnode)
+duplex_list_replace	src/mem_manager/duplex_list.h	/^static inline void duplex_list_replace(struct list_head *old, struct list_head *newnode) {$/;"	f	signature:(struct list_head *old, struct list_head *newnode)
+duplex_list_replace_init	src/mem_manager/duplex_list.h	/^static inline void duplex_list_replace_init(struct list_head *old, struct list_head *newnode) {$/;"	f	signature:(struct list_head *old, struct list_head *newnode)
+fast_iob	src/drivers/aie_mmap.h	107;"	d
+find_bufunit_byaddr	src/mem_manager/imp_alloc_api.c	/^static Bufunit_s *find_bufunit_byaddr(Bufunit_s *root, uint32_t addr) {$/;"	f	file:	signature:(Bufunit_s *root, uint32_t addr)
+flush_cache_info	src/drivers/aie_mmap.c	/^struct flush_cache_info {$/;"	s	file:
+flush_cache_info	src/drivers/soc_nna.h	/^struct flush_cache_info {$/;"	s
+flush_cache_info::addr	src/drivers/aie_mmap.c	/^    unsigned int addr;$/;"	m	struct:flush_cache_info	file:	access:public
+flush_cache_info::addr	src/drivers/soc_nna.h	/^    unsigned int addr;$/;"	m	struct:flush_cache_info	access:public
+flush_cache_info::dir	src/drivers/aie_mmap.c	/^    unsigned int dir;$/;"	m	struct:flush_cache_info	file:	access:public
+flush_cache_info::dir	src/drivers/soc_nna.h	/^    unsigned int dir;$/;"	m	struct:flush_cache_info	access:public
+flush_cache_info::len	src/drivers/aie_mmap.c	/^    unsigned int len;$/;"	m	struct:flush_cache_info	file:	access:public
+flush_cache_info::len	src/drivers/soc_nna.h	/^    unsigned int len;$/;"	m	struct:flush_cache_info	access:public
+free	src/mem_manager/imp_alloc_api.c	/^    struct list_head free;$/;"	m	struct:unit_manager	typeref:struct:unit_manager::list_head	file:	access:public
+free_bufunit	src/mem_manager/imp_alloc_api.c	/^static int32_t free_bufunit(Alloc *alloc, Bufunit_s *self) {$/;"	f	file:	signature:(Alloc *alloc, Bufunit_s *self)
+get_cpu_frequency	src/drivers/utils.c	/^float get_cpu_frequency(void) {$/;"	f	signature:(void)
+get_ddr_memory_info	src/mem_manager/ddr_mem.cc	/^struct ddr_memory_info get_ddr_memory_info(void) {$/;"	f	signature:(void)
+get_nmem_info	src/drivers/aie_mmap.c	/^static int get_nmem_info(void **pRmemAddr, int *pRmemSize) {$/;"	f	file:	signature:(void **pRmemAddr, int *pRmemSize)
+get_oram_l2cache	src/drivers/aie_mmap.c	/^static int get_oram_l2cache(int __memfd) {$/;"	f	file:	signature:(int __memfd)
+get_oram_memory_info	src/mem_manager/oram.cc	/^MemoryInfo get_oram_memory_info() {$/;"	f	signature:()
+get_wafer_status	src/drivers/utils.c	/^int get_wafer_status() {$/;"	f
+head	src/mem_manager/buf_list.h	/^    BufNode *head;$/;"	m	struct:BufList	access:public
+heap	src/mem_manager/ddr_mem.cc	/^static void *heap = NULL;$/;"	v	file:
+i_rdhwr	src/drivers/aie_mmap.h	114;"	d
+imp_buf_alloc_Deinit	src/mem_manager/imp_alloc_api.c	/^static int imp_buf_alloc_Deinit(Alloc *alloc) {$/;"	f	file:	signature:(Alloc *alloc)
+imp_buf_alloc_init	src/mem_manager/imp_alloc_api.c	/^static int32_t imp_buf_alloc_init(Alloc *alloc) {$/;"	f	file:	signature:(Alloc *alloc)
+imp_user_alloc	src/mem_manager/imp_alloc_api.c	/^static inline void *imp_user_alloc(Alloc *alloc, int size, const char *name) {$/;"	f	file:	signature:(Alloc *alloc, int size, const char *name)
+imp_user_free	src/mem_manager/imp_alloc_api.c	/^static inline void imp_user_free(Alloc *alloc, void *addr) {$/;"	f	file:	signature:(Alloc *alloc, void *addr)
+inc_units	src/mem_manager/imp_alloc_api.c	/^    unsigned int inc_units;$/;"	m	struct:unit_manager	file:	access:public
+init_status	src/mem_manager/alloc_manager.h	/^    AllocInitStatus init_status;$/;"	m	struct:Alloc	access:public
+int10_t	src/mem_manager/data.h	/^} int10_t;$/;"	t	typeref:union:__anon14
+int12_t	src/mem_manager/data.h	/^} int12_t;$/;"	t	typeref:union:__anon16
+int14_t	src/mem_manager/data.h	/^} int14_t;$/;"	t	typeref:union:__anon18
+l2cache_size	src/drivers/aie_mmap.c	/^unsigned int l2cache_size = 0;$/;"	v
+l2cache_size_gpio	src/drivers/aie_mmap.c	/^uint32_t l2cache_size_gpio = 0;$/;"	v
+l2cache_size_vaddr	src/drivers/aie_mmap.c	/^void *l2cache_size_vaddr = NULL;$/;"	v
+len	src/drivers/aie_mmap.c	/^    unsigned int len;$/;"	m	struct:flush_cache_info	file:	access:public
+len	src/drivers/soc_nna.h	/^    unsigned int len;$/;"	m	struct:flush_cache_info	access:public
+length	src/mem_manager/alloc_manager.h	/^    int32_t length;$/;"	m	struct:alloc_info	access:public
+length	src/mem_manager/alloc_manager.h	/^    uint32_t length;$/;"	m	struct:buffer_unit	access:public
+length	src/mem_manager/buf_list.h	/^    uint32_t length;$/;"	m	struct:BufNode	access:public
+list	src/mem_manager/alloc_manager.h	/^    struct list_head list;$/;"	m	struct:alloc_info	typeref:struct:alloc_info::list_head	access:public
+list	src/mem_manager/ddr_mem.cc	/^static void *list = NULL;$/;"	v	file:
+list	src/mem_manager/imp_alloc_api.c	/^    struct list_head list;$/;"	m	struct:memery_header	typeref:struct:memery_header::list_head	file:	access:public
+list	src/mem_manager/oram.cc	/^static void *list = NULL;$/;"	v	file:
+list_head	src/mem_manager/duplex_list.h	/^struct list_head {$/;"	s
+list_head::next	src/mem_manager/duplex_list.h	/^    struct list_head *next;$/;"	m	struct:list_head	typeref:struct:list_head::list_head	access:public
+list_head::prev	src/mem_manager/duplex_list.h	/^    struct list_head *prev;$/;"	m	struct:list_head	typeref:struct:list_head::list_head	access:public
+max_size	src/mem_manager/ddr_mem.cc	/^int buffer = 0, max_size = 0;$/;"	v
+mem	src/mem_manager/imp_alloc_api.c	/^    char mem[0];$/;"	m	struct:unit_manager	file:	access:public
+mem_mutex	src/mem_manager/ddr_mem.cc	/^std::mutex mem_mutex;$/;"	v
+memery_header	src/mem_manager/imp_alloc_api.c	/^struct memery_header {$/;"	s	file:
+memery_header::data	src/mem_manager/imp_alloc_api.c	/^    char data[0];$/;"	m	struct:memery_header	file:	access:public
+memery_header::list	src/mem_manager/imp_alloc_api.c	/^    struct list_head list;$/;"	m	struct:memery_header	typeref:struct:memery_header::list_head	file:	access:public
+memlist	src/mem_manager/imp_alloc_api.c	/^    struct list_head memlist;$/;"	m	struct:unit_manager	typeref:struct:unit_manager::list_head	file:	access:public
+mp_memory	src/mem_manager/ddr_mem.cc	/^static void *mp_memory = NULL;$/;"	v	file:
+mp_memory_size	src/mem_manager/ddr_mem.cc	/^static unsigned int mp_memory_size = 0;$/;"	v	file:
+mp_memory_size	src/mem_manager/oram.cc	/^static unsigned int mp_memory_size = 0;$/;"	v	file:
+mp_memory_used	src/mem_manager/ddr_mem.cc	/^static uint32_t mp_memory_used = 0;$/;"	v	file:
+mp_memory_used	src/mem_manager/oram.cc	/^static unsigned int mp_memory_used = 0;$/;"	v	file:
+mutex	src/mem_manager/imp_alloc_api.c	/^    pthread_mutex_t mutex;$/;"	m	struct:unit_manager	file:	access:public
+n	src/mem_manager/data.h	/^    int16_t n : 2;$/;"	m	struct:__anon9	access:public
+n	src/mem_manager/data.h	/^    int16_t n : 4;$/;"	m	struct:__anon7	access:public
+n	src/mem_manager/data.h	/^    int16_t n : 6;$/;"	m	struct:__anon5	access:public
+n	src/mem_manager/data.h	/^    uint16_t n : 2;$/;"	m	struct:__anon8	access:public
+n	src/mem_manager/data.h	/^    uint16_t n : 4;$/;"	m	struct:__anon6	access:public
+n	src/mem_manager/data.h	/^    uint16_t n : 6;$/;"	m	struct:__anon4	access:public
+n	src/mem_manager/data.h	/^    uint8_t n : 2;$/;"	m	struct:__anon3	access:public
+name	src/mem_manager/imp_alloc_api.c	/^    char name[MAX_NAME_LEN];$/;"	m	struct:unit_manager	file:	access:public
+next	src/mem_manager/buf_list.h	/^    BufNode *next;$/;"	m	struct:BufNode	access:public
+next	src/mem_manager/duplex_list.h	/^    struct list_head *next;$/;"	m	struct:list_head	typeref:struct:list_head::list_head	access:public
+nmem_extension_buf	src/drivers/aie_mmap.c	/^    uint32_t nmem_extension_buf;$/;"	m	struct:buf	file:	access:public
+nmem_extension_buf	src/drivers/aie_mmap.c	/^    uint32_t nmem_extension_buf;$/;"	m	struct:nmem_size_buf	file:	access:public
+nmem_memory	src/mem_manager/ddr_mem.cc	/^int nmem_memory(unsigned int size, char n) {$/;"	f	signature:(unsigned int size, char n)
+nmem_memory_use	src/mem_manager/ddr_mem.cc	/^static unsigned int nmem_memory_use = 0;$/;"	v	file:
+nmem_paddr	src/drivers/aie_mmap.c	/^    uint32_t nmem_paddr;$/;"	m	struct:buf	file:	access:public
+nmem_paddr	src/drivers/aie_mmap.c	/^    uint32_t nmem_paddr;$/;"	m	struct:nmem_size_buf	file:	access:public
+nmem_size	src/drivers/aie_mmap.c	/^    uint32_t nmem_size;$/;"	m	struct:buf	file:	access:public
+nmem_size	src/drivers/aie_mmap.c	/^    uint32_t nmem_size;$/;"	m	struct:nmem_size_buf	file:	access:public
+nmem_size_buf	src/drivers/aie_mmap.c	/^struct nmem_size_buf {$/;"	s	file:
+nmem_size_buf::nmem_extension_buf	src/drivers/aie_mmap.c	/^    uint32_t nmem_extension_buf;$/;"	m	struct:nmem_size_buf	file:	access:public
+nmem_size_buf::nmem_paddr	src/drivers/aie_mmap.c	/^    uint32_t nmem_paddr;$/;"	m	struct:nmem_size_buf	file:	access:public
+nmem_size_buf::nmem_size	src/drivers/aie_mmap.c	/^    uint32_t nmem_size;$/;"	m	struct:nmem_size_buf	file:	access:public
+nmem_size_buf::version_buf	src/drivers/aie_mmap.c	/^    uint32_t version_buf;$/;"	m	struct:nmem_size_buf	file:	access:public
+nmem_vaddr_memory_real	src/mem_manager/ddr_mem.cc	/^static unsigned int nmem_vaddr_memory_real = 0;$/;"	v	file:
+nna_cache_attr	src/drivers/aie_mmap.h	/^typedef enum nna_cache_attr {$/;"	g
+nna_cache_attr_t	src/drivers/aie_mmap.h	/^} nna_cache_attr_t;$/;"	t	typeref:enum:nna_cache_attr
+nna_dma_data_direction	src/drivers/aie_mmap.h	/^enum nna_dma_data_direction {$/;"	g
+offset	src/mem_manager/alloc_manager.h	/^    uint32_t offset;$/;"	m	struct:buffer_unit	access:public
+offset	src/mem_manager/buf_list.h	/^    int32_t offset;$/;"	m	struct:BufNode	access:public
+oram_base	src/drivers/aie_mmap.c	/^unsigned int oram_base = 0;$/;"	v
+oram_free	src/mem_manager/oram.cc	/^void oram_free(void *addr) {$/;"	f	signature:(void *addr)
+oram_malloc	src/mem_manager/oram.cc	/^void *oram_malloc(unsigned int size) {$/;"	f	signature:(unsigned int size)
+oram_memalign	src/mem_manager/oram.cc	/^void *oram_memalign(unsigned int align, unsigned int size) {$/;"	f	signature:(unsigned int align, unsigned int size)
+oram_memory_deinit	src/mem_manager/oram.cc	/^void oram_memory_deinit(void) {$/;"	f	signature:(void)
+oram_memory_init	src/mem_manager/oram.cc	/^int oram_memory_init() {$/;"	f	signature:()
+oram_real_size	src/drivers/aie_mmap.c	/^unsigned int oram_real_size = 0;$/;"	v
+pa	src/mem_manager/buf_list.h	/^    uintptr_t pa;$/;"	m	struct:BufNode	access:public
+paddr	src/drivers/aie_mmap.c	/^    int paddr;$/;"	m	struct:user_nmem	file:	access:public
+paddr	src/drivers/aie_mmap.c	/^    void *paddr;$/;"	m	struct:soc_nna_buf	file:	access:public
+paddr	src/drivers/aie_mmap.h	/^    void *paddr;$/;"	m	struct:soc_mem_buf	access:public
+paddr	src/drivers/soc_nna.h	/^    void *paddr;$/;"	m	struct:soc_nna_buf	access:public
+parents	src/mem_manager/alloc_manager.h	/^    Bufunit_s *parents;$/;"	m	struct:buffer_unit	access:public
+phy_addr	src/mem_manager/oram.h	/^    void *phy_addr;$/;"	m	struct:MemoryInfo	access:public
+phy_memory	src/mem_manager/oram.cc	/^static void *phy_memory = NULL;$/;"	v	file:
+prev	src/mem_manager/buf_list.h	/^    BufNode *prev;$/;"	m	struct:BufNode	access:public
+prev	src/mem_manager/duplex_list.h	/^    struct list_head *prev;$/;"	m	struct:list_head	typeref:struct:list_head::list_head	access:public
+size	src/drivers/aie_mmap.c	/^    int size;$/;"	m	struct:soc_nna_buf	file:	access:public
+size	src/drivers/aie_mmap.c	/^    int size;$/;"	m	struct:user_nmem	file:	access:public
+size	src/drivers/aie_mmap.h	/^    int size;$/;"	m	struct:soc_mem_buf	access:public
+size	src/drivers/soc_nna.h	/^    int size;$/;"	m	struct:soc_nna_buf	access:public
+size	src/mem_manager/alloc_manager.h	/^    unsigned int size;$/;"	m	struct:Alloc	access:public
+soc_mem_buf	src/drivers/aie_mmap.h	/^typedef struct soc_mem_buf {$/;"	s
+soc_mem_buf::paddr	src/drivers/aie_mmap.h	/^    void *paddr;$/;"	m	struct:soc_mem_buf	access:public
+soc_mem_buf::size	src/drivers/aie_mmap.h	/^    int size;$/;"	m	struct:soc_mem_buf	access:public
+soc_mem_buf::vaddr	src/drivers/aie_mmap.h	/^    void *vaddr;$/;"	m	struct:soc_mem_buf	access:public
+soc_mem_buf_t	src/drivers/aie_mmap.h	/^} soc_mem_buf_t;$/;"	t	typeref:struct:soc_mem_buf
+soc_nna_buf	src/drivers/aie_mmap.c	/^typedef struct soc_nna_buf {$/;"	s	file:
+soc_nna_buf	src/drivers/soc_nna.h	/^struct soc_nna_buf {$/;"	s
+soc_nna_buf::paddr	src/drivers/aie_mmap.c	/^    void *paddr;$/;"	m	struct:soc_nna_buf	file:	access:public
+soc_nna_buf::paddr	src/drivers/soc_nna.h	/^    void *paddr;$/;"	m	struct:soc_nna_buf	access:public
+soc_nna_buf::size	src/drivers/aie_mmap.c	/^    int size;$/;"	m	struct:soc_nna_buf	file:	access:public
+soc_nna_buf::size	src/drivers/soc_nna.h	/^    int size;$/;"	m	struct:soc_nna_buf	access:public
+soc_nna_buf::vaddr	src/drivers/aie_mmap.c	/^    void *vaddr;$/;"	m	struct:soc_nna_buf	file:	access:public
+soc_nna_buf::vaddr	src/drivers/soc_nna.h	/^    void *vaddr;$/;"	m	struct:soc_nna_buf	access:public
+soc_nna_buf_t	src/drivers/aie_mmap.c	/^} soc_nna_buf_t;$/;"	t	typeref:struct:soc_nna_buf	file:
+start	src/mem_manager/alloc_manager.h	/^    void *start;$/;"	m	struct:Alloc	access:public
+status	src/mem_manager/alloc_manager.h	/^    AllocBufStatus_e status;$/;"	m	struct:buffer_unit	access:public
+status	src/mem_manager/buf_list.h	/^    BufStatus status;$/;"	m	struct:BufNode	access:public
+tail	src/mem_manager/buf_list.h	/^    BufNode *tail;$/;"	m	struct:BufList	access:public
+total_size	src/mem_manager/oram.h	/^    unsigned int total_size;$/;"	m	struct:MemoryInfo	access:public
+ubit2_t	src/mem_manager/data.h	/^} ubit2_t;$/;"	t	typeref:union:__anon10
+ubit4_t	src/mem_manager/data.h	/^} ubit4_t;$/;"	t	typeref:union:__anon11
+ubit6_t	src/mem_manager/data.h	/^} ubit6_t;$/;"	t	typeref:union:__anon12
+ubit8_t	src/mem_manager/data.h	/^typedef uint8_t ubit8_t;$/;"	t
+uint10_t	src/mem_manager/data.h	/^} uint10_t;$/;"	t	typeref:union:__anon13
+uint12_t	src/mem_manager/data.h	/^} uint12_t;$/;"	t	typeref:union:__anon15
+uint14_t	src/mem_manager/data.h	/^} uint14_t;$/;"	t	typeref:union:__anon17
+unit_manager	src/mem_manager/imp_alloc_api.c	/^struct unit_manager {$/;"	s	file:
+unit_manager::free	src/mem_manager/imp_alloc_api.c	/^    struct list_head free;$/;"	m	struct:unit_manager	typeref:struct:unit_manager::list_head	file:	access:public
+unit_manager::inc_units	src/mem_manager/imp_alloc_api.c	/^    unsigned int inc_units;$/;"	m	struct:unit_manager	file:	access:public
+unit_manager::mem	src/mem_manager/imp_alloc_api.c	/^    char mem[0];$/;"	m	struct:unit_manager	file:	access:public
+unit_manager::memlist	src/mem_manager/imp_alloc_api.c	/^    struct list_head memlist;$/;"	m	struct:unit_manager	typeref:struct:unit_manager::list_head	file:	access:public
+unit_manager::mutex	src/mem_manager/imp_alloc_api.c	/^    pthread_mutex_t mutex;$/;"	m	struct:unit_manager	file:	access:public
+unit_manager::name	src/mem_manager/imp_alloc_api.c	/^    char name[MAX_NAME_LEN];$/;"	m	struct:unit_manager	file:	access:public
+unit_manager::unitsize	src/mem_manager/imp_alloc_api.c	/^    unsigned int unitsize;$/;"	m	struct:unit_manager	file:	access:public
+unitsize	src/mem_manager/imp_alloc_api.c	/^    unsigned int unitsize;$/;"	m	struct:unit_manager	file:	access:public
+unmem	src/drivers/aie_mmap.c	/^struct user_nmem unmem = {0};$/;"	v	typeref:struct:user_nmem
+used_size	src/mem_manager/oram.h	/^    unsigned int used_size;$/;"	m	struct:MemoryInfo	access:public
+user_nmem	src/drivers/aie_mmap.c	/^struct user_nmem {$/;"	s	file:
+user_nmem::paddr	src/drivers/aie_mmap.c	/^    int paddr;$/;"	m	struct:user_nmem	file:	access:public
+user_nmem::size	src/drivers/aie_mmap.c	/^    int size;$/;"	m	struct:user_nmem	file:	access:public
+user_root	src/mem_manager/alloc_manager.h	/^    struct list_head user_root;$/;"	m	struct:Alloc	typeref:struct:Alloc::list_head	access:public
+usr_pa	src/mem_manager/buf_list.h	/^    uintptr_t usr_pa;$/;"	m	struct:BufNode	access:public
+usr_va	src/mem_manager/buf_list.h	/^    uintptr_t usr_va;$/;"	m	struct:BufNode	access:public
+va	src/mem_manager/buf_list.h	/^    uintptr_t va;$/;"	m	struct:BufNode	access:public
+vaddr	src/drivers/aie_mmap.c	/^    void *vaddr;$/;"	m	struct:soc_nna_buf	file:	access:public
+vaddr	src/drivers/aie_mmap.h	/^    void *vaddr;$/;"	m	struct:soc_mem_buf	access:public
+vaddr	src/drivers/soc_nna.h	/^    void *vaddr;$/;"	m	struct:soc_nna_buf	access:public
+vaddr	src/mem_manager/alloc_manager.h	/^    uint32_t vaddr;$/;"	m	struct:buffer_unit	access:public
+version_buf	src/drivers/aie_mmap.c	/^    uint32_t version_buf;$/;"	m	struct:buf	file:	access:public
+version_buf	src/drivers/aie_mmap.c	/^    uint32_t version_buf;$/;"	m	struct:nmem_size_buf	file:	access:public
+vir_addr	src/mem_manager/oram.h	/^    void *vir_addr;$/;"	m	struct:MemoryInfo	access:public
+vir_memory	src/mem_manager/oram.cc	/^static void *vir_memory = NULL;$/;"	v	file:

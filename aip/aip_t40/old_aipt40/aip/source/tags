@@ -1,0 +1,502 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AUX_PILOCY	platform/eyer/eyer_driver.c	1602;"	d	file:
+AUX_STAT_MIRQP	platform/eyer/eyer_driver.c	456;"	d	file:
+AutoTime	api/AutoTime.cpp	/^AutoTime::AutoTime(int line, const char* func) : Timer() {$/;"	f	class:AutoTime	signature:(int line, const char* func)
+AutoTime::AutoTime	api/AutoTime.cpp	/^AutoTime::AutoTime(int line, const char* func) : Timer() {$/;"	f	class:AutoTime	signature:(int line, const char* func)
+AutoTime::~AutoTime	api/AutoTime.cpp	/^AutoTime::~AutoTime() {$/;"	f	class:AutoTime	signature:()
+BSCALER_BASE	wrap/bscaler_wrap.c	18;"	d	file:
+BSCALER_IO_BASE	api/bscaler_api.cpp	46;"	d	file:
+CACHE_FLUSH_BASE	platform/platform.c	314;"	d	file:
+CV	3rd_party/Matrix.cpp	/^namespace CV {$/;"	n	file:
+CV::Matrix::ComputeInv	3rd_party/Matrix.cpp	/^void Matrix::ComputeInv(float dst[9], const float src[9], double invDet, bool isPersp) {$/;"	f	class:CV::Matrix	signature:(float dst[9], const float src[9], double invDet, bool isPersp)
+CV::Matrix::Identity_pts	3rd_party/Matrix.cpp	/^void Matrix::Identity_pts(const Matrix& m, Point dst[], const Point src[], int count) {$/;"	f	class:CV::Matrix	signature:(const Matrix& m, Point dst[], const Point src[], int count)
+CV::Matrix::Identity_xy	3rd_party/Matrix.cpp	/^void Matrix::Identity_xy(const Matrix& m, float sx, float sy, Point* pt) {$/;"	f	class:CV::Matrix	signature:(const Matrix& m, float sx, float sy, Point* pt)
+CV::Matrix::Persp_pts	3rd_party/Matrix.cpp	/^void Matrix::Persp_pts(const Matrix& m, Point dst[], const Point src[], int count) {$/;"	f	class:CV::Matrix	signature:(const Matrix& m, Point dst[], const Point src[], int count)
+CV::Matrix::Persp_xy	3rd_party/Matrix.cpp	/^void Matrix::Persp_xy(const Matrix& m, float sx, float sy, Point* pt) {$/;"	f	class:CV::Matrix	signature:(const Matrix& m, float sx, float sy, Point* pt)
+CV::Matrix::Poly2Proc	3rd_party/Matrix.cpp	/^bool Matrix::Poly2Proc(const Point srcPt[], Matrix* dst) {$/;"	f	class:CV::Matrix	signature:(const Point srcPt[], Matrix* dst)
+CV::Matrix::Poly3Proc	3rd_party/Matrix.cpp	/^bool Matrix::Poly3Proc(const Point srcPt[], Matrix* dst) {$/;"	f	class:CV::Matrix	signature:(const Point srcPt[], Matrix* dst)
+CV::Matrix::Poly4Proc	3rd_party/Matrix.cpp	/^bool Matrix::Poly4Proc(const Point srcPt[], Matrix* dst) {$/;"	f	class:CV::Matrix	signature:(const Point srcPt[], Matrix* dst)
+CV::Matrix::RotTrans_xy	3rd_party/Matrix.cpp	/^void Matrix::RotTrans_xy(const Matrix& m, float sx, float sy, Point* pt) {$/;"	f	class:CV::Matrix	signature:(const Matrix& m, float sx, float sy, Point* pt)
+CV::Matrix::Rot_xy	3rd_party/Matrix.cpp	/^void Matrix::Rot_xy(const Matrix& m, float sx, float sy, Point* pt) {$/;"	f	class:CV::Matrix	signature:(const Matrix& m, float sx, float sy, Point* pt)
+CV::Matrix::ScaleTrans_xy	3rd_party/Matrix.cpp	/^void Matrix::ScaleTrans_xy(const Matrix& m, float sx, float sy, Point* pt) {$/;"	f	class:CV::Matrix	signature:(const Matrix& m, float sx, float sy, Point* pt)
+CV::Matrix::Scale_xy	3rd_party/Matrix.cpp	/^void Matrix::Scale_xy(const Matrix& m, float sx, float sy, Point* pt) {$/;"	f	class:CV::Matrix	signature:(const Matrix& m, float sx, float sy, Point* pt)
+CV::Matrix::SetAffineIdentity	3rd_party/Matrix.cpp	/^void Matrix::SetAffineIdentity(float affine[6]) {$/;"	f	class:CV::Matrix	signature:(float affine[6])
+CV::Matrix::Trans_xy	3rd_party/Matrix.cpp	/^void Matrix::Trans_xy(const Matrix& m, float sx, float sy, Point* pt) {$/;"	f	class:CV::Matrix	signature:(const Matrix& m, float sx, float sy, Point* pt)
+CV::Matrix::asAffine	3rd_party/Matrix.cpp	/^bool Matrix::asAffine(float affine[6]) const {$/;"	f	class:CV::Matrix	signature:(float affine[6]) const
+CV::Matrix::computePerspectiveTypeMask	3rd_party/Matrix.cpp	/^uint8_t Matrix::computePerspectiveTypeMask() const {$/;"	f	class:CV::Matrix	signature:() const
+CV::Matrix::computeTypeMask	3rd_party/Matrix.cpp	/^uint8_t Matrix::computeTypeMask() const {$/;"	f	class:CV::Matrix	signature:() const
+CV::Matrix::dump	3rd_party/Matrix.cpp	/^void Matrix::dump() const {$/;"	f	class:CV::Matrix	signature:() const
+CV::Matrix::gMapXYProcs	3rd_party/Matrix.cpp	/^const Matrix::MapXYProc Matrix::gMapXYProcs[] = {$/;"	m	class:CV::Matrix	file:
+CV::Matrix::invertNonIdentity	3rd_party/Matrix.cpp	/^bool Matrix::invertNonIdentity(Matrix* inv) const {$/;"	f	class:CV::Matrix	signature:(Matrix* inv) const
+CV::Matrix::postConcat	3rd_party/Matrix.cpp	/^void Matrix::postConcat(const Matrix& mat) {$/;"	f	class:CV::Matrix	signature:(const Matrix& mat)
+CV::Matrix::postIDiv	3rd_party/Matrix.cpp	/^bool Matrix::postIDiv(int divx, int divy) {$/;"	f	class:CV::Matrix	signature:(int divx, int divy)
+CV::Matrix::postRotate	3rd_party/Matrix.cpp	/^void Matrix::postRotate(float degrees) {$/;"	f	class:CV::Matrix	signature:(float degrees)
+CV::Matrix::postRotate	3rd_party/Matrix.cpp	/^void Matrix::postRotate(float degrees, float px, float py) {$/;"	f	class:CV::Matrix	signature:(float degrees, float px, float py)
+CV::Matrix::postScale	3rd_party/Matrix.cpp	/^void Matrix::postScale(float sx, float sy) {$/;"	f	class:CV::Matrix	signature:(float sx, float sy)
+CV::Matrix::postScale	3rd_party/Matrix.cpp	/^void Matrix::postScale(float sx, float sy, float px, float py) {$/;"	f	class:CV::Matrix	signature:(float sx, float sy, float px, float py)
+CV::Matrix::postSkew	3rd_party/Matrix.cpp	/^void Matrix::postSkew(float sx, float sy) {$/;"	f	class:CV::Matrix	signature:(float sx, float sy)
+CV::Matrix::postSkew	3rd_party/Matrix.cpp	/^void Matrix::postSkew(float sx, float sy, float px, float py) {$/;"	f	class:CV::Matrix	signature:(float sx, float sy, float px, float py)
+CV::Matrix::postTranslate	3rd_party/Matrix.cpp	/^void Matrix::postTranslate(float dx, float dy) {$/;"	f	class:CV::Matrix	signature:(float dx, float dy)
+CV::Matrix::preConcat	3rd_party/Matrix.cpp	/^void Matrix::preConcat(const Matrix& mat) {$/;"	f	class:CV::Matrix	signature:(const Matrix& mat)
+CV::Matrix::preRotate	3rd_party/Matrix.cpp	/^void Matrix::preRotate(float degrees) {$/;"	f	class:CV::Matrix	signature:(float degrees)
+CV::Matrix::preRotate	3rd_party/Matrix.cpp	/^void Matrix::preRotate(float degrees, float px, float py) {$/;"	f	class:CV::Matrix	signature:(float degrees, float px, float py)
+CV::Matrix::preScale	3rd_party/Matrix.cpp	/^void Matrix::preScale(float sx, float sy) {$/;"	f	class:CV::Matrix	signature:(float sx, float sy)
+CV::Matrix::preScale	3rd_party/Matrix.cpp	/^void Matrix::preScale(float sx, float sy, float px, float py) {$/;"	f	class:CV::Matrix	signature:(float sx, float sy, float px, float py)
+CV::Matrix::preSkew	3rd_party/Matrix.cpp	/^void Matrix::preSkew(float sx, float sy) {$/;"	f	class:CV::Matrix	signature:(float sx, float sy)
+CV::Matrix::preSkew	3rd_party/Matrix.cpp	/^void Matrix::preSkew(float sx, float sy, float px, float py) {$/;"	f	class:CV::Matrix	signature:(float sx, float sy, float px, float py)
+CV::Matrix::preTranslate	3rd_party/Matrix.cpp	/^void Matrix::preTranslate(float dx, float dy) {$/;"	f	class:CV::Matrix	signature:(float dx, float dy)
+CV::Matrix::reset	3rd_party/Matrix.cpp	/^void Matrix::reset() {$/;"	f	class:CV::Matrix	signature:()
+CV::Matrix::set9	3rd_party/Matrix.cpp	/^void Matrix::set9(const float buffer[]) {$/;"	f	class:CV::Matrix	signature:(const float buffer[])
+CV::Matrix::setAffine	3rd_party/Matrix.cpp	/^void Matrix::setAffine(const float buffer[]) {$/;"	f	class:CV::Matrix	signature:(const float buffer[])
+CV::Matrix::setConcat	3rd_party/Matrix.cpp	/^void Matrix::setConcat(const Matrix& a, const Matrix& b) {$/;"	f	class:CV::Matrix	signature:(const Matrix& a, const Matrix& b)
+CV::Matrix::setPolyToPoly	3rd_party/Matrix.cpp	/^bool Matrix::setPolyToPoly(const Point src[], const Point dst[], int count) {$/;"	f	class:CV::Matrix	signature:(const Point src[], const Point dst[], int count)
+CV::Matrix::setRectToRect	3rd_party/Matrix.cpp	/^bool Matrix::setRectToRect(const Rect& src, const Rect& dst, ScaleToFit align) {$/;"	f	class:CV::Matrix	signature:(const Rect& src, const Rect& dst, ScaleToFit align)
+CV::Matrix::setRotate	3rd_party/Matrix.cpp	/^void Matrix::setRotate(float degrees) {$/;"	f	class:CV::Matrix	signature:(float degrees)
+CV::Matrix::setRotate	3rd_party/Matrix.cpp	/^void Matrix::setRotate(float degrees, float px, float py) {$/;"	f	class:CV::Matrix	signature:(float degrees, float px, float py)
+CV::Matrix::setScale	3rd_party/Matrix.cpp	/^void Matrix::setScale(float sx, float sy) {$/;"	f	class:CV::Matrix	signature:(float sx, float sy)
+CV::Matrix::setScale	3rd_party/Matrix.cpp	/^void Matrix::setScale(float sx, float sy, float px, float py) {$/;"	f	class:CV::Matrix	signature:(float sx, float sy, float px, float py)
+CV::Matrix::setSinCos	3rd_party/Matrix.cpp	/^void Matrix::setSinCos(float sinV, float cosV) {$/;"	f	class:CV::Matrix	signature:(float sinV, float cosV)
+CV::Matrix::setSinCos	3rd_party/Matrix.cpp	/^void Matrix::setSinCos(float sinV, float cosV, float px, float py) {$/;"	f	class:CV::Matrix	signature:(float sinV, float cosV, float px, float py)
+CV::Matrix::setSkew	3rd_party/Matrix.cpp	/^void Matrix::setSkew(float sx, float sy) {$/;"	f	class:CV::Matrix	signature:(float sx, float sy)
+CV::Matrix::setSkew	3rd_party/Matrix.cpp	/^void Matrix::setSkew(float sx, float sy, float px, float py) {$/;"	f	class:CV::Matrix	signature:(float sx, float sy, float px, float py)
+CV::Matrix::setTranslate	3rd_party/Matrix.cpp	/^void Matrix::setTranslate(float dx, float dy) {$/;"	f	class:CV::Matrix	signature:(float dx, float dy)
+CV::SkScalarAs2sCompliment	3rd_party/Matrix.cpp	/^static inline int32_t SkScalarAs2sCompliment(float xFloat) {$/;"	f	namespace:CV	signature:(float xFloat)
+CV::checkForZero	3rd_party/Matrix.cpp	/^static inline bool checkForZero(float x) {$/;"	f	namespace:CV	signature:(float x)
+CV::dcross	3rd_party/Matrix.cpp	/^static inline double dcross(double a, double b, double c, double d) {$/;"	f	namespace:CV	signature:(double a, double b, double c, double d)
+CV::dcross_dscale	3rd_party/Matrix.cpp	/^static inline float dcross_dscale(double a, double b, double c, double d, double scale) {$/;"	f	namespace:CV	signature:(double a, double b, double c, double d, double scale)
+CV::kAffine_Shift	3rd_party/Matrix.cpp	/^enum { kTranslate_Shift = 0, kScale_Shift, kAffine_Shift, kPerspective_Shift, kRectStaysRect_Shift };$/;"	e	enum:CV::__anon2	file:
+CV::kPerspective_Shift	3rd_party/Matrix.cpp	/^enum { kTranslate_Shift = 0, kScale_Shift, kAffine_Shift, kPerspective_Shift, kRectStaysRect_Shift };$/;"	e	enum:CV::__anon2	file:
+CV::kRectStaysRect_Shift	3rd_party/Matrix.cpp	/^enum { kTranslate_Shift = 0, kScale_Shift, kAffine_Shift, kPerspective_Shift, kRectStaysRect_Shift };$/;"	e	enum:CV::__anon2	file:
+CV::kScalar1Int	3rd_party/Matrix.cpp	/^static const int32_t kScalar1Int = 0x3f800000;$/;"	m	namespace:CV	file:
+CV::kScale_Shift	3rd_party/Matrix.cpp	/^enum { kTranslate_Shift = 0, kScale_Shift, kAffine_Shift, kPerspective_Shift, kRectStaysRect_Shift };$/;"	e	enum:CV::__anon2	file:
+CV::kTranslate_Shift	3rd_party/Matrix.cpp	/^enum { kTranslate_Shift = 0, kScale_Shift, kAffine_Shift, kPerspective_Shift, kRectStaysRect_Shift };$/;"	e	enum:CV::__anon2	file:
+CV::muladdmul	3rd_party/Matrix.cpp	/^static inline float muladdmul(float a, float b, float c, float d) {$/;"	f	namespace:CV	signature:(float a, float b, float c, float d)
+CV::only_scale_and_translate	3rd_party/Matrix.cpp	/^static bool only_scale_and_translate(unsigned mask) {$/;"	f	namespace:CV	signature:(unsigned mask)
+CV::operator ==	3rd_party/Matrix.cpp	/^bool operator==(const Matrix& a, const Matrix& b) {$/;"	f	namespace:CV	signature:(const Matrix& a, const Matrix& b)
+CV::rowcol3	3rd_party/Matrix.cpp	/^static inline float rowcol3(const float row[], const float col[]) {$/;"	f	namespace:CV	signature:(const float row[], const float col[])
+CV::scross	3rd_party/Matrix.cpp	/^static inline float scross(float a, float b, float c, float d) {$/;"	f	namespace:CV	signature:(float a, float b, float c, float d)
+CV::scross_dscale	3rd_party/Matrix.cpp	/^static inline float scross_dscale(float a, float b, float c, float d, double scale) {$/;"	f	namespace:CV	signature:(float a, float b, float c, float d, double scale)
+CV::sdot	3rd_party/Matrix.cpp	/^static inline float sdot(float a, float b, float c, float d) {$/;"	f	namespace:CV	signature:(float a, float b, float c, float d)
+CV::sk_ieee_float_divide	3rd_party/Matrix.cpp	/^static inline float sk_ieee_float_divide(float x, float y) {$/;"	f	namespace:CV	signature:(float x, float y)
+CV::sk_inv_determinant	3rd_party/Matrix.cpp	/^static double sk_inv_determinant(const float mat[9], int isPerspective) {$/;"	f	namespace:CV	signature:(const float mat[9], int isPerspective)
+ComputeInv	3rd_party/Matrix.cpp	/^void Matrix::ComputeInv(float dst[9], const float src[9], double invDet, bool isPersp) {$/;"	f	class:CV::Matrix	signature:(float dst[9], const float src[9], double invDet, bool isPersp)
+DBLK_STAT_DOEND	platform/eyer/eyer_driver.c	450;"	d	file:
+DECREASE	api/bscaler_segmentation.cpp	/^    DECREASE            = 1,$/;"	e	enum:MONO	file:
+DECREASE	model/bscaler_mdl.c	/^    DECREASE            = 1,$/;"	e	enum:MONO	file:
+EFE_STAT_G0X	platform/eyer/eyer_driver.c	545;"	d	file:
+EFE_STAT_G0Y	platform/eyer/eyer_driver.c	546;"	d	file:
+EFE_STAT_G1X	platform/eyer/eyer_driver.c	547;"	d	file:
+EFE_STAT_G1Y	platform/eyer/eyer_driver.c	548;"	d	file:
+EMC_BS_STAT	platform/eyer/eyer_driver.c	453;"	d	file:
+EYER_ALN4K	platform/eyer/eyer_driver.c	1203;"	d	file:
+INCREASE	api/bscaler_segmentation.cpp	/^    INCREASE            = 0,$/;"	e	enum:MONO	file:
+INCREASE	model/bscaler_mdl.c	/^    INCREASE            = 0,$/;"	e	enum:MONO	file:
+INTC_WAIT_ID_AUX	platform/eyer/eyer_driver.c	540;"	d	file:
+INTC_WAIT_ID_EFE	platform/eyer/eyer_driver.c	538;"	d	file:
+INTC_WAIT_ID_JPG	platform/eyer/eyer_driver.c	539;"	d	file:
+INTC_WAIT_ID_SDE	platform/eyer/eyer_driver.c	537;"	d	file:
+ISP_STAT_AXIEND	platform/eyer/eyer_driver.c	345;"	d	file:
+ISP_STAT_TLBERR	platform/eyer/eyer_driver.c	344;"	d	file:
+Identity_pts	3rd_party/Matrix.cpp	/^void Matrix::Identity_pts(const Matrix& m, Point dst[], const Point src[], int count) {$/;"	f	class:CV::Matrix	signature:(const Matrix& m, Point dst[], const Point src[], int count)
+Identity_xy	3rd_party/Matrix.cpp	/^void Matrix::Identity_xy(const Matrix& m, float sx, float sy, Point* pt) {$/;"	f	class:CV::Matrix	signature:(const Matrix& m, float sx, float sy, Point* pt)
+JPGC_STAT_ENDF	platform/eyer/eyer_driver.c	444;"	d	file:
+JZ4780b_CACHE_SET	platform/platform.c	53;"	d	file:
+JZ4780b_CACHE_SET	platform/platform.c	61;"	d	file:
+MONO	api/bscaler_segmentation.cpp	/^enum MONO {$/;"	g	file:
+MONO	model/bscaler_mdl.c	/^enum MONO {$/;"	g	file:
+Persp_pts	3rd_party/Matrix.cpp	/^void Matrix::Persp_pts(const Matrix& m, Point dst[], const Point src[], int count) {$/;"	f	class:CV::Matrix	signature:(const Matrix& m, Point dst[], const Point src[], int count)
+Persp_xy	3rd_party/Matrix.cpp	/^void Matrix::Persp_xy(const Matrix& m, float sx, float sy, Point* pt) {$/;"	f	class:CV::Matrix	signature:(const Matrix& m, float sx, float sy, Point* pt)
+Poly2Proc	3rd_party/Matrix.cpp	/^bool Matrix::Poly2Proc(const Point srcPt[], Matrix* dst) {$/;"	f	class:CV::Matrix	signature:(const Point srcPt[], Matrix* dst)
+Poly3Proc	3rd_party/Matrix.cpp	/^bool Matrix::Poly3Proc(const Point srcPt[], Matrix* dst) {$/;"	f	class:CV::Matrix	signature:(const Point srcPt[], Matrix* dst)
+Poly4Proc	3rd_party/Matrix.cpp	/^bool Matrix::Poly4Proc(const Point srcPt[], Matrix* dst) {$/;"	f	class:CV::Matrix	signature:(const Point srcPt[], Matrix* dst)
+REG_ISP_EVPN	platform/eyer/eyer_driver.c	342;"	d	file:
+REG_ISP_STAT	platform/eyer/eyer_driver.c	341;"	d	file:
+REG_ISP_TLBRTY	platform/eyer/eyer_driver.c	343;"	d	file:
+REG_VPU_AUX_STAT	platform/eyer/eyer_driver.c	455;"	d	file:
+REG_VPU_DBLK_STAT	platform/eyer/eyer_driver.c	449;"	d	file:
+REG_VPU_EFE_STAT	platform/eyer/eyer_driver.c	544;"	d	file:
+REG_VPU_EMC_STAT	platform/eyer/eyer_driver.c	452;"	d	file:
+REG_VPU_JPGC_STAT	platform/eyer/eyer_driver.c	443;"	d	file:
+REG_VPU_JPG_NMCU	platform/eyer/eyer_driver.c	549;"	d	file:
+REG_VPU_SDE_STAT	platform/eyer/eyer_driver.c	446;"	d	file:
+REG_VPU_STAT	platform/eyer/eyer_driver.c	427;"	d	file:
+REG_VPU_TLBC	platform/eyer/eyer_driver.c	438;"	d	file:
+RESERVE_MEM_LEN	platform/platform.c	108;"	d	file:
+RotTrans_xy	3rd_party/Matrix.cpp	/^void Matrix::RotTrans_xy(const Matrix& m, float sx, float sy, Point* pt) {$/;"	f	class:CV::Matrix	signature:(const Matrix& m, float sx, float sy, Point* pt)
+Rot_xy	3rd_party/Matrix.cpp	/^void Matrix::Rot_xy(const Matrix& m, float sx, float sy, Point* pt) {$/;"	f	class:CV::Matrix	signature:(const Matrix& m, float sx, float sy, Point* pt)
+SDE_STAT_BSEND	platform/eyer/eyer_driver.c	447;"	d	file:
+SDE_STAT_MBX	platform/eyer/eyer_driver.c	542;"	d	file:
+SDE_STAT_MBY	platform/eyer/eyer_driver.c	543;"	d	file:
+SDVP_KSEG0_BUFFER	platform/platform.c	/^__place_k0_data__ uint8_t __ALN128__ SDVP_KSEG0_BUFFER[SDVP_KSEG0_BUFFER_SIZE];$/;"	v
+SDVP_KSEG0_BUFFER_CUR	platform/platform.c	/^uint32_t SDVP_KSEG0_BUFFER_CUR = 0;$/;"	v
+SDVP_KSEG0_BUFFER_END	platform/platform.c	/^uint32_t SDVP_KSEG0_BUFFER_END = 0;$/;"	v
+SDVP_KSEG0_BUFFER_SIZE	platform/platform.c	16;"	d	file:
+SDVP_KSEG0_BUFFER_ST	platform/platform.c	/^uint32_t SDVP_KSEG0_BUFFER_ST = 0;$/;"	v
+SEC_UNIT	platform/eyer/eyer_driver.c	311;"	d	file:
+SHOW_LONG_OPT	platform/eyer/eyer_driver.c	2006;"	d	file:
+SK_LEGACY_MATRIX_MATH_ORDER	3rd_party/Matrix.cpp	55;"	d	file:
+SK_ScalarNearlyZero	3rd_party/Matrix.cpp	41;"	d	file:
+SK_ScalarPI	3rd_party/Matrix.cpp	38;"	d	file:
+STATIC_INLINE	api/matrix.c	15;"	d	file:
+SYMBOL_EXPORT	api/bscaler_api.cpp	31;"	d	file:
+SYMBOL_EXPORT	api/bscaler_segmentation.cpp	12;"	d	file:
+SYMBOL_EXPORT	api/hal/bscaler_hal.c	16;"	d	file:
+SYMBOL_EXPORT	wrap/bscaler_wrap.c	16;"	d	file:
+ScaleTrans_xy	3rd_party/Matrix.cpp	/^void Matrix::ScaleTrans_xy(const Matrix& m, float sx, float sy, Point* pt) {$/;"	f	class:CV::Matrix	signature:(const Matrix& m, float sx, float sy, Point* pt)
+Scale_xy	3rd_party/Matrix.cpp	/^void Matrix::Scale_xy(const Matrix& m, float sx, float sy, Point* pt) {$/;"	f	class:CV::Matrix	signature:(const Matrix& m, float sx, float sy, Point* pt)
+SetAffineIdentity	3rd_party/Matrix.cpp	/^void Matrix::SetAffineIdentity(float affine[6]) {$/;"	f	class:CV::Matrix	signature:(float affine[6])
+SkDegreesToRadians	3rd_party/Matrix.cpp	39;"	d	file:
+SkRadiansToDegrees	3rd_party/Matrix.cpp	40;"	d	file:
+SkScalarAs2sCompliment	3rd_party/Matrix.cpp	/^static inline int32_t SkScalarAs2sCompliment(float xFloat) {$/;"	f	namespace:CV	signature:(float xFloat)
+Timer	api/AutoTime.cpp	/^Timer::Timer() {$/;"	f	class:Timer	signature:()
+Timer::Timer	api/AutoTime.cpp	/^Timer::Timer() {$/;"	f	class:Timer	signature:()
+Timer::durationInUs	api/AutoTime.cpp	/^uint64_t Timer::durationInUs() {$/;"	f	class:Timer	signature:()
+Timer::reset	api/AutoTime.cpp	/^void Timer::reset()$/;"	f	class:Timer	signature:()
+Timer::~Timer	api/AutoTime.cpp	/^Timer::~Timer() {$/;"	f	class:Timer	signature:()
+Trans_xy	3rd_party/Matrix.cpp	/^void Matrix::Trans_xy(const Matrix& m, float sx, float sy, Point* pt) {$/;"	f	class:CV::Matrix	signature:(const Matrix& m, float sx, float sy, Point* pt)
+USING_INTERRUPT	api/bscaler_api.cpp	33;"	d	file:
+USING_INTERRUPT_BST	api/bscaler_api.cpp	34;"	d	file:
+VPU_STAT_ACFGERR	platform/eyer/eyer_driver.c	430;"	d	file:
+VPU_STAT_BPF	platform/eyer/eyer_driver.c	429;"	d	file:
+VPU_STAT_BSERR	platform/eyer/eyer_driver.c	433;"	d	file:
+VPU_STAT_BSFULL	platform/eyer/eyer_driver.c	434;"	d	file:
+VPU_STAT_ENDF	platform/eyer/eyer_driver.c	428;"	d	file:
+VPU_STAT_JPGEND	platform/eyer/eyer_driver.c	432;"	d	file:
+VPU_STAT_SLDERR	platform/eyer/eyer_driver.c	436;"	d	file:
+VPU_STAT_TIMEOUT	platform/eyer/eyer_driver.c	431;"	d	file:
+VPU_STAT_TLBERR	platform/eyer/eyer_driver.c	435;"	d	file:
+VPU_TLBC_INVLD	platform/eyer/eyer_driver.c	440;"	d	file:
+VPU_TLBC_RETRY	platform/eyer/eyer_driver.c	441;"	d	file:
+VPU_TLBC_VPN	platform/eyer/eyer_driver.c	439;"	d	file:
+__LZMA_TC_H__	api/hal/lzma_hw_api.c	2;"	d	file:
+__anon1::x	model/bscaler_mdl.c	/^    int32_t             x;$/;"	m	struct:__anon1	file:	access:public
+__anon1::y	model/bscaler_mdl.c	/^    int32_t             y;$/;"	m	struct:__anon1	file:	access:public
+__bscaler_intc_fd	api/bscaler_api.cpp	/^static int __bscaler_intc_fd = -1;$/;"	v	file:
+affine_box_split	api/bscaler_segmentation.cpp	/^void affine_box_split(std::vector<bsc_hw_once_cfg_s> &bs_cfgs,$/;"	f	signature:(std::vector<bsc_hw_once_cfg_s> &bs_cfgs, box_affine_info_s *info, const data_info_s *src, data_info_s *dst, const uint32_t *coef, const uint32_t *offset)
+affine_cac_sub_box	api/bscaler_segmentation.cpp	/^static void affine_cac_sub_box(box_info_s *src, box_info_s *dst,$/;"	f	file:	signature:(box_info_s *src, box_info_s *dst, int32_t *matrix, box_info_s *wbox)
+affine_dst2src	model/bscaler_mdl.c	/^inline static void affine_dst2src(const int32_t *matrix,$/;"	f	file:	signature:(const int32_t *matrix, const int32_t dx, const int32_t dy, int16_t *x_p, int16_t *y_p, uint16_t *x_w, uint16_t *y_w)
+affine_dst2src_64	model/bscaler_mdl.c	/^static inline void affine_dst2src_64(s32_point_s *dst, s32_point_s *src, int32_t *matrix)$/;"	f	file:	signature:(s32_point_s *dst, s32_point_s *src, int32_t *matrix)
+affine_resize_box_split	api/bscaler_segmentation.cpp	/^void affine_resize_box_split(std::vector<bsc_hw_once_cfg_s> &bs_cfgs,$/;"	f	signature:(std::vector<bsc_hw_once_cfg_s> &bs_cfgs, box_affine_info_s *info, const data_info_s *src, data_info_s *dst, const uint32_t *coef, const uint32_t *offset)
+affine_whole_float	model/golden/affine_whole_float.cpp	/^void affine_whole_float(const data_info_s *src,$/;"	f	signature:(const data_info_s *src, const int box_num, const data_info_s *dst, const box_affine_info_s *boxes, const uint32_t *coef, const uint32_t *offset)
+affine_whole_int	model/golden/affine_whole_int.cpp	/^void affine_whole_int(const data_info_s *src,$/;"	f	signature:(const data_info_s *src, const int box_num, const data_info_s *dst, const box_affine_info_s *boxes, const uint32_t *coef, const uint32_t *offset)
+alloc_memdev	platform/platform.c	/^static void alloc_memdev()$/;"	f	file:
+asAffine	3rd_party/Matrix.cpp	/^bool Matrix::asAffine(float affine[6]) const {$/;"	f	class:CV::Matrix	signature:(float affine[6]) const
+aux_clr	platform/eyer/eyer_driver.c	/^void aux_clr()$/;"	f
+aux_end	platform/eyer/eyer_driver.c	/^void aux_end(uint32_t *end_ptr, int32_t endvalue)$/;"	f	signature:(uint32_t *end_ptr, int32_t endvalue)
+aux_main	platform/eyer/eyer_driver.c	/^void aux_main(void (*fun)()){$/;"	f	signature:(void (*fun)())
+aux_start	platform/eyer/eyer_driver.c	/^void aux_start()$/;"	f
+bilinear_f32	model/golden/perspective_whole_float.cpp	/^static inline uint8_t bilinear_f32(uint8_t p0, uint8_t p1, uint8_t p2, uint8_t p3,$/;"	f	file:	signature:(uint8_t p0, uint8_t p1, uint8_t p2, uint8_t p3, float xw, float yw)
+bs_affine_box	model/bscaler_mdl.c	/^void bs_affine_box(bs_box_s *src, bs_box_s *dst, uint8_t bpp,$/;"	f	signature:(bs_box_s *src, bs_box_s *dst, uint8_t bpp, int32_t *matrix, const uint32_t *coef, const uint8_t *offset, const uint8_t nv2bgr_alpha, int32_t nv2bgr_order, uint8_t zero_point, uint8_t mono_x, uint8_t mono_y, int8_t *extreme_point)
+bs_affine_box_nv12	model/bscaler_mdl.c	/^static void bs_affine_box_nv12(bs_box_s *src, bs_box_s *dst,$/;"	f	file:	signature:(bs_box_s *src, bs_box_s *dst, int32_t *matrix, const uint8_t *offset)
+bs_affine_box_nv12_to_nv12	model/bscaler_mdl.c	/^static void bs_affine_box_nv12_to_nv12(bs_box_s *src, bs_box_s *dst,$/;"	f	file:	signature:(bs_box_s *src, bs_box_s *dst, int32_t *matrix, const uint32_t *coef, const uint8_t *offset, uint8_t mono_x, uint8_t mono_y, int8_t *extreme_point)
+bs_affine_box_nv12_to_rgb	model/bscaler_mdl.c	/^static void bs_affine_box_nv12_to_rgb(bs_box_s *src, bs_box_s *dst,$/;"	f	file:	signature:(bs_box_s *src, bs_box_s *dst, int32_t *matrix, const uint32_t *coef, const uint8_t *offset, const uint8_t nv2bgr_alpha, uint32_t nv2bgr_order, uint8_t zero_point, uint8_t mono_x, uint8_t mono_y, int8_t *extreme_point)
+bs_affine_box_rgb	model/bscaler_mdl.c	/^static void bs_affine_box_rgb(bs_box_s *src, bs_box_s *dst,$/;"	f	file:	signature:(bs_box_s *src, bs_box_s *dst, int32_t *matrix, uint8_t zero_point, uint32_t is_abgr_order, const uint8_t nv2bgr_alpha)
+bs_affine_box_rgb_complex	model/bscaler_mdl.c	/^void bs_affine_box_rgb_complex(bs_box_s *src, bs_box_s *dst,$/;"	f	signature:(bs_box_s *src, bs_box_s *dst, int32_t *matrix, uint8_t zero_point, uint32_t is_abgr_order, const uint8_t nv2bgr_alpha)
+bs_affine_box_rgb_to_rgb	model/bscaler_mdl.c	/^static void bs_affine_box_rgb_to_rgb(bs_box_s *src, bs_box_s *dst,$/;"	f	file:	signature:(bs_box_s *src, bs_box_s *dst, int32_t *matrix, uint8_t zero_point, uint32_t is_abgr_order, const uint8_t nv2bgr_alpha, uint8_t mono_x, uint8_t mono_y, int8_t *extreme_point)
+bs_affine_cfg_stuff	api/bscaler_segmentation.cpp	/^void bs_affine_cfg_stuff(std::vector<bsc_hw_once_cfg_s> &bs_cfgs,$/;"	f	signature:(std::vector<bsc_hw_once_cfg_s> &bs_cfgs, box_affine_info_s *info, const data_info_s *src, data_info_s *dst, const uint32_t *coef, const uint32_t *offset)
+bs_affine_mdl	model/bscaler_mdl_api.cpp	/^int bs_affine_mdl(const data_info_s *src,$/;"	f	signature:(const data_info_s *src, const int box_num, const data_info_s *dst, const box_affine_info_s *boxes, const uint32_t *coef, const uint32_t *offset)
+bs_affine_resize_cfg_stuff	api/bscaler_segmentation.cpp	/^void bs_affine_resize_cfg_stuff(std::vector<bsc_hw_once_cfg_s> &bs_cfgs,$/;"	f	signature:(std::vector<bsc_hw_once_cfg_s> &bs_cfgs, box_affine_info_s *info, const data_info_s *src, data_info_s *dst, const uint32_t *coef, const uint32_t *offset)
+bs_affine_start	api/bscaler_api.cpp	/^int bs_affine_start(const data_info_s *src,$/;"	f	signature:(const data_info_s *src, const int box_num, const data_info_s *dst, const box_affine_info_s *boxes, const uint32_t *coef, const uint32_t *offset)
+bs_affine_wait	api/bscaler_api.cpp	/^int bs_affine_wait()$/;"	f	signature:()
+bs_amplify_height	model/bscaler_mdl.c	/^static void bs_amplify_height(bs_box_s *src, bs_box_s *dst,$/;"	f	file:	signature:(bs_box_s *src, bs_box_s *dst, uint32_t y_gain_exp, uint8_t bpp, uint8_t zero_point)
+bs_amplify_height_line	model/bscaler_mdl.c	/^static void bs_amplify_height_line(bs_box_s *src, bs_box_s *dst,$/;"	f	file:	signature:(bs_box_s *src, bs_box_s *dst, uint32_t y_gain_exp, uint8_t bpp, uint8_t zero_point)
+bs_chain_stuff	api/bscaler_api.cpp	/^static void bs_chain_stuff(std::vector<bsc_hw_once_cfg_s> &bs_cfgs)$/;"	f	file:	signature:(std::vector<bsc_hw_once_cfg_s> &bs_cfgs)
+bs_covert_cfg	api/bscaler_api.cpp	/^int bs_covert_cfg(const data_info_s *src, const data_info_s *dst,$/;"	f	signature:(const data_info_s *src, const data_info_s *dst, const uint32_t *coef, const uint32_t *offset, const task_info_s *task_info)
+bs_covert_mdl	model/bscaler_mdl_api.cpp	/^int bs_covert_mdl(const data_info_s *src, const data_info_s *dst,$/;"	f	signature:(const data_info_s *src, const data_info_s *dst, const uint32_t *coef=global_default_coef, const uint32_t *offset=global_default_offset, const task_info_s *task_info=global_default_task_info)
+bs_covert_step_start	api/bscaler_api.cpp	/^int bs_covert_step_start(const task_info_s *task_info, const void *dst_ptr, const bs_data_locate_e locate)$/;"	f	signature:(const task_info_s *task_info, const void *dst_ptr, const bs_data_locate_e locate)
+bs_covert_step_wait	api/bscaler_api.cpp	/^int bs_covert_step_wait()$/;"	f	signature:()
+bs_cropbox_start	api/bscaler_api.cpp	/^int bs_cropbox_start(const data_info_s *src,$/;"	f	signature:(const data_info_s *src, const int box_num, const data_info_s *dst, const uint32_t *coef, const uint32_t *offset)
+bs_cropbox_wait	api/bscaler_api.cpp	/^int bs_cropbox_wait()$/;"	f	signature:()
+bs_debug	model/bscaler_mdl.c	27;"	d	file:
+bs_debug	model/bscaler_mdl.c	29;"	d	file:
+bs_format_to_bst	api/bscaler_segmentation.cpp	/^bst_hw_data_format_e bs_format_to_bst(bs_data_format_e src)$/;"	f	signature:(bs_data_format_e src)
+bs_perspective_box_rgb_complex	model/bscaler_mdl.c	/^void bs_perspective_box_rgb_complex(bs_box_s *src, bs_box_s *dst,$/;"	f	signature:(bs_box_s *src, bs_box_s *dst, int32_t *matrix, uint8_t zero_point, uint32_t is_abgr_order, const uint8_t nv2bgr_alpha, uint8_t mono_x, uint8_t mono_y, int8_t* extreme_point)
+bs_perspective_box_rgb_simple	model/bscaler_mdl.c	/^void bs_perspective_box_rgb_simple(bs_box_s *src, bs_box_s *dst,$/;"	f	signature:(bs_box_s *src, bs_box_s *dst, int32_t *matrix, uint8_t zero_point, uint32_t is_abgr_order, const uint8_t nv2bgr_alpha)
+bs_perspective_cfg_stuff	api/bscaler_segmentation.cpp	/^void bs_perspective_cfg_stuff(std::vector<bsc_hw_once_cfg_s> &bs_cfgs,$/;"	f	signature:(std::vector<bsc_hw_once_cfg_s> &bs_cfgs, box_affine_info_s *info, const data_info_s *src, data_info_s *dst, const uint32_t *coef, const uint32_t *offset)
+bs_perspective_mdl	model/bscaler_mdl_api.cpp	/^int bs_perspective_mdl(const data_info_s *src,$/;"	f	signature:(const data_info_s *src, const int box_num, const data_info_s *dst, const box_affine_info_s *boxes, const uint32_t *coef, const uint32_t *offset)
+bs_perspective_start	api/bscaler_api.cpp	/^int bs_perspective_start(const data_info_s *src,$/;"	f	signature:(const data_info_s *src, const int box_num, const data_info_s *dst, const box_affine_info_s *boxes, const uint32_t *coef, const uint32_t *offset)
+bs_perspective_wait	api/bscaler_api.cpp	/^int bs_perspective_wait()$/;"	f	signature:()
+bs_resize_box	model/bscaler_mdl.c	/^void bs_resize_box(bs_box_s *src, bs_box_s *dst,$/;"	f	signature:(bs_box_s *src, bs_box_s *dst, int32_t *scale_coef, const uint32_t *nv2bgr_coef, const uint8_t *nv2bgr_ofst, const uint8_t nv2bgr_alpha, uint32_t nv2bgr_order, uint32_t bpp, uint32_t y_gain_exp, uint8_t zero_point)
+bs_resize_box_chn	model/bscaler_mdl.c	/^static void bs_resize_box_chn(bs_box_s *src, bs_box_s *dst,$/;"	f	file:	signature:(bs_box_s *src, bs_box_s *dst, int32_t *coef, uint32_t bpp, uint32_t y_gain_exp, uint8_t zero_point, uint32_t is_abgr_order, const uint8_t nv2bgr_alpha)
+bs_resize_cfg_stuff	api/bscaler_segmentation.cpp	/^static void bs_resize_cfg_stuff(std::vector<bsc_hw_once_cfg_s> &bs_cfgs,$/;"	f	file:	signature:(std::vector<bsc_hw_once_cfg_s> &bs_cfgs, const box_resize_info_s *info, const data_info_s *src, const data_info_s *dst, const uint32_t *coef, const uint32_t *offset)
+bs_resize_chn_base	model/bscaler_mdl.c	/^static void bs_resize_chn_base(bs_box_s *src, bs_box_s *dst,$/;"	f	file:	signature:(bs_box_s *src, bs_box_s *dst, uint8_t bpp, int32_t *coef, uint8_t zero_point, uint32_t is_abgr_order, const uint8_t nv2bgr_alpha)
+bs_resize_line	model/bscaler_mdl.c	/^void bs_resize_line(bs_box_s *src, bs_box_s *dst,$/;"	f	signature:(bs_box_s *src, bs_box_s *dst, const uint32_t *nv2bgr_coef, const uint8_t *nv2bgr_ofst, const uint8_t nv2bgr_alpha, uint32_t nv2bgr_order, uint32_t bpp, uint32_t y_gain_exp, uint32_t *frmc_box_base, uint32_t frmc_box_num, uint8_t **dst_box_base, uint8_t zero_point)
+bs_resize_line_cfg_stuff	api/bscaler_segmentation.cpp	/^void bs_resize_line_cfg_stuff(std::vector<bsc_hw_once_cfg_s> &bs_cfgs,$/;"	f	signature:(std::vector<bsc_hw_once_cfg_s> &bs_cfgs, std::vector<std::pair<int, const box_resize_info_s *>> &res_resize_boxes, const data_info_s *src, const data_info_s *dst, const uint32_t *coef, const uint32_t *offset)
+bs_resize_line_chn_base	model/bscaler_mdl.c	/^static void bs_resize_line_chn_base(bs_box_s *src, bs_box_s *dst,$/;"	f	file:	signature:(bs_box_s *src, bs_box_s *dst, uint8_t bpp, int32_t *coef, uint16_t wbox_w, uint16_t wbox_h, uint8_t zero_point, uint32_t is_abgr_order, const uint8_t nv2bgr_alpha)
+bs_resize_mdl	model/bscaler_mdl_api.cpp	/^int bs_resize_mdl(const data_info_s *src,$/;"	f	signature:(const data_info_s *src, const int box_num, const data_info_s *dst, const box_resize_info_s *boxes, const uint32_t *coef, const uint32_t *offset)
+bs_resize_start	api/bscaler_api.cpp	/^int bs_resize_start(const data_info_s *src,$/;"	f	signature:(const data_info_s *src, const int box_num, const data_info_s *dst, const box_resize_info_s *boxes, const uint32_t *coef, const uint32_t *offset)
+bs_resize_wait	api/bscaler_api.cpp	/^int bs_resize_wait()$/;"	f	signature:()
+bs_version	api/bscaler_api.cpp	/^void bs_version()$/;"	f	signature:()
+bsc_cfg_check	model/bscaler_mdl.c	/^void bsc_cfg_check(bsc_hw_once_cfg_s *cfg)$/;"	f	signature:(bsc_hw_once_cfg_s *cfg)
+bsc_chain_base	api/bscaler_api.cpp	/^uint32_t *bsc_chain_base = NULL;$/;"	v
+bsc_chain_hw_cfg	api/hal/bscaler_hal.c	/^void bsc_chain_hw_cfg(bs_chain_cfg_s *cfg)$/;"	f	signature:(bs_chain_cfg_s *cfg)
+bsc_csum	api/hal/bscaler_hal.c	/^uint32_t bsc_csum = 0;$/;"	v
+bsc_isum	model/bscaler_mdl.c	/^uint32_t bsc_isum = 0;$/;"	v
+bsc_lock	api/bscaler_api.cpp	/^static pthread_mutex_t bsc_lock = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+bsc_mdl	model/bscaler_mdl.c	/^void bsc_mdl(bsc_hw_once_cfg_s *cfg)$/;"	f	signature:(bsc_hw_once_cfg_s *cfg)
+bsc_order_cfg	api/hal/bscaler_hal.c	/^void bsc_order_cfg(uint8_t order_c)$/;"	f	signature:(uint8_t order_c)
+bsc_osum	model/bscaler_mdl.c	/^uint32_t bsc_osum = 0;$/;"	v
+bscaler_base_paddr	wrap/bscaler_wrap.c	/^void *bscaler_base_paddr = NULL;$/;"	v
+bscaler_base_size	wrap/bscaler_wrap.c	/^int bscaler_base_size = 0;$/;"	v
+bscaler_base_vaddr	wrap/bscaler_wrap.c	/^void *bscaler_base_vaddr = NULL;$/;"	v
+bscaler_clock_set	api/hal/bscaler_hal.c	/^void bscaler_clock_set()$/;"	f
+bscaler_common_param_cfg	api/hal/bscaler_hal.c	/^void bscaler_common_param_cfg(uint32_t *coef, uint8_t *offset, uint8_t alpha)$/;"	f	signature:(uint32_t *coef, uint8_t *offset, uint8_t alpha)
+bscaler_free	wrap/bscaler_wrap.c	/^void bscaler_free(void *ptr)$/;"	f	signature:(void *ptr)
+bscaler_free_oram	wrap/bscaler_wrap.c	/^void bscaler_free_oram(void *ptr)$/;"	f	signature:(void *ptr)
+bscaler_frmc_calc_isum	model/bscaler_mdl.c	/^static inline void bscaler_frmc_calc_isum(uint8_t *frmc_ybase_src,$/;"	f	file:	signature:(uint8_t *frmc_ybase_src, uint8_t *frmc_cbase_src, uint32_t frmc_w_src, uint32_t frmc_h_src, uint32_t frmc_ps_src, uint32_t frmc_format_src, uint32_t bpp)
+bscaler_frmc_calc_osum	model/bscaler_mdl.c	/^static inline void bscaler_frmc_calc_osum(uint8_t **frmc_base_dst,$/;"	f	file:	signature:(uint8_t **frmc_base_dst, uint32_t box_num, uint32_t frmc_w_dst, uint32_t frmc_h_dst, uint32_t frmc_ps_dst, uint32_t frmc_format_dst, uint32_t bpp)
+bscaler_frmc_cfg	api/hal/bscaler_hal.c	/^void bscaler_frmc_cfg(bsc_hw_once_cfg_s *cfg)$/;"	f	signature:(bsc_hw_once_cfg_s *cfg)
+bscaler_frmc_chain_cfg	api/hal/bscaler_hal.c	/^bs_chain_ret_s bscaler_frmc_chain_cfg(bsc_hw_once_cfg_s *cfg, uint32_t *addr)$/;"	f	signature:(bsc_hw_once_cfg_s *cfg, uint32_t *addr)
+bscaler_frmc_clkgate_mask_set	api/hal/bscaler_hal.c	/^void bscaler_frmc_clkgate_mask_set(uint8_t c)$/;"	f	signature:(uint8_t c)
+bscaler_frmc_soft_reset	api/hal/bscaler_hal.c	/^void bscaler_frmc_soft_reset()$/;"	f
+bscaler_frmt_cfg	api/hal/bscaler_hal.c	/^void bscaler_frmt_cfg(bst_hw_once_cfg_s *cfg)$/;"	f	signature:(bst_hw_once_cfg_s *cfg)
+bscaler_frmt_cfg_chain	api/hal/bscaler_hal.c	/^uint32_t bscaler_frmt_cfg_chain(bst_hw_once_cfg_s *cfg, uint32_t *addr)$/;"	f	signature:(bst_hw_once_cfg_s *cfg, uint32_t *addr)
+bscaler_frmt_clkgate_mask_set	api/hal/bscaler_hal.c	/^void bscaler_frmt_clkgate_mask_set(uint8_t t)$/;"	f	signature:(uint8_t t)
+bscaler_frmt_soft_reset	api/hal/bscaler_hal.c	/^void bscaler_frmt_soft_reset()$/;"	f
+bscaler_init	wrap/bscaler_wrap.c	/^void bscaler_init()$/;"	f
+bscaler_malloc	wrap/bscaler_wrap.c	/^void *bscaler_malloc(size_t align, size_t size)$/;"	f	signature:(size_t align, size_t size)
+bscaler_malloc_oram	wrap/bscaler_wrap.c	/^void *bscaler_malloc_oram(size_t align, size_t size)$/;"	f	signature:(size_t align, size_t size)
+bscaler_mem_init	wrap/bscaler_wrap.c	/^void bscaler_mem_init()$/;"	f
+bscaler_read_reg	wrap/bscaler_wrap.c	/^uint32_t bscaler_read_reg(uint32_t reg, uint32_t val)$/;"	f	signature:(uint32_t reg, uint32_t val)
+bscaler_write_reg	wrap/bscaler_wrap.c	/^void bscaler_write_reg(uint32_t reg, uint32_t val)$/;"	f	signature:(uint32_t reg, uint32_t val)
+bst_bgr_isum	model/bscaler_mdl.c	/^static void bst_bgr_isum(uint8_t* base, int w, int h,$/;"	f	file:	signature:(uint8_t* base, int w, int h, uint32_t stride)
+bst_bgr_osum	model/bscaler_mdl.c	/^static void bst_bgr_osum(uint8_t* base, int w, int h,$/;"	f	file:	signature:(uint8_t* base, int w, int h, uint32_t stride)
+bst_bgr_to_bgr	model/bscaler_mdl.c	/^void bst_bgr_to_bgr(uint8_t *src, uint32_t src_line_stride,$/;"	f	signature:(uint8_t *src, uint32_t src_line_stride, uint8_t *dst, uint32_t dst_line_stride, uint32_t width, uint32_t height, uint32_t nv2bgr_order, uint8_t nv2bgr_alpha)
+bst_cfg_check	model/bscaler_mdl.c	/^void bst_cfg_check(bst_hw_once_cfg_s *cfg)$/;"	f	signature:(bst_hw_once_cfg_s *cfg)
+bst_chain_base	api/bscaler_api.cpp	/^uint32_t *bst_chain_base = NULL;$/;"	v
+bst_format_is_bgr	model/bscaler_mdl.c	/^bool bst_format_is_bgr(bst_hw_data_format_e format)$/;"	f	signature:(bst_hw_data_format_e format)
+bst_isum	model/bscaler_mdl.c	/^uint32_t bst_isum = 0;$/;"	v
+bst_lock	api/bscaler_api.cpp	/^static pthread_mutex_t bst_lock = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+bst_mdl	model/bscaler_mdl.c	/^void bst_mdl(bst_hw_once_cfg_s *cfg)$/;"	f	signature:(bst_hw_once_cfg_s *cfg)
+bst_nv12_isum	model/bscaler_mdl.c	/^static void bst_nv12_isum(uint8_t* y_base, uint8_t *c_base,$/;"	f	file:	signature:(uint8_t* y_base, uint8_t *c_base, int w, int h, uint32_t stride)
+bst_nv12_osum	model/bscaler_mdl.c	/^static void bst_nv12_osum(uint8_t* y_base, uint8_t *c_base,$/;"	f	file:	signature:(uint8_t* y_base, uint8_t *c_base, int w, int h, uint32_t stride)
+bst_nv12_to_nv12	model/bscaler_mdl.c	/^void bst_nv12_to_nv12(uint8_t *src_y, uint8_t *src_c, uint32_t src_line_stride,$/;"	f	signature:(uint8_t *src_y, uint8_t *src_c, uint32_t src_line_stride, uint8_t *dst_y, uint8_t *dst_c, uint32_t dst_line_stride, uint32_t width, uint32_t height)
+bst_nv2bgr	model/bscaler_mdl.c	/^void bst_nv2bgr(uint8_t *src_y, uint8_t* src_c, uint32_t src_s,$/;"	f	signature:(uint8_t *src_y, uint8_t* src_c, uint32_t src_s, uint8_t *dst, uint32_t dst_s, int width, int height, uint32_t nv2bgr_order, uint32_t *nv2bgr_coef, uint8_t *nv2bgr_ofst, uint8_t nv2bgr_alpha)
+bst_order_cfg	api/hal/bscaler_hal.c	/^void bst_order_cfg(uint8_t order_t)$/;"	f	signature:(uint8_t order_t)
+bst_osum	model/bscaler_mdl.c	/^uint32_t bst_osum = 0;$/;"	v
+bst_task_num	api/bscaler_api.cpp	/^static int bst_task_num;$/;"	v	file:
+checkForZero	3rd_party/Matrix.cpp	/^static inline bool checkForZero(float x) {$/;"	f	namespace:CV	signature:(float x)
+clr_sys_cycle	platform/eyer/eyer_driver.c	/^uint32_t clr_sys_cycle()$/;"	f
+cmd_core_read	platform/eyer/eyer_driver.c	/^uint32_t cmd_core_read (thread_inact_p thread_inact_ptr,$/;"	f	signature:(thread_inact_p thread_inact_ptr, uint32_t addr)
+cmd_core_write	platform/eyer/eyer_driver.c	/^void cmd_core_write( thread_inact_p thread_inact_ptr,$/;"	f	signature:( thread_inact_p thread_inact_ptr, uint32_t addr, uint32_t data)
+col_point_update	model/bscaler_mdl.c	/^static void col_point_update(const int dst_x, const int dst_y,$/;"	f	file:	signature:(const int dst_x, const int dst_y, const int dst_w, const int dst_h, const int32_t *matrix, const int idx, const uint8_t mono, s32_point_s *src, s32_point_s *dst, uint8_t *mask, int *limit)
+col_point_update_affine	model/bscaler_mdl.c	/^static void col_point_update_affine(s32_point_s *src, s32_point_s *dst,$/;"	f	file:	signature:(s32_point_s *src, s32_point_s *dst, int dst_x, int dst_y, int dst_w, int dst_h, int32_t *matrix, const int idx, uint8_t *mask)
+computePerspectiveTypeMask	3rd_party/Matrix.cpp	/^uint8_t Matrix::computePerspectiveTypeMask() const {$/;"	f	class:CV::Matrix	signature:() const
+computeTypeMask	3rd_party/Matrix.cpp	/^uint8_t Matrix::computeTypeMask() const {$/;"	f	class:CV::Matrix	signature:() const
+compute_inv	api/matrix.c	/^static void compute_inv(float dst[9], const float src[9], float invDet, bool is_persp)$/;"	f	file:	signature:(float dst[9], const float src[9], float invDet, bool is_persp)
+consume_fifo	platform/eyer/eyer_driver.c	/^void consume_fifo(uint32_t *wptr, uint32_t *rptr)$/;"	f	signature:(uint32_t *wptr, uint32_t *rptr)
+dcross	3rd_party/Matrix.cpp	/^static inline double dcross(double a, double b, double c, double d) {$/;"	f	namespace:CV	signature:(double a, double b, double c, double d)
+dcross	api/matrix.c	/^STATIC_INLINE float dcross(float a, float b, float c, float d)$/;"	f	signature:(float a, float b, float c, float d)
+dcross_dscale	3rd_party/Matrix.cpp	/^static inline float dcross_dscale(double a, double b, double c, double d, double scale) {$/;"	f	namespace:CV	signature:(double a, double b, double c, double d, double scale)
+dcross_dscale	api/matrix.c	/^STATIC_INLINE float dcross_dscale(float a, float b, float c, float d, float scale)$/;"	f	signature:(float a, float b, float c, float d, float scale)
+debug_dx	model/mdl_debug.c	/^int debug_dx = -1;$/;"	v
+debug_dy	model/mdl_debug.c	/^int debug_dy = -1;$/;"	v
+debug_point	model/mdl_debug.c	/^void debug_point(int dx, int dy)$/;"	f	signature:(int dx, int dy)
+do_get_phy_addr	platform/eyer/eyer_driver.c	/^uint32_t do_get_phy_addr(uint32_t vaddr){$/;"	f	signature:(uint32_t vaddr)
+do_get_phy_addr	platform/eyer/eyer_driver.c	/^uint32_t do_get_phy_addr(uint8_t *addr)$/;"	f	signature:(uint8_t *addr)
+do_get_vaddr	platform/eyer/eyer_driver.c	/^uint32_t do_get_vaddr(uint8_t *addr)$/;"	f	signature:(uint8_t *addr)
+do_get_vaddr_v2tlb	platform/eyer/eyer_driver.c	/^uint32_t do_get_vaddr_v2tlb(uint8_t *addr)$/;"	f	signature:(uint8_t *addr)
+do_get_world_addr	platform/eyer/eyer_driver.c	/^uint32_t *do_get_world_addr(uint32_t addr)$/;"	f	signature:(uint32_t addr)
+download_aux	platform/eyer/eyer_driver.c	/^void download_aux()$/;"	f
+dst_col_point_init	model/bscaler_mdl.c	/^static void dst_col_point_init(const int32_t *matrix,$/;"	f	file:	signature:(const int32_t *matrix, const int dst_sbox_x, const int dst_sbox_y, const int dst_sbox_w, const int dst_sbox_h, uint8_t *mono, int32_t *limit, uint8_t *mask, s32_point_s *dst_col_point, uint8_t mono_x, uint8_t mono_y, int8_t *extreme_point)
+dst_col_point_init_affine	model/bscaler_mdl.c	/^static void dst_col_point_init_affine(s32_point_s *dst_col_point, uint8_t *mask,$/;"	f	file:	signature:(s32_point_s *dst_col_point, uint8_t *mask, int32_t *matrix, int dst_sbox_x, int dst_sbox_y, int dst_sbox_w, int dst_sbox_h)
+dump	3rd_party/Matrix.cpp	/^void Matrix::dump() const {$/;"	f	class:CV::Matrix	signature:() const
+dump_aux_irq	platform/eyer/eyer_driver.c	/^void dump_aux_irq()$/;"	f
+dump_mem	platform/eyer/eyer_driver.c	/^uint32_t *dump_mem;$/;"	v
+durationInUs	api/AutoTime.cpp	/^uint64_t Timer::durationInUs() {$/;"	f	class:Timer	signature:()
+eyer_addr_map	platform/eyer/eyer_driver.c	/^void eyer_addr_map( thread_inact_p thread_inact_ptr,$/;"	f	signature:( thread_inact_p thread_inact_ptr, thread_addr_tab_p thread_addr_tab_ptr )
+eyer_ctrlc_exit	platform/eyer/eyer_driver.c	/^void eyer_ctrlc_exit(int a){$/;"	f	signature:(int a)
+eyer_ddr_cmp	platform/eyer/eyer_driver.c	/^uint32_t eyer_ddr_cmp(uint32_t* ref_phy_addr, uint32_t ref_str,$/;"	f	signature:(uint32_t* ref_phy_addr, uint32_t ref_str, uint32_t* dut_phy_addr, uint32_t dut_str, uint32_t w, uint32_t h, uint32_t unit_size )
+eyer_delay	platform/eyer/eyer_driver.c	/^void eyer_delay (long wait) {$/;"	f	signature:(long wait)
+eyer_free	platform/eyer/eyer_driver.c	/^uint32_t eyer_free(uint32_t *addr)$/;"	f	signature:(uint32_t *addr)
+eyer_intc_bsfull	platform/eyer/eyer_driver.c	/^int eyer_intc_bsfull;$/;"	v
+eyer_intc_init	platform/eyer/eyer_driver.c	/^void eyer_intc_init(){$/;"	f
+eyer_intc_stat	platform/eyer/eyer_driver.c	/^int eyer_intc_stat;$/;"	v
+eyer_intc_wait	platform/eyer/eyer_driver.c	/^int eyer_intc_wait(int id){$/;"	f	signature:(int id)
+eyer_intc_wait	platform/eyer/eyer_driver.c	/^void eyer_intc_wait(){$/;"	f
+eyer_malloc	platform/eyer/eyer_driver.c	/^void * eyer_malloc( int32_t ptr, int32_t mem_size)$/;"	f	signature:( int32_t ptr, int32_t mem_size)
+eyer_malloc	platform/eyer/eyer_driver.c	/^void *eyer_malloc(uint32_t *addr, uint32_t size)$/;"	f	signature:(uint32_t *addr, uint32_t size)
+eyer_malloc_aliagn	platform/eyer/eyer_driver.c	/^void *eyer_malloc_aliagn(uint32_t *addr, uint32_t size, uint32_t align_size)$/;"	f	signature:(uint32_t *addr, uint32_t size, uint32_t align_size)
+eyer_read	platform/eyer/eyer_driver.c	/^void eyer_read(int32_t sig)$/;"	f	signature:(int32_t sig)
+eyer_reg_ctrlc	platform/eyer/eyer_driver.c	/^void eyer_reg_ctrlc(){$/;"	f
+eyer_reg_segv	platform/eyer/eyer_driver.c	/^void eyer_reg_segv(){$/;"	f
+eyer_safe_mod_enable	platform/eyer/eyer_driver.c	/^void eyer_safe_mod_enable()$/;"	f
+eyer_segv_exit	platform/eyer/eyer_driver.c	/^void eyer_segv_exit(int a){$/;"	f	signature:(int a)
+eyer_sram_read	platform/eyer/eyer_driver.c	/^void eyer_sram_read(int32_t sig)$/;"	f	signature:(int32_t sig)
+eyer_sram_write	platform/eyer/eyer_driver.c	/^void eyer_sram_write(int32_t sig)$/;"	f	signature:(int32_t sig)
+eyer_stop	platform/eyer/eyer_driver.c	/^void eyer_stop()$/;"	f
+eyer_sys_buf	platform/eyer/eyer_driver.c	/^eyer_sys eyer_sys_buf;$/;"	v
+eyer_sys_ptr	platform/eyer/eyer_driver.c	/^eyer_sys_p eyer_sys_ptr;$/;"	v
+eyer_system_ini	platform/eyer/eyer_driver.c	/^void eyer_system_ini(int32_t need_wave)$/;"	f	signature:(int32_t need_wave)
+eyer_tcsm1_read	platform/eyer/eyer_driver.c	/^void eyer_tcsm1_read(int32_t sig)$/;"	f	signature:(int32_t sig)
+eyer_tcsm1_write	platform/eyer/eyer_driver.c	/^void eyer_tcsm1_write(int32_t sig)$/;"	f	signature:(int32_t sig)
+eyer_tcsm_read	platform/eyer/eyer_driver.c	/^void eyer_tcsm_read(int32_t sig)$/;"	f	signature:(int32_t sig)
+eyer_tcsm_write	platform/eyer/eyer_driver.c	/^void eyer_tcsm_write(int32_t sig)$/;"	f	signature:(int32_t sig)
+eyer_tlb_book	platform/eyer/eyer_driver.c	/^void eyer_tlb_book(char *addr, int size)$/;"	f	signature:(char *addr, int size)
+eyer_wave_disable	platform/eyer/eyer_driver.c	/^void eyer_wave_disable()$/;"	f
+eyer_wave_enable	platform/eyer/eyer_driver.c	/^void eyer_wave_enable()$/;"	f
+eyer_write	platform/eyer/eyer_driver.c	/^void eyer_write(int32_t sig)$/;"	f	signature:(int32_t sig)
+fake_bs_chain_stuff	model/bscaler_mdl_api.cpp	/^static void fake_bs_chain_stuff(std::vector<bsc_hw_once_cfg_s> &bs_cfgs)$/;"	f	file:	signature:(std::vector<bsc_hw_once_cfg_s> &bs_cfgs)
+floatInvert	3rd_party/Matrix.cpp	56;"	d	file:
+fpga_malloc	platform/platform.c	/^void *fpga_malloc(size_t align, size_t size)$/;"	f	signature:(size_t align, size_t size)
+free_align	platform/platform.c	/^static void free_align(void *p2)$/;"	f	file:	signature:(void *p2)
+free_eyer	platform/platform.c	/^static void free_eyer(void *p2)$/;"	f	file:	signature:(void *p2)
+gMapXYProcs	3rd_party/Matrix.cpp	/^const Matrix::MapXYProc Matrix::gMapXYProcs[] = {$/;"	m	class:CV::Matrix	file:
+get_bsc_isum	model/bscaler_mdl.c	/^uint32_t get_bsc_isum()$/;"	f
+get_bsc_osum	model/bscaler_mdl.c	/^uint32_t get_bsc_osum()$/;"	f
+get_bst_isum	model/bscaler_mdl.c	/^uint32_t get_bst_isum()$/;"	f
+get_bst_osum	model/bscaler_mdl.c	/^uint32_t get_bst_osum()$/;"	f
+get_build_time	api/bscaler_api.cpp	/^void get_build_time()$/;"	f	signature:()
+get_exp	api/bscaler_segmentation.cpp	/^uint32_t get_exp(float scale_y)$/;"	f	signature:(float scale_y)
+get_inverse_matrix	api/matrix.c	/^void get_inverse_matrix(const float *matrix, float *inverse)$/;"	f	signature:(const float *matrix, float *inverse)
+get_min_point	model/bscaler_mdl.c	/^static int get_min_point(s32_point_s *points, uint8_t *mask, bool x_mono, bool y_mono)$/;"	f	file:	signature:(s32_point_s *points, uint8_t *mask, bool x_mono, bool y_mono)
+get_min_point_unified	model/bscaler_mdl.c	/^static int get_min_point_unified(s32_point_s *points, uint8_t *mask, uint8_t *mono)$/;"	f	file:	signature:(s32_point_s *points, uint8_t *mask, uint8_t *mono)
+get_min_point_ununified	model/bscaler_mdl.c	/^static int get_min_point_ununified(s32_point_s *points, uint8_t *mask, uint8_t *mono)$/;"	f	file:	signature:(s32_point_s *points, uint8_t *mask, uint8_t *mono)
+get_sys_key	platform/eyer/eyer_driver.c	/^int32_t get_sys_key(int32_t key)$/;"	f	signature:(int32_t key)
+i_cache	platform/eyer/eyer_driver.c	/^void i_cache (int32_t a, int32_t b, int32_t c){$/;"	f	signature:(int32_t a, int32_t b, int32_t c)
+i_dcache_discard	platform/eyer/eyer_driver.c	/^void i_dcache_discard (int32_t c, int32_t d)$/;"	f	signature:(int32_t c, int32_t d)
+i_sync	platform/eyer/eyer_driver.c	/^void i_sync()$/;"	f
+init_aux_irq	platform/eyer/eyer_driver.c	/^void init_aux_irq(void (*fun)())$/;"	f	signature:(void (*fun)())
+init_eyer_thread	platform/eyer/eyer_driver.c	/^void init_eyer_thread($/;"	f	signature:( thread_inact_p thread_inact_ptr, key_t sem_id_seed, key_t shm_id_seed, uint32_t shm_mem_size, uint32_t set_sem_ini, int32_t sem_flag )
+intc_fd	wrap/bscaler_wrap.c	/^int intc_fd;$/;"	v
+intc_handler	platform/eyer/eyer_driver.c	/^void intc_handler(int32_t sig)$/;"	f	signature:(int32_t sig)
+invertNonIdentity	3rd_party/Matrix.cpp	/^bool Matrix::invertNonIdentity(Matrix* inv) const {$/;"	f	class:CV::Matrix	signature:(Matrix* inv) const
+jz_aip_readl	api/bscaler_api.cpp	/^unsigned int jz_aip_readl(unsigned int base, unsigned int offset)$/;"	f	signature:(unsigned int base, unsigned int offset)
+jz_aip_writel	api/bscaler_api.cpp	/^unsigned int jz_aip_writel(unsigned int base, unsigned int offset, unsigned int value)$/;"	f	signature:(unsigned int base, unsigned int offset, unsigned int value)
+kAffine_Shift	3rd_party/Matrix.cpp	/^enum { kTranslate_Shift = 0, kScale_Shift, kAffine_Shift, kPerspective_Shift, kRectStaysRect_Shift };$/;"	e	enum:CV::__anon2	file:
+kPerspective_Shift	3rd_party/Matrix.cpp	/^enum { kTranslate_Shift = 0, kScale_Shift, kAffine_Shift, kPerspective_Shift, kRectStaysRect_Shift };$/;"	e	enum:CV::__anon2	file:
+kRectStaysRect_Shift	3rd_party/Matrix.cpp	/^enum { kTranslate_Shift = 0, kScale_Shift, kAffine_Shift, kPerspective_Shift, kRectStaysRect_Shift };$/;"	e	enum:CV::__anon2	file:
+kScalar1Int	3rd_party/Matrix.cpp	/^static const int32_t kScalar1Int = 0x3f800000;$/;"	m	namespace:CV	file:
+kScale_Shift	3rd_party/Matrix.cpp	/^enum { kTranslate_Shift = 0, kScale_Shift, kAffine_Shift, kPerspective_Shift, kRectStaysRect_Shift };$/;"	e	enum:CV::__anon2	file:
+kTranslate_Shift	3rd_party/Matrix.cpp	/^enum { kTranslate_Shift = 0, kScale_Shift, kAffine_Shift, kPerspective_Shift, kRectStaysRect_Shift };$/;"	e	enum:CV::__anon2	file:
+kill_eyer_shm_sem	platform/eyer/eyer_driver.c	/^void kill_eyer_shm_sem(thread_inact_p thread_inact_ptr, int32_t shm_flag)$/;"	f	signature:(thread_inact_p thread_inact_ptr, int32_t shm_flag)
+list_all_vmm	platform/eyer/eyer_driver.c	/^void list_all_vmm()$/;"	f
+load_aux_pro	platform/eyer/eyer_driver.c	/^void load_aux_pro(void *fun(void *))$/;"	f	signature:(void *fun(void *))
+load_aux_pro_bin	platform/eyer/eyer_driver.c	/^void load_aux_pro_bin(char * name, uint32_t *addr)$/;"	f	signature:(char * name, uint32_t *addr)
+lzma_base_paddr	api/hal/lzma_hw_api.c	/^static void *lzma_base_paddr = NULL;$/;"	v	file:
+lzma_base_size	api/hal/lzma_hw_api.c	/^static int lzma_base_size = 0;$/;"	v	file:
+lzma_base_vaddr	api/hal/lzma_hw_api.c	/^void *lzma_base_vaddr = NULL;$/;"	v
+lzma_cfg	api/hal/lzma_hw_api.c	/^uint32_t lzma_cfg(LZMA_CFG_S *cfg) {$/;"	f	signature:(LZMA_CFG_S *cfg)
+lzma_mem_init	api/hal/lzma_hw_api.c	/^void lzma_mem_init(){$/;"	f
+lzma_read_reg	api/hal/lzma_hw_api.c	/^uint32_t lzma_read_reg(uint32_t reg, uint32_t val) {$/;"	f	signature:(uint32_t reg, uint32_t val)
+lzma_write_reg	api/hal/lzma_hw_api.c	/^void lzma_write_reg(uint32_t reg, uint32_t val) {$/;"	f	signature:(uint32_t reg, uint32_t val)
+malloc_align	platform/platform.c	/^static void *malloc_align(size_t align, size_t size)$/;"	f	file:	signature:(size_t align, size_t size)
+malloc_eyer	platform/platform.c	/^static void *malloc_eyer(size_t align, size_t size)$/;"	f	file:	signature:(size_t align, size_t size)
+matrix_f32_dump	api/bscaler_segmentation.cpp	/^void matrix_f32_dump(float *matrix)$/;"	f	signature:(float *matrix)
+matrix_s32_dump	api/bscaler_segmentation.cpp	/^void matrix_s32_dump(int32_t *matrix)$/;"	f	signature:(int32_t *matrix)
+muladdmul	3rd_party/Matrix.cpp	/^static inline float muladdmul(float a, float b, float c, float d) {$/;"	f	namespace:CV	signature:(float a, float b, float c, float d)
+normal2kernel	model/bscaler_mdl.c	/^int normal2kernel(uint32_t width,$/;"	f	signature:(uint32_t width, uint32_t height, uint8_t kernel_size, uint8_t kernel_xstride, uint8_t kernel_ystride, uint32_t zero_point, uint8_t pad_left, uint8_t pad_right, uint8_t pad_top, uint8_t pad_bottom, uint8_t *src, uint32_t src_line_stride, uint8_t *dst, uint32_t dst_line_stride, uint32_t dst_plane_stride)
+nv12_to_rgb	model/bscaler_mdl.c	/^void nv12_to_rgb(bs_box_s *src, bs_box_s *dst,$/;"	f	signature:(bs_box_s *src, bs_box_s *dst, uint32_t rgb_order, const uint32_t *coef, const uint8_t *offset, const uint8_t nv2bgr_alpha)
+nv12_to_yuv444	model/bscaler_mdl.c	/^static void nv12_to_yuv444(bs_box_s *src, bs_box_s *dst)$/;"	f	file:	signature:(bs_box_s *src, bs_box_s *dst)
+only_scale_and_translate	3rd_party/Matrix.cpp	/^static bool only_scale_and_translate(unsigned mask) {$/;"	f	namespace:CV	signature:(unsigned mask)
+operator ==	3rd_party/Matrix.cpp	/^bool operator==(const Matrix& a, const Matrix& b) {$/;"	f	namespace:CV	signature:(const Matrix& a, const Matrix& b)
+p0_tel_aux_and_wait	platform/eyer/eyer_driver.c	/^void p0_tel_aux_and_wait(uint32_t *wptr, uint32_t *rptr)$/;"	f	signature:(uint32_t *wptr, uint32_t *rptr)
+perspective_box_split	api/bscaler_segmentation.cpp	/^void perspective_box_split(std::vector<bsc_hw_once_cfg_s> &bs_cfgs,$/;"	f	signature:(std::vector<bsc_hw_once_cfg_s> &bs_cfgs, box_affine_info_s *info, const data_info_s *src, data_info_s *dst, const uint32_t *coef, const uint32_t *offset)
+perspective_cac_sub_box	api/bscaler_segmentation.cpp	/^static void perspective_cac_sub_box(box_info_s *src, box_info_s *dst,$/;"	f	file:	signature:(box_info_s *src, box_info_s *dst, int32_t *matrix, box_info_s *wbox)
+perspective_mono	api/bscaler_segmentation.cpp	/^static void perspective_mono(int32_t *matrix,$/;"	f	file:	signature:(int32_t *matrix, int32_t *sx_mono, bool *sx_mono_increase, int32_t *sy_mono, bool *sy_mono_increase)
+perspective_whole_float	model/golden/perspective_whole_float.cpp	/^void perspective_whole_float(const data_info_s *src,$/;"	f	signature:(const data_info_s *src, const int box_num, const data_info_s *dst, const box_affine_info_s *boxes, const uint32_t *coef, const uint32_t *offset)
+perspective_whole_int	model/golden/perspective_whole_int.cpp	/^void perspective_whole_int(const data_info_s *src,$/;"	f	signature:(const data_info_s *src, const int box_num, const data_info_s *dst, const box_affine_info_s *boxes, const uint32_t *coef, const uint32_t *offset)
+pf_deinit	platform/platform.c	/^int pf_deinit()$/;"	f
+pf_dut_init	platform/platform.c	/^int pf_dut_init(uint32_t dut_io_base, uint32_t size)$/;"	f	signature:(uint32_t dut_io_base, uint32_t size)
+pf_flush_cache	platform/platform.c	/^void pf_flush_cache()$/;"	f
+pf_free	platform/platform.c	/^void pf_free(void *ptr)$/;"	f	signature:(void *ptr)
+pf_init	platform/platform.c	/^int pf_init()$/;"	f
+pf_malloc	platform/platform.c	/^void *pf_malloc(uint32_t align, uint32_t size)$/;"	f	signature:(uint32_t align, uint32_t size)
+pf_printf	platform/platform.c	/^int pf_printf(const char *fmt, ...)$/;"	f	signature:(const char *fmt, ...)
+pf_read_reg	platform/platform.c	/^uint32_t pf_read_reg(uint32_t reg)$/;"	f	signature:(uint32_t reg)
+pf_va_2_pa	platform/platform.c	/^uint32_t pf_va_2_pa(void *vaddr)$/;"	f	signature:(void *vaddr)
+pf_write_reg	platform/platform.c	/^void pf_write_reg(uint32_t reg, uint32_t val)$/;"	f	signature:(uint32_t reg, uint32_t val)
+point_min	model/bscaler_mdl.c	/^static s32_point_s *point_min(s32_point_s *p0, s32_point_s *p1, bool x_mono, bool y_mono)$/;"	f	file:	signature:(s32_point_s *p0, s32_point_s *p1, bool x_mono, bool y_mono)
+postConcat	3rd_party/Matrix.cpp	/^void Matrix::postConcat(const Matrix& mat) {$/;"	f	class:CV::Matrix	signature:(const Matrix& mat)
+postIDiv	3rd_party/Matrix.cpp	/^bool Matrix::postIDiv(int divx, int divy) {$/;"	f	class:CV::Matrix	signature:(int divx, int divy)
+postRotate	3rd_party/Matrix.cpp	/^void Matrix::postRotate(float degrees) {$/;"	f	class:CV::Matrix	signature:(float degrees)
+postRotate	3rd_party/Matrix.cpp	/^void Matrix::postRotate(float degrees, float px, float py) {$/;"	f	class:CV::Matrix	signature:(float degrees, float px, float py)
+postScale	3rd_party/Matrix.cpp	/^void Matrix::postScale(float sx, float sy) {$/;"	f	class:CV::Matrix	signature:(float sx, float sy)
+postScale	3rd_party/Matrix.cpp	/^void Matrix::postScale(float sx, float sy, float px, float py) {$/;"	f	class:CV::Matrix	signature:(float sx, float sy, float px, float py)
+postSkew	3rd_party/Matrix.cpp	/^void Matrix::postSkew(float sx, float sy) {$/;"	f	class:CV::Matrix	signature:(float sx, float sy)
+postSkew	3rd_party/Matrix.cpp	/^void Matrix::postSkew(float sx, float sy, float px, float py) {$/;"	f	class:CV::Matrix	signature:(float sx, float sy, float px, float py)
+postTranslate	3rd_party/Matrix.cpp	/^void Matrix::postTranslate(float dx, float dy) {$/;"	f	class:CV::Matrix	signature:(float dx, float dy)
+preConcat	3rd_party/Matrix.cpp	/^void Matrix::preConcat(const Matrix& mat) {$/;"	f	class:CV::Matrix	signature:(const Matrix& mat)
+preRotate	3rd_party/Matrix.cpp	/^void Matrix::preRotate(float degrees) {$/;"	f	class:CV::Matrix	signature:(float degrees)
+preRotate	3rd_party/Matrix.cpp	/^void Matrix::preRotate(float degrees, float px, float py) {$/;"	f	class:CV::Matrix	signature:(float degrees, float px, float py)
+preScale	3rd_party/Matrix.cpp	/^void Matrix::preScale(float sx, float sy) {$/;"	f	class:CV::Matrix	signature:(float sx, float sy)
+preScale	3rd_party/Matrix.cpp	/^void Matrix::preScale(float sx, float sy, float px, float py) {$/;"	f	class:CV::Matrix	signature:(float sx, float sy, float px, float py)
+preSkew	3rd_party/Matrix.cpp	/^void Matrix::preSkew(float sx, float sy) {$/;"	f	class:CV::Matrix	signature:(float sx, float sy)
+preSkew	3rd_party/Matrix.cpp	/^void Matrix::preSkew(float sx, float sy, float px, float py) {$/;"	f	class:CV::Matrix	signature:(float sx, float sy, float px, float py)
+preTranslate	3rd_party/Matrix.cpp	/^void Matrix::preTranslate(float dx, float dy) {$/;"	f	class:CV::Matrix	signature:(float dx, float dy)
+premap	platform/eyer/eyer_driver.c	/^unsigned char premap[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15};$/;"	v
+printf	platform/eyer/eyer_driver.c	8;"	d	file:
+printf_ek	platform/eyer/eyer_driver.c	1895;"	d	file:
+read_aux_irq	platform/eyer/eyer_driver.c	/^uint32_t read_aux_irq()$/;"	f
+read_aux_irq_msk	platform/eyer/eyer_driver.c	/^uint32_t read_aux_irq_msk()$/;"	f
+read_cnt	platform/eyer/eyer_driver.c	/^int32_t read_cnt = 0 ;$/;"	v
+read_sys_cycle	platform/eyer/eyer_driver.c	/^uint32_t read_sys_cycle()$/;"	f
+reset	3rd_party/Matrix.cpp	/^void Matrix::reset() {$/;"	f	class:CV::Matrix	signature:()
+reset	api/AutoTime.cpp	/^void Timer::reset()$/;"	f	class:Timer	signature:()
+resize_box_split	api/bscaler_segmentation.cpp	/^void resize_box_split(std::vector<bsc_hw_once_cfg_s> &bs_cfgs,$/;"	f	signature:(std::vector<bsc_hw_once_cfg_s> &bs_cfgs, const box_resize_info_s *info, const data_info_s *src, const data_info_s *dst, const uint32_t *coef, const uint32_t *offset)
+resize_cac_sub_box	api/bscaler_segmentation.cpp	/^static void resize_cac_sub_box(box_info_s *src, box_info_s *dst,$/;"	f	file:	signature:(box_info_s *src, box_info_s *dst, box_info_s *wbox, float scale_x, float scale_y, float trans_x, float trans_y)
+rgba2virchn	model/bscaler_mdl.c	/^static void rgba2virchn(uint8_t *src, uint32_t src_stride,$/;"	f	file:	signature:(uint8_t *src, uint32_t src_stride, uint16_t width, uint16_t height, uint8_t knl_w, uint8_t knl_h, uint8_t knl_stride_w, uint8_t knl_stride_h, uint8_t zero, uint8_t pad_top, uint8_t pad_bottom, uint8_t pad_left, uint8_t pad_right, uint8_t *dst, uint32_t dst_stride )
+rowcol3	3rd_party/Matrix.cpp	/^static inline float rowcol3(const float row[], const float col[]) {$/;"	f	namespace:CV	signature:(const float row[], const float col[])
+s32_point_s	model/bscaler_mdl.c	/^} s32_point_s;$/;"	t	typeref:struct:__anon1	file:
+score_write	platform/eyer/eyer_driver.c	/^void score_write (thread_inact_p thread_inact_ptr, int32_t cmd)$/;"	f	signature:(thread_inact_p thread_inact_ptr, int32_t cmd)
+scross	3rd_party/Matrix.cpp	/^static inline float scross(float a, float b, float c, float d) {$/;"	f	namespace:CV	signature:(float a, float b, float c, float d)
+scross	api/matrix.c	/^STATIC_INLINE float scross(float a, float b, float c, float d)$/;"	f	signature:(float a, float b, float c, float d)
+scross_dscale	3rd_party/Matrix.cpp	/^static inline float scross_dscale(float a, float b, float c, float d, double scale) {$/;"	f	namespace:CV	signature:(float a, float b, float c, float d, double scale)
+scross_dscale	api/matrix.c	/^STATIC_INLINE float scross_dscale(float a, float b, float c, float d, float scale)$/;"	f	signature:(float a, float b, float c, float d, float scale)
+sdot	3rd_party/Matrix.cpp	/^static inline float sdot(float a, float b, float c, float d) {$/;"	f	namespace:CV	signature:(float a, float b, float c, float d)
+sdvp_malloc	platform/platform.c	/^static void *sdvp_malloc(size_t align, size_t size)$/;"	f	file:	signature:(size_t align, size_t size)
+send_pid_to_eyer	platform/eyer/eyer_driver.c	/^void send_pid_to_eyer(int32_t need_wave)$/;"	f	signature:(int32_t need_wave)
+set9	3rd_party/Matrix.cpp	/^void Matrix::set9(const float buffer[]) {$/;"	f	class:CV::Matrix	signature:(const float buffer[])
+setAffine	3rd_party/Matrix.cpp	/^void Matrix::setAffine(const float buffer[]) {$/;"	f	class:CV::Matrix	signature:(const float buffer[])
+setConcat	3rd_party/Matrix.cpp	/^void Matrix::setConcat(const Matrix& a, const Matrix& b) {$/;"	f	class:CV::Matrix	signature:(const Matrix& a, const Matrix& b)
+setPolyToPoly	3rd_party/Matrix.cpp	/^bool Matrix::setPolyToPoly(const Point src[], const Point dst[], int count) {$/;"	f	class:CV::Matrix	signature:(const Point src[], const Point dst[], int count)
+setRectToRect	3rd_party/Matrix.cpp	/^bool Matrix::setRectToRect(const Rect& src, const Rect& dst, ScaleToFit align) {$/;"	f	class:CV::Matrix	signature:(const Rect& src, const Rect& dst, ScaleToFit align)
+setRotate	3rd_party/Matrix.cpp	/^void Matrix::setRotate(float degrees) {$/;"	f	class:CV::Matrix	signature:(float degrees)
+setRotate	3rd_party/Matrix.cpp	/^void Matrix::setRotate(float degrees, float px, float py) {$/;"	f	class:CV::Matrix	signature:(float degrees, float px, float py)
+setScale	3rd_party/Matrix.cpp	/^void Matrix::setScale(float sx, float sy) {$/;"	f	class:CV::Matrix	signature:(float sx, float sy)
+setScale	3rd_party/Matrix.cpp	/^void Matrix::setScale(float sx, float sy, float px, float py) {$/;"	f	class:CV::Matrix	signature:(float sx, float sy, float px, float py)
+setSinCos	3rd_party/Matrix.cpp	/^void Matrix::setSinCos(float sinV, float cosV) {$/;"	f	class:CV::Matrix	signature:(float sinV, float cosV)
+setSinCos	3rd_party/Matrix.cpp	/^void Matrix::setSinCos(float sinV, float cosV, float px, float py) {$/;"	f	class:CV::Matrix	signature:(float sinV, float cosV, float px, float py)
+setSkew	3rd_party/Matrix.cpp	/^void Matrix::setSkew(float sx, float sy) {$/;"	f	class:CV::Matrix	signature:(float sx, float sy)
+setSkew	3rd_party/Matrix.cpp	/^void Matrix::setSkew(float sx, float sy, float px, float py) {$/;"	f	class:CV::Matrix	signature:(float sx, float sy, float px, float py)
+setTranslate	3rd_party/Matrix.cpp	/^void Matrix::setTranslate(float dx, float dy) {$/;"	f	class:CV::Matrix	signature:(float dx, float dy)
+show_long	platform/eyer/eyer_driver.c	/^void show_long(uint32_t c){$/;"	f	signature:(uint32_t c)
+show_long	platform/eyer/eyer_driver.c	/^void show_long(uint32_t data)$/;"	f	signature:(uint32_t data)
+show_vmm_list	platform/eyer/eyer_driver.c	/^void show_vmm_list()$/;"	f
+sk_ieee_float_divide	3rd_party/Matrix.cpp	/^static inline float sk_ieee_float_divide(float x, float y) {$/;"	f	namespace:CV	signature:(float x, float y)
+sk_inv_determinant	3rd_party/Matrix.cpp	/^static double sk_inv_determinant(const float mat[9], int isPerspective) {$/;"	f	namespace:CV	signature:(const float mat[9], int isPerspective)
+substring	api/bscaler_api.cpp	/^void substring(char *ch, char* subch, int pos, int length)$/;"	f	signature:(char *ch, char* subch, int pos, int length)
+sys_time_wait	platform/eyer/eyer_driver.c	/^void sys_time_wait(unsigned int time_cycle)$/;"	f	signature:(unsigned int time_cycle)
+sys_valu_wait	platform/eyer/eyer_driver.c	/^void sys_valu_wait(unsigned int addr, int value)$/;"	f	signature:(unsigned int addr, int value)
+thread_send	platform/eyer/eyer_driver.c	/^void thread_send(thread_inact_p thread_inact_ptr,$/;"	f	signature:(thread_inact_p thread_inact_ptr, uint32_t *buf_ptr, uint32_t buf_size )
+tlb_stba	platform/eyer/eyer_driver.c	/^uint32_t *tlb_tab, *tlb_tba, tlb_stba[1024];$/;"	v
+tlb_tab	platform/eyer/eyer_driver.c	/^uint32_t *tlb_tab, *tlb_tba, tlb_stba[1024];$/;"	v
+tlb_tba	platform/eyer/eyer_driver.c	/^uint32_t *tlb_tab, *tlb_tba, tlb_stba[1024];$/;"	v
+vmm_head	platform/eyer/eyer_driver.c	/^vmm_nod_p vmm_head = NULL;$/;"	v
+vmm_init_tlb_tab	platform/eyer/eyer_driver.c	/^int vmm_init_tlb_tab()$/;"	f
+vmm_list_add	platform/eyer/eyer_driver.c	/^int vmm_list_add(uint8_t* waddr_low, uint8_t* waddr_hight, uint32_t align_size) \/\/add an nod into vmm list, maybe here need add some align$/;"	f	signature:(uint8_t* waddr_low, uint8_t* waddr_hight, uint32_t align_size)
+vmm_list_del_bywaddr	platform/eyer/eyer_driver.c	/^int vmm_list_del_bywaddr(uint8_t *waddr)$/;"	f	signature:(uint8_t *waddr)
+vmm_list_find_bypaddr	platform/eyer/eyer_driver.c	/^vmm_nod_p vmm_list_find_bypaddr(uint32_t addr) \/\/find an nod by paddr$/;"	f	signature:(uint32_t addr)
+vmm_list_find_byvaddr	platform/eyer/eyer_driver.c	/^vmm_nod_p vmm_list_find_byvaddr(uint32_t addr) \/\/find an nod by vaddr$/;"	f	signature:(uint32_t addr)
+vmm_list_find_bywaddr	platform/eyer/eyer_driver.c	/^vmm_nod_p vmm_list_find_bywaddr(uint8_t *addr) \/\/find an nod by world addr$/;"	f	signature:(uint8_t *addr)
+vremap	platform/eyer/eyer_driver.c	/^unsigned char vremap[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 0};$/;"	v
+wait_aux_end	platform/eyer/eyer_driver.c	/^void wait_aux_end(uint32_t *end_ptr, int32_t endvalue)$/;"	f	signature:(uint32_t *end_ptr, int32_t endvalue)
+wait_aux_start	platform/eyer/eyer_driver.c	/^void wait_aux_start()$/;"	f
+wait_fifo_notempty	platform/eyer/eyer_driver.c	/^void wait_fifo_notempty(uint32_t *wptr, uint32_t *rptr)$/;"	f	signature:(uint32_t *wptr, uint32_t *rptr)
+wait_fifo_notfull	platform/eyer/eyer_driver.c	/^void wait_fifo_notfull(uint32_t *wptr, uint32_t *rptr, int32_t fifo_depth)$/;"	f	signature:(uint32_t *wptr, uint32_t *rptr, int32_t fifo_depth)
+write_aux_irq	platform/eyer/eyer_driver.c	/^uint32_t write_aux_irq(uint32_t irq)$/;"	f	signature:(uint32_t irq)
+write_aux_irq_msk	platform/eyer/eyer_driver.c	/^uint32_t write_aux_irq_msk(uint32_t irq_msk)$/;"	f	signature:(uint32_t irq_msk)
+write_chain	api/hal/bscaler_hal.c	/^int write_chain(uint32_t reg, uint32_t val, uint32_t **addr, uint32_t tm)$/;"	f	signature:(uint32_t reg, uint32_t val, uint32_t **addr, uint32_t tm)
+write_cnt	platform/eyer/eyer_driver.c	/^int32_t write_cnt = 0 ;$/;"	v
+write_fifo	platform/eyer/eyer_driver.c	/^void write_fifo(uint32_t *wptr, uint32_t *rptr)$/;"	f	signature:(uint32_t *wptr, uint32_t *rptr)
+x	model/bscaler_mdl.c	/^    int32_t             x;$/;"	m	struct:__anon1	file:	access:public
+x86_stop	platform/eyer/eyer_driver.c	/^void x86_stop(int32_t sig)$/;"	f	signature:(int32_t sig)
+y	model/bscaler_mdl.c	/^    int32_t             y;$/;"	m	struct:__anon1	file:	access:public
+yuv2rgb	model/bscaler_mdl.c	/^void yuv2rgb(uint8_t y, uint8_t u, uint8_t v,$/;"	f	signature:(uint8_t y, uint8_t u, uint8_t v, const uint32_t *coef, const uint8_t *offset, const uint8_t nv2bgr_alpha, int order, uint8_t *rgba)
+~AutoTime	api/AutoTime.cpp	/^AutoTime::~AutoTime() {$/;"	f	class:AutoTime	signature:()
+~Timer	api/AutoTime.cpp	/^Timer::~Timer() {$/;"	f	class:Timer	signature:()

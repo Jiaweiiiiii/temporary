@@ -1,0 +1,1431 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+-fields	Makefile	/^	ctags -R --fields=+iaS --extra=+q$/;"	m
+ABS	include/mxu3.h	951;"	d
+ADD	include/mxu3.h	887;"	d
+ADDIW	include/mxu3.h	1354;"	d
+ADDRW	include/mxu3.h	1362;"	d
+ADD_WR_RADDR_RST	include/nna_app.h	413;"	d
+AIE_BSCALER_FRMT_BUS	include/aie_bscaler.h	31;"	d
+AIE_BSCALER_FRMT_CTRL	include/aie_bscaler.h	18;"	d
+AIE_BSCALER_FRMT_DST	include/aie_bscaler.h	24;"	d
+AIE_BSCALER_FRMT_DST_STRD	include/aie_bscaler.h	25;"	d
+AIE_BSCALER_FRMT_SIZE	include/aie_bscaler.h	22;"	d
+AIE_BSCALER_FRMT_SRC_C	include/aie_bscaler.h	21;"	d
+AIE_BSCALER_FRMT_SRC_STRD	include/aie_bscaler.h	23;"	d
+AIE_BSCALER_FRMT_SRC_Y	include/aie_bscaler.h	20;"	d
+AIE_BSCALER_FRMT_TASK	include/aie_bscaler.h	19;"	d
+AIE_BSCALER_PARAM0	include/aie_bscaler.h	26;"	d
+AIE_BSCALER_PARAM1	include/aie_bscaler.h	27;"	d
+AIE_BSCALER_PARAM2	include/aie_bscaler.h	28;"	d
+AIE_BSCALER_PARAM3	include/aie_bscaler.h	29;"	d
+AIE_BSCALER_PARAM4	include/aie_bscaler.h	30;"	d
+ANDIB	include/mxu3.h	1152;"	d
+ANDNV	include/mxu3.h	1144;"	d
+ANDV	include/mxu3.h	1136;"	d
+AR	source/Makefile	/^AR=mips-linux-gnu-ar$/;"	m
+BSCALER_IO_BASE	include/aie_mmap.h	29;"	d
+BSCALER_IO_SIZE	include/aie_mmap.h	30;"	d
+BSELV	include/mxu3.h	1208;"	d
+BSHL	include/mxu3.h	878;"	d
+BSHLI	include/mxu3.h	854;"	d
+BSHR	include/mxu3.h	870;"	d
+BSHRI	include/mxu3.h	862;"	d
+CASESE_NUM	include/macro_def.h	77;"	d
+CCU_BASE_ADDR	include/macro_def.h	101;"	d
+CCU_CNT_CLEAR	include/macro_def.h	98;"	d
+CLEZ	include/mxu3.h	1338;"	d
+CLOSEFS	include/ivspmon.h	62;"	d
+CLTS	include/mxu3.h	1330;"	d
+CMD_LINE	source/aie_mmap.c	114;"	d	file:
+CMVW	include/mxu3.h	1289;"	d
+CORE0_CODE_START	include/macro_def.h	154;"	d
+CORE0_DATA_START	include/macro_def.h	155;"	d
+CORE0_OST_BASE	include/macro_def.h	64;"	d
+COUNTER0_HI_OFFSET	include/macro_def.h	92;"	d
+COUNTER0_LO_OFFSET	include/macro_def.h	91;"	d
+COUNTER1_HI_OFFSET	include/macro_def.h	95;"	d
+COUNTER1_LO_OFFSET	include/macro_def.h	94;"	d
+CSE_FAIL_ADDR	include/macro_def.h	134;"	d
+CSE_PASS_ADDR	include/macro_def.h	135;"	d
+C_SOURCE	source/Makefile	/^C_SOURCE=$(wildcard *.c)$/;"	m
+C_TARGET_OBJ	source/Makefile	/^C_TARGET_OBJ=$(patsubst %.c, %.o, $(C_SOURCE))$/;"	m
+DDR_FLUSH_CACHE	source/dma_func.c	243;"	d	file:
+DDR_SIM_PBASE	source/aie_mmap.c	77;"	d	file:
+DEBUG_NNA_DMA_MEMORY	source/nna_dma_memory_v1.c	31;"	d	file:
+DEFAULT_FP_H	include/nna_reg_set_c.h	22;"	d
+DEFAULT_FP_NUM0	include/nna_reg_set_c.h	36;"	d
+DEFAULT_FP_NUM1	include/nna_reg_set_c.h	37;"	d
+DEFAULT_FP_W	include/nna_reg_set_c.h	23;"	d
+DEFAULT_FR_ALWAYS_INC	include/nna_reg_set_c.h	47;"	d
+DEFAULT_FR_FP_STRIDE	include/nna_reg_set_c.h	32;"	d
+DEFAULT_FR_FP_W	include/nna_reg_set_c.h	31;"	d
+DEFAULT_FR_RB_E	include/nna_reg_set_c.h	29;"	d
+DEFAULT_FR_WADDR	include/nna_reg_set_c.h	42;"	d
+DEFAULT_FR_WADDR_INC0	include/nna_reg_set_c.h	43;"	d
+DEFAULT_FR_WADDR_INC1	include/nna_reg_set_c.h	44;"	d
+DEFAULT_FR_WADDR_INC2	include/nna_reg_set_c.h	45;"	d
+DEFAULT_FR_WADDR_INC3	include/nna_reg_set_c.h	46;"	d
+DEFAULT_F_BIT	include/nna_reg_set_c.h	48;"	d
+DEFAULT_F_BIT_GSIZE	include/nna_reg_set_c.h	30;"	d
+DEFAULT_MACTL_FP_X	include/nna_reg_set_c.h	25;"	d
+DEFAULT_MACTL_FP_Y	include/nna_reg_set_c.h	24;"	d
+DEFAULT_MAC_BIT	include/nna_reg_set_c.h	35;"	d
+DEFAULT_MAC_FP	include/nna_reg_set_c.h	34;"	d
+DEFAULT_MAC_P_MASK	include/nna_reg_set_c.h	39;"	d
+DEFAULT_MAC_STRIDE	include/nna_reg_set_c.h	33;"	d
+DEFAULT_MAC_W_MASK	include/nna_reg_set_c.h	38;"	d
+DEFAULT_MIN_FPN_O	include/nna_reg_set_c.h	28;"	d
+DEFAULT_MSF_MODE	include/nna_reg_set_c.h	49;"	d
+DEFAULT_PAD_VALUE	include/nna_reg_set_c.h	21;"	d
+DEFAULT_Q_BIT	include/nna_reg_set_c.h	50;"	d
+DEFAULT_RCFL_E	include/nna_reg_set_c.h	20;"	d
+DEFAULT_SF_MODE	include/nna_reg_set_c.h	27;"	d
+DEFAULT_TLYP_ACC	include/nna_reg_set_c.h	26;"	d
+DEFAULT_WR_RADDR	include/nna_reg_set_c.h	18;"	d
+DEFAULT_WR_RADDR_RST	include/nna_reg_set_c.h	19;"	d
+DEFAULT_WR_WADDR	include/nna_reg_set_c.h	41;"	d
+DISABLE_PC	include/nna_app.h	355;"	d
+DISABLE_RDNUM_INFO	include/nna_app.h	554;"	d
+DISABLE_RDNUM_INFO	include/nna_app.h	654;"	d
+ENABLE_PC	include/nna_app.h	352;"	d
+ENABLE_RDNUM_INFO	include/nna_app.h	550;"	d
+ENABLE_RDNUM_INFO	include/nna_app.h	653;"	d
+EXCEPT_ENTRY_ADDR	include/macro_def.h	158;"	d
+EXTU	include/mxu3.h	1322;"	d
+EXTU3BW	include/mxu3.h	774;"	d
+EXT_FMT_P	include/mxu3.h	758;"	d
+EXT_FMT_P_ZP	include/mxu3.h	766;"	d
+E_FAIL	include/macro_def.h	108;"	d
+E_PASS	include/macro_def.h	107;"	d
+E_RESERVED_CODE	include/macro_def.h	109;"	d
+E_XFAIL	include/macro_def.h	106;"	d
+FADDW	include/mxu3.h	1430;"	d
+FALSE	source/LocalMemMgr.c	7;"	d	file:
+FASTIO_SIZE	include/aie_mmap.h	34;"	d
+FCADDW	include/mxu3.h	1470;"	d
+FCEQW	include/mxu3.h	1526;"	d
+FCLASSW	include/mxu3.h	1518;"	d
+FCLEW	include/mxu3.h	1534;"	d
+FCLTW	include/mxu3.h	1542;"	d
+FCMULIW	include/mxu3.h	1462;"	d
+FCMULRW	include/mxu3.h	1454;"	d
+FCORW	include/mxu3.h	1550;"	d
+FFSIW	include/mxu3.h	1558;"	d
+FFUIW	include/mxu3.h	1566;"	d
+FLUSH_CACHE_INTERNEL	source/dma_func.c	20;"	d	file:
+FMAXAW	include/mxu3.h	1494;"	d
+FMAXW	include/mxu3.h	1486;"	d
+FMINAW	include/mxu3.h	1510;"	d
+FMINW	include/mxu3.h	1502;"	d
+FMULW	include/mxu3.h	1446;"	d
+FP_H	include/nna_reg_set_c.h	/^SET_REG_CONST(FP_H);$/;"	v
+FP_H	include/nna_reg_set_v.h	/^SET_REG_VALUE(FP_H);$/;"	v
+FP_MACTL_FP_X	include/nna_reg_set_c.h	/^SET_REG_CONST(FP_MACTL_FP_X);$/;"	v
+FP_MACTL_FP_X	include/nna_reg_set_v.h	/^SET_REG_VALUE(FP_MACTL_FP_X);$/;"	v
+FP_MACTL_FP_Y	include/nna_reg_set_c.h	/^SET_REG_CONST(FP_MACTL_FP_Y);$/;"	v
+FP_MACTL_FP_Y	include/nna_reg_set_v.h	/^SET_REG_VALUE(FP_MACTL_FP_Y);$/;"	v
+FP_NUM0	include/nna_reg_set_c.h	/^SET_REG_CONST(FP_NUM0);$/;"	v
+FP_NUM0	include/nna_reg_set_v.h	/^SET_REG_VALUE(FP_NUM0);$/;"	v
+FP_NUM1	include/nna_reg_set_c.h	/^SET_REG_CONST(FP_NUM1);$/;"	v
+FP_NUM1	include/nna_reg_set_v.h	/^SET_REG_VALUE(FP_NUM1);$/;"	v
+FP_W	include/nna_reg_set_c.h	/^SET_REG_CONST(FP_W);$/;"	v
+FP_W	include/nna_reg_set_v.h	/^SET_REG_VALUE(FP_W);$/;"	v
+FRAM_SIZE	include/nna_app.h	21;"	d
+FREE	source/LocalMemMgr.c	8;"	d	file:
+FRINTW	include/mxu3.h	1590;"	d
+FR_ALWAYS_INC	include/nna_reg_set_c.h	/^SET_REG_CONST(FR_ALWAYS_INC);$/;"	v
+FR_ALWAYS_INC	include/nna_reg_set_v.h	/^SET_REG_VALUE(FR_ALWAYS_INC);$/;"	v
+FR_FP_STRIDE	include/nna_reg_set_c.h	/^SET_REG_CONST(FR_FP_STRIDE);$/;"	v
+FR_FP_STRIDE	include/nna_reg_set_v.h	/^SET_REG_VALUE(FR_FP_STRIDE);$/;"	v
+FR_FP_STRIDE_BITS	include/nna_app.h	27;"	d
+FR_FP_W	include/nna_reg_set_c.h	/^SET_REG_CONST(FR_FP_W);$/;"	v
+FR_FP_W	include/nna_reg_set_v.h	/^SET_REG_VALUE(FR_FP_W);$/;"	v
+FR_FP_W_BITS	include/nna_app.h	26;"	d
+FR_RB_E	include/nna_reg_set_c.h	/^SET_REG_CONST(FR_RB_E);$/;"	v
+FR_RB_E	include/nna_reg_set_v.h	/^SET_REG_VALUE(FR_RB_E);$/;"	v
+FR_WADDR	include/nna_reg_set_c.h	/^SET_REG_CONST(FR_WADDR);$/;"	v
+FR_WADDR	include/nna_reg_set_v.h	/^SET_REG_VALUE(FR_WADDR);$/;"	v
+FR_WADDR_ADD	include/nna_app.h	472;"	d
+FR_WADDR_INC0	include/nna_reg_set_c.h	/^SET_REG_CONST(FR_WADDR_INC0);$/;"	v
+FR_WADDR_INC0	include/nna_reg_set_v.h	/^SET_REG_VALUE(FR_WADDR_INC0);$/;"	v
+FR_WADDR_INC1	include/nna_reg_set_c.h	/^SET_REG_CONST(FR_WADDR_INC1);$/;"	v
+FR_WADDR_INC1	include/nna_reg_set_v.h	/^SET_REG_VALUE(FR_WADDR_INC1);$/;"	v
+FR_WADDR_INC2	include/nna_reg_set_c.h	/^SET_REG_CONST(FR_WADDR_INC2);$/;"	v
+FR_WADDR_INC2	include/nna_reg_set_v.h	/^SET_REG_VALUE(FR_WADDR_INC2);$/;"	v
+FR_WADDR_INC3	include/nna_reg_set_c.h	/^SET_REG_CONST(FR_WADDR_INC3);$/;"	v
+FR_WADDR_INC3	include/nna_reg_set_v.h	/^SET_REG_VALUE(FR_WADDR_INC3);$/;"	v
+FR_WALIGN	include/nna_app.h	23;"	d
+FR_WALIGN_BITS	include/nna_app.h	22;"	d
+FSUBW	include/mxu3.h	1438;"	d
+FTRUNCSW	include/mxu3.h	1598;"	d
+FTRUNCUW	include/mxu3.h	1606;"	d
+FTSIW	include/mxu3.h	1574;"	d
+FTUIW	include/mxu3.h	1582;"	d
+FXAS	include/mxu3.h	1478;"	d
+F_BIT	include/nna_reg_set_c.h	/^SET_REG_CONST(F_BIT);$/;"	v
+F_BIT	include/nna_reg_set_v.h	/^SET_REG_VALUE(F_BIT);$/;"	v
+F_BIT_GSIZE	include/nna_reg_set_c.h	/^SET_REG_CONST(F_BIT_GSIZE);$/;"	v
+F_BIT_GSIZE	include/nna_reg_set_v.h	/^SET_REG_VALUE(F_BIT_GSIZE);$/;"	v
+F_CHID	include/nna_app.h	105;"	d
+GATHER	include/mxu3.h	1346;"	d
+GCC	source/Makefile	/^GCC=\/tools\/mips-gcc720-glibc226\/bin\/mips-linux-gnu-gcc$/;"	m
+GCC_EXT_OPT	source/Makefile	/^GCC_EXT_OPT=-D__AIE_INFO__ $/;"	m
+GCC_EXT_OPT	source/Makefile	/^GCC_EXT_OPT=-D__AIE_INFO__ -D__AIE_VALID_CHECK__ $/;"	m
+GCC_EXT_OPT	source/Makefile	/^GCC_EXT_OPT=-D__AIE_VALID_CHECK__ $/;"	m
+GCC_OPT	source/Makefile	/^GCC_OPT=$(OPT_LEVEL) $(CSE_CFLAGS) $(GCC_EXT_OPT) -EL -mips32r2 -mfp64 -mabs=2008 -mnan=2008 -static \\$/;"	m
+GEN_DMA_DES	source/dma_func.c	217;"	d	file:
+GET_SIM_VBASE	source/aie_mmap.c	76;"	d	file:
+GLOBAL_OST_BASE	include/macro_def.h	55;"	d
+GLOBAL_OST_CCR	include/macro_def.h	56;"	d
+GLOBAL_OST_CNTB	include/macro_def.h	61;"	d
+GLOBAL_OST_CNTH	include/macro_def.h	59;"	d
+GLOBAL_OST_CNTL	include/macro_def.h	60;"	d
+GLOBAL_OST_CR	include/macro_def.h	58;"	d
+GLOBAL_OST_ER	include/macro_def.h	57;"	d
+GSHUFB	include/mxu3.h	830;"	d
+GSHUFH	include/mxu3.h	1314;"	d
+GSHUFW	include/mxu3.h	814;"	d
+GSHUFWB	include/mxu3.h	822;"	d
+GSHUFWH	include/mxu3.h	1306;"	d
+GT_FMT	include/mxu3.h	742;"	d
+GT_N_FMT	include/mxu3.h	750;"	d
+ILVE	include/mxu3.h	838;"	d
+ILVO	include/mxu3.h	846;"	d
+INTC_BASE	include/macro_def.h	52;"	d
+IOCTL_SOC_NNA_FLUSHCACHE	include/soc_nna.h	17;"	d
+IOCTL_SOC_NNA_FLUSHCACHE	source/aie_mmap.c	40;"	d	file:
+IOCTL_SOC_NNA_FREE	include/soc_nna.h	16;"	d
+IOCTL_SOC_NNA_FREE	source/aie_mmap.c	39;"	d	file:
+IOCTL_SOC_NNA_MALLOC	include/soc_nna.h	15;"	d
+IOCTL_SOC_NNA_MALLOC	source/aie_mmap.c	38;"	d	file:
+IOCTL_SOC_NNA_RDCH_START	include/soc_nna.h	19;"	d
+IOCTL_SOC_NNA_RDCH_START	source/aie_mmap.c	42;"	d	file:
+IOCTL_SOC_NNA_SETUP_DES	include/soc_nna.h	18;"	d
+IOCTL_SOC_NNA_SETUP_DES	source/aie_mmap.c	41;"	d	file:
+IOCTL_SOC_NNA_WRCH_START	include/soc_nna.h	20;"	d
+IOCTL_SOC_NNA_WRCH_START	source/aie_mmap.c	43;"	d	file:
+IRQ_ID_INTC	include/macro_def.h	130;"	d
+IRQ_ID_MAILBOX	include/macro_def.h	131;"	d
+IRQ_ID_OST	include/macro_def.h	132;"	d
+IRQ_NUMBER	include/macro_def.h	129;"	d
+K_DATA_START_ADDR	include/macro_def.h	140;"	d
+K_GP_START_ADDR	include/macro_def.h	141;"	d
+K_MODE_CASESE_NUM_MAX	include/macro_def.h	73;"	d
+K_PID_MAX	include/macro_def.h	86;"	d
+K_PID_OFFSET	include/macro_def.h	85;"	d
+K_PROCS_OFFSET	include/macro_def.h	139;"	d
+K_PROC_ENTRY_BASE	include/macro_def.h	138;"	d
+K_SP_START_ADDR	include/macro_def.h	142;"	d
+L2C_SIZE	include/aie_mmap.h	31;"	d
+LA	include/mxu3.h	164;"	d
+LAD	include/mxu3.h	244;"	d
+LAD_ADD	include/mxu3.h	444;"	d
+LAD_ADDI	include/mxu3.h	664;"	d
+LAO	include/mxu3.h	196;"	d
+LAO_ADD	include/mxu3.h	356;"	d
+LAO_ADDI	include/mxu3.h	576;"	d
+LAQ	include/mxu3.h	276;"	d
+LAQ_ADD	include/mxu3.h	488;"	d
+LAQ_ADDI	include/mxu3.h	708;"	d
+LAW	include/mxu3.h	228;"	d
+LAW_ADD	include/mxu3.h	400;"	d
+LAW_ADDI	include/mxu3.h	620;"	d
+LA_ADD	include/mxu3.h	312;"	d
+LA_ADDI	include/mxu3.h	532;"	d
+LDST_HINT_BYPASSL1	include/nna_regs.h	211;"	d
+LDST_HINT_NORMAL	include/nna_regs.h	210;"	d
+LIB_NAME	source/Makefile	/^LIB_NAME=libnna$/;"	m
+LIH	include/mxu3.h	1281;"	d
+LIW	include/mxu3.h	1265;"	d
+LIWH	include/mxu3.h	1273;"	d
+LIWR	include/mxu3.h	1370;"	d
+LU	include/mxu3.h	156;"	d
+LUD	include/mxu3.h	236;"	d
+LUD_ADD	include/mxu3.h	433;"	d
+LUD_ADDI	include/mxu3.h	653;"	d
+LUO	include/mxu3.h	188;"	d
+LUO_ADD	include/mxu3.h	345;"	d
+LUO_ADDI	include/mxu3.h	565;"	d
+LUQ	include/mxu3.h	268;"	d
+LUQ_ADD	include/mxu3.h	477;"	d
+LUQ_ADDI	include/mxu3.h	697;"	d
+LUW	include/mxu3.h	220;"	d
+LUW_ADD	include/mxu3.h	389;"	d
+LUW_ADDI	include/mxu3.h	609;"	d
+LU_ADD	include/mxu3.h	301;"	d
+LU_ADDI	include/mxu3.h	521;"	d
+Local_Alloc	source/LocalMemMgr.c	/^void *Local_Alloc (void *heap, unsigned int nbytes)$/;"	f	signature:(void *heap, unsigned int nbytes)
+Local_Alloc_Inner	source/LocalMemMgr.c	/^static uintptr_t Local_Alloc_Inner (void *heap, unsigned int nbytes)$/;"	f	file:	signature:(void *heap, unsigned int nbytes)
+Local_Calloc	source/LocalMemMgr.c	/^void *Local_Calloc (void *heap, unsigned int size, unsigned int n)$/;"	f	signature:(void *heap, unsigned int size, unsigned int n)
+Local_Dealloc	source/LocalMemMgr.c	/^void Local_Dealloc(void *heap, void *address)$/;"	f	signature:(void *heap, void *address)
+Local_Dealloc_Inner	source/LocalMemMgr.c	/^static void Local_Dealloc_Inner (void *heap, void *address)$/;"	f	file:	signature:(void *heap, void *address)
+Local_Dump_List	source/LocalMemMgr.c	/^void Local_Dump_List(void *heap)$/;"	f	signature:(void *heap)
+Local_HeapInit	source/LocalMemMgr.c	/^int Local_HeapInit(void *heap, unsigned int size)$/;"	f	signature:(void *heap, unsigned int size)
+Local_Realloc	source/LocalMemMgr.c	/^void *Local_Realloc (void *heap, void *address, unsigned int nbytes)$/;"	f	signature:(void *heap, void *address, unsigned int nbytes)
+Local_alignAlloc	source/LocalMemMgr.c	/^void *Local_alignAlloc (void *heap, unsigned int align, unsigned int size)$/;"	f	signature:(void *heap, unsigned int align, unsigned int size)
+MAC_BIT	include/nna_reg_set_c.h	/^SET_REG_CONST(MAC_BIT);$/;"	v
+MAC_BIT	include/nna_reg_set_v.h	/^SET_REG_VALUE(MAC_BIT);$/;"	v
+MAC_FP	include/nna_reg_set_c.h	/^SET_REG_CONST(MAC_FP);$/;"	v
+MAC_FP	include/nna_reg_set_v.h	/^SET_REG_VALUE(MAC_FP);$/;"	v
+MAC_PNUM_LG	include/nna_app.h	24;"	d
+MAC_P_MASK	include/nna_reg_set_c.h	/^SET_REG_CONST(MAC_P_MASK);$/;"	v
+MAC_P_MASK	include/nna_reg_set_v.h	/^SET_REG_VALUE(MAC_P_MASK);$/;"	v
+MAC_STRIDE	include/nna_reg_set_c.h	/^SET_REG_CONST(MAC_STRIDE);$/;"	v
+MAC_STRIDE	include/nna_reg_set_v.h	/^SET_REG_VALUE(MAC_STRIDE);$/;"	v
+MAC_W_MASK	include/nna_reg_set_c.h	/^SET_REG_CONST(MAC_W_MASK);$/;"	v
+MAC_W_MASK	include/nna_reg_set_v.h	/^SET_REG_VALUE(MAC_W_MASK);$/;"	v
+MAXA	include/mxu3.h	1063;"	d
+MAXS	include/mxu3.h	1071;"	d
+MAXU	include/mxu3.h	1039;"	d
+MFCPUW	include/mxu3.h	1225;"	d
+MFSUM	include/mxu3.h	1249;"	d
+MFSUMZ	include/mxu3.h	1241;"	d
+MINA	include/mxu3.h	1079;"	d
+MINS	include/mxu3.h	1087;"	d
+MINU	include/mxu3.h	1095;"	d
+MIN_FPN_O	include/nna_reg_set_c.h	/^SET_REG_CONST(MIN_FPN_O);$/;"	v
+MIN_FPN_O	include/nna_reg_set_v.h	/^SET_REG_VALUE(MIN_FPN_O);$/;"	v
+MIN_FREE_BYTES	source/LocalMemMgr.c	21;"	d	file:
+MLAW	include/mxu3.h	991;"	d
+MLSW	include/mxu3.h	999;"	d
+MOV	include/mxu3.h	798;"	d
+MOVW	include/mxu3.h	790;"	d
+MSF_MODE	include/nna_reg_set_c.h	/^SET_REG_CONST(MSF_MODE);$/;"	v
+MSF_MODE	include/nna_reg_set_v.h	/^SET_REG_VALUE(MSF_MODE);$/;"	v
+MTCPUW	include/mxu3.h	1217;"	d
+MTSUM	include/mxu3.h	1257;"	d
+MUL	include/mxu3.h	903;"	d
+NNACMD_CLROC	include/nna.h	265;"	d
+NNACMD_CPOC	include/nna.h	264;"	d
+NNACMD_CPQR	include/nna.h	266;"	d
+NNACMD_G_TYPE	include/nna.h	254;"	d
+NNACMD_LS2OC	include/nna.h	277;"	d
+NNACMD_MACLC0_TYPE	include/nna.h	257;"	d
+NNACMD_MACLC1_TYPE	include/nna.h	258;"	d
+NNACMD_MACLC_TYPE	include/nna.h	256;"	d
+NNACMD_MACLUC_TYPE	include/nna.h	255;"	d
+NNACMD_Q0OCB	include/nna.h	269;"	d
+NNACMD_Q1OCB	include/nna.h	270;"	d
+NNACMD_Q32OCB	include/nna.h	271;"	d
+NNACMD_Q_MASK	include/nna.h	268;"	d
+NNACMD_RESET	include/nna.h	260;"	d
+NNACMD_RS2OC	include/nna.h	278;"	d
+NNACMD_TLYM	include/nna.h	274;"	d
+NNACMD_TLYMXP	include/nna.h	275;"	d
+NNACMD_TLYP	include/nna.h	273;"	d
+NNACMD_TL_MASK	include/nna.h	272;"	d
+NNACMD_TYPE_BIT	include/nna.h	252;"	d
+NNACMD_TYPE_MASK	include/nna.h	253;"	d
+NNADRD_BT	include/nna.h	107;"	d
+NNADRD_DBG_TYPE_BIT	include/nna.h	98;"	d
+NNADRD_DBG_TYPE_MASK	include/nna.h	99;"	d
+NNADRD_FRAM	include/nna.h	103;"	d
+NNADRD_OCB_TYPE	include/nna.h	296;"	d
+NNADRD_OF_WP	include/nna.h	104;"	d
+NNADRD_OF_WPIC	include/nna.h	105;"	d
+NNADRD_OF_WPOC	include/nna.h	106;"	d
+NNADRD_QR_TYPE	include/nna.h	297;"	d
+NNADRD_SF_TYPE	include/nna.h	298;"	d
+NNADRD_TYPE_BIT	include/nna.h	293;"	d
+NNADRD_TYPE_MASK	include/nna.h	294;"	d
+NNADRD_WRAM_IC	include/nna.h	101;"	d
+NNADRD_WRAM_OC	include/nna.h	102;"	d
+NNADWR_BT_TYPE	include/nna.h	288;"	d
+NNADWR_F_TYPE	include/nna.h	287;"	d
+NNADWR_TYPE_BIT	include/nna.h	283;"	d
+NNADWR_TYPE_MASK	include/nna.h	284;"	d
+NNADWR_W_TYPE	include/nna.h	286;"	d
+NNAPCG0_DWRF_WAIT_RCFL	include/nna.h	235;"	d
+NNAPCG0_DWRW_WAIT_RCFL	include/nna.h	236;"	d
+NNAPCG0_MACOP_FREX_NUM	include/nna.h	237;"	d
+NNAPCG0_MAC_WAIT_RCFL	include/nna.h	234;"	d
+NNAPCG0_WAITFF_DRD	include/nna.h	232;"	d
+NNAPCG0_WAITFF_QOCB	include/nna.h	233;"	d
+NNAPCG0_WAIT_CPOC	include/nna.h	230;"	d
+NNAPCG0_WAIT_CPQR	include/nna.h	231;"	d
+NNAPCG0_WAIT_DWRBT	include/nna.h	228;"	d
+NNAPCG0_WAIT_INBUF	include/nna.h	227;"	d
+NNAPCG0_WAIT_LSRS	include/nna.h	238;"	d
+NNAPCG0_WAIT_MACFF	include/nna.h	226;"	d
+NNAPCG0_WAIT_QOCB	include/nna.h	229;"	d
+NNAPCG1_COUNT0_D	include/nna.h	245;"	d
+NNAPCG1_COUNT1_D	include/nna.h	246;"	d
+NNAPCG1_COUNT2_D	include/nna.h	247;"	d
+NNAPCG1_CYCLE_D	include/nna.h	241;"	d
+NNAPCG1_INSN0_D	include/nna.h	242;"	d
+NNAPCG1_INSN1_D	include/nna.h	243;"	d
+NNAPCG1_INSN2_D	include/nna.h	244;"	d
+NNAPC_CNT_FRBANK_RBLKW	include/nna.h	215;"	d
+NNAPC_CNT_FRBANK_RDUTY	include/nna.h	213;"	d
+NNAPC_CNT_FRBANK_WDUTY	include/nna.h	214;"	d
+NNAPC_CNT_FRROB_HIT	include/nna.h	212;"	d
+NNAPC_CNT_MACFF_INUM	include/nna.h	216;"	d
+NNAPC_CNT_MAC_4BKOP	include/nna.h	210;"	d
+NNAPC_CNT_MAC_IDLE	include/nna.h	209;"	d
+NNAPC_CNT_MAC_MACOP	include/nna.h	211;"	d
+NNAPC_CNT_WRBUFBT_DUTY	include/nna.h	220;"	d
+NNAPC_CNT_WRBUFF_DUTY	include/nna.h	219;"	d
+NNAPC_CNT_WRBUFW_DUTY	include/nna.h	218;"	d
+NNAPC_CNT_WRBUF_DUTY	include/nna.h	217;"	d
+NNAPC_CNT_WR_RBLKW	include/nna.h	223;"	d
+NNAPC_CNT_WR_RDUTY	include/nna.h	221;"	d
+NNAPC_CNT_WR_WDUTY	include/nna.h	222;"	d
+NNAPC_INSN_CPOC	include/nna.h	198;"	d
+NNAPC_INSN_CPQR	include/nna.h	197;"	d
+NNAPC_INSN_DRDOCB	include/nna.h	203;"	d
+NNAPC_INSN_DRDQR	include/nna.h	204;"	d
+NNAPC_INSN_DRDQRB	include/nna.h	205;"	d
+NNAPC_INSN_DRDSF	include/nna.h	206;"	d
+NNAPC_INSN_DWRBT	include/nna.h	201;"	d
+NNAPC_INSN_DWRF	include/nna.h	200;"	d
+NNAPC_INSN_DWRW	include/nna.h	199;"	d
+NNAPC_INSN_MAC	include/nna.h	193;"	d
+NNAPC_INSN_MACFF	include/nna.h	195;"	d
+NNAPC_INSN_MACL	include/nna.h	194;"	d
+NNAPC_INSN_NNA	include/nna.h	192;"	d
+NNAPC_INSN_QOCB	include/nna.h	196;"	d
+NNAPC_INSN_RRD	include/nna.h	202;"	d
+NNARA_BIT_SIG_CPOC_BIT	include/nna.h	189;"	d
+NNARA_BIT_SIG_IVLD_BIT	include/nna.h	188;"	d
+NNARA_CTRL	include/nna.h	163;"	d
+NNARA_CTRL_CLREW_BIT	include/nna.h	178;"	d
+NNARA_CTRL_CLRPC_BIT	include/nna.h	179;"	d
+NNARA_CTRL_PCEG0_BIT	include/nna.h	180;"	d
+NNARA_CTRL_PCEG1_BIT	include/nna.h	181;"	d
+NNARA_CTRL_W0	include/nna.h	164;"	d
+NNARA_CTRL_W1	include/nna.h	165;"	d
+NNARA_DBG_TYPE	include/nna.h	26;"	d
+NNARA_D_TYPE	include/nna.h	22;"	d
+NNARA_EWSR	include/nna.h	162;"	d
+NNARA_FP_H	include/nna.h	122;"	d
+NNARA_FP_NUM0	include/nna.h	139;"	d
+NNARA_FP_NUM1	include/nna.h	140;"	d
+NNARA_FP_W	include/nna.h	123;"	d
+NNARA_FRAM_ADDR	include/nna.h	28;"	d
+NNARA_FRFMT	include/nna.h	73;"	d
+NNARA_FRFMT_OFPN	include/nna.h	93;"	d
+NNARA_FR_ALWAYS_INC	include/nna.h	152;"	d
+NNARA_FR_FP_STRIDE	include/nna.h	135;"	d
+NNARA_FR_FP_W	include/nna.h	134;"	d
+NNARA_FR_RADDR	include/nna.h	120;"	d
+NNARA_FR_RB_E	include/nna.h	131;"	d
+NNARA_FR_WADDR	include/nna.h	146;"	d
+NNARA_FR_WADDR_ADD	include/nna.h	147;"	d
+NNARA_FR_WADDR_INC0	include/nna.h	148;"	d
+NNARA_FR_WADDR_INC1	include/nna.h	149;"	d
+NNARA_FR_WADDR_INC2	include/nna.h	150;"	d
+NNARA_FR_WADDR_INC3	include/nna.h	151;"	d
+NNARA_F_BIT	include/nna.h	153;"	d
+NNARA_F_BIT_GSIZE	include/nna.h	132;"	d
+NNARA_G_TYPE	include/nna.h	20;"	d
+NNARA_IC_NUM	include/nna.h	29;"	d
+NNARA_INSN_INFO	include/nna.h	95;"	d
+NNARA_INTE	include/nna.h	166;"	d
+NNARA_INTE_W0	include/nna.h	167;"	d
+NNARA_INTE_W1	include/nna.h	168;"	d
+NNARA_IVLD_INSN_BIT	include/nna.h	184;"	d
+NNARA_MACTL_FP_X	include/nna.h	125;"	d
+NNARA_MACTL_FP_Y	include/nna.h	124;"	d
+NNARA_MAC_BIT	include/nna.h	138;"	d
+NNARA_MAC_FP	include/nna.h	137;"	d
+NNARA_MAC_P_MASK	include/nna.h	142;"	d
+NNARA_MAC_STRIDE	include/nna.h	136;"	d
+NNARA_MAC_W_MASK	include/nna.h	141;"	d
+NNARA_MIN_FPN_O	include/nna.h	130;"	d
+NNARA_MSF_MODE	include/nna.h	154;"	d
+NNARA_M_TYPE	include/nna.h	21;"	d
+NNARA_OC_NUM	include/nna.h	30;"	d
+NNARA_PAD_VALUE	include/nna.h	121;"	d
+NNARA_PC_COUNT0_SEL	include/nna.h	173;"	d
+NNARA_PC_COUNT1_SEL	include/nna.h	174;"	d
+NNARA_PC_COUNT2_SEL	include/nna.h	175;"	d
+NNARA_PC_FIFO_TH	include/nna.h	169;"	d
+NNARA_PC_INSN0_SEL	include/nna.h	170;"	d
+NNARA_PC_INSN1_SEL	include/nna.h	171;"	d
+NNARA_PC_INSN2_SEL	include/nna.h	172;"	d
+NNARA_Q_BIT	include/nna.h	155;"	d
+NNARA_RAM_CFL_BIT	include/nna.h	186;"	d
+NNARA_RCFL_E	include/nna.h	118;"	d
+NNARA_RCFL_TIMEOUT_BIT	include/nna.h	187;"	d
+NNARA_RDNUM_INFO	include/nna.h	96;"	d
+NNARA_RD_G	include/nna.h	158;"	d
+NNARA_RD_PCG0	include/nna.h	159;"	d
+NNARA_RD_PCG1	include/nna.h	160;"	d
+NNARA_RUN_ERROR_BIT	include/nna.h	185;"	d
+NNARA_SF_MODE	include/nna.h	128;"	d
+NNARA_TLYP_ACC	include/nna.h	127;"	d
+NNARA_TYPE_BIT	include/nna.h	18;"	d
+NNARA_TYPE_MASK	include/nna.h	19;"	d
+NNARA_WRAM_ADDR	include/nna.h	27;"	d
+NNARA_WR_RADDR	include/nna.h	115;"	d
+NNARA_WR_RADDR_RST	include/nna.h	116;"	d
+NNARA_WR_RADDR_RST_ADD	include/nna.h	117;"	d
+NNARA_WR_WADDR	include/nna.h	145;"	d
+NNA_CACHED	include/aie_mmap.h	/^    NNA_CACHED                  = 0x4,    \/* 1 << 2, cached, optionally to ddr memory *\/$/;"	e	enum:nna_cache_attr
+NNA_DESRAM_BASE_VA_ADDR	include/nna_dma_memory_v1.h	35;"	d
+NNA_DESRAM_STR_ADDR	include/nna_dma_memory_v1.h	26;"	d
+NNA_DMA_BIDIRECTIONAL	include/aie_mmap.h	/^    NNA_DMA_BIDIRECTIONAL   = 0,        \/* write back invalide *\/$/;"	e	enum:nna_dma_data_direction
+NNA_DMA_FROM_DEVICE	include/aie_mmap.h	/^    NNA_DMA_FROM_DEVICE     = 2,        \/* Invalidate *\/$/;"	e	enum:nna_dma_data_direction
+NNA_DMA_IO_BASE	include/nna_dma_memory_v1.h	18;"	d
+NNA_DMA_IO_SIZE	include/nna_dma_memory_v1.h	19;"	d
+NNA_DMA_NONE	include/aie_mmap.h	/^    NNA_DMA_NONE            = 3,$/;"	e	enum:nna_dma_data_direction
+NNA_DMA_RCFG_BASE_ADDR	include/nna_dma_memory_v1.h	21;"	d
+NNA_DMA_RCFG_CHN_ADDR	include/nna_dma_memory_v1.h	22;"	d
+NNA_DMA_RCFG_VA_ADDR	include/nna_dma_memory_v1.h	36;"	d
+NNA_DMA_TO_DEVICE	include/aie_mmap.h	/^    NNA_DMA_TO_DEVICE       = 1,        \/* write back invalide *\/$/;"	e	enum:nna_dma_data_direction
+NNA_DMA_WCFG_BASE_ADDR	include/nna_dma_memory_v1.h	23;"	d
+NNA_DMA_WCFG_CHN_ADDR	include/nna_dma_memory_v1.h	24;"	d
+NNA_DMA_WCFG_VA_ADDR	include/nna_dma_memory_v1.h	37;"	d
+NNA_FP_NUM0	include/nna_regs.h	206;"	d
+NNA_FP_NUM1	include/nna_regs.h	207;"	d
+NNA_FRFMT_BEXD	include/nna.h	89;"	d
+NNA_FRFMT_BEXD_BIT	include/nna.h	90;"	d
+NNA_FRFMT_BMGN	include/nna.h	83;"	d
+NNA_FRFMT_K11	include/nna.h	76;"	d
+NNA_FRFMT_K33	include/nna.h	77;"	d
+NNA_FRFMT_LMGN	include/nna.h	85;"	d
+NNA_FRFMT_LMGN_BIT	include/nna.h	86;"	d
+NNA_FRFMT_LOD	include/nna.h	80;"	d
+NNA_FRFMT_MODE_MASK	include/nna.h	75;"	d
+NNA_FRFMT_NODWRF	include/nna.h	78;"	d
+NNA_FRFMT_NONE	include/nna.h	74;"	d
+NNA_FRFMT_REXD	include/nna.h	87;"	d
+NNA_FRFMT_REXD_BIT	include/nna.h	88;"	d
+NNA_FRFMT_RMGN	include/nna.h	84;"	d
+NNA_FRFMT_S2	include/nna.h	79;"	d
+NNA_FRFMT_TMGN	include/nna.h	82;"	d
+NNA_HICH	include/nna_regs.h	201;"	d
+NNA_LOCH	include/nna_regs.h	200;"	d
+NNA_MAC_RDW_NONRSTA	include/nna_regs.h	205;"	d
+NNA_MAC_RDW_RSTA	include/nna_regs.h	204;"	d
+NNA_OCB0	include/nna_regs.h	196;"	d
+NNA_OCB1	include/nna_regs.h	197;"	d
+NNA_OCB2	include/nna_regs.h	198;"	d
+NNA_OCB3	include/nna_regs.h	199;"	d
+NNA_ORAM_BASE_ADDR	include/soc_nna.h	10;"	d
+NNA_ORAM_BASE_SIZE	include/soc_nna.h	11;"	d
+NNA_ORAM_BASE_VA_ADDR	include/nna_dma_memory_v1.h	31;"	d
+NNA_ORAM_BASE_VA_ADDR	include/nna_dma_memory_v1.h	33;"	d
+NNA_ORAM_STR_ADDR	include/nna_dma_memory_v1.h	27;"	d
+NNA_UNCACHED	include/aie_mmap.h	/^    NNA_UNCACHED                = 0x1,    \/* 1 << 0, uncached, mainly to io memory, optionally to desram, oram, ddr *\/$/;"	e	enum:nna_cache_attr
+NNA_UNCACHED_ACCELERATED	include/aie_mmap.h	/^    NNA_UNCACHED_ACCELERATED    = 0x2,    \/* 1 << 1, cached accelerated, optionally to desram oram, ddr *\/$/;"	e	enum:nna_cache_attr
+NNA_WAIT_DMA_RD	include/nna_dma_driver_v4.h	18;"	d
+NNA_WAIT_DMA_WR	include/nna_dma_driver_v4.h	19;"	d
+NNA_WRF_2BIT	include/nna_regs.h	192;"	d
+NNA_WRF_4P	include/nna_regs.h	188;"	d
+NNA_WRF_8P	include/nna_regs.h	189;"	d
+NNA_WRF_HIGHBIT	include/nna_regs.h	193;"	d
+NNA_WRF_INCA0	include/nna_regs.h	182;"	d
+NNA_WRF_INCA1	include/nna_regs.h	183;"	d
+NNA_WRF_INVMSB	include/nna_regs.h	190;"	d
+NNA_WRF_NOINVMSB	include/nna_regs.h	191;"	d
+NNA_WRF_OFFSET0	include/nna_regs.h	184;"	d
+NNA_WRF_OFFSET1	include/nna_regs.h	185;"	d
+NNA_WRF_OFFSET2	include/nna_regs.h	186;"	d
+NNA_WRF_OFFSET3	include/nna_regs.h	187;"	d
+NNA_WRW_INCA	include/nna_regs.h	177;"	d
+NNA_WRW_NONINCA	include/nna_regs.h	178;"	d
+NNA_WRW_P0	include/nna_regs.h	173;"	d
+NNA_WRW_P1	include/nna_regs.h	174;"	d
+NNA_WRW_P2	include/nna_regs.h	175;"	d
+NNA_WRW_P3	include/nna_regs.h	176;"	d
+NNBSCALER_WAIT	include/aie_nndma.h	38;"	d
+NNCC	include/nna_app.h	121;"	d
+NNCCCQ0	include/nna_app.h	163;"	d
+NNCCCQ0YM	include/nna_app.h	196;"	d
+NNCCCQ0YMXP	include/nna_app.h	205;"	d
+NNCCCQ0YP	include/nna_app.h	187;"	d
+NNCCCQ1	include/nna_app.h	165;"	d
+NNCCCQ1YM	include/nna_app.h	199;"	d
+NNCCCQ1YMXP	include/nna_app.h	208;"	d
+NNCCCQ1YP	include/nna_app.h	190;"	d
+NNCCCQ32	include/nna_app.h	167;"	d
+NNCCCQ32YM	include/nna_app.h	202;"	d
+NNCCCQ32YMXP	include/nna_app.h	211;"	d
+NNCCCQ32YP	include/nna_app.h	193;"	d
+NNCCQ0	include/nna_app.h	157;"	d
+NNCCQ0YM	include/nna_app.h	175;"	d
+NNCCQ0YMXP	include/nna_app.h	181;"	d
+NNCCQ0YP	include/nna_app.h	169;"	d
+NNCCQ1	include/nna_app.h	159;"	d
+NNCCQ1YM	include/nna_app.h	177;"	d
+NNCCQ1YMXP	include/nna_app.h	183;"	d
+NNCCQ1YP	include/nna_app.h	171;"	d
+NNCCQ32	include/nna_app.h	161;"	d
+NNCCQ32YM	include/nna_app.h	179;"	d
+NNCCQ32YMXP	include/nna_app.h	185;"	d
+NNCCQ32YP	include/nna_app.h	173;"	d
+NNCCYM	include/nna_app.h	131;"	d
+NNCCYMXP	include/nna_app.h	133;"	d
+NNCCYP	include/nna_app.h	129;"	d
+NNCLROC	include/nna_app.h	114;"	d
+NNCMD	include/mxu3.h	1411;"	d
+NNCPOC	include/nna_app.h	113;"	d
+NNCPQR	include/nna_app.h	115;"	d
+NNDBG_IO_BASE	include/aie_mmap.h	27;"	d
+NNDBG_IO_SIZE	include/aie_mmap.h	28;"	d
+NNDMA_DESRAM_BASE	include/aie_mmap.h	23;"	d
+NNDMA_DESRAM_SIZE	include/aie_mmap.h	24;"	d
+NNDMA_IO_BASE	include/aie_mmap.h	25;"	d
+NNDMA_IO_SIZE	include/aie_mmap.h	26;"	d
+NNDMA_WAIT_IF	include/aie_nndma.h	35;"	d
+NNDMA_WAIT_OF	include/aie_nndma.h	37;"	d
+NNDMA_WAIT_W	include/aie_nndma.h	36;"	d
+NNDRD	include/mxu3.h	1403;"	d
+NNDRDB	include/nna_app.h	501;"	d
+NNDRDB	include/nna_app.h	646;"	d
+NNDRDF	include/nna_app.h	488;"	d
+NNDRDF	include/nna_app.h	641;"	d
+NNDRDFNUM	include/nna_app.h	490;"	d
+NNDRDFNUM	include/nna_app.h	642;"	d
+NNDRDOCB	include/nna_app.h	251;"	d
+NNDRDOF_WP	include/nna_app.h	492;"	d
+NNDRDOF_WP	include/nna_app.h	643;"	d
+NNDRDOF_WPIC	include/nna_app.h	495;"	d
+NNDRDOF_WPIC	include/nna_app.h	644;"	d
+NNDRDOF_WPOC	include/nna_app.h	498;"	d
+NNDRDOF_WPOC	include/nna_app.h	645;"	d
+NNDRDQR	include/nna_app.h	254;"	d
+NNDRDQRB	include/nna_app.h	255;"	d
+NNDRDSF	include/nna_app.h	253;"	d
+NNDRDT	include/nna_app.h	503;"	d
+NNDRDT	include/nna_app.h	647;"	d
+NNDRDW_IC	include/nna_app.h	486;"	d
+NNDRDW_IC	include/nna_app.h	640;"	d
+NNDRDW_OC	include/nna_app.h	484;"	d
+NNDRDW_OC	include/nna_app.h	639;"	d
+NNDWR	include/mxu3.h	1395;"	d
+NNDWRB0	include/nna_app.h	245;"	d
+NNDWRB1	include/nna_app.h	246;"	d
+NNDWRF	include/nna_app.h	233;"	d
+NNDWRF4	include/nna_app.h	237;"	d
+NNDWRF8	include/nna_app.h	235;"	d
+NNDWRFS	include/nna_app.h	241;"	d
+NNDWRFU	include/nna_app.h	239;"	d
+NNDWRT0	include/nna_app.h	247;"	d
+NNDWRT1	include/nna_app.h	248;"	d
+NNDWRW	include/nna_app.h	231;"	d
+NNFRFMT	include/nna_app.h	510;"	d
+NNFRFMT_K11S1	include/nna_app.h	538;"	d
+NNFRFMT_K11S1	include/nna_app.h	651;"	d
+NNFRFMT_K33S1	include/nna_app.h	516;"	d
+NNFRFMT_K33S1	include/nna_app.h	649;"	d
+NNFRFMT_K33S1LO	include/nna_app.h	521;"	d
+NNFRFMT_K33S2	include/nna_app.h	527;"	d
+NNFRFMT_K33S2	include/nna_app.h	650;"	d
+NNFRFMT_K33S2LO	include/nna_app.h	532;"	d
+NNFRFMT_NONE	include/nna_app.h	506;"	d
+NNFRFMT_NONE	include/nna_app.h	648;"	d
+NNINSN_INFO	include/nna_app.h	545;"	d
+NNINSN_INFO	include/nna_app.h	652;"	d
+NNLS2OC	include/nna_app.h	215;"	d
+NNMAC	include/mxu3.h	1419;"	d
+NNMAC0	include/nna_app.h	259;"	d
+NNMAC0S	include/nna_app.h	261;"	d
+NNMAC1	include/nna_app.h	260;"	d
+NNMAC1S	include/nna_app.h	262;"	d
+NNMACG	include/nna_app.h	258;"	d
+NNQ0OCB	include/nna_app.h	153;"	d
+NNQ1OCB	include/nna_app.h	154;"	d
+NNQ32OCB	include/nna_app.h	155;"	d
+NNQOCB	include/nna_app.h	116;"	d
+NNRRD	include/mxu3.h	1387;"	d
+NNRRDD	include/nna_app.h	228;"	d
+NNRRDG	include/nna_app.h	224;"	d
+NNRRDM	include/nna_app.h	227;"	d
+NNRRDPCG0	include/nna_app.h	225;"	d
+NNRRDPCG1	include/nna_app.h	226;"	d
+NNRS2OC	include/nna_app.h	216;"	d
+NNRST	include/nna_app.h	111;"	d
+NNRWR	include/mxu3.h	1379;"	d
+NNRWRD	include/nna_app.h	221;"	d
+NNRWRDBG	include/nna_app.h	480;"	d
+NNRWRDBG	include/nna_app.h	638;"	d
+NNRWRG	include/nna_app.h	219;"	d
+NNRWRM	include/nna_app.h	220;"	d
+NNRWR_REG_CONST	include/nna_reg_set_c.h	188;"	d
+NNRWR_REG_CONST	include/nna_reg_set_c.h	322;"	d
+NNRWR_REG_VALUE	include/nna_reg_set_v.h	148;"	d
+NNRWR_REG_VALUE	include/nna_reg_set_v.h	281;"	d
+NNRWR_VWR	include/nna_reg_set_c.h	170;"	d
+NNRWR_VWR	include/nna_reg_set_c.h	323;"	d
+NNRWR_VWR	include/nna_reg_set_v.h	130;"	d
+NNRWR_VWR	include/nna_reg_set_v.h	282;"	d
+NNTLYM	include/nna_app.h	118;"	d
+NNTLYMXP	include/nna_app.h	119;"	d
+NNTLYP	include/nna_app.h	117;"	d
+OBJDUMP	source/Makefile	/^OBJDUMP=mips-linux-gnu-objdump$/;"	m
+OPENPMON	include/ivspmon.h	49;"	d
+OPT_LEVEL	source/Makefile	/^OPT_LEVEL=-O2$/;"	m
+OPT_NNDRDOCB_HI	include/nna_app.h	291;"	d
+OPT_NNDRDOCB_LO	include/nna_app.h	290;"	d
+OPT_NNDRDOCB_PIXEL0	include/nna_app.h	285;"	d
+OPT_NNDRDOCB_PIXEL1	include/nna_app.h	286;"	d
+OPT_NNDRDOCB_PIXEL2	include/nna_app.h	287;"	d
+OPT_NNDRDOCB_PIXEL3	include/nna_app.h	288;"	d
+OPT_NNDWRF_INC0	include/nna_app.h	275;"	d
+OPT_NNDWRF_INC1	include/nna_app.h	276;"	d
+OPT_NNDWRF_INC2	include/nna_app.h	277;"	d
+OPT_NNDWRF_INC3	include/nna_app.h	278;"	d
+OPT_NNDWRF_OFFSET0	include/nna_app.h	279;"	d
+OPT_NNDWRF_OFFSET1	include/nna_app.h	280;"	d
+OPT_NNDWRF_OFFSET2	include/nna_app.h	281;"	d
+OPT_NNDWRF_OFFSET3	include/nna_app.h	282;"	d
+OPT_NNDWRW_INCA	include/nna_app.h	268;"	d
+OPT_NNDWRW_NONINCA	include/nna_app.h	269;"	d
+OPT_NNDWRW_PN0	include/nna_app.h	270;"	d
+OPT_NNDWRW_PN1	include/nna_app.h	271;"	d
+OPT_NNDWRW_PN2	include/nna_app.h	272;"	d
+OPT_NNDWRW_PN3	include/nna_app.h	273;"	d
+OPT_NNMAC_FP_NUM0	include/nna_app.h	296;"	d
+OPT_NNMAC_FP_NUM1	include/nna_app.h	297;"	d
+OPT_NNMAC_WRAINC	include/nna_app.h	295;"	d
+OPT_NNMAC_WRARST	include/nna_app.h	294;"	d
+ORAM_BASE	include/aie_mmap.h	32;"	d
+ORAM_MAX_ADDR	include/nna_dma_driver_v4.h	/^const static unsigned int ORAM_MAX_ADDR = 0x126fffff; \/\/0x12600000 + 0x100000 - 1$/;"	v
+ORAM_SIM_VBASE	source/aie_mmap.c	78;"	d	file:
+ORAM_SIZE	include/aie_mmap.h	33;"	d
+ORIB	include/mxu3.h	1176;"	d
+ORNV	include/mxu3.h	1168;"	d
+ORV	include/mxu3.h	1160;"	d
+OST_COMPARE_VALUE_ADDR	include/macro_def.h	67;"	d
+PAD_VALUE	include/nna_reg_set_c.h	/^SET_REG_CONST(PAD_VALUE);$/;"	v
+PAD_VALUE	include/nna_reg_set_v.h	/^SET_REG_VALUE(PAD_VALUE);$/;"	v
+PALLADIUM_OST_COMPARE	include/macro_def.h	36;"	d
+PALLADIUM_WAVE	include/mxu3.h	1621;"	d
+PID_MAX	include/macro_def.h	84;"	d
+PID_MIN	include/macro_def.h	83;"	d
+PMAP	include/mxu3.h	1297;"	d
+PMON_SIZE	include/ivspmon.h	47;"	d
+PRINT16_VR	include/nna_app.h	730;"	d
+PRINT16_VR_BT	include/nna_app.h	660;"	d
+PRINT16_VR_W1	include/nna_app.h	717;"	d
+PRINT2_VR	include/nna_app.h	761;"	d
+PRINT32_VR	include/nna_app.h	742;"	d
+PRINT4_VR	include/nna_app.h	778;"	d
+PRINT8_VR	include/nna_app.h	792;"	d
+PRINTB	include/nna_app.h	673;"	d
+PRINTF	include/nna_app.h	583;"	d
+PRINTF	include/nna_app.h	656;"	d
+PRINTFNUM	include/nna_app.h	594;"	d
+PRINTN16_VR	include/nna_app.h	805;"	d
+PRINTOCB	include/nna_app.h	815;"	d
+PRINTOF_WP	include/nna_app.h	606;"	d
+PRINTOF_WPIC	include/nna_app.h	615;"	d
+PRINTOF_WPOC	include/nna_app.h	626;"	d
+PRINTPCG0	include/nna_app.h	908;"	d
+PRINTPCG1	include/nna_app.h	925;"	d
+PRINTQR	include/nna_app.h	827;"	d
+PRINTREGD	include/nna_app.h	865;"	d
+PRINTREGG	include/nna_app.h	887;"	d
+PRINTREGM	include/nna_app.h	836;"	d
+PRINTT	include/nna_app.h	682;"	d
+PRINTW_IC	include/nna_app.h	571;"	d
+PRINTW_OC	include/nna_app.h	559;"	d
+PRINTW_OC	include/nna_app.h	655;"	d
+PRINT_INFO	source/dma_func.c	231;"	d	file:
+PRINT_VWR	include/nna_app.h	710;"	d
+Q_BIT	include/nna_reg_set_c.h	/^SET_REG_CONST(Q_BIT);$/;"	v
+Q_BIT	include/nna_reg_set_v.h	/^SET_REG_VALUE(Q_BIT);$/;"	v
+RANDOM	include/macro_def.h	81;"	d
+RANDOM_NUM_MAX	include/macro_def.h	79;"	d
+RCFL_E	include/nna_reg_set_c.h	/^SET_REG_CONST(RCFL_E);$/;"	v
+RCFL_E	include/nna_reg_set_v.h	/^SET_REG_VALUE(RCFL_E);$/;"	v
+REG_FP_H	include/nna_reg_set_c.h	211;"	d
+REG_FP_H	include/nna_reg_set_v.h	170;"	d
+REG_FP_NUM0	include/nna_reg_set_c.h	267;"	d
+REG_FP_NUM0	include/nna_reg_set_v.h	226;"	d
+REG_FP_NUM1	include/nna_reg_set_c.h	271;"	d
+REG_FP_NUM1	include/nna_reg_set_v.h	230;"	d
+REG_FP_W	include/nna_reg_set_c.h	215;"	d
+REG_FP_W	include/nna_reg_set_v.h	174;"	d
+REG_FR_ALWAYS_INC	include/nna_reg_set_c.h	307;"	d
+REG_FR_ALWAYS_INC	include/nna_reg_set_v.h	266;"	d
+REG_FR_FP_STRIDE	include/nna_reg_set_c.h	251;"	d
+REG_FR_FP_STRIDE	include/nna_reg_set_v.h	210;"	d
+REG_FR_FP_W	include/nna_reg_set_c.h	247;"	d
+REG_FR_FP_W	include/nna_reg_set_v.h	206;"	d
+REG_FR_RB_E	include/nna_reg_set_c.h	239;"	d
+REG_FR_RB_E	include/nna_reg_set_v.h	198;"	d
+REG_FR_WADDR	include/nna_reg_set_c.h	287;"	d
+REG_FR_WADDR	include/nna_reg_set_v.h	246;"	d
+REG_FR_WADDR_INC0	include/nna_reg_set_c.h	291;"	d
+REG_FR_WADDR_INC0	include/nna_reg_set_v.h	250;"	d
+REG_FR_WADDR_INC1	include/nna_reg_set_c.h	295;"	d
+REG_FR_WADDR_INC1	include/nna_reg_set_v.h	254;"	d
+REG_FR_WADDR_INC2	include/nna_reg_set_c.h	299;"	d
+REG_FR_WADDR_INC2	include/nna_reg_set_v.h	258;"	d
+REG_FR_WADDR_INC3	include/nna_reg_set_c.h	303;"	d
+REG_FR_WADDR_INC3	include/nna_reg_set_v.h	262;"	d
+REG_F_BIT	include/nna_reg_set_c.h	311;"	d
+REG_F_BIT	include/nna_reg_set_v.h	270;"	d
+REG_F_BIT_GSIZE	include/nna_reg_set_c.h	243;"	d
+REG_F_BIT_GSIZE	include/nna_reg_set_v.h	202;"	d
+REG_MACTL_FP_X	include/nna_reg_set_c.h	223;"	d
+REG_MACTL_FP_X	include/nna_reg_set_v.h	182;"	d
+REG_MACTL_FP_Y	include/nna_reg_set_c.h	219;"	d
+REG_MACTL_FP_Y	include/nna_reg_set_v.h	178;"	d
+REG_MAC_BIT	include/nna_reg_set_c.h	263;"	d
+REG_MAC_BIT	include/nna_reg_set_v.h	222;"	d
+REG_MAC_FP	include/nna_reg_set_c.h	259;"	d
+REG_MAC_FP	include/nna_reg_set_v.h	218;"	d
+REG_MAC_P_MASK	include/nna_reg_set_c.h	279;"	d
+REG_MAC_P_MASK	include/nna_reg_set_v.h	238;"	d
+REG_MAC_STRIDE	include/nna_reg_set_c.h	255;"	d
+REG_MAC_STRIDE	include/nna_reg_set_v.h	214;"	d
+REG_MAC_W_MASK	include/nna_reg_set_c.h	275;"	d
+REG_MAC_W_MASK	include/nna_reg_set_v.h	234;"	d
+REG_MIN_FPN_O	include/nna_reg_set_c.h	235;"	d
+REG_MIN_FPN_O	include/nna_reg_set_v.h	194;"	d
+REG_MSF_MODE	include/nna_reg_set_c.h	315;"	d
+REG_MSF_MODE	include/nna_reg_set_v.h	274;"	d
+REG_PAD_VALUE	include/nna_reg_set_c.h	207;"	d
+REG_PAD_VALUE	include/nna_reg_set_v.h	166;"	d
+REG_Q_BIT	include/nna_reg_set_c.h	319;"	d
+REG_Q_BIT	include/nna_reg_set_v.h	278;"	d
+REG_RCFL_E	include/nna_reg_set_c.h	203;"	d
+REG_RCFL_E	include/nna_reg_set_v.h	162;"	d
+REG_SF_MODE	include/nna_reg_set_c.h	231;"	d
+REG_SF_MODE	include/nna_reg_set_v.h	190;"	d
+REG_TLYP_ACC	include/nna_reg_set_c.h	227;"	d
+REG_TLYP_ACC	include/nna_reg_set_v.h	186;"	d
+REG_WR_RADDR	include/nna_reg_set_c.h	195;"	d
+REG_WR_RADDR	include/nna_reg_set_v.h	154;"	d
+REG_WR_RADDR_RST	include/nna_reg_set_c.h	199;"	d
+REG_WR_RADDR_RST	include/nna_reg_set_v.h	158;"	d
+REG_WR_WADDR	include/nna_reg_set_c.h	283;"	d
+REG_WR_WADDR	include/nna_reg_set_v.h	242;"	d
+REPI	include/mxu3.h	782;"	d
+RESERVED	source/LocalMemMgr.c	9;"	d	file:
+RESERVED_DDR_SIZE	include/nna_dma_memory_v1.h	/^const static unsigned int RESERVED_DDR_SIZE = 262144;  \/\/2048 * (28 + 4) * 2$/;"	v
+RESTORE_VR31	include/nna_app.h	705;"	d
+RESTORE_VWR0	include/nna_app.h	697;"	d
+SA	include/mxu3.h	180;"	d
+SAD	include/mxu3.h	260;"	d
+SAD_ADD	include/mxu3.h	466;"	d
+SAD_ADDI	include/mxu3.h	686;"	d
+SAO	include/mxu3.h	212;"	d
+SAO_ADD	include/mxu3.h	378;"	d
+SAO_ADDI	include/mxu3.h	598;"	d
+SAQ	include/mxu3.h	292;"	d
+SAQ_ADD	include/mxu3.h	510;"	d
+SAQ_ADDI	include/mxu3.h	730;"	d
+SATSS	include/mxu3.h	1103;"	d
+SATSU	include/mxu3.h	1111;"	d
+SATUU	include/mxu3.h	1119;"	d
+SAVE_VR31	include/nna_app.h	700;"	d
+SAVE_VWR0	include/nna_app.h	695;"	d
+SAW_ADD	include/mxu3.h	422;"	d
+SAW_ADDI	include/mxu3.h	642;"	d
+SA_ADD	include/mxu3.h	334;"	d
+SA_ADDI	include/mxu3.h	554;"	d
+SET_PC_COUNT0	include/nna_app.h	398;"	d
+SET_PC_COUNT1	include/nna_app.h	400;"	d
+SET_PC_COUNT2	include/nna_app.h	402;"	d
+SET_PC_INSN0	include/nna_app.h	375;"	d
+SET_PC_INSN1	include/nna_app.h	377;"	d
+SET_PC_INSN2	include/nna_app.h	379;"	d
+SET_REG_CONST	include/nna_reg_set_c.h	160;"	d
+SET_REG_CONST	include/nna_reg_set_c.h	59;"	d
+SET_REG_VALUE	include/nna_reg_set_v.h	120;"	d
+SET_REG_VALUE	include/nna_reg_set_v.h	21;"	d
+SET_SIZE	source/dma_func.c	203;"	d	file:
+SF_MODE	include/nna_reg_set_c.h	/^SET_REG_CONST(SF_MODE);$/;"	v
+SF_MODE	include/nna_reg_set_v.h	/^SET_REG_VALUE(SF_MODE);$/;"	v
+SHUF	include/mxu3.h	806;"	d
+SIZE_BIG_LIMIT	source/dma_func.c	23;"	d	file:
+SIZE_HEADER	source/LocalMemMgr.c	11;"	d	file:
+SIZE_LIMIT	source/dma_func.c	22;"	d	file:
+SIZE_UPDATE	source/dma_func.c	235;"	d	file:
+SLL	include/mxu3.h	83;"	d
+SLLI	include/mxu3.h	76;"	d
+SMAC	include/mxu3.h	1055;"	d
+SMLAH	include/mxu3.h	1007;"	d
+SMLSH	include/mxu3.h	1015;"	d
+SMP_CORE_NUM	include/macro_def.h	70;"	d
+SMUL	include/mxu3.h	959;"	d
+SOC_NNA_DEVICE_NAME	include/soc_nna.h	6;"	d
+SOC_NNA_MAGIC	include/soc_nna.h	14;"	d
+SOC_NNA_MAGIC	source/aie_mmap.c	37;"	d	file:
+SOC_NNA_MAX_CHN_CNT	include/soc_nna.h	7;"	d
+SRA	include/mxu3.h	91;"	d
+SRAI	include/mxu3.h	99;"	d
+SRAR	include/mxu3.h	107;"	d
+SRARI	include/mxu3.h	115;"	d
+SRL	include/mxu3.h	123;"	d
+SRLI	include/mxu3.h	131;"	d
+SRLR	include/mxu3.h	139;"	d
+SRLRI	include/mxu3.h	147;"	d
+SRMAC	include/mxu3.h	1047;"	d
+SRSUM	include/mxu3.h	943;"	d
+START0	include/ivspmon.h	69;"	d
+START1	include/ivspmon.h	70;"	d
+START10	include/ivspmon.h	79;"	d
+START11	include/ivspmon.h	80;"	d
+START12	include/ivspmon.h	81;"	d
+START2	include/ivspmon.h	71;"	d
+START3	include/ivspmon.h	72;"	d
+START4	include/ivspmon.h	73;"	d
+START5	include/ivspmon.h	74;"	d
+START6	include/ivspmon.h	75;"	d
+START7	include/ivspmon.h	76;"	d
+START8	include/ivspmon.h	77;"	d
+START9	include/ivspmon.h	78;"	d
+STOP	include/ivspmon.h	82;"	d
+STR_SIZE	include/ivspmon.h	48;"	d
+SU	include/mxu3.h	172;"	d
+SUB	include/mxu3.h	895;"	d
+SUD	include/mxu3.h	252;"	d
+SUD_ADD	include/mxu3.h	455;"	d
+SUD_ADDI	include/mxu3.h	675;"	d
+SUMZ	include/mxu3.h	1233;"	d
+SUO	include/mxu3.h	204;"	d
+SUO_ADD	include/mxu3.h	367;"	d
+SUO_ADDI	include/mxu3.h	587;"	d
+SUQ	include/mxu3.h	284;"	d
+SUQ_ADD	include/mxu3.h	499;"	d
+SUQ_ADDI	include/mxu3.h	719;"	d
+SUW_ADD	include/mxu3.h	411;"	d
+SUW_ADDI	include/mxu3.h	631;"	d
+SU_ADD	include/mxu3.h	323;"	d
+SU_ADDI	include/mxu3.h	543;"	d
+SYSCALL_BASE	include/macro_def.h	111;"	d
+SYS_CLOSE	include/macro_def.h	115;"	d
+SYS_FAIL_EXIT	include/macro_def.h	120;"	d
+SYS_LSEEK	include/macro_def.h	117;"	d
+SYS_OPEN	include/macro_def.h	114;"	d
+SYS_PASS_EXIT	include/macro_def.h	119;"	d
+SYS_READ	include/macro_def.h	112;"	d
+SYS_THREAD_GET	include/macro_def.h	122;"	d
+SYS_THREAD_GIVE	include/macro_def.h	121;"	d
+SYS_WRITE	include/macro_def.h	113;"	d
+S_SOURCE	source/Makefile	/^S_SOURCE=$(wildcard *.S)$/;"	m
+S_TARGET_OBJ	source/Makefile	/^S_TARGET_OBJ=$(patsubst %.S, %.o, $(S_SOURCE))$/;"	m
+TLYP_ACC	include/nna_reg_set_c.h	/^SET_REG_CONST(TLYP_ACC);$/;"	v
+TLYP_ACC	include/nna_reg_set_v.h	/^SET_REG_VALUE(TLYP_ACC);$/;"	v
+TOC	include/mxu3.h	1127;"	d
+TRUE	source/LocalMemMgr.c	6;"	d	file:
+UMUL	include/mxu3.h	967;"	d
+USER_SPACE_MODE	include/macro_def.h	48;"	d
+USE_RMEM	source/aie_mmap.c	34;"	d	file:
+U_DATA_START_ADDR	include/macro_def.h	147;"	d
+U_GP_START_ADDR	include/macro_def.h	148;"	d
+U_MODE_CASESE_NUM_MAX	include/macro_def.h	75;"	d
+U_PID_MAX	include/macro_def.h	88;"	d
+U_PID_OFFSET	include/macro_def.h	87;"	d
+U_PROCS_OFFSET	include/macro_def.h	146;"	d
+U_PROC_ENTRY_BASE	include/macro_def.h	145;"	d
+U_SP_START_ADDR	include/macro_def.h	149;"	d
+VERSION_MAJOR	include/macro_def.h	5;"	d
+VERSION_MINOR	include/macro_def.h	6;"	d
+VR0	include/mxu3.h	4;"	d
+VR1	include/mxu3.h	5;"	d
+VR10	include/mxu3.h	14;"	d
+VR11	include/mxu3.h	15;"	d
+VR12	include/mxu3.h	16;"	d
+VR13	include/mxu3.h	17;"	d
+VR14	include/mxu3.h	18;"	d
+VR15	include/mxu3.h	19;"	d
+VR16	include/mxu3.h	20;"	d
+VR17	include/mxu3.h	21;"	d
+VR18	include/mxu3.h	22;"	d
+VR19	include/mxu3.h	23;"	d
+VR2	include/mxu3.h	6;"	d
+VR20	include/mxu3.h	24;"	d
+VR21	include/mxu3.h	25;"	d
+VR22	include/mxu3.h	26;"	d
+VR23	include/mxu3.h	27;"	d
+VR24	include/mxu3.h	28;"	d
+VR25	include/mxu3.h	29;"	d
+VR26	include/mxu3.h	30;"	d
+VR27	include/mxu3.h	31;"	d
+VR28	include/mxu3.h	32;"	d
+VR29	include/mxu3.h	33;"	d
+VR3	include/mxu3.h	7;"	d
+VR30	include/mxu3.h	34;"	d
+VR31	include/mxu3.h	35;"	d
+VR4	include/mxu3.h	8;"	d
+VR5	include/mxu3.h	9;"	d
+VR6	include/mxu3.h	10;"	d
+VR7	include/mxu3.h	11;"	d
+VR8	include/mxu3.h	12;"	d
+VR9	include/mxu3.h	13;"	d
+VS0	include/mxu3.h	37;"	d
+VS1	include/mxu3.h	38;"	d
+VS2	include/mxu3.h	39;"	d
+VS3	include/mxu3.h	40;"	d
+VWR0	include/mxu3.h	42;"	d
+VWR1	include/mxu3.h	43;"	d
+VWR10	include/mxu3.h	52;"	d
+VWR11	include/mxu3.h	53;"	d
+VWR12	include/mxu3.h	54;"	d
+VWR13	include/mxu3.h	55;"	d
+VWR14	include/mxu3.h	56;"	d
+VWR15	include/mxu3.h	57;"	d
+VWR16	include/mxu3.h	58;"	d
+VWR17	include/mxu3.h	59;"	d
+VWR18	include/mxu3.h	60;"	d
+VWR19	include/mxu3.h	61;"	d
+VWR2	include/mxu3.h	44;"	d
+VWR20	include/mxu3.h	62;"	d
+VWR21	include/mxu3.h	63;"	d
+VWR22	include/mxu3.h	64;"	d
+VWR23	include/mxu3.h	65;"	d
+VWR24	include/mxu3.h	66;"	d
+VWR25	include/mxu3.h	67;"	d
+VWR26	include/mxu3.h	68;"	d
+VWR27	include/mxu3.h	69;"	d
+VWR28	include/mxu3.h	70;"	d
+VWR29	include/mxu3.h	71;"	d
+VWR3	include/mxu3.h	45;"	d
+VWR30	include/mxu3.h	72;"	d
+VWR31	include/mxu3.h	73;"	d
+VWR4	include/mxu3.h	46;"	d
+VWR5	include/mxu3.h	47;"	d
+VWR6	include/mxu3.h	48;"	d
+VWR7	include/mxu3.h	49;"	d
+VWR8	include/mxu3.h	50;"	d
+VWR9	include/mxu3.h	51;"	d
+W0_INTE_INVALID_INSN	include/nna_regs.h	74;"	d
+W0_INTE_PMISSBYFR	include/nna_regs.h	76;"	d
+W0_PCEG0	include/nna_regs.h	58;"	d
+W0_PCEG1	include/nna_regs.h	60;"	d
+W0_PCEG2	include/nna_regs.h	62;"	d
+W1_CLREW	include/nna_regs.h	70;"	d
+W1_CLRPC	include/nna_regs.h	72;"	d
+W1_INTE_INVALID_INSN	include/nna_regs.h	78;"	d
+W1_INTE_PMISSBYFR	include/nna_regs.h	80;"	d
+W1_PCEG0	include/nna_regs.h	64;"	d
+W1_PCEG1	include/nna_regs.h	66;"	d
+W1_PCEG2	include/nna_regs.h	68;"	d
+WADDS	include/mxu3.h	911;"	d
+WADDU	include/mxu3.h	919;"	d
+WBT_CHID	include/nna_app.h	104;"	d
+WC_F1_DOWN	include/nna_regs.h	32;"	d
+WC_FP_NUM	include/nna_app.h	428;"	d
+WC_FP_NUM0	include/nna_regs.h	43;"	d
+WC_FP_NUM1	include/nna_regs.h	45;"	d
+WC_FP_YX	include/nna_app.h	421;"	d
+WC_FR_ALWAYS_INC	include/nna_regs.h	54;"	d
+WC_FR_FP_STRIDE	include/nna_regs.h	35;"	d
+WC_FR_FP_W	include/nna_regs.h	34;"	d
+WC_FR_FP_W_STRIDE	include/nna_app.h	425;"	d
+WC_FR_WADDR	include/nna_regs.h	49;"	d
+WC_FR_WADDR_INC	include/nna_app.h	443;"	d
+WC_FR_WADDR_INC0	include/nna_regs.h	50;"	d
+WC_FR_WADDR_INC01	include/nna_app.h	437;"	d
+WC_FR_WADDR_INC1	include/nna_regs.h	52;"	d
+WC_FR_WADDR_INC23	include/nna_app.h	440;"	d
+WC_F_BIT	include/nna_regs.h	56;"	d
+WC_MAC_BIT	include/nna_regs.h	41;"	d
+WC_MAC_FP	include/nna_regs.h	39;"	d
+WC_MAC_STRIDE	include/nna_regs.h	37;"	d
+WC_MSF_MODE	include/nna_app.h	445;"	d
+WC_MSF_MODE	include/nna_regs.h	31;"	d
+WC_NNRWRD	include/nna_app.h	433;"	d
+WC_NNRWRM	include/nna_app.h	407;"	d
+WC_SFMSF_MODE	include/nna_app.h	447;"	d
+WC_SF_MODE	include/nna_app.h	424;"	d
+WC_TLYP_ACC	include/nna_regs.h	30;"	d
+WC_WR_FR_WADDR	include/nna_app.h	434;"	d
+WC_WR_RADDR	include/nna_regs.h	26;"	d
+WC_WR_RADDR_AND_RST	include/nna_app.h	409;"	d
+WC_WR_RADDR_RST	include/nna_regs.h	27;"	d
+WC_WR_WADDR	include/nna_regs.h	48;"	d
+WPTR_FP_HW	include/nna_app.h	418;"	d
+WPTR_FR_WADDR_INC	include/nna_app.h	464;"	d
+WPTR_FR_WADDR_INC0123	include/nna_app.h	452;"	d
+WRAM_ENTRY	include/nna_app.h	20;"	d
+WR_FR_WADDR	include/nna_regs.h	169;"	d
+WR_MACTL_FP_X	include/nna_regs.h	167;"	d
+WR_MACTL_FP_Y	include/nna_regs.h	166;"	d
+WR_RADDR	include/nna_reg_set_c.h	/^SET_REG_CONST(WR_RADDR);$/;"	v
+WR_RADDR	include/nna_reg_set_v.h	/^SET_REG_VALUE(WR_RADDR);$/;"	v
+WR_RADDR_RST	include/nna_reg_set_c.h	/^SET_REG_CONST(WR_RADDR_RST);$/;"	v
+WR_RADDR_RST	include/nna_reg_set_v.h	/^SET_REG_VALUE(WR_RADDR_RST);$/;"	v
+WR_WADDR	include/nna_reg_set_c.h	/^SET_REG_CONST(WR_WADDR);$/;"	v
+WR_WADDR	include/nna_reg_set_v.h	/^SET_REG_VALUE(WR_WADDR);$/;"	v
+WSMLAH	include/mxu3.h	1023;"	d
+WSMLSH	include/mxu3.h	1031;"	d
+WSMUL	include/mxu3.h	975;"	d
+WSUBS	include/mxu3.h	927;"	d
+WSUBU	include/mxu3.h	935;"	d
+WUMUL	include/mxu3.h	983;"	d
+WV_F1_DOWN	include/nna_regs.h	113;"	d
+WV_FP_H	include/nna_regs.h	95;"	d
+WV_FP_NUM0	include/nna_regs.h	132;"	d
+WV_FP_NUM1	include/nna_regs.h	135;"	d
+WV_FP_W	include/nna_regs.h	98;"	d
+WV_FR_ALWAYS_INC	include/nna_regs.h	158;"	d
+WV_FR_FP_STRIDE	include/nna_regs.h	120;"	d
+WV_FR_FP_W	include/nna_regs.h	117;"	d
+WV_FR_RADDR	include/nna_regs.h	92;"	d
+WV_FR_WADDR	include/nna_regs.h	149;"	d
+WV_FR_WADDR_INC0	include/nna_regs.h	152;"	d
+WV_FR_WADDR_INC1	include/nna_regs.h	155;"	d
+WV_F_BIT	include/nna_regs.h	161;"	d
+WV_MACTL_FP_X	include/nna_regs.h	104;"	d
+WV_MACTL_FP_Y	include/nna_regs.h	101;"	d
+WV_MAC_BIT	include/nna_regs.h	129;"	d
+WV_MAC_FP	include/nna_regs.h	126;"	d
+WV_MAC_P_MASK	include/nna_regs.h	141;"	d
+WV_MAC_STRIDE	include/nna_regs.h	123;"	d
+WV_MAC_W_MASK	include/nna_regs.h	138;"	d
+WV_MSF_MODE	include/nna_regs.h	110;"	d
+WV_TLYP_ACC	include/nna_regs.h	107;"	d
+WV_WR_RADDR	include/nna_regs.h	85;"	d
+WV_WR_RADDR_RST	include/nna_regs.h	88;"	d
+WV_WR_WADDR	include/nna_regs.h	146;"	d
+XORIB	include/mxu3.h	1200;"	d
+XORNV	include/mxu3.h	1192;"	d
+XORV	include/mxu3.h	1184;"	d
+_GNU_SOURCE	source/aie_mmap.c	28;"	d	file:
+_GNU_SOURCE	source/nna_dma_memory_v1.c	11;"	d	file:
+__AIE_BSCALER_H__	include/aie_bscaler.h	13;"	d
+__AIE_MMAP_H__	include/aie_mmap.h	13;"	d
+__AIE_NNDMA_H__	include/aie_nndma.h	13;"	d
+__DDR_MEM_H__	include/ddr_mem.h	2;"	d
+__DMA_FUNC_H__	include/dma_func.h	13;"	d
+__EXP_HANDLE	include/macro_def.h	162;"	d
+__INIT	include/macro_def.h	161;"	d
+__INIT_ENTRY	include/macro_def.h	160;"	d
+__LIBXIO_H__	include/libxio.h	14;"	d
+__LOCAL_MEMMGR_H__	include/LocalMemMgr.h	2;"	d
+__MACRO_DEF_H__	include/macro_def.h	3;"	d
+__MXU3_H__	include/mxu3.h	2;"	d
+__NNA_DMA_DRIVER_V2_H__	include/nna_dma_driver_v4.h	15;"	d
+__NNA_DMA_MEMORY_H__	include/nna_dma_memory_v1.h	13;"	d
+__NNA_H__	include/nna.h	13;"	d
+__NNA_INSN_H__	include/nna_app.h	13;"	d
+__NNA_REGS_H__	include/nna_regs.h	13;"	d
+__NNA_REG_SET_C_H__	include/nna_reg_set_c.h	16;"	d
+__NNA_REG_SET_V_H__	include/nna_reg_set_v.h	17;"	d
+__ORAM_MEM_H__	include/oram_mem.h	2;"	d
+__SOC_NNA_H__	include/soc_nna.h	2;"	d
+__aie_bscaler_init_csc	include/aie_bscaler.h	/^inline void __aie_bscaler_init_csc(uint32_t src_y, uint32_t src_c,$/;"	f	signature:(uint32_t src_y, uint32_t src_c, uint32_t src_stride, uint32_t dst_stride, uint16_t h, uint16_t w)
+__aie_bscaler_run_csc_rolling	include/aie_bscaler.h	/^inline void __aie_bscaler_run_csc_rolling(uint32_t dst, uint16_t len) {$/;"	f	signature:(uint32_t dst, uint16_t len)
+__aie_bscaler_wait_csc	include/aie_bscaler.h	/^inline void __aie_bscaler_wait_csc() {$/;"	f	signature:()
+__aie_flushcache	source/aie_mmap.c	/^int __aie_flushcache(void *ddr_mem_vaddr, int ddr_mem_size)$/;"	f	signature:(void *ddr_mem_vaddr, int ddr_mem_size)
+__aie_flushcache_dir	source/aie_mmap.c	/^int __aie_flushcache_dir(void *ddr_mem_vaddr, int ddr_mem_size, enum nna_dma_data_direction dir)$/;"	f	signature:(void *ddr_mem_vaddr, int ddr_mem_size, enum nna_dma_data_direction dir)
+__aie_get_bscaler_io_vbase	include/aie_mmap.h	/^uint32_t __aie_get_bscaler_io_vbase() {$/;"	f	signature:()
+__aie_get_ddr_cache_attr	include/aie_mmap.h	/^uint32_t __aie_get_ddr_cache_attr() {$/;"	f	signature:()
+__aie_get_ddr_paddr	include/aie_mmap.h	/^uint32_t __aie_get_ddr_paddr(uint32_t ddr_vaddr) {$/;"	f	signature:(uint32_t ddr_vaddr)
+__aie_get_desram_IF_ping	include/aie_nndma.h	/^inline uint32_t __aie_get_desram_IF_ping() {$/;"	f	signature:()
+__aie_get_desram_IF_pong	include/aie_nndma.h	/^inline uint32_t __aie_get_desram_IF_pong() {$/;"	f	signature:()
+__aie_get_desram_OF_ping	include/aie_nndma.h	/^inline uint32_t __aie_get_desram_OF_ping() {$/;"	f	signature:()
+__aie_get_desram_OF_pong	include/aie_nndma.h	/^inline uint32_t __aie_get_desram_OF_pong() {$/;"	f	signature:()
+__aie_get_desram_W_ping	include/aie_nndma.h	/^inline uint32_t __aie_get_desram_W_ping() {$/;"	f	signature:()
+__aie_get_desram_W_pong	include/aie_nndma.h	/^inline uint32_t __aie_get_desram_W_pong() {$/;"	f	signature:()
+__aie_get_desram_cache_attr	include/aie_mmap.h	/^uint32_t __aie_get_desram_cache_attr() {$/;"	f	signature:()
+__aie_get_desram_ptr	include/aie_nndma.h	/^inline uint32_t __aie_get_desram_ptr(uint32_t desram) {$/;"	f	signature:(uint32_t desram)
+__aie_get_nndbg_io_vbase	include/aie_mmap.h	/^uint32_t __aie_get_nndbg_io_vbase() {$/;"	f	signature:()
+__aie_get_nndma_desram_vbase	include/aie_mmap.h	/^uint32_t __aie_get_nndma_desram_vbase() {$/;"	f	signature:()
+__aie_get_nndma_io_vbase	include/aie_mmap.h	/^uint32_t __aie_get_nndma_io_vbase() {$/;"	f	signature:()
+__aie_get_oram_cache_attr	include/aie_mmap.h	/^uint32_t __aie_get_oram_cache_attr() {$/;"	f	signature:()
+__aie_get_oram_offset	include/aie_mmap.h	/^uint32_t __aie_get_oram_offset(uint32_t oram_vaddr) {$/;"	f	signature:(uint32_t oram_vaddr)
+__aie_get_oram_paddr	include/aie_mmap.h	/^uint32_t __aie_get_oram_paddr(uint32_t oram_vaddr) {$/;"	f	signature:(uint32_t oram_vaddr)
+__aie_get_oram_vbase	include/aie_mmap.h	/^uint32_t __aie_get_oram_vbase() {$/;"	f	signature:()
+__aie_mmap	source/aie_mmap.c	/^int __aie_mmap(int ddr_mem_size, int b_use_rmem, nna_cache_attr_t desram_cache_attr, nna_cache_attr_t oram_cache_attr, nna_cache_attr_t ddr_cache_attr)$/;"	f	signature:(int ddr_mem_size, int b_use_rmem, nna_cache_attr_t desram_cache_attr, nna_cache_attr_t oram_cache_attr, nna_cache_attr_t ddr_cache_attr)
+__aie_munmap	source/aie_mmap.c	/^int __aie_munmap()$/;"	f
+__aie_push_nndma_big_node	include/aie_nndma.h	/^inline void __aie_push_nndma_big_node(uint32_t* desram, uint32_t oram_addr, uint32_t ddr_addr, uint32_t size) {$/;"	f	signature:(uint32_t* desram, uint32_t oram_addr, uint32_t ddr_addr, uint32_t size)
+__aie_push_nndma_bignode_maylast	include/aie_nndma.h	/^inline void __aie_push_nndma_bignode_maylast(int last, uint32_t* desram, uint32_t oram_addr, uint32_t ddr_addr, uint32_t size) {$/;"	f	signature:(int last, uint32_t* desram, uint32_t oram_addr, uint32_t ddr_addr, uint32_t size)
+__aie_push_nndma_node	include/aie_nndma.h	/^inline void __aie_push_nndma_node(uint32_t* desram, uint32_t oram_addr, uint32_t ddr_addr, uint32_t size) {$/;"	f	signature:(uint32_t* desram, uint32_t oram_addr, uint32_t ddr_addr, uint32_t size)
+__aie_push_nndma_node_maylast	include/aie_nndma.h	/^inline void __aie_push_nndma_node_maylast(int last, uint32_t* desram, uint32_t oram_addr, uint32_t ddr_addr, uint32_t size) {$/;"	f	signature:(int last, uint32_t* desram, uint32_t oram_addr, uint32_t ddr_addr, uint32_t size)
+__aie_run_nndma_IF	include/aie_nndma.h	/^inline void __aie_run_nndma_IF(uint32_t ptr) {$/;"	f	signature:(uint32_t ptr)
+__aie_run_nndma_OF	include/aie_nndma.h	/^inline void __aie_run_nndma_OF(uint32_t ptr) {$/;"	f	signature:(uint32_t ptr)
+__aie_run_nndma_W	include/aie_nndma.h	/^inline void __aie_run_nndma_W(uint32_t ptr) {$/;"	f	signature:(uint32_t ptr)
+__aie_set_nndma_unlink	include/aie_nndma.h	/^inline void __aie_set_nndma_unlink(uint32_t* desram) {$/;"	f	signature:(uint32_t* desram)
+__aie_sync_nndma_status	include/aie_nndma.h	/^inline void __aie_sync_nndma_status() {$/;"	f	signature:()
+__anon1::bottom_margin	include/nna_app.h	/^  int left_margin, right_margin, top_margin, bottom_margin;$/;"	m	struct:__anon1	access:public
+__anon1::ifp_height	include/nna_app.h	/^  int ifp_width, ifp_height;$/;"	m	struct:__anon1	access:public
+__anon1::ifp_num	include/nna_app.h	/^  int ifp_num, ifp_num_upp, ofp_num;$/;"	m	struct:__anon1	access:public
+__anon1::ifp_num_upp	include/nna_app.h	/^  int ifp_num, ifp_num_upp, ofp_num;$/;"	m	struct:__anon1	access:public
+__anon1::ifp_width	include/nna_app.h	/^  int ifp_width, ifp_height;$/;"	m	struct:__anon1	access:public
+__anon1::left_margin	include/nna_app.h	/^  int left_margin, right_margin, top_margin, bottom_margin;$/;"	m	struct:__anon1	access:public
+__anon1::mac_column	include/nna_app.h	/^  int mac_width, mac_column;$/;"	m	struct:__anon1	access:public
+__anon1::mac_height	include/nna_app.h	/^  int mac_height, mac_line;$/;"	m	struct:__anon1	access:public
+__anon1::mac_line	include/nna_app.h	/^  int mac_height, mac_line;$/;"	m	struct:__anon1	access:public
+__anon1::mac_stride	include/nna_app.h	/^  int mac_stride;$/;"	m	struct:__anon1	access:public
+__anon1::mac_width	include/nna_app.h	/^  int mac_width, mac_column;$/;"	m	struct:__anon1	access:public
+__anon1::ofp_num	include/nna_app.h	/^  int ifp_num, ifp_num_upp, ofp_num;$/;"	m	struct:__anon1	access:public
+__anon1::right_margin	include/nna_app.h	/^  int left_margin, right_margin, top_margin, bottom_margin;$/;"	m	struct:__anon1	access:public
+__anon1::top_margin	include/nna_app.h	/^  int left_margin, right_margin, top_margin, bottom_margin;$/;"	m	struct:__anon1	access:public
+__anon1::wbit	include/nna_app.h	/^  int wbit;$/;"	m	struct:__anon1	access:public
+__anon2::bt_or_ptr	include/nna_app.h	/^  uint8_t *w_or_ptr, *bt_or_ptr, *of_or_ptr;$/;"	m	struct:__anon2	access:public
+__anon2::conv_with_dma	include/nna_app.h	/^  int conv_with_dma, idma_blk_num, odma_blk_num, idma_num, odma_num;$/;"	m	struct:__anon2	access:public
+__anon2::idma_blk_num	include/nna_app.h	/^  int conv_with_dma, idma_blk_num, odma_blk_num, idma_num, odma_num;$/;"	m	struct:__anon2	access:public
+__anon2::idma_num	include/nna_app.h	/^  int conv_with_dma, idma_blk_num, odma_blk_num, idma_num, odma_num;$/;"	m	struct:__anon2	access:public
+__anon2::if_dma_entry	include/nna_app.h	/^  uint32_t *if_dma_entry, *of_dma_entry;$/;"	m	struct:__anon2	access:public
+__anon2::if_lstart	include/nna_app.h	/^  int mac_bln, if_orbuf_lnum, of_orbuf_lnum, if_lstart, of_lstart;$/;"	m	struct:__anon2	access:public
+__anon2::if_or_ptr	include/nna_app.h	/^  uint8_t **if_or_ptr;$/;"	m	struct:__anon2	access:public
+__anon2::if_orbuf_lnum	include/nna_app.h	/^  int mac_bln, if_orbuf_lnum, of_orbuf_lnum, if_lstart, of_lstart;$/;"	m	struct:__anon2	access:public
+__anon2::iline_size	include/nna_app.h	/^  uint32_t iline_size, oline_size;$/;"	m	struct:__anon2	access:public
+__anon2::mac_bln	include/nna_app.h	/^  int mac_bln, if_orbuf_lnum, of_orbuf_lnum, if_lstart, of_lstart;$/;"	m	struct:__anon2	access:public
+__anon2::odma_blk_num	include/nna_app.h	/^  int conv_with_dma, idma_blk_num, odma_blk_num, idma_num, odma_num;$/;"	m	struct:__anon2	access:public
+__anon2::odma_num	include/nna_app.h	/^  int conv_with_dma, idma_blk_num, odma_blk_num, idma_num, odma_num;$/;"	m	struct:__anon2	access:public
+__anon2::of_dma_entry	include/nna_app.h	/^  uint32_t *if_dma_entry, *of_dma_entry;$/;"	m	struct:__anon2	access:public
+__anon2::of_lstart	include/nna_app.h	/^  int mac_bln, if_orbuf_lnum, of_orbuf_lnum, if_lstart, of_lstart;$/;"	m	struct:__anon2	access:public
+__anon2::of_or_ptr	include/nna_app.h	/^  uint8_t *w_or_ptr, *bt_or_ptr, *of_or_ptr;$/;"	m	struct:__anon2	access:public
+__anon2::of_orbuf_lnum	include/nna_app.h	/^  int mac_bln, if_orbuf_lnum, of_orbuf_lnum, if_lstart, of_lstart;$/;"	m	struct:__anon2	access:public
+__anon2::oline_size	include/nna_app.h	/^  uint32_t iline_size, oline_size;$/;"	m	struct:__anon2	access:public
+__anon2::w_or_ptr	include/nna_app.h	/^  uint8_t *w_or_ptr, *bt_or_ptr, *of_or_ptr;$/;"	m	struct:__anon2	access:public
+__anon3::buf_end	include/nna_app.h	/^  uint8_t *buf_start, *buf_end;$/;"	m	struct:__anon3	access:public
+__anon3::buf_start	include/nna_app.h	/^  uint8_t *buf_start, *buf_end;$/;"	m	struct:__anon3	access:public
+__anon3::data_linesize	include/nna_app.h	/^  int linesize, data_linesize;$/;"	m	struct:__anon3	access:public
+__anon3::line	include/nna_app.h	/^  int total_line, line;$/;"	m	struct:__anon3	access:public
+__anon3::linesize	include/nna_app.h	/^  int linesize, data_linesize;$/;"	m	struct:__anon3	access:public
+__anon3::total_line	include/nna_app.h	/^  int total_line, line;$/;"	m	struct:__anon3	access:public
+__anon4::all_buf_start	include/nna_app.h	/^  uint8_t *all_buf_start;$/;"	m	struct:__anon4	access:public
+__anon4::buf_end	include/nna_app.h	/^  uint8_t **buf_start, **buf_end;$/;"	m	struct:__anon4	access:public
+__anon4::buf_start	include/nna_app.h	/^  uint8_t **buf_start, **buf_end;$/;"	m	struct:__anon4	access:public
+__anon4::data_linesize	include/nna_app.h	/^  int linesize, data_linesize;$/;"	m	struct:__anon4	access:public
+__anon4::line	include/nna_app.h	/^  int total_line, line;$/;"	m	struct:__anon4	access:public
+__anon4::linesize	include/nna_app.h	/^  int linesize, data_linesize;$/;"	m	struct:__anon4	access:public
+__anon4::total_line	include/nna_app.h	/^  int total_line, line;$/;"	m	struct:__anon4	access:public
+__anon5::a	include/nna_app.h	/^  uint8_t   a:2;$/;"	m	struct:__anon5	access:public
+__anon5::b	include/nna_app.h	/^  uint8_t   b:2;$/;"	m	struct:__anon5	access:public
+__anon5::c	include/nna_app.h	/^  uint8_t   c:2;$/;"	m	struct:__anon5	access:public
+__anon5::d	include/nna_app.h	/^  uint8_t   d:2;$/;"	m	struct:__anon5	access:public
+__anon6::a	include/nna_app.h	/^  uint8_t   a:4;$/;"	m	struct:__anon6	access:public
+__anon6::b	include/nna_app.h	/^  uint8_t   b:4;$/;"	m	struct:__anon6	access:public
+__anon7::d_va_st_addr	include/nna_dma_driver_v4.h	/^    unsigned int d_va_st_addr ;$/;"	m	struct:__anon7	access:public
+__anon7::data_bytes	include/nna_dma_driver_v4.h	/^    unsigned int data_bytes   ;$/;"	m	struct:__anon7	access:public
+__anon7::des_link	include/nna_dma_driver_v4.h	/^    unsigned int des_link     ;$/;"	m	struct:__anon7	access:public
+__anon7::o_mlc_bytes	include/nna_dma_driver_v4.h	/^    unsigned int o_mlc_bytes  ;$/;"	m	struct:__anon7	access:public
+__anon7::o_va_mlc_addr	include/nna_dma_driver_v4.h	/^    unsigned int o_va_mlc_addr;$/;"	m	struct:__anon7	access:public
+__anon7::o_va_st_addr	include/nna_dma_driver_v4.h	/^    unsigned int o_va_st_addr ;$/;"	m	struct:__anon7	access:public
+__anon8::chain_num	include/nna_dma_driver_v4.h	/^    uint32_t chain_num;$/;"	m	struct:__anon8	access:public
+__anon8::chain_st_idx	include/nna_dma_driver_v4.h	/^    uint32_t chain_st_idx[2048*2];$/;"	m	struct:__anon8	access:public
+__anon8::des_data	include/nna_dma_driver_v4.h	/^    uint32_t des_data[2048*2];$/;"	m	struct:__anon8	access:public
+__anon8::des_num	include/nna_dma_driver_v4.h	/^    uint32_t des_num[2048*2];$/;"	m	struct:__anon8	access:public
+__anon8::total_bytes	include/nna_dma_driver_v4.h	/^    uint32_t total_bytes[2048*2];$/;"	m	struct:__anon8	access:public
+__anon9::dma_cmd_num	include/nna_dma_driver_v4.h	/^    uint32_t dma_cmd_num;$/;"	m	struct:__anon9	access:public
+__anon9::finish	include/nna_dma_driver_v4.h	/^    uint32_t finish;$/;"	m	struct:__anon9	access:public
+__anon9::rcmd_st_idx	include/nna_dma_driver_v4.h	/^    uint32_t rcmd_st_idx;$/;"	m	struct:__anon9	access:public
+__anon9::wcmd_st_idx	include/nna_dma_driver_v4.h	/^    uint32_t wcmd_st_idx;$/;"	m	struct:__anon9	access:public
+__b_use_rmem	source/aie_mmap.c	/^static int __b_use_rmem = 0;$/;"	v	file:
+__bscaler_io_vbase	source/aie_mmap.c	/^void *__bscaler_io_vbase = NULL;$/;"	v
+__c0_context	include/macro_def.h	166;"	d
+__c1_context	include/macro_def.h	167;"	d
+__c2_context	include/macro_def.h	168;"	d
+__c3_context	include/macro_def.h	169;"	d
+__ddr_nna_buf	source/aie_mmap.c	/^static soc_nna_buf_t __ddr_nna_buf;$/;"	v	file:
+__ddr_pbase	source/aie_mmap.c	/^void *__ddr_pbase = NULL;$/;"	v
+__ddr_vbase	source/aie_mmap.c	/^void *__ddr_vbase = NULL;$/;"	v
+__ddr_vbase_cache_attr	source/aie_mmap.c	/^unsigned int __ddr_vbase_cache_attr = 0;$/;"	v
+__fast_iob	include/aie_mmap.h	83;"	d
+__init	include/macro_def.h	164;"	d
+__k0_context	include/macro_def.h	170;"	d
+__k1_context	include/macro_def.h	171;"	d
+__kernel_data	include/macro_def.h	181;"	d
+__kernel_pid_t	include/libxio.h	/^typedef int             __kernel_pid_t;$/;"	t
+__memfd	source/aie_mmap.c	/^static int __memfd = -1;$/;"	v	file:
+__nnafd	source/aie_mmap.c	/^static int __nnafd = -1;$/;"	v	file:
+__nndbg_io_vbase	source/aie_mmap.c	/^void *__nndbg_io_vbase = NULL;$/;"	v
+__nndma_desram_cache_attr	source/aie_mmap.c	/^unsigned int __nndma_desram_cache_attr = 0;$/;"	v
+__nndma_desram_vbase	source/aie_mmap.c	/^void *__nndma_desram_vbase = NULL;$/;"	v
+__nndma_fastio_vbase	source/aie_mmap.c	/^void *__nndma_fastio_vbase = NULL;$/;"	v
+__nndma_io_vbase	source/aie_mmap.c	/^void *__nndma_io_vbase = NULL;$/;"	v
+__oram_vbase	source/aie_mmap.c	/^void *__oram_vbase = NULL;$/;"	v
+__oram_vbase_cache_attr	source/aie_mmap.c	/^unsigned int __oram_vbase_cache_attr = 0;$/;"	v
+__sync	include/aie_mmap.h	68;"	d
+__u0_context	include/macro_def.h	172;"	d
+__u1_context	include/macro_def.h	173;"	d
+__u2_context	include/macro_def.h	174;"	d
+__u3_context	include/macro_def.h	175;"	d
+__u4_context	include/macro_def.h	176;"	d
+__u5_context	include/macro_def.h	177;"	d
+__u6_context	include/macro_def.h	178;"	d
+__u7_context	include/macro_def.h	179;"	d
+_bootrom_entry	source/bootrom.S	/^_bootrom_entry:$/;"	l
+a	include/nna_app.h	/^  uint8_t   a:2;$/;"	m	struct:__anon5	access:public
+a	include/nna_app.h	/^  uint8_t   a:4;$/;"	m	struct:__anon6	access:public
+addr	include/soc_nna.h	/^    unsigned int    addr;$/;"	m	struct:flush_cache_info	access:public
+addr	source/aie_mmap.c	/^    unsigned int    addr;$/;"	m	struct:flush_cache_info	file:	access:public
+aie_run_nndma_rdchn	source/dma_func.c	/^void aie_run_nndma_rdchn(int rd_chn, uint32_t ptr, int total_size)$/;"	f	signature:(int rd_chn, uint32_t ptr, int total_size)
+aie_run_nndma_wrchn	source/dma_func.c	/^void aie_run_nndma_wrchn(int wr_chn, uint32_t ptr, int total_size)$/;"	f	signature:(int wr_chn, uint32_t ptr, int total_size)
+aie_wait_nndma_rdchn	source/dma_func.c	/^void aie_wait_nndma_rdchn(int rd_chn)$/;"	f	signature:(int rd_chn)
+aie_wait_nndma_wrchn	source/dma_func.c	/^void aie_wait_nndma_wrchn(int wr_chn)$/;"	f	signature:(int wr_chn)
+all_buf_start	include/nna_app.h	/^  uint8_t *all_buf_start;$/;"	m	struct:__anon4	access:public
+b	include/nna_app.h	/^  uint8_t   b:2;$/;"	m	struct:__anon5	access:public
+b	include/nna_app.h	/^  uint8_t   b:4;$/;"	m	struct:__anon6	access:public
+b_nna_memory_init	source/nna_dma_memory_v1.c	/^static bool b_nna_memory_init = false;$/;"	v	file:
+bottom_margin	include/nna_app.h	/^  int left_margin, right_margin, top_margin, bottom_margin;$/;"	m	struct:__anon1	access:public
+bt_or_ptr	include/nna_app.h	/^  uint8_t *w_or_ptr, *bt_or_ptr, *of_or_ptr;$/;"	m	struct:__anon2	access:public
+buf_end	include/nna_app.h	/^  uint8_t **buf_start, **buf_end;$/;"	m	struct:__anon4	access:public
+buf_end	include/nna_app.h	/^  uint8_t *buf_start, *buf_end;$/;"	m	struct:__anon3	access:public
+buf_start	include/nna_app.h	/^  uint8_t **buf_start, **buf_end;$/;"	m	struct:__anon4	access:public
+buf_start	include/nna_app.h	/^  uint8_t *buf_start, *buf_end;$/;"	m	struct:__anon3	access:public
+c	include/nna_app.h	/^  uint8_t   c:2;$/;"	m	struct:__anon5	access:public
+chain_num	include/nna_dma_driver_v4.h	/^    uint32_t chain_num;$/;"	m	struct:__anon8	access:public
+chain_st_idx	include/nna_dma_driver_v4.h	/^    uint32_t chain_st_idx[2048*2];$/;"	m	struct:__anon8	access:public
+check_rd_wr_chn_same	source/dma_func.c	/^int check_rd_wr_chn_same(uint32_t ddr_vaddr_in, uint32_t ddr_vaddr_out, int block_size)$/;"	f	signature:(uint32_t ddr_vaddr_in, uint32_t ddr_vaddr_out, int block_size)
+cnn_data_t	include/nna_app.h	/^}cnn_data_t;$/;"	t	typeref:struct:__anon2
+conv_with_dma	include/nna_app.h	/^  int conv_with_dma, idma_blk_num, odma_blk_num, idma_num, odma_num;$/;"	m	struct:__anon2	access:public
+currentNodeAlloc	source/LocalMemMgr.c	/^static int currentNodeAlloc(void *heap, void *addr, unsigned int nbytes)$/;"	f	file:	signature:(void *heap, void *addr, unsigned int nbytes)
+d	include/nna_app.h	/^  uint8_t   d:2;$/;"	m	struct:__anon5	access:public
+d_va_st_addr	include/nna_dma_driver_v4.h	/^    unsigned int d_va_st_addr ;$/;"	m	struct:__anon7	access:public
+data_bytes	include/nna_dma_driver_v4.h	/^    unsigned int data_bytes   ;$/;"	m	struct:__anon7	access:public
+data_linesize	include/nna_app.h	/^  int linesize, data_linesize;$/;"	m	struct:__anon3	access:public
+data_linesize	include/nna_app.h	/^  int linesize, data_linesize;$/;"	m	struct:__anon4	access:public
+ddr_base_paddr	source/nna_dma_memory_v1.c	/^static void *ddr_base_paddr = NULL;$/;"	v	file:
+ddr_base_size	source/nna_dma_memory_v1.c	/^static int ddr_base_size = 0;$/;"	v	file:
+ddr_base_vaddr	source/nna_dma_memory_v1.c	/^static void *ddr_base_vaddr = NULL;$/;"	v	file:
+ddr_calloc	source/ddr_mem.c	/^void *ddr_calloc (unsigned int size, unsigned int n)$/;"	f	signature:(unsigned int size, unsigned int n)
+ddr_free	source/ddr_mem.c	/^void ddr_free (void *addr)$/;"	f	signature:(void *addr)
+ddr_malloc	source/ddr_mem.c	/^void *ddr_malloc (unsigned int size)$/;"	f	signature:(unsigned int size)
+ddr_memalign	source/ddr_mem.c	/^void *ddr_memalign (unsigned int align, unsigned int size)$/;"	f	signature:(unsigned int align, unsigned int size)
+ddr_memory_deinit	source/ddr_mem.c	/^void ddr_memory_deinit (void)$/;"	f	signature:(void)
+ddr_memory_init	source/ddr_mem.c	/^int ddr_memory_init (void *mp, unsigned int mp_size)$/;"	f	signature:(void *mp, unsigned int mp_size)
+ddr_memory_mutex	source/ddr_mem.c	/^static pthread_mutex_t ddr_memory_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+ddr_nna_buf	source/nna_dma_memory_v1.c	/^static struct soc_nna_buf ddr_nna_buf;$/;"	v	typeref:struct:soc_nna_buf	file:
+ddr_realloc	source/ddr_mem.c	/^void *ddr_realloc (void *addr, unsigned int size)$/;"	f	signature:(void *addr, unsigned int size)
+des_data	include/nna_dma_driver_v4.h	/^    uint32_t des_data[2048*2];$/;"	m	struct:__anon8	access:public
+des_gen_result	include/nna_dma_driver_v4.h	/^} des_gen_result;$/;"	t	typeref:struct:__anon9
+des_info	include/nna_dma_driver_v4.h	/^} des_info;$/;"	t	typeref:struct:__anon8
+des_link	include/nna_dma_driver_v4.h	/^    unsigned int des_link     ;$/;"	m	struct:__anon7	access:public
+des_num	include/nna_dma_driver_v4.h	/^    uint32_t des_num[2048*2];$/;"	m	struct:__anon8	access:public
+desram_rvaddr	source/nna_dma_memory_v1.c	/^unsigned int *desram_rvaddr;$/;"	v
+desram_wvaddr	source/nna_dma_memory_v1.c	/^unsigned int *desram_wvaddr;$/;"	v
+dir	include/soc_nna.h	/^    unsigned int    dir;$/;"	m	struct:flush_cache_info	access:public
+dir	source/aie_mmap.c	/^    unsigned int    dir;$/;"	m	struct:flush_cache_info	file:	access:public
+dma_cmd_num	include/nna_dma_driver_v4.h	/^    uint32_t dma_cmd_num;$/;"	m	struct:__anon9	access:public
+dma_rcfg_vaddr	source/nna_dma_memory_v1.c	/^unsigned int *dma_rcfg_vaddr[3] = {NULL, NULL, NULL};$/;"	v
+dma_wcfg_vaddr	source/nna_dma_memory_v1.c	/^unsigned int *dma_wcfg_vaddr[2] = {NULL, NULL};$/;"	v
+fast_iob	include/aie_mmap.h	94;"	d
+finish	include/nna_dma_driver_v4.h	/^    uint32_t finish;$/;"	m	struct:__anon9	access:public
+flush_cache_info	include/soc_nna.h	/^struct flush_cache_info {$/;"	s
+flush_cache_info	source/aie_mmap.c	/^struct flush_cache_info {$/;"	s	file:
+flush_cache_info::addr	include/soc_nna.h	/^    unsigned int    addr;$/;"	m	struct:flush_cache_info	access:public
+flush_cache_info::addr	source/aie_mmap.c	/^    unsigned int    addr;$/;"	m	struct:flush_cache_info	file:	access:public
+flush_cache_info::dir	include/soc_nna.h	/^    unsigned int    dir;$/;"	m	struct:flush_cache_info	access:public
+flush_cache_info::dir	source/aie_mmap.c	/^    unsigned int    dir;$/;"	m	struct:flush_cache_info	file:	access:public
+flush_cache_info::len	include/soc_nna.h	/^    unsigned int    len;$/;"	m	struct:flush_cache_info	access:public
+flush_cache_info::len	source/aie_mmap.c	/^    unsigned int    len;$/;"	m	struct:flush_cache_info	file:	access:public
+fp_cfg_t	include/nna_app.h	/^}fp_cfg_t;$/;"	t	typeref:struct:__anon1
+get_rmem_info	source/aie_mmap.c	/^static int get_rmem_info(void **pRmemAddr, int *pRmemSize)$/;"	f	file:	signature:(void **pRmemAddr, int *pRmemSize)
+i_rdhwr	include/mxu3.h	1615;"	d
+idma_blk_num	include/nna_app.h	/^  int conv_with_dma, idma_blk_num, odma_blk_num, idma_num, odma_num;$/;"	m	struct:__anon2	access:public
+idma_num	include/nna_app.h	/^  int conv_with_dma, idma_blk_num, odma_blk_num, idma_num, odma_num;$/;"	m	struct:__anon2	access:public
+if_d2rbo_oraset	source/dma_func.c	/^int if_d2rbo_oraset(int do_oralloc, uint32_t line_size,$/;"	f	signature:(int do_oralloc, uint32_t line_size, int blk_lnum, int blk0_lnum_more, int orbuf_lnum, int total_lnum, int ifp_num, int qifp_num, int *qorbuf_size_p, uint8_t **ddr_ptr, uint8_t **or_ptr, uint32_t **des_entry_p)
+if_dma_entry	include/nna_app.h	/^  uint32_t *if_dma_entry, *of_dma_entry;$/;"	m	struct:__anon2	access:public
+if_lstart	include/nna_app.h	/^  int mac_bln, if_orbuf_lnum, of_orbuf_lnum, if_lstart, of_lstart;$/;"	m	struct:__anon2	access:public
+if_or_ptr	include/nna_app.h	/^  uint8_t **if_or_ptr;$/;"	m	struct:__anon2	access:public
+if_orbuf_lnum	include/nna_app.h	/^  int mac_bln, if_orbuf_lnum, of_orbuf_lnum, if_lstart, of_lstart;$/;"	m	struct:__anon2	access:public
+ifp_height	include/nna_app.h	/^  int ifp_width, ifp_height;$/;"	m	struct:__anon1	access:public
+ifp_num	include/nna_app.h	/^  int ifp_num, ifp_num_upp, ofp_num;$/;"	m	struct:__anon1	access:public
+ifp_num_upp	include/nna_app.h	/^  int ifp_num, ifp_num_upp, ofp_num;$/;"	m	struct:__anon1	access:public
+ifp_width	include/nna_app.h	/^  int ifp_width, ifp_height;$/;"	m	struct:__anon1	access:public
+iline_size	include/nna_app.h	/^  uint32_t iline_size, oline_size;$/;"	m	struct:__anon2	access:public
+left_margin	include/nna_app.h	/^  int left_margin, right_margin, top_margin, bottom_margin;$/;"	m	struct:__anon1	access:public
+len	include/soc_nna.h	/^    unsigned int    len;$/;"	m	struct:flush_cache_info	access:public
+len	source/aie_mmap.c	/^    unsigned int    len;$/;"	m	struct:flush_cache_info	file:	access:public
+line	include/nna_app.h	/^  int total_line, line;$/;"	m	struct:__anon3	access:public
+line	include/nna_app.h	/^  int total_line, line;$/;"	m	struct:__anon4	access:public
+linesize	include/nna_app.h	/^  int linesize, data_linesize;$/;"	m	struct:__anon3	access:public
+linesize	include/nna_app.h	/^  int linesize, data_linesize;$/;"	m	struct:__anon4	access:public
+local_first	source/LocalMemMgr.c	24;"	d	file:
+local_getalign	source/LocalMemMgr.c	17;"	d	file:
+local_last	source/LocalMemMgr.c	25;"	d	file:
+local_next	source/LocalMemMgr.c	13;"	d	file:
+local_prev	source/LocalMemMgr.c	12;"	d	file:
+local_setalign	source/LocalMemMgr.c	16;"	d	file:
+local_size	source/LocalMemMgr.c	15;"	d	file:
+local_status	source/LocalMemMgr.c	14;"	d	file:
+mac_bln	include/nna_app.h	/^  int mac_bln, if_orbuf_lnum, of_orbuf_lnum, if_lstart, of_lstart;$/;"	m	struct:__anon2	access:public
+mac_column	include/nna_app.h	/^  int mac_width, mac_column;$/;"	m	struct:__anon1	access:public
+mac_height	include/nna_app.h	/^  int mac_height, mac_line;$/;"	m	struct:__anon1	access:public
+mac_line	include/nna_app.h	/^  int mac_height, mac_line;$/;"	m	struct:__anon1	access:public
+mac_stride	include/nna_app.h	/^  int mac_stride;$/;"	m	struct:__anon1	access:public
+mac_width	include/nna_app.h	/^  int mac_width, mac_column;$/;"	m	struct:__anon1	access:public
+memfd	source/nna_dma_memory_v1.c	/^static int memfd = -1;$/;"	v	file:
+mp_memory	source/ddr_mem.c	/^static void *mp_memory = NULL;$/;"	v	file:
+mp_memory	source/oram_mem.c	/^static void *mp_memory = NULL;$/;"	v	file:
+mp_memory_size	source/ddr_mem.c	/^static unsigned int mp_memory_size = 0;$/;"	v	file:
+mp_memory_size	source/oram_mem.c	/^static unsigned int mp_memory_size = 0;$/;"	v	file:
+nna_addr_align_check	source/nna_dma_driver_v4.c	/^int nna_addr_align_check(unsigned int d_va_addr, unsigned int o_va_addr) {$/;"	f	signature:(unsigned int d_va_addr, unsigned int o_va_addr)
+nna_cache_attr	include/aie_mmap.h	/^typedef enum nna_cache_attr {$/;"	g
+nna_cache_attr_t	include/aie_mmap.h	/^} nna_cache_attr_t;$/;"	t	typeref:enum:nna_cache_attr
+nna_des_analysis	source/nna_dma_driver_v4.c	/^int nna_des_analysis(uint32_t cmd_num, uint32_t cmd_st_idx, nndma_cmd_buf * cmd_buf, des_info * des_buf)$/;"	f	signature:(uint32_t cmd_num, uint32_t cmd_st_idx, nndma_cmd_buf * cmd_buf, des_info * des_buf)
+nna_desram_update	source/nna_dma_driver_v4.c	/^void nna_desram_update(des_info * des_rd_buf, des_info * des_wr_buf, uint32_t * dma_cmd_buf, des_gen_result * des_gen_result) {$/;"	f	signature:(des_info * des_rd_buf, des_info * des_wr_buf, uint32_t * dma_cmd_buf, des_gen_result * des_gen_result)
+nna_dma_data_direction	include/aie_mmap.h	/^enum nna_dma_data_direction {$/;"	g
+nna_dma_driver	source/nna_dma_driver_v4.c	/^int nna_dma_driver(uint32_t cmd_info[4], nndma_cmd_buf * cmd_buf, uint32_t * dma_cmd_buf, des_gen_result * des_gen_result) {$/;"	f	signature:(uint32_t cmd_info[4], nndma_cmd_buf * cmd_buf, uint32_t * dma_cmd_buf, des_gen_result * des_gen_result)
+nna_init_mutex	source/nna_dma_memory_v1.c	/^static pthread_mutex_t nna_init_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+nnadma_fp	source/nna_dma_driver_v4.c	/^  FILE *nnadma_fp;$/;"	v
+nnafd	source/nna_dma_memory_v1.c	/^static int nnafd = -1;$/;"	v	file:
+nndma_base_paddr	source/nna_dma_memory_v1.c	/^static void *nndma_base_paddr = NULL;$/;"	v	file:
+nndma_base_size	source/nna_dma_memory_v1.c	/^static int nndma_base_size = 0;$/;"	v	file:
+nndma_base_vaddr	source/nna_dma_memory_v1.c	/^void *nndma_base_vaddr = NULL;$/;"	v
+nndma_ch_check	include/nna_dma_driver_v4.h	/^static inline void nndma_ch_check() {$/;"	f	signature:()
+nndma_cmd_buf	include/nna_dma_driver_v4.h	/^} nndma_cmd_buf;$/;"	t	typeref:struct:__anon7
+nndma_ddr_phy_to_vir	source/nna_dma_memory_v1.c	/^void *nndma_ddr_phy_to_vir(void *paddr)$/;"	f	signature:(void *paddr)
+nndma_ddr_vir_to_phy	source/nna_dma_memory_v1.c	/^void *nndma_ddr_vir_to_phy(void *vaddr)$/;"	f	signature:(void *vaddr)
+nndma_memory_deinit	source/nna_dma_memory_v1.c	/^int nndma_memory_deinit()$/;"	f
+nndma_memory_init	source/nna_dma_memory_v1.c	/^int nndma_memory_init(int max_ddr_size)$/;"	f	signature:(int max_ddr_size)
+nndma_memory_phy_to_vir	source/nna_dma_memory_v1.c	/^void *nndma_memory_phy_to_vir(void *paddr)$/;"	f	signature:(void *paddr)
+nndma_oram_phy_to_vir	source/nna_dma_memory_v1.c	/^void *nndma_oram_phy_to_vir(void *paddr)$/;"	f	signature:(void *paddr)
+nndma_oram_vir_to_phy	source/nna_dma_memory_v1.c	/^void *nndma_oram_vir_to_phy(void *vaddr)$/;"	f	signature:(void *vaddr)
+nndma_rdch_start	include/nna_dma_driver_v4.h	/^static inline void nndma_rdch_start(int chnId, uint32_t desram_ptr) {$/;"	f	signature:(int chnId, uint32_t desram_ptr)
+nndma_wrch_start	include/nna_dma_driver_v4.h	/^static inline void nndma_wrch_start(int chnId, uint32_t desram_ptr) {$/;"	f	signature:(int chnId, uint32_t desram_ptr)
+nnoram_base_vaddr	source/nna_dma_memory_v1.c	/^void *nnoram_base_vaddr = NULL;$/;"	v
+o_mlc_bytes	include/nna_dma_driver_v4.h	/^    unsigned int o_mlc_bytes  ;$/;"	m	struct:__anon7	access:public
+o_va_mlc_addr	include/nna_dma_driver_v4.h	/^    unsigned int o_va_mlc_addr;$/;"	m	struct:__anon7	access:public
+o_va_st_addr	include/nna_dma_driver_v4.h	/^    unsigned int o_va_st_addr ;$/;"	m	struct:__anon7	access:public
+odma_blk_num	include/nna_app.h	/^  int conv_with_dma, idma_blk_num, odma_blk_num, idma_num, odma_num;$/;"	m	struct:__anon2	access:public
+odma_num	include/nna_app.h	/^  int conv_with_dma, idma_blk_num, odma_blk_num, idma_num, odma_num;$/;"	m	struct:__anon2	access:public
+of_dma_entry	include/nna_app.h	/^  uint32_t *if_dma_entry, *of_dma_entry;$/;"	m	struct:__anon2	access:public
+of_lstart	include/nna_app.h	/^  int mac_bln, if_orbuf_lnum, of_orbuf_lnum, if_lstart, of_lstart;$/;"	m	struct:__anon2	access:public
+of_o2d_oraset	source/dma_func.c	/^int of_o2d_oraset(int do_oralloc, uint32_t line_size, int blk_lnum,$/;"	f	signature:(int do_oralloc, uint32_t line_size, int blk_lnum, int buf_bnum, int total_lnum, int ofp_num, uint8_t *ddr_ptr, uint8_t **or_ptr_p, uint32_t **des_entry_p)
+of_or_ptr	include/nna_app.h	/^  uint8_t *w_or_ptr, *bt_or_ptr, *of_or_ptr;$/;"	m	struct:__anon2	access:public
+of_orbuf_lnum	include/nna_app.h	/^  int mac_bln, if_orbuf_lnum, of_orbuf_lnum, if_lstart, of_lstart;$/;"	m	struct:__anon2	access:public
+ofp_num	include/nna_app.h	/^  int ifp_num, ifp_num_upp, ofp_num;$/;"	m	struct:__anon1	access:public
+oline_size	include/nna_app.h	/^  uint32_t iline_size, oline_size;$/;"	m	struct:__anon2	access:public
+oram_base_paddr	source/nna_dma_memory_v1.c	/^static void *oram_base_paddr = NULL;$/;"	v	file:
+oram_base_size	source/nna_dma_memory_v1.c	/^static int oram_base_size = 0;$/;"	v	file:
+oram_base_vaddr	source/nna_dma_memory_v1.c	/^static void *oram_base_vaddr = NULL;$/;"	v	file:
+oram_calloc	source/oram_mem.c	/^void *oram_calloc (unsigned int size, unsigned int n)$/;"	f	signature:(unsigned int size, unsigned int n)
+oram_free	source/oram_mem.c	/^void oram_free (void *addr)$/;"	f	signature:(void *addr)
+oram_malloc	source/oram_mem.c	/^void *oram_malloc (unsigned int size)$/;"	f	signature:(unsigned int size)
+oram_memalign	source/oram_mem.c	/^void *oram_memalign (unsigned int align, unsigned int size)$/;"	f	signature:(unsigned int align, unsigned int size)
+oram_memory_deinit	source/oram_mem.c	/^void oram_memory_deinit (void)$/;"	f	signature:(void)
+oram_memory_init	source/oram_mem.c	/^int oram_memory_init (void *mp, unsigned int mp_size)$/;"	f	signature:(void *mp, unsigned int mp_size)
+oram_memory_mutex	source/oram_mem.c	/^static pthread_mutex_t oram_memory_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+oram_realloc	source/oram_mem.c	/^void *oram_realloc (void *addr, unsigned int size)$/;"	f	signature:(void *addr, unsigned int size)
+orif_buf_t	include/nna_app.h	/^}orif_buf_t;$/;"	t	typeref:struct:__anon3
+orof_buf_t	include/nna_app.h	/^}orof_buf_t;$/;"	t	typeref:struct:__anon4
+paddr	include/soc_nna.h	/^    void        *paddr;$/;"	m	struct:soc_nna_buf	access:public
+paddr	source/aie_mmap.c	/^    void        *paddr;$/;"	m	struct:soc_nna_buf	file:	access:public
+pid_t	include/libxio.h	/^typedef __kernel_pid_t          pid_t;$/;"	t
+rcmd_st_idx	include/nna_dma_driver_v4.h	/^    uint32_t rcmd_st_idx;$/;"	m	struct:__anon9	access:public
+reg_index	include/nna_reg_set_c.h	/^int reg_index, reg_index_max;$/;"	v
+reg_index_max	include/nna_reg_set_c.h	/^int reg_index, reg_index_max;$/;"	v
+reg_value	include/nna_reg_set_c.h	/^uint32_t reg_value[16];$/;"	v
+right_margin	include/nna_app.h	/^  int left_margin, right_margin, top_margin, bottom_margin;$/;"	m	struct:__anon1	access:public
+size	include/soc_nna.h	/^    int         size;$/;"	m	struct:soc_nna_buf	access:public
+size	source/aie_mmap.c	/^    int         size;$/;"	m	struct:soc_nna_buf	file:	access:public
+soc_nna_buf	include/soc_nna.h	/^struct soc_nna_buf {$/;"	s
+soc_nna_buf	source/aie_mmap.c	/^typedef struct soc_nna_buf {$/;"	s	file:
+soc_nna_buf::paddr	include/soc_nna.h	/^    void        *paddr;$/;"	m	struct:soc_nna_buf	access:public
+soc_nna_buf::paddr	source/aie_mmap.c	/^    void        *paddr;$/;"	m	struct:soc_nna_buf	file:	access:public
+soc_nna_buf::size	include/soc_nna.h	/^    int         size;$/;"	m	struct:soc_nna_buf	access:public
+soc_nna_buf::size	source/aie_mmap.c	/^    int         size;$/;"	m	struct:soc_nna_buf	file:	access:public
+soc_nna_buf::vaddr	include/soc_nna.h	/^    void        *vaddr;$/;"	m	struct:soc_nna_buf	access:public
+soc_nna_buf::vaddr	source/aie_mmap.c	/^    void        *vaddr;$/;"	m	struct:soc_nna_buf	file:	access:public
+soc_nna_buf_t	source/aie_mmap.c	/^} soc_nna_buf_t;$/;"	t	typeref:struct:soc_nna_buf	file:
+top_margin	include/nna_app.h	/^  int left_margin, right_margin, top_margin, bottom_margin;$/;"	m	struct:__anon1	access:public
+total_bytes	include/nna_dma_driver_v4.h	/^    uint32_t total_bytes[2048*2];$/;"	m	struct:__anon8	access:public
+total_line	include/nna_app.h	/^  int total_line, line;$/;"	m	struct:__anon3	access:public
+total_line	include/nna_app.h	/^  int total_line, line;$/;"	m	struct:__anon4	access:public
+ubit2_t	include/nna_app.h	/^}ubit2_t;$/;"	t	typeref:struct:__anon5
+ubit4_t	include/nna_app.h	/^}ubit4_t;$/;"	t	typeref:struct:__anon6
+vaddr	include/soc_nna.h	/^    void        *vaddr;$/;"	m	struct:soc_nna_buf	access:public
+vaddr	source/aie_mmap.c	/^    void        *vaddr;$/;"	m	struct:soc_nna_buf	file:	access:public
+w_d2o_orasetrun	source/dma_func.c	/^void w_d2o_orasetrun(int do_oralloc, int blk_num,$/;"	f	signature:(int do_oralloc, int blk_num, uint8_t ** ddr_ptr, uint8_t ** or_ptr, uint32_t * size)
+w_or_ptr	include/nna_app.h	/^  uint8_t *w_or_ptr, *bt_or_ptr, *of_or_ptr;$/;"	m	struct:__anon2	access:public
+wbit	include/nna_app.h	/^  int wbit;$/;"	m	struct:__anon1	access:public
+wcmd_st_idx	include/nna_dma_driver_v4.h	/^    uint32_t wcmd_st_idx;$/;"	m	struct:__anon9	access:public

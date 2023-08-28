@@ -1,0 +1,13 @@
+/home/jwzhang/work/aip/driver/7.2.0/2.29/./include/mem_manager/ddr_mem.h
+/home/jwzhang/work/aip/driver/7.2.0/2.29/./include/mem_manager/duplex_list.h
+/home/jwzhang/work/aip/driver/7.2.0/2.29/./include/mem_manager/alloc_manager.h
+/home/jwzhang/work/aip/driver/7.2.0/2.29/./include/mem_manager/LocalMemMgr.h
+/home/jwzhang/work/aip/driver/7.2.0/2.29/./include/mem_manager/buf_list.h
+/home/jwzhang/work/aip/driver/7.2.0/2.29/./include/mem_manager/data.h
+/home/jwzhang/work/aip/driver/7.2.0/2.29/./include/mem_manager/oram.h
+/home/jwzhang/work/aip/driver/7.2.0/2.29/./include/drivers/aie_mmap.h
+/home/jwzhang/work/aip/driver/7.2.0/2.29/./include/drivers/utils.h
+/home/jwzhang/work/aip/driver/7.2.0/2.29/./lib/uclibc/libdrivers.so
+/home/jwzhang/work/aip/driver/7.2.0/2.29/./lib/uclibc/libdrivers.a
+/home/jwzhang/work/aip/driver/7.2.0/2.29/./lib/glibc/libdrivers.so
+/home/jwzhang/work/aip/driver/7.2.0/2.29/./lib/glibc/libdrivers.a

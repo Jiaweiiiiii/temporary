@@ -1,0 +1,27 @@
+#aip_demo
+CC = mips-linux-uclibc-g++
+C++ = mips-linux-uclibc-g++
+
+#CFLAGS = -Wall -g -fpermissive
+CFLAGS = 
+
+LIBS_AIP =  ../../__release_aip/lib/uclibc/ 
+LIBS_DRI = ../model/libdrivers/uclibc/
+
+model := $(wildcard ../../model/*.c) # 显示指定路径下指定文件类型的所有文件
+objs += $(patsubst %.c, %.o, $(model)) # model路径下的变量符合后缀是.c的全部替换成.o
+objs += ../model/bs_src.o ../model/include/3rd_party/Matrix.o
+
+INCLUDE_COMMON = -I ../../include/jz_aip -I ../model/include/model/ -I ../model/include/3rd_party/ -I ../model/include/drivers/
+
+OUTPUT_NAME := aip_resize_demo
+$(OUTPUT_NAME): $(objs) aip_resize_demo.o
+	$(CC) $(CFLAGS) -o $@ $^ -L$(LIBS_AIP) -laip -L$(LIBS_DRI) -ldrivers $(INCLUDE_COMMON) -lpthread
+%.o:%.c
+	$(CC) $(CFLAGS) -c -o $@ $< $(INCLUDE_COMMON)
+%.o:%.cc
+	$(C++) $(CFLAGS) -c -o $@ $< $(INCLUDE_COMMON)
+
+.PHONY: clean
+clean:
+	rm $(objs) $(OUTPUT_NAME) $(OUTPUT_NAME).o
