@@ -1,0 +1,782 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AIPV20_POOL_H	include/iaic_list.h	17;"	d
+AIP_ACTION_CACHE_FLUSH	include/iaic_ioctl.h	/^	AIP_ACTION_CACHE_FLUSH,$/;"	e	enum:__anon21
+AIP_ACTION_CTX_LOCK	include/iaic_ioctl.h	/^	AIP_ACTION_CTX_LOCK,$/;"	e	enum:__anon21
+AIP_ACTION_CTX_UNLOCK	include/iaic_ioctl.h	/^	AIP_ACTION_CTX_UNLOCK,$/;"	e	enum:__anon21
+AIP_ACTION_GET_AIP_RUNTIME	include/iaic_ioctl.h	/^	AIP_ACTION_GET_AIP_RUNTIME,$/;"	e	enum:__anon21
+AIP_ACTION_GET_MEMINFO	include/iaic_ioctl.h	/^	AIP_ACTION_GET_MEMINFO,$/;"	e	enum:__anon21
+AIP_ACTION_SET_PROC_NICE	include/iaic_ioctl.h	/^	AIP_ACTION_SET_PROC_NICE,$/;"	e	enum:__anon21
+AIP_ACTION_STATUS	include/iaic_ioctl.h	/^	AIP_ACTION_STATUS,$/;"	e	enum:__anon21
+AIP_BO_OP_APPEND	include/iaic_ioctl.h	/^	AIP_BO_OP_APPEND = 0,$/;"	e	enum:__anon19
+AIP_BO_OP_DESTROY	include/iaic_ioctl.h	/^	AIP_BO_OP_DESTROY,$/;"	e	enum:__anon19
+AIP_CH_OP_F	include/iaic_ioctl.h	/^	AIP_CH_OP_F,$/;"	e	enum:__anon6
+AIP_CH_OP_P	include/iaic_ioctl.h	/^	AIP_CH_OP_P = 0,$/;"	e	enum:__anon6
+AIP_CH_OP_T	include/iaic_ioctl.h	/^	AIP_CH_OP_T,$/;"	e	enum:__anon6
+AIP_CH_OP_T_TASK	include/iaic_ioctl.h	/^	AIP_CH_OP_T_TASK,$/;"	e	enum:__anon6
+AIP_DAT_POS_DDR	include/iaic_ioctl.h	/^        AIP_DAT_POS_DDR = 0,$/;"	e	enum:__anon7
+AIP_DAT_POS_ORAM	include/iaic_ioctl.h	/^        AIP_DAT_POS_ORAM = 1,$/;"	e	enum:__anon7
+AIP_F_FORMAT_BGRA	include/iaic_ioctl.h	/^	AIP_F_FORMAT_BGRA = 2,$/;"	e	enum:__anon8
+AIP_F_FORMAT_C	include/iaic_ioctl.h	/^	AIP_F_FORMAT_C = 1,$/;"	e	enum:__anon8
+AIP_F_FORMAT_FEATURE2	include/iaic_ioctl.h	/^	AIP_F_FORMAT_FEATURE2 = 3,$/;"	e	enum:__anon8
+AIP_F_FORMAT_FEATURE4	include/iaic_ioctl.h	/^	AIP_F_FORMAT_FEATURE4 = 4,$/;"	e	enum:__anon8
+AIP_F_FORMAT_FEATURE8	include/iaic_ioctl.h	/^	AIP_F_FORMAT_FEATURE8 = 5,$/;"	e	enum:__anon8
+AIP_F_FORMAT_FEATURE8_H	include/iaic_ioctl.h	/^	AIP_F_FORMAT_FEATURE8_H = 6,$/;"	e	enum:__anon8
+AIP_F_FORMAT_NV12	include/iaic_ioctl.h	/^	AIP_F_FORMAT_NV12 = 7,$/;"	e	enum:__anon8
+AIP_F_FORMAT_Y	include/iaic_ioctl.h	/^	AIP_F_FORMAT_Y = 0,$/;"	e	enum:__anon8
+AIP_LIST_INIT	include/iaic_list.h	20;"	d
+AIP_ORDER_ABGR	include/iaic_ioctl.h	/^	AIP_ORDER_ABGR = 8,$/;"	e	enum:__anon10
+AIP_ORDER_ABRG	include/iaic_ioctl.h	/^	AIP_ORDER_ABRG = 11,$/;"	e	enum:__anon10
+AIP_ORDER_AGBR	include/iaic_ioctl.h	/^	AIP_ORDER_AGBR = 9,$/;"	e	enum:__anon10
+AIP_ORDER_AGRB	include/iaic_ioctl.h	/^	AIP_ORDER_AGRB = 12,$/;"	e	enum:__anon10
+AIP_ORDER_ARBG	include/iaic_ioctl.h	/^	AIP_ORDER_ARBG = 10,$/;"	e	enum:__anon10
+AIP_ORDER_ARGB	include/iaic_ioctl.h	/^	AIP_ORDER_ARGB = 13,$/;"	e	enum:__anon10
+AIP_ORDER_BGRA	include/iaic_ioctl.h	/^	AIP_ORDER_BGRA = 0,$/;"	e	enum:__anon10
+AIP_ORDER_BRGA	include/iaic_ioctl.h	/^	AIP_ORDER_BRGA = 3,$/;"	e	enum:__anon10
+AIP_ORDER_GBRA	include/iaic_ioctl.h	/^	AIP_ORDER_GBRA = 1,$/;"	e	enum:__anon10
+AIP_ORDER_GRBA	include/iaic_ioctl.h	/^	AIP_ORDER_GRBA = 4,$/;"	e	enum:__anon10
+AIP_ORDER_RBGA	include/iaic_ioctl.h	/^	AIP_ORDER_RBGA = 2,$/;"	e	enum:__anon10
+AIP_ORDER_RGBA	include/iaic_ioctl.h	/^	AIP_ORDER_RGBA = 5,$/;"	e	enum:__anon10
+AIP_P_MODE_BGRA_TO_BGRA	include/iaic_ioctl.h	/^	AIP_P_MODE_BGRA_TO_BGRA = 3,$/;"	e	enum:__anon9
+AIP_P_MODE_C_TO_C	include/iaic_ioctl.h	/^	AIP_P_MODE_C_TO_C = 1,$/;"	e	enum:__anon9
+AIP_P_MODE_NV12_TO_BGRA	include/iaic_ioctl.h	/^	AIP_P_MODE_NV12_TO_BGRA = 2,$/;"	e	enum:__anon9
+AIP_P_MODE_Y_TO_Y	include/iaic_ioctl.h	/^	AIP_P_MODE_Y_TO_Y = 0,$/;"	e	enum:__anon9
+AIP_V20_ACTION	include/iaic_ioctl.h	22;"	d
+AIP_V20_BO	include/iaic_ioctl.h	20;"	d
+AIP_V20_DRV_VERSION	include/iaic_ioctl.h	15;"	d
+AIP_V20_LIB_VERSION	include/iaic.h	20;"	d
+AIP_V20_SUBMIT	include/iaic_ioctl.h	18;"	d
+AIP_V20_WAIT	include/iaic_ioctl.h	19;"	d
+BO_ORDER_SHIFT	include/iaic_core.h	22;"	d
+BO_ORDER_SIZE	include/iaic_core.h	23;"	d
+DCMAKE_TOOLCHAIN_FILE	Makefile	/^	echo "cmake -DCMAKE_TOOLCHAIN_FILE=..\/toolchain.cmake ..">.\/build\/README$/;"	m
+DECLTYPE	include/uthash.h	50;"	d
+DECLTYPE	include/uthash.h	55;"	d
+DECLTYPE	include/uthash.h	59;"	d
+DECLTYPE	include/uthash.h	64;"	d
+DECLTYPE_ASSIGN	include/uthash.h	65;"	d
+DECLTYPE_ASSIGN	include/uthash.h	71;"	d
+DMA_BIDIRECTIONAL	include/iaic.h	/^        DMA_BIDIRECTIONAL = 0,$/;"	e	enum:__anon29
+DMA_FROM_DEVICE	include/iaic.h	/^        DMA_FROM_DEVICE = 2,$/;"	e	enum:__anon29
+DMA_NONE	include/iaic.h	/^        DMA_NONE = 3,$/;"	e	enum:__anon29
+DMA_TO_DEVICE	include/iaic.h	/^        DMA_TO_DEVICE = 1,$/;"	e	enum:__anon29
+ELMT_FROM_HH	include/uthash.h	137;"	d
+HASH_ADD	include/uthash.h	430;"	d
+HASH_ADD_BYHASHVALUE	include/uthash.h	427;"	d
+HASH_ADD_BYHASHVALUE_INORDER	include/uthash.h	393;"	d
+HASH_ADD_INORDER	include/uthash.h	396;"	d
+HASH_ADD_INT	include/uthash.h	500;"	d
+HASH_ADD_KEYPTR	include/uthash.h	420;"	d
+HASH_ADD_KEYPTR_BYHASHVALUE	include/uthash.h	399;"	d
+HASH_ADD_KEYPTR_BYHASHVALUE_INORDER	include/uthash.h	353;"	d
+HASH_ADD_KEYPTR_INORDER	include/uthash.h	386;"	d
+HASH_ADD_PTR	include/uthash.h	506;"	d
+HASH_ADD_STR	include/uthash.h	488;"	d
+HASH_ADD_TO_BKT	include/uthash.h	770;"	d
+HASH_ADD_TO_TABLE	include/uthash.h	316;"	d
+HASH_ADD_TO_TABLE	include/uthash.h	340;"	d
+HASH_AKBI_INNER_LOOP	include/uthash.h	289;"	d
+HASH_AKBI_INNER_LOOP	include/uthash.h	299;"	d
+HASH_AKBI_INNER_LOOP	include/uthash.h	300;"	d
+HASH_APPEND_LIST	include/uthash.h	281;"	d
+HASH_BER	include/uthash.h	586;"	d
+HASH_BKT_CAPACITY_THRESH	include/uthash.h	134;"	d
+HASH_BLOOM_ADD	include/uthash.h	201;"	d
+HASH_BLOOM_ADD	include/uthash.h	210;"	d
+HASH_BLOOM_BITLEN	include/uthash.h	179;"	d
+HASH_BLOOM_BITSET	include/uthash.h	198;"	d
+HASH_BLOOM_BITTEST	include/uthash.h	199;"	d
+HASH_BLOOM_BYTELEN	include/uthash.h	180;"	d
+HASH_BLOOM_BYTELEN	include/uthash.h	212;"	d
+HASH_BLOOM_FREE	include/uthash.h	193;"	d
+HASH_BLOOM_FREE	include/uthash.h	209;"	d
+HASH_BLOOM_MAKE	include/uthash.h	181;"	d
+HASH_BLOOM_MAKE	include/uthash.h	208;"	d
+HASH_BLOOM_SIGNATURE	include/uthash.h	1094;"	d
+HASH_BLOOM_TEST	include/uthash.h	204;"	d
+HASH_BLOOM_TEST	include/uthash.h	211;"	d
+HASH_CLEAR	include/uthash.h	1040;"	d
+HASH_CNT	include/uthash.h	1070;"	d
+HASH_COUNT	include/uthash.h	1069;"	d
+HASH_DEL	include/uthash.h	510;"	d
+HASH_DELETE	include/uthash.h	450;"	d
+HASH_DELETE_HH	include/uthash.h	453;"	d
+HASH_DEL_IN_BKT	include/uthash.h	792;"	d
+HASH_EMIT_KEY	include/uthash.h	575;"	d
+HASH_EMIT_KEY	include/uthash.h	582;"	d
+HASH_EXPAND_BUCKETS	include/uthash.h	836;"	d
+HASH_FIND	include/uthash.h	168;"	d
+HASH_FIND_BYHASHVALUE	include/uthash.h	156;"	d
+HASH_FIND_INT	include/uthash.h	498;"	d
+HASH_FIND_IN_BKT	include/uthash.h	748;"	d
+HASH_FIND_PTR	include/uthash.h	504;"	d
+HASH_FIND_STR	include/uthash.h	483;"	d
+HASH_FNV	include/uthash.h	611;"	d
+HASH_FSCK	include/uthash.h	519;"	d
+HASH_FSCK	include/uthash.h	568;"	d
+HASH_FUNCTION	include/uthash.h	91;"	d
+HASH_INITIAL_NUM_BUCKETS	include/uthash.h	132;"	d
+HASH_INITIAL_NUM_BUCKETS_LOG2	include/uthash.h	133;"	d
+HASH_ITER	include/uthash.h	1059;"	d
+HASH_ITER	include/uthash.h	1063;"	d
+HASH_JEN	include/uthash.h	650;"	d
+HASH_JEN_MIX	include/uthash.h	637;"	d
+HASH_KEYCMP	include/uthash.h	95;"	d
+HASH_MAKE_TABLE	include/uthash.h	215;"	d
+HASH_NONFATAL_OOM	include/uthash.h	106;"	d
+HASH_OAT	include/uthash.h	622;"	d
+HASH_OOPS	include/uthash.h	518;"	d
+HASH_OVERHEAD	include/uthash.h	1051;"	d
+HASH_RECORD_OOM	include/uthash.h	116;"	d
+HASH_RECORD_OOM	include/uthash.h	126;"	d
+HASH_REPLACE	include/uthash.h	267;"	d
+HASH_REPLACE_BYHASHVALUE	include/uthash.h	257;"	d
+HASH_REPLACE_BYHASHVALUE_INORDER	include/uthash.h	247;"	d
+HASH_REPLACE_INORDER	include/uthash.h	274;"	d
+HASH_REPLACE_INT	include/uthash.h	502;"	d
+HASH_REPLACE_PTR	include/uthash.h	508;"	d
+HASH_REPLACE_STR	include/uthash.h	493;"	d
+HASH_ROLLBACK_BKT	include/uthash.h	141;"	d
+HASH_SAX	include/uthash.h	601;"	d
+HASH_SELECT	include/uthash.h	982;"	d
+HASH_SFH	include/uthash.h	702;"	d
+HASH_SIGNATURE	include/uthash.h	1093;"	d
+HASH_SORT	include/uthash.h	892;"	d
+HASH_SRT	include/uthash.h	893;"	d
+HASH_TO_BKT	include/uthash.h	433;"	d
+HASH_VALUE	include/uthash.h	151;"	d
+HH_FROM_ELMT	include/uthash.h	139;"	d
+IAIC_ABGR	include/iaic.h	/^	IAIC_ABGR = 0x3 << 8 | 0x2 << 4 | 0x8,$/;"	e	enum:__anon31
+IAIC_ABRG	include/iaic.h	/^	IAIC_ABRG = 0x3 << 8 | 0x2 << 4 | 0xb,$/;"	e	enum:__anon31
+IAIC_AGBR	include/iaic.h	/^	IAIC_AGBR = 0x3 << 8 | 0x2 << 4 | 0x9,$/;"	e	enum:__anon31
+IAIC_AGRB	include/iaic.h	/^	IAIC_AGRB = 0x3 << 8 | 0x2 << 4 | 0xc,$/;"	e	enum:__anon31
+IAIC_ARBG	include/iaic.h	/^	IAIC_ARBG = 0x3 << 8 | 0x2 << 4 | 0xa,$/;"	e	enum:__anon31
+IAIC_ARGB	include/iaic.h	/^	IAIC_ARGB = 0x3 << 8 | 0x2 << 4 | 0xd,$/;"	e	enum:__anon31
+IAIC_BGRA	include/iaic.h	/^	IAIC_BGRA = 0x3 << 8 | 0x2 << 4 | 0x0,$/;"	e	enum:__anon31
+IAIC_BGRA2RGBA	include/iaic.h	/^	IAIC_BGRA2RGBA  = 0xf << 8 | 0xf << 4 | 0xe$/;"	e	enum:__anon31
+IAIC_BO_EXT_MAP	include/iaic_core.h	19;"	d
+IAIC_BRGA	include/iaic.h	/^	IAIC_BRGA = 0x3 << 8 | 0x2 << 4 | 0x3,$/;"	e	enum:__anon31
+IAIC_CODE_AIP_CACHE_FLUSH_FAIL	include/iaic_core.h	/^	IAIC_CODE_AIP_CACHE_FLUSH_FAIL,$/;"	e	enum:__anon32
+IAIC_CODE_AIP_F_SUBMIT_FAIL	include/iaic_core.h	/^	IAIC_CODE_AIP_F_SUBMIT_FAIL,$/;"	e	enum:__anon32
+IAIC_CODE_AIP_P_SUBMIT_FAIL	include/iaic_core.h	/^	IAIC_CODE_AIP_P_SUBMIT_FAIL,$/;"	e	enum:__anon32
+IAIC_CODE_AIP_T_CLOSE_FAIL	include/iaic_core.h	/^	IAIC_CODE_AIP_T_CLOSE_FAIL,$/;"	e	enum:__anon32
+IAIC_CODE_AIP_T_SUBMIT_FAIL	include/iaic_core.h	/^	IAIC_CODE_AIP_T_SUBMIT_FAIL,$/;"	e	enum:__anon32
+IAIC_CODE_AIP_WAIT_FAIL	include/iaic_core.h	/^	IAIC_CODE_AIP_WAIT_FAIL,$/;"	e	enum:__anon32
+IAIC_CODE_BO_CREATE_EXT_FAIL	include/iaic_core.h	/^	IAIC_CODE_BO_CREATE_EXT_FAIL,$/;"	e	enum:__anon32
+IAIC_CODE_BO_CREATE_FAIL	include/iaic_core.h	/^	IAIC_CODE_BO_CREATE_FAIL,$/;"	e	enum:__anon32
+IAIC_CODE_BO_CREATE_MMAP_FAIL	include/iaic_core.h	/^	IAIC_CODE_BO_CREATE_MMAP_FAIL,$/;"	e	enum:__anon32
+IAIC_CODE_BO_DESTROY_FAIL	include/iaic_core.h	/^	IAIC_CODE_BO_DESTROY_FAIL,$/;"	e	enum:__anon32
+IAIC_CODE_CPU_FAST_IOB_INIT_FAIL	include/iaic_core.h	/^	IAIC_CODE_CPU_FAST_IOB_INIT_FAIL,$/;"	e	enum:__anon32
+IAIC_CODE_CTX_DEINIT	include/iaic_core.h	/^	IAIC_CODE_CTX_DEINIT,$/;"	e	enum:__anon32
+IAIC_CODE_CTX_DESTROY_FAIL	include/iaic_core.h	/^	IAIC_CODE_CTX_DESTROY_FAIL,$/;"	e	enum:__anon32
+IAIC_CODE_DRV_VERSION_NOMATCH	include/iaic_core.h	/^	IAIC_CODE_DRV_VERSION_NOMATCH,$/;"	e	enum:__anon32
+IAIC_CODE_INIT_FAIL	include/iaic_core.h	/^	IAIC_CODE_INIT_FAIL$/;"	e	enum:__anon32
+IAIC_CODE_LIB_VERSION_NOMATCH	include/iaic_core.h	/^	IAIC_CODE_LIB_VERSION_NOMATCH,$/;"	e	enum:__anon32
+IAIC_CODE_NNA_DMA_DESRAM_INIT_FAIL	include/iaic_core.h	/^	IAIC_CODE_NNA_DMA_DESRAM_INIT_FAIL,$/;"	e	enum:__anon32
+IAIC_CODE_NNA_DMA_INIT_FAIL	include/iaic_core.h	/^	IAIC_CODE_NNA_DMA_INIT_FAIL,$/;"	e	enum:__anon32
+IAIC_CODE_NNA_MUTEX_LOCK_FAIL	include/iaic_core.h	/^	IAIC_CODE_NNA_MUTEX_LOCK_FAIL,$/;"	e	enum:__anon32
+IAIC_CODE_NNA_MUTEX_UNLOCK_FAIL	include/iaic_core.h	/^	IAIC_CODE_NNA_MUTEX_UNLOCK_FAIL,$/;"	e	enum:__anon32
+IAIC_CODE_NNA_ORAM_ALLOC_FAIL	include/iaic_core.h	/^	IAIC_CODE_NNA_ORAM_ALLOC_FAIL,$/;"	e	enum:__anon32
+IAIC_CODE_NNA_ORAM_FREE_FAIL	include/iaic_core.h	/^	IAIC_CODE_NNA_ORAM_FREE_FAIL,$/;"	e	enum:__anon32
+IAIC_CODE_NNA_ORAM_INIT_FAIL	include/iaic_core.h	/^	IAIC_CODE_NNA_ORAM_INIT_FAIL,$/;"	e	enum:__anon32
+IAIC_CODE_NNA_STATUS_FAIL	include/iaic_core.h	/^	IAIC_CODE_NNA_STATUS_FAIL,$/;"	e	enum:__anon32
+IAIC_CODE_NO_AIP_DEVICE	include/iaic_core.h	/^	IAIC_CODE_NO_AIP_DEVICE,$/;"	e	enum:__anon32
+IAIC_CODE_NO_MEM_DEVICE	include/iaic_core.h	/^	IAIC_CODE_NO_MEM_DEVICE,$/;"	e	enum:__anon32
+IAIC_CODE_OK	include/iaic_core.h	/^	IAIC_CODE_OK,$/;"	e	enum:__anon32
+IAIC_FEATURE2	include/iaic.h	/^	IAIC_FEATURE2   = 0xf << 8 | 0x3 << 4 | 0xf,$/;"	e	enum:__anon31
+IAIC_FEATURE4	include/iaic.h	/^	IAIC_FEATURE4   = 0xf << 8 | 0x4 << 4 | 0xf,$/;"	e	enum:__anon31
+IAIC_FEATURE8	include/iaic.h	/^	IAIC_FEATURE8   = 0xf << 8 | 0x5 << 4 | 0xf,$/;"	e	enum:__anon31
+IAIC_FEATURE8_H	include/iaic.h	/^	IAIC_FEATURE8_H = 0xf << 8 | 0x6 << 4 | 0xf,$/;"	e	enum:__anon31
+IAIC_GBRA	include/iaic.h	/^	IAIC_GBRA = 0x3 << 8 | 0x2 << 4 | 0x1,$/;"	e	enum:__anon31
+IAIC_GRBA	include/iaic.h	/^	IAIC_GRBA = 0x3 << 8 | 0x2 << 4 | 0x4,$/;"	e	enum:__anon31
+IAIC_IOCTL	include/iaic_core.h	36;"	d
+IAIC_NV12	include/iaic.h	/^	IAIC_NV12 = 0x2 << 8 | 0x7 << 4 | 0xf,$/;"	e	enum:__anon31
+IAIC_RBGA	include/iaic.h	/^	IAIC_RBGA = 0x3 << 8 | 0x2 << 4 | 0x2,$/;"	e	enum:__anon31
+IAIC_RGBA	include/iaic.h	/^	IAIC_RGBA = 0x3 << 8 | 0x2 << 4 | 0x5,$/;"	e	enum:__anon31
+IAIC_RGBA2BGRA	include/iaic.h	/^	IAIC_RGBA2BGRA  = 0xf << 8 | 0xf << 4 | 0xe,$/;"	e	enum:__anon31
+IAIC_SCHED_HIGH	include/iaic.h	/^        IAIC_SCHED_HIGH = -19,$/;"	e	enum:__anon26
+IAIC_SCHED_LOW	include/iaic.h	/^        IAIC_SCHED_LOW = -1,$/;"	e	enum:__anon26
+IAIC_SCHED_MEDIUM	include/iaic.h	/^        IAIC_SCHED_MEDIUM = -9,$/;"	e	enum:__anon26
+IAIC_UV	include/iaic.h	/^	IAIC_UV   = 0x1 << 8 | 0x1 << 4 | 0xf,$/;"	e	enum:__anon31
+IAIC_Y	include/iaic.h	/^	IAIC_Y    = 0x0 << 8 | 0x0 << 4 | 0xf,$/;"	e	enum:__anon31
+IF_HASH_NONFATAL_OOM	include/uthash.h	117;"	d
+IF_HASH_NONFATAL_OOM	include/uthash.h	127;"	d
+IOCTL_AIP_V20_ACTION	include/iaic_ioctl.h	28;"	d
+IOCTL_AIP_V20_BO	include/iaic_ioctl.h	26;"	d
+IOCTL_AIP_V20_SUBMIT	include/iaic_ioctl.h	24;"	d
+IOCTL_AIP_V20_WAIT	include/iaic_ioctl.h	25;"	d
+IOCTL_NNA_V20_OP	include/iaic_ioctl.h	27;"	d
+JZ_AIP_T_BASE	include/iaic_core.h	38;"	d
+NNA_OP_MUTEX_LOCK	include/iaic_ioctl.h	/^	NNA_OP_MUTEX_LOCK,$/;"	e	enum:__anon1
+NNA_OP_MUTEX_TRYLOCK	include/iaic_ioctl.h	/^	NNA_OP_MUTEX_TRYLOCK,$/;"	e	enum:__anon1
+NNA_OP_MUTEX_UNLOCK	include/iaic_ioctl.h	/^	NNA_OP_MUTEX_UNLOCK,$/;"	e	enum:__anon1
+NNA_OP_ORAM_ALLOC	include/iaic_ioctl.h	/^	NNA_OP_ORAM_ALLOC,$/;"	e	enum:__anon1
+NNA_OP_ORAM_FREE	include/iaic_ioctl.h	/^	NNA_OP_ORAM_FREE,$/;"	e	enum:__anon1
+NNA_OP_STATUS	include/iaic_ioctl.h	/^	NNA_OP_STATUS,$/;"	e	enum:__anon1
+NNA_V20_OP	include/iaic_ioctl.h	21;"	d
+NO_DECLTYPE	include/uthash.h	52;"	d
+NO_DECLTYPE	include/uthash.h	57;"	d
+PAGE_SHIFT	include/iaic_core.h	27;"	d
+PAGE_SIZE	include/iaic_core.h	28;"	d
+UTHASH_H	include/uthash.h	25;"	d
+UTHASH_VERSION	include/uthash.h	27;"	d
+UT_hash_bucket	include/uthash.h	/^typedef struct UT_hash_bucket {$/;"	s
+UT_hash_bucket	include/uthash.h	/^} UT_hash_bucket;$/;"	t	typeref:struct:UT_hash_bucket
+UT_hash_bucket::count	include/uthash.h	/^   unsigned count;$/;"	m	struct:UT_hash_bucket	access:public
+UT_hash_bucket::expand_mult	include/uthash.h	/^   unsigned expand_mult;$/;"	m	struct:UT_hash_bucket	access:public
+UT_hash_bucket::hh_head	include/uthash.h	/^   struct UT_hash_handle *hh_head;$/;"	m	struct:UT_hash_bucket	typeref:struct:UT_hash_bucket::UT_hash_handle	access:public
+UT_hash_handle	include/uthash.h	/^typedef struct UT_hash_handle {$/;"	s
+UT_hash_handle	include/uthash.h	/^} UT_hash_handle;$/;"	t	typeref:struct:UT_hash_handle
+UT_hash_handle::hashv	include/uthash.h	/^   unsigned hashv;                   \/* result of hash-fcn(key)        *\/$/;"	m	struct:UT_hash_handle	access:public
+UT_hash_handle::hh_next	include/uthash.h	/^   struct UT_hash_handle *hh_next;   \/* next hh in bucket order        *\/$/;"	m	struct:UT_hash_handle	typeref:struct:UT_hash_handle::UT_hash_handle	access:public
+UT_hash_handle::hh_prev	include/uthash.h	/^   struct UT_hash_handle *hh_prev;   \/* previous hh in bucket order    *\/$/;"	m	struct:UT_hash_handle	typeref:struct:UT_hash_handle::UT_hash_handle	access:public
+UT_hash_handle::key	include/uthash.h	/^   const void *key;                  \/* ptr to enclosing struct's key  *\/$/;"	m	struct:UT_hash_handle	access:public
+UT_hash_handle::keylen	include/uthash.h	/^   unsigned keylen;                  \/* enclosing struct's key len     *\/$/;"	m	struct:UT_hash_handle	access:public
+UT_hash_handle::next	include/uthash.h	/^   void *next;                       \/* next element in app order      *\/$/;"	m	struct:UT_hash_handle	access:public
+UT_hash_handle::prev	include/uthash.h	/^   void *prev;                       \/* prev element in app order      *\/$/;"	m	struct:UT_hash_handle	access:public
+UT_hash_handle::tbl	include/uthash.h	/^   struct UT_hash_table *tbl;$/;"	m	struct:UT_hash_handle	typeref:struct:UT_hash_handle::UT_hash_table	access:public
+UT_hash_table	include/uthash.h	/^typedef struct UT_hash_table {$/;"	s
+UT_hash_table	include/uthash.h	/^} UT_hash_table;$/;"	t	typeref:struct:UT_hash_table
+UT_hash_table::bloom_bv	include/uthash.h	/^   uint8_t *bloom_bv;$/;"	m	struct:UT_hash_table	access:public
+UT_hash_table::bloom_nbits	include/uthash.h	/^   uint8_t bloom_nbits;$/;"	m	struct:UT_hash_table	access:public
+UT_hash_table::bloom_sig	include/uthash.h	/^   uint32_t bloom_sig; \/* used only to test bloom exists in external analysis *\/$/;"	m	struct:UT_hash_table	access:public
+UT_hash_table::buckets	include/uthash.h	/^   UT_hash_bucket *buckets;$/;"	m	struct:UT_hash_table	access:public
+UT_hash_table::hho	include/uthash.h	/^   ptrdiff_t hho; \/* hash handle offset (byte pos of hash handle in element *\/$/;"	m	struct:UT_hash_table	access:public
+UT_hash_table::ideal_chain_maxlen	include/uthash.h	/^   unsigned ideal_chain_maxlen;$/;"	m	struct:UT_hash_table	access:public
+UT_hash_table::ineff_expands	include/uthash.h	/^   unsigned ineff_expands, noexpand;$/;"	m	struct:UT_hash_table	access:public
+UT_hash_table::log2_num_buckets	include/uthash.h	/^   unsigned num_buckets, log2_num_buckets;$/;"	m	struct:UT_hash_table	access:public
+UT_hash_table::noexpand	include/uthash.h	/^   unsigned ineff_expands, noexpand;$/;"	m	struct:UT_hash_table	access:public
+UT_hash_table::nonideal_items	include/uthash.h	/^   unsigned nonideal_items;$/;"	m	struct:UT_hash_table	access:public
+UT_hash_table::num_buckets	include/uthash.h	/^   unsigned num_buckets, log2_num_buckets;$/;"	m	struct:UT_hash_table	access:public
+UT_hash_table::num_items	include/uthash.h	/^   unsigned num_items;$/;"	m	struct:UT_hash_table	access:public
+UT_hash_table::signature	include/uthash.h	/^   uint32_t signature; \/* used only to find hash tables in external analysis *\/$/;"	m	struct:UT_hash_table	access:public
+UT_hash_table::tail	include/uthash.h	/^   struct UT_hash_handle *tail; \/* tail hh in app order, for fast append    *\/$/;"	m	struct:UT_hash_table	typeref:struct:UT_hash_table::UT_hash_handle	access:public
+_JZ_AIP_V20_IOCTL_H_	include/iaic_ioctl.h	10;"	d
+__IAIC_CORE_H__	include/iaic_core.h	2;"	d
+__IAIC_H__	include/iaic.h	3;"	d
+__anon11::dst_base_uv	include/iaic_ioctl.h	/^	uint32_t                      dst_base_uv[2];$/;"	m	struct:__anon11	access:public
+__anon11::dst_base_y	include/iaic_ioctl.h	/^	uint32_t                      dst_base_y[2];$/;"	m	struct:__anon11	access:public
+__anon11::dst_size	include/iaic_ioctl.h	/^	uint32_t                      dst_size[2];$/;"	m	struct:__anon11	access:public
+__anon11::f_ctrl	include/iaic_ioctl.h	/^	uint32_t                      f_ctrl[2];$/;"	m	struct:__anon11	access:public
+__anon11::scale_x	include/iaic_ioctl.h	/^	uint32_t                      scale_x[2];$/;"	m	struct:__anon11	access:public
+__anon11::scale_y	include/iaic_ioctl.h	/^	uint32_t                      scale_y[2];$/;"	m	struct:__anon11	access:public
+__anon11::src_base_uv	include/iaic_ioctl.h	/^	uint32_t                      src_base_uv[2];$/;"	m	struct:__anon11	access:public
+__anon11::src_base_y	include/iaic_ioctl.h	/^	uint32_t                      src_base_y[2];$/;"	m	struct:__anon11	access:public
+__anon11::src_size	include/iaic_ioctl.h	/^	uint32_t                      src_size[2];$/;"	m	struct:__anon11	access:public
+__anon11::stride	include/iaic_ioctl.h	/^	uint32_t                      stride[2];$/;"	m	struct:__anon11	access:public
+__anon11::timeout	include/iaic_ioctl.h	/^	uint32_t                      timeout[2];$/;"	m	struct:__anon11	access:public
+__anon11::trans_x	include/iaic_ioctl.h	/^	int32_t                       trans_x[2];$/;"	m	struct:__anon11	access:public
+__anon11::trans_y	include/iaic_ioctl.h	/^	int32_t                       trans_y[2];$/;"	m	struct:__anon11	access:public
+__anon12::coef0	include/iaic_ioctl.h	/^	uint32_t                      coef0[2];$/;"	m	struct:__anon12	access:public
+__anon12::coef1	include/iaic_ioctl.h	/^	uint32_t                      coef1[2];$/;"	m	struct:__anon12	access:public
+__anon12::coef10	include/iaic_ioctl.h	/^	uint32_t                      coef10[2];$/;"	m	struct:__anon12	access:public
+__anon12::coef11	include/iaic_ioctl.h	/^	uint32_t                      coef11[2];$/;"	m	struct:__anon12	access:public
+__anon12::coef12	include/iaic_ioctl.h	/^	uint32_t                      coef12[2];$/;"	m	struct:__anon12	access:public
+__anon12::coef13	include/iaic_ioctl.h	/^	uint32_t                      coef13[2];$/;"	m	struct:__anon12	access:public
+__anon12::coef14	include/iaic_ioctl.h	/^	uint32_t                      coef14[2];$/;"	m	struct:__anon12	access:public
+__anon12::coef2	include/iaic_ioctl.h	/^	uint32_t                      coef2[2];$/;"	m	struct:__anon12	access:public
+__anon12::coef3	include/iaic_ioctl.h	/^	uint32_t                      coef3[2];$/;"	m	struct:__anon12	access:public
+__anon12::coef4	include/iaic_ioctl.h	/^	uint32_t                      coef4[2];$/;"	m	struct:__anon12	access:public
+__anon12::coef5	include/iaic_ioctl.h	/^	uint32_t                      coef5[2];$/;"	m	struct:__anon12	access:public
+__anon12::coef6	include/iaic_ioctl.h	/^	uint32_t                      coef6[2];$/;"	m	struct:__anon12	access:public
+__anon12::coef7	include/iaic_ioctl.h	/^	uint32_t                      coef7[2];$/;"	m	struct:__anon12	access:public
+__anon12::coef8	include/iaic_ioctl.h	/^	uint32_t                      coef8[2];$/;"	m	struct:__anon12	access:public
+__anon12::coef9	include/iaic_ioctl.h	/^	uint32_t                      coef9[2];$/;"	m	struct:__anon12	access:public
+__anon12::dst_base	include/iaic_ioctl.h	/^	uint32_t                      dst_base[2];$/;"	m	struct:__anon12	access:public
+__anon12::dst_size	include/iaic_ioctl.h	/^	uint32_t                      dst_size[2];$/;"	m	struct:__anon12	access:public
+__anon12::dst_stride	include/iaic_ioctl.h	/^	uint32_t                      dst_stride[2];$/;"	m	struct:__anon12	access:public
+__anon12::dummy_val	include/iaic_ioctl.h	/^	uint32_t                      dummy_val[2];$/;"	m	struct:__anon12	access:public
+__anon12::mode	include/iaic_ioctl.h	/^	uint32_t                      mode[2];$/;"	m	struct:__anon12	access:public
+__anon12::offset	include/iaic_ioctl.h	/^	uint32_t                      offset[2];$/;"	m	struct:__anon12	access:public
+__anon12::p_ctrl	include/iaic_ioctl.h	/^	uint32_t                      p_ctrl[2];$/;"	m	struct:__anon12	access:public
+__anon12::src_base_uv	include/iaic_ioctl.h	/^	uint32_t                      src_base_uv[2];$/;"	m	struct:__anon12	access:public
+__anon12::src_base_y	include/iaic_ioctl.h	/^	uint32_t                      src_base_y[2];$/;"	m	struct:__anon12	access:public
+__anon12::src_size	include/iaic_ioctl.h	/^	uint32_t                      src_size[2];$/;"	m	struct:__anon12	access:public
+__anon12::src_stride	include/iaic_ioctl.h	/^	uint32_t                      src_stride[2];$/;"	m	struct:__anon12	access:public
+__anon12::timeout	include/iaic_ioctl.h	/^	uint32_t                      timeout[2];$/;"	m	struct:__anon12	access:public
+__anon13::dst_base	include/iaic_ioctl.h	/^	uint32_t                      dst_base;$/;"	m	struct:__anon13	access:public
+__anon13::dst_stride	include/iaic_ioctl.h	/^	uint32_t                      dst_stride;$/;"	m	struct:__anon13	access:public
+__anon13::src_cbase	include/iaic_ioctl.h	/^	uint32_t                      src_cbase;$/;"	m	struct:__anon13	access:public
+__anon13::src_h	include/iaic_ioctl.h	/^	uint32_t                      src_h;$/;"	m	struct:__anon13	access:public
+__anon13::src_stride	include/iaic_ioctl.h	/^	uint32_t                      src_stride;$/;"	m	struct:__anon13	access:public
+__anon13::src_w	include/iaic_ioctl.h	/^	uint32_t                      src_w;$/;"	m	struct:__anon13	access:public
+__anon13::src_ybase	include/iaic_ioctl.h	/^	uint32_t                      src_ybase;$/;"	m	struct:__anon13	access:public
+__anon13::task_len	include/iaic_ioctl.h	/^	uint32_t                      task_len;$/;"	m	struct:__anon13	access:public
+__anon14::alpha	include/iaic_ioctl.h	/^	uint32_t                      alpha;$/;"	m	struct:__anon14	access:public
+__anon14::offset	include/iaic_ioctl.h	/^	uint32_t                      offset[2];$/;"	m	struct:__anon14	access:public
+__anon14::order	include/iaic_ioctl.h	/^	aip_v20_ioctl_order_t         order;$/;"	m	struct:__anon14	access:public
+__anon15::format	include/iaic_ioctl.h	/^	aip_v20_ioctl_f_format_t      format;$/;"	m	struct:__anon15	access:public
+__anon15::name	include/iaic_ioctl.h	/^	char                         *name;$/;"	m	struct:__anon15	access:public
+__anon15::node_handle	include/iaic_ioctl.h	/^	int                           node_handle;$/;"	m	struct:__anon15	access:public
+__anon15::node_num	include/iaic_ioctl.h	/^	size_t                        node_num;$/;"	m	struct:__anon15	access:public
+__anon15::op	include/iaic_ioctl.h	/^	aip_v20_ioctl_ch_op_t         op;$/;"	m	struct:__anon15	access:public
+__anon15::paddr	include/iaic_ioctl.h	/^	uint32_t                      paddr;$/;"	m	struct:__anon15	access:public
+__anon15::pos_in	include/iaic_ioctl.h	/^	aip_v20_ioctl_dat_pos_t       pos_in;$/;"	m	struct:__anon15	access:public
+__anon15::pos_out	include/iaic_ioctl.h	/^	aip_v20_ioctl_dat_pos_t       pos_out;$/;"	m	struct:__anon15	access:public
+__anon15::seqno	include/iaic_ioctl.h	/^	uint64_t                      seqno;$/;"	m	struct:__anon15	access:public
+__anon16::mode	include/iaic_ioctl.h	/^	aip_v20_ioctl_p_mode_t        mode;$/;"	m	struct:__anon16	access:public
+__anon16::name	include/iaic_ioctl.h	/^	char                         *name;$/;"	m	struct:__anon16	access:public
+__anon16::node_handle	include/iaic_ioctl.h	/^	int                           node_handle;$/;"	m	struct:__anon16	access:public
+__anon16::node_num	include/iaic_ioctl.h	/^	size_t                        node_num;$/;"	m	struct:__anon16	access:public
+__anon16::offset	include/iaic_ioctl.h	/^	aip_v20_ioctl_offset_t        offset;$/;"	m	struct:__anon16	access:public
+__anon16::op	include/iaic_ioctl.h	/^	aip_v20_ioctl_ch_op_t         op;$/;"	m	struct:__anon16	access:public
+__anon16::paddr	include/iaic_ioctl.h	/^	uint32_t                      paddr;$/;"	m	struct:__anon16	access:public
+__anon16::param	include/iaic_ioctl.h	/^	void                         *param;$/;"	m	struct:__anon16	access:public
+__anon16::pos_in	include/iaic_ioctl.h	/^	aip_v20_ioctl_dat_pos_t       pos_in;$/;"	m	struct:__anon16	access:public
+__anon16::pos_out	include/iaic_ioctl.h	/^	aip_v20_ioctl_dat_pos_t       pos_out;$/;"	m	struct:__anon16	access:public
+__anon16::seqno	include/iaic_ioctl.h	/^	uint64_t                      seqno;$/;"	m	struct:__anon16	access:public
+__anon17::name	include/iaic_ioctl.h	/^	char                         *name;$/;"	m	struct:__anon17	access:public
+__anon17::node	include/iaic_ioctl.h	/^	void                         *node;$/;"	m	struct:__anon17	access:public
+__anon17::offset	include/iaic_ioctl.h	/^	aip_v20_ioctl_offset_t        offset;$/;"	m	struct:__anon17	access:public
+__anon17::op	include/iaic_ioctl.h	/^	aip_v20_ioctl_ch_op_t         op;$/;"	m	struct:__anon17	access:public
+__anon17::param	include/iaic_ioctl.h	/^	void                         *param;$/;"	m	struct:__anon17	access:public
+__anon17::pos_in	include/iaic_ioctl.h	/^	aip_v20_ioctl_dat_pos_t       pos_in;$/;"	m	struct:__anon17	access:public
+__anon17::pos_out	include/iaic_ioctl.h	/^	aip_v20_ioctl_dat_pos_t       pos_out;$/;"	m	struct:__anon17	access:public
+__anon17::seqno	include/iaic_ioctl.h	/^	uint64_t                      seqno;$/;"	m	struct:__anon17	access:public
+__anon18::op	include/iaic_ioctl.h	/^	aip_v20_ioctl_ch_op_t         op;$/;"	m	struct:__anon18	access:public
+__anon18::seqno	include/iaic_ioctl.h	/^	uint64_t                      seqno;$/;"	m	struct:__anon18	access:public
+__anon18::t_dst_base	include/iaic_ioctl.h	/^	uint32_t                      t_dst_base;$/;"	m	struct:__anon18	access:public
+__anon18::t_task_len	include/iaic_ioctl.h	/^	uint32_t                      t_task_len;$/;"	m	struct:__anon18	access:public
+__anon18::timeout_ns	include/iaic_ioctl.h	/^	uint64_t                      timeout_ns;$/;"	m	struct:__anon18	access:public
+__anon18::wait_time	include/iaic_ioctl.h	/^	int64_t                       wait_time;$/;"	m	struct:__anon18	access:public
+__anon20::handle	include/iaic_ioctl.h	/^	int                           handle;$/;"	m	struct:__anon20	access:public
+__anon20::op	include/iaic_ioctl.h	/^	aip_v20_ioctl_bo_op_t         op;$/;"	m	struct:__anon20	access:public
+__anon20::paddr	include/iaic_ioctl.h	/^	void                         *paddr;$/;"	m	struct:__anon20	access:public
+__anon20::size	include/iaic_ioctl.h	/^	size_t                        size;$/;"	m	struct:__anon20	access:public
+__anon22::chip_version	include/iaic_ioctl.h	/^	uint32_t chip_version;$/;"	m	struct:__anon22	access:public
+__anon22::drv_version	include/iaic_ioctl.h	/^	uint32_t drv_version;$/;"	m	struct:__anon22	access:public
+__anon22::op	include/iaic_ioctl.h	/^	aip_v20_ioctl_action_t op;$/;"	m	struct:__anon22	access:public
+__anon23::cma_free	include/iaic_ioctl.h	/^	uint32_t cma_free;$/;"	m	struct:__anon23	access:public
+__anon23::cma_total	include/iaic_ioctl.h	/^	uint32_t cma_total;$/;"	m	struct:__anon23	access:public
+__anon23::mem_free	include/iaic_ioctl.h	/^	uint32_t mem_free;$/;"	m	struct:__anon23	access:public
+__anon23::mem_total	include/iaic_ioctl.h	/^	uint32_t mem_total;$/;"	m	struct:__anon23	access:public
+__anon23::op	include/iaic_ioctl.h	/^	aip_v20_ioctl_action_t op;$/;"	m	struct:__anon23	access:public
+__anon24::dir	include/iaic_ioctl.h	/^	int dir; \/\/ enum dma_data_direction$/;"	m	struct:__anon24	access:public
+__anon24::op	include/iaic_ioctl.h	/^	aip_v20_ioctl_action_t op;$/;"	m	struct:__anon24	access:public
+__anon24::size	include/iaic_ioctl.h	/^	size_t size;$/;"	m	struct:__anon24	access:public
+__anon24::vaddr	include/iaic_ioctl.h	/^	void *vaddr;$/;"	m	struct:__anon24	access:public
+__anon25::op	include/iaic_ioctl.h	/^	aip_v20_ioctl_action_t op;$/;"	m	struct:__anon25	access:public
+__anon25::value	include/iaic_ioctl.h	/^	int32_t value;$/;"	m	struct:__anon25	access:public
+__anon27::chip_version	include/iaic.h	/^	uint32_t chip_version;$/;"	m	struct:__anon27	access:public
+__anon27::drv_version	include/iaic.h	/^	uint32_t drv_version;$/;"	m	struct:__anon27	access:public
+__anon27::lib_version	include/iaic.h	/^	uint32_t lib_version;$/;"	m	struct:__anon27	access:public
+__anon28::curr_l2c_size	include/iaic.h	/^	size_t curr_l2c_size;$/;"	m	struct:__anon28	access:public
+__anon28::dma_desram_pbase	include/iaic.h	/^	void *dma_desram_pbase;$/;"	m	struct:__anon28	access:public
+__anon28::dma_desram_size	include/iaic.h	/^	size_t dma_desram_size;$/;"	m	struct:__anon28	access:public
+__anon28::dma_desram_vbase	include/iaic.h	/^	void *dma_desram_vbase;$/;"	m	struct:__anon28	access:public
+__anon28::dma_pbase	include/iaic.h	/^	void *dma_pbase;$/;"	m	struct:__anon28	access:public
+__anon28::dma_size	include/iaic.h	/^	size_t dma_size;$/;"	m	struct:__anon28	access:public
+__anon28::dma_vbase	include/iaic.h	/^	void *dma_vbase;$/;"	m	struct:__anon28	access:public
+__anon28::oram_pbase	include/iaic.h	/^	void *oram_pbase;$/;"	m	struct:__anon28	access:public
+__anon28::oram_size	include/iaic.h	/^	size_t oram_size;$/;"	m	struct:__anon28	access:public
+__anon28::oram_vbase	include/iaic.h	/^	void *oram_vbase;$/;"	m	struct:__anon28	access:public
+__anon28::total_l2c_size	include/iaic.h	/^	size_t total_l2c_size;$/;"	m	struct:__anon28	access:public
+__anon2::curr_l2c_size	include/iaic_ioctl.h	/^	size_t                          curr_l2c_size;$/;"	m	struct:__anon2	access:public
+__anon2::dma_desram_pbase	include/iaic_ioctl.h	/^	uint32_t                        dma_desram_pbase;$/;"	m	struct:__anon2	access:public
+__anon2::dma_desram_size	include/iaic_ioctl.h	/^	size_t                          dma_desram_size;$/;"	m	struct:__anon2	access:public
+__anon2::dma_pbase	include/iaic_ioctl.h	/^	uint32_t                        dma_pbase;$/;"	m	struct:__anon2	access:public
+__anon2::dma_size	include/iaic_ioctl.h	/^	size_t                          dma_size;$/;"	m	struct:__anon2	access:public
+__anon2::op	include/iaic_ioctl.h	/^	aip_v20_ioctl_nna_op_t          op;$/;"	m	struct:__anon2	access:public
+__anon2::oram_pbase	include/iaic_ioctl.h	/^	uint32_t                        oram_pbase;$/;"	m	struct:__anon2	access:public
+__anon2::oram_size	include/iaic_ioctl.h	/^	size_t                          oram_size;$/;"	m	struct:__anon2	access:public
+__anon2::total_l2c_size	include/iaic_ioctl.h	/^	size_t                          total_l2c_size;$/;"	m	struct:__anon2	access:public
+__anon30::aip_fd	include/iaic.h	/^	int aip_fd;$/;"	m	struct:__anon30	access:public
+__anon30::aip_iob	include/iaic.h	/^	void *aip_iob;$/;"	m	struct:__anon30	access:public
+__anon30::bo_list	include/iaic.h	/^	struct aip_list bo_list;$/;"	m	struct:__anon30	typeref:struct:__anon30::aip_list	access:public
+__anon30::cpu_fast_iob	include/iaic.h	/^	void *cpu_fast_iob;$/;"	m	struct:__anon30	access:public
+__anon30::max_mem_size	include/iaic.h	/^	size_t max_mem_size;$/;"	m	struct:__anon30	access:public
+__anon30::mem_fd	include/iaic.h	/^	int mem_fd;$/;"	m	struct:__anon30	access:public
+__anon30::mutex_lock	include/iaic.h	/^	pthread_mutex_t mutex_lock;$/;"	m	struct:__anon30	access:public
+__anon30::nna_status	include/iaic.h	/^	iaic_nna_status_t nna_status;$/;"	m	struct:__anon30	access:public
+__anon30::shared_bo	include/iaic.h	/^	iaic_bo_t shared_bo;$/;"	m	struct:__anon30	access:public
+__anon30::spin_lock	include/iaic.h	/^	pthread_spinlock_t spin_lock;$/;"	m	struct:__anon30	access:public
+__anon30::status	include/iaic.h	/^	iaic_status_t status;$/;"	m	struct:__anon30	access:public
+__anon30::thread	include/iaic.h	/^	pthread_t thread;$/;"	m	struct:__anon30	access:public
+__anon33::esize	include/iaic_core.h	/^	size_t esize;$/;"	m	struct:__anon33	access:public
+__anon33::evaddr	include/iaic_core.h	/^	void *evaddr;$/;"	m	struct:__anon33	access:public
+__anon33::handle	include/iaic_core.h	/^	int handle;$/;"	m	struct:__anon33	access:public
+__anon33::paddr	include/iaic_core.h	/^	void *paddr;$/;"	m	struct:__anon33	access:public
+__anon33::size	include/iaic_core.h	/^	size_t size;$/;"	m	struct:__anon33	access:public
+__anon33::vaddr	include/iaic_core.h	/^	void *vaddr;$/;"	m	struct:__anon33	access:public
+__anon34::handle	include/iaic_core.h	/^	int handle;$/;"	m	struct:__anon34	access:public
+__anon34::offset	include/iaic_core.h	/^	uint32_t offset;$/;"	m	struct:__anon34	access:public
+__anon34::paddr	include/iaic_core.h	/^	void *paddr;$/;"	m	struct:__anon34	access:public
+__anon34::size	include/iaic_core.h	/^	size_t size;$/;"	m	struct:__anon34	access:public
+__anon34::vaddr	include/iaic_core.h	/^	void *vaddr;$/;"	m	struct:__anon34	access:public
+__anon3::handle	include/iaic_ioctl.h	/^	int                             handle;$/;"	m	struct:__anon3	access:public
+__anon3::op	include/iaic_ioctl.h	/^	aip_v20_ioctl_nna_op_t          op;$/;"	m	struct:__anon3	access:public
+__anon3::paddr	include/iaic_ioctl.h	/^	void *                          paddr;$/;"	m	struct:__anon3	access:public
+__anon3::size	include/iaic_ioctl.h	/^	size_t                          size;$/;"	m	struct:__anon3	access:public
+__anon4::name	include/iaic_ioctl.h	/^	char                           *name;$/;"	m	struct:__anon4	access:public
+__anon4::op	include/iaic_ioctl.h	/^	aip_v20_ioctl_nna_op_t          op;$/;"	m	struct:__anon4	access:public
+__anon5::cpumask	include/iaic_ioctl.h	/^	int                             cpumask;$/;"	m	struct:__anon5	access:public
+__anon5::force_unlock	include/iaic_ioctl.h	/^	int                             force_unlock;$/;"	m	struct:__anon5	access:public
+__anon5::op	include/iaic_ioctl.h	/^	aip_v20_ioctl_nna_op_t          op;$/;"	m	struct:__anon5	access:public
+__list_add	include/iaic_list.h	/^static inline void __list_add(struct aip_list *new,$/;"	f	signature:(struct aip_list *new, struct aip_list *prev, struct aip_list *next)
+__list_del	include/iaic_list.h	/^static inline void __list_del(struct aip_list * prev, struct aip_list * next)$/;"	f	signature:(struct aip_list * prev, struct aip_list * next)
+__list_del_entry	include/iaic_list.h	/^static inline void __list_del_entry(struct aip_list *entry)$/;"	f	signature:(struct aip_list *entry)
+__list_head_init	include/iaic_list.h	/^static inline void __list_head_init(struct aip_list *list)$/;"	f	signature:(struct aip_list *list)
+__round_mask	include/iaic_core.h	30;"	d
+aip_fd	include/iaic.h	/^	int aip_fd;$/;"	m	struct:__anon30	access:public
+aip_iob	include/iaic.h	/^	void *aip_iob;$/;"	m	struct:__anon30	access:public
+aip_list	include/iaic_core.h	/^struct aip_list {$/;"	s
+aip_list::next	include/iaic_core.h	/^	struct aip_list *next;$/;"	m	struct:aip_list	typeref:struct:aip_list::aip_list	access:public
+aip_list::prev	include/iaic_core.h	/^	struct aip_list *prev;$/;"	m	struct:aip_list	typeref:struct:aip_list::aip_list	access:public
+aip_list_add	include/iaic_list.h	/^static inline void aip_list_add(struct aip_list *new, struct aip_list *head)$/;"	f	signature:(struct aip_list *new, struct aip_list *head)
+aip_list_add_tail	include/iaic_list.h	/^static inline void aip_list_add_tail(struct aip_list *new, struct aip_list *head)$/;"	f	signature:(struct aip_list *new, struct aip_list *head)
+aip_list_del	include/iaic_list.h	/^static inline void aip_list_del(struct aip_list *entry)$/;"	f	signature:(struct aip_list *entry)
+aip_list_del_init	include/iaic_list.h	/^static inline void aip_list_del_init(struct aip_list *entry)$/;"	f	signature:(struct aip_list *entry)
+aip_list_empty	include/iaic_list.h	/^static inline int aip_list_empty(const struct aip_list *head)$/;"	f	signature:(const struct aip_list *head)
+aip_list_empty_careful	include/iaic_list.h	/^static inline int aip_list_empty_careful(const struct aip_list *head)$/;"	f	signature:(const struct aip_list *head)
+aip_list_for_each	include/iaic_list.h	137;"	d
+aip_list_is_last	include/iaic_list.h	/^static inline int aip_list_is_last(const struct aip_list *list,$/;"	f	signature:(const struct aip_list *list, const struct aip_list *head)
+aip_list_is_singular	include/iaic_list.h	/^static inline int aip_list_is_singular(const struct aip_list *head)$/;"	f	signature:(const struct aip_list *head)
+aip_list_next_entry	include/iaic_list.h	129;"	d
+aip_list_prev_entry	include/iaic_list.h	134;"	d
+aip_list_replace	include/iaic_list.h	/^static inline void aip_list_replace(struct aip_list *old,$/;"	f	signature:(struct aip_list *old, struct aip_list *new)
+aip_list_replace_init	include/iaic_list.h	/^static inline void aip_list_replace_init(struct aip_list *old,$/;"	f	signature:(struct aip_list *old, struct aip_list *new)
+aip_v20_f_node_t	include/iaic_ioctl.h	/^} aip_v20_f_node_t;$/;"	t	typeref:struct:__anon11
+aip_v20_ioctl_action_cacheflush_t	include/iaic_ioctl.h	/^} aip_v20_ioctl_action_cacheflush_t;$/;"	t	typeref:struct:__anon24
+aip_v20_ioctl_action_meminfo_t	include/iaic_ioctl.h	/^} aip_v20_ioctl_action_meminfo_t;$/;"	t	typeref:struct:__anon23
+aip_v20_ioctl_action_set_proc_nice_t	include/iaic_ioctl.h	/^} aip_v20_ioctl_action_set_proc_nice_t;$/;"	t	typeref:struct:__anon25
+aip_v20_ioctl_action_status_t	include/iaic_ioctl.h	/^} aip_v20_ioctl_action_status_t;$/;"	t	typeref:struct:__anon22
+aip_v20_ioctl_action_t	include/iaic_ioctl.h	/^} aip_v20_ioctl_action_t;$/;"	t	typeref:enum:__anon21
+aip_v20_ioctl_bo_op_t	include/iaic_ioctl.h	/^} aip_v20_ioctl_bo_op_t;$/;"	t	typeref:enum:__anon19
+aip_v20_ioctl_bo_t	include/iaic_ioctl.h	/^} aip_v20_ioctl_bo_t;$/;"	t	typeref:struct:__anon20
+aip_v20_ioctl_ch_op_t	include/iaic_ioctl.h	/^} aip_v20_ioctl_ch_op_t;$/;"	t	typeref:enum:__anon6
+aip_v20_ioctl_dat_pos_t	include/iaic_ioctl.h	/^} aip_v20_ioctl_dat_pos_t;$/;"	t	typeref:enum:__anon7
+aip_v20_ioctl_f_format_t	include/iaic_ioctl.h	/^} aip_v20_ioctl_f_format_t;$/;"	t	typeref:enum:__anon8
+aip_v20_ioctl_nna_mutex_lock_t	include/iaic_ioctl.h	/^} aip_v20_ioctl_nna_mutex_lock_t;$/;"	t	typeref:struct:__anon4
+aip_v20_ioctl_nna_mutex_unlock_t	include/iaic_ioctl.h	/^} aip_v20_ioctl_nna_mutex_unlock_t;$/;"	t	typeref:struct:__anon5
+aip_v20_ioctl_nna_op_t	include/iaic_ioctl.h	/^} aip_v20_ioctl_nna_op_t;$/;"	t	typeref:enum:__anon1
+aip_v20_ioctl_nna_oram_t	include/iaic_ioctl.h	/^} aip_v20_ioctl_nna_oram_t;$/;"	t	typeref:struct:__anon3
+aip_v20_ioctl_nna_status_t	include/iaic_ioctl.h	/^} aip_v20_ioctl_nna_status_t;$/;"	t	typeref:struct:__anon2
+aip_v20_ioctl_offset_t	include/iaic_ioctl.h	/^} aip_v20_ioctl_offset_t;$/;"	t	typeref:struct:__anon14
+aip_v20_ioctl_order_t	include/iaic_ioctl.h	/^}aip_v20_ioctl_order_t;$/;"	t	typeref:enum:__anon10
+aip_v20_ioctl_p_mode_t	include/iaic_ioctl.h	/^} aip_v20_ioctl_p_mode_t;$/;"	t	typeref:enum:__anon9
+aip_v20_ioctl_submit_f_t	include/iaic_ioctl.h	/^} aip_v20_ioctl_submit_f_t;$/;"	t	typeref:struct:__anon15
+aip_v20_ioctl_submit_p_t	include/iaic_ioctl.h	/^} aip_v20_ioctl_submit_p_t;$/;"	t	typeref:struct:__anon16
+aip_v20_ioctl_submit_t_t	include/iaic_ioctl.h	/^} aip_v20_ioctl_submit_t_t;$/;"	t	typeref:struct:__anon17
+aip_v20_ioctl_wait_t	include/iaic_ioctl.h	/^} aip_v20_ioctl_wait_t;$/;"	t	typeref:struct:__anon18
+aip_v20_p_node_t	include/iaic_ioctl.h	/^} aip_v20_p_node_t;$/;"	t	typeref:struct:__anon12
+aip_v20_t_node_t	include/iaic_ioctl.h	/^} aip_v20_t_node_t;$/;"	t	typeref:struct:__anon13
+alpha	include/iaic_ioctl.h	/^	uint32_t                      alpha;$/;"	m	struct:__anon14	access:public
+block	include/iaic_core.h	/^typedef struct block{$/;"	s
+block::brother	include/iaic_core.h	/^	int brother;$/;"	m	struct:block	access:public
+block::handle	include/iaic_core.h	/^	int handle;$/;"	m	struct:block	access:public
+block::idle	include/iaic_core.h	/^	int idle; \/\/ 状态，1表示空闲，0表示占用$/;"	m	struct:block	access:public
+block::is_bo	include/iaic_core.h	/^	int is_bo; \/\/ 记录bo的节点，1表示是，2表示否$/;"	m	struct:block	access:public
+block::node	include/iaic_core.h	/^	struct aip_list node;$/;"	m	struct:block	typeref:struct:block::aip_list	access:public
+block::paddr	include/iaic_core.h	/^	void *paddr;$/;"	m	struct:block	access:public
+block::size	include/iaic_core.h	/^	size_t size; \/\/ 使用大小$/;"	m	struct:block	access:public
+block::vaddr	include/iaic_core.h	/^	void *vaddr;$/;"	m	struct:block	access:public
+block_t	include/iaic_core.h	/^} block_t;$/;"	t	typeref:struct:block
+bloom_bv	include/uthash.h	/^   uint8_t *bloom_bv;$/;"	m	struct:UT_hash_table	access:public
+bloom_nbits	include/uthash.h	/^   uint8_t bloom_nbits;$/;"	m	struct:UT_hash_table	access:public
+bloom_sig	include/uthash.h	/^   uint32_t bloom_sig; \/* used only to test bloom exists in external analysis *\/$/;"	m	struct:UT_hash_table	access:public
+bo_list	include/iaic.h	/^	struct aip_list bo_list;$/;"	m	struct:__anon30	typeref:struct:__anon30::aip_list	access:public
+brother	include/iaic_core.h	/^	int brother;$/;"	m	struct:block	access:public
+buckets	include/uthash.h	/^   UT_hash_bucket *buckets;$/;"	m	struct:UT_hash_table	access:public
+chip_version	include/iaic.h	/^	uint32_t chip_version;$/;"	m	struct:__anon27	access:public
+chip_version	include/iaic_ioctl.h	/^	uint32_t chip_version;$/;"	m	struct:__anon22	access:public
+cma_free	include/iaic_ioctl.h	/^	uint32_t cma_free;$/;"	m	struct:__anon23	access:public
+cma_total	include/iaic_ioctl.h	/^	uint32_t cma_total;$/;"	m	struct:__anon23	access:public
+coef0	include/iaic_ioctl.h	/^	uint32_t                      coef0[2];$/;"	m	struct:__anon12	access:public
+coef1	include/iaic_ioctl.h	/^	uint32_t                      coef1[2];$/;"	m	struct:__anon12	access:public
+coef10	include/iaic_ioctl.h	/^	uint32_t                      coef10[2];$/;"	m	struct:__anon12	access:public
+coef11	include/iaic_ioctl.h	/^	uint32_t                      coef11[2];$/;"	m	struct:__anon12	access:public
+coef12	include/iaic_ioctl.h	/^	uint32_t                      coef12[2];$/;"	m	struct:__anon12	access:public
+coef13	include/iaic_ioctl.h	/^	uint32_t                      coef13[2];$/;"	m	struct:__anon12	access:public
+coef14	include/iaic_ioctl.h	/^	uint32_t                      coef14[2];$/;"	m	struct:__anon12	access:public
+coef2	include/iaic_ioctl.h	/^	uint32_t                      coef2[2];$/;"	m	struct:__anon12	access:public
+coef3	include/iaic_ioctl.h	/^	uint32_t                      coef3[2];$/;"	m	struct:__anon12	access:public
+coef4	include/iaic_ioctl.h	/^	uint32_t                      coef4[2];$/;"	m	struct:__anon12	access:public
+coef5	include/iaic_ioctl.h	/^	uint32_t                      coef5[2];$/;"	m	struct:__anon12	access:public
+coef6	include/iaic_ioctl.h	/^	uint32_t                      coef6[2];$/;"	m	struct:__anon12	access:public
+coef7	include/iaic_ioctl.h	/^	uint32_t                      coef7[2];$/;"	m	struct:__anon12	access:public
+coef8	include/iaic_ioctl.h	/^	uint32_t                      coef8[2];$/;"	m	struct:__anon12	access:public
+coef9	include/iaic_ioctl.h	/^	uint32_t                      coef9[2];$/;"	m	struct:__anon12	access:public
+count	include/uthash.h	/^   unsigned count;$/;"	m	struct:UT_hash_bucket	access:public
+cpu_fast_iob	include/iaic.h	/^	void *cpu_fast_iob;$/;"	m	struct:__anon30	access:public
+cpumask	include/iaic_ioctl.h	/^	int                             cpumask;$/;"	m	struct:__anon5	access:public
+create_bo_node	src/iaic_bo.c	/^iaic_ret_code_t create_bo_node(iaic_ctx_t *ctx, size_t size)$/;"	f	signature:(iaic_ctx_t *ctx, size_t size)
+curr_l2c_size	include/iaic.h	/^	size_t curr_l2c_size;$/;"	m	struct:__anon28	access:public
+curr_l2c_size	include/iaic_ioctl.h	/^	size_t                          curr_l2c_size;$/;"	m	struct:__anon2	access:public
+dir	include/iaic_ioctl.h	/^	int dir; \/\/ enum dma_data_direction$/;"	m	struct:__anon24	access:public
+dma_data_direction_t	include/iaic.h	/^} dma_data_direction_t;$/;"	t	typeref:enum:__anon29
+dma_desram_pbase	include/iaic.h	/^	void *dma_desram_pbase;$/;"	m	struct:__anon28	access:public
+dma_desram_pbase	include/iaic_ioctl.h	/^	uint32_t                        dma_desram_pbase;$/;"	m	struct:__anon2	access:public
+dma_desram_size	include/iaic.h	/^	size_t dma_desram_size;$/;"	m	struct:__anon28	access:public
+dma_desram_size	include/iaic_ioctl.h	/^	size_t                          dma_desram_size;$/;"	m	struct:__anon2	access:public
+dma_desram_vbase	include/iaic.h	/^	void *dma_desram_vbase;$/;"	m	struct:__anon28	access:public
+dma_pbase	include/iaic.h	/^	void *dma_pbase;$/;"	m	struct:__anon28	access:public
+dma_pbase	include/iaic_ioctl.h	/^	uint32_t                        dma_pbase;$/;"	m	struct:__anon2	access:public
+dma_size	include/iaic.h	/^	size_t dma_size;$/;"	m	struct:__anon28	access:public
+dma_size	include/iaic_ioctl.h	/^	size_t                          dma_size;$/;"	m	struct:__anon2	access:public
+dma_vbase	include/iaic.h	/^	void *dma_vbase;$/;"	m	struct:__anon28	access:public
+drv_version	include/iaic.h	/^	uint32_t drv_version;$/;"	m	struct:__anon27	access:public
+drv_version	include/iaic_ioctl.h	/^	uint32_t drv_version;$/;"	m	struct:__anon22	access:public
+dst_base	include/iaic_ioctl.h	/^	uint32_t                      dst_base;$/;"	m	struct:__anon13	access:public
+dst_base	include/iaic_ioctl.h	/^	uint32_t                      dst_base[2];$/;"	m	struct:__anon12	access:public
+dst_base_uv	include/iaic_ioctl.h	/^	uint32_t                      dst_base_uv[2];$/;"	m	struct:__anon11	access:public
+dst_base_y	include/iaic_ioctl.h	/^	uint32_t                      dst_base_y[2];$/;"	m	struct:__anon11	access:public
+dst_size	include/iaic_ioctl.h	/^	uint32_t                      dst_size[2];$/;"	m	struct:__anon11	access:public
+dst_size	include/iaic_ioctl.h	/^	uint32_t                      dst_size[2];$/;"	m	struct:__anon12	access:public
+dst_stride	include/iaic_ioctl.h	/^	uint32_t                      dst_stride;$/;"	m	struct:__anon13	access:public
+dst_stride	include/iaic_ioctl.h	/^	uint32_t                      dst_stride[2];$/;"	m	struct:__anon12	access:public
+dummy_val	include/iaic_ioctl.h	/^	uint32_t                      dummy_val[2];$/;"	m	struct:__anon12	access:public
+esize	include/iaic_core.h	/^	size_t esize;$/;"	m	struct:__anon33	access:public
+evaddr	include/iaic_core.h	/^	void *evaddr;$/;"	m	struct:__anon33	access:public
+expand_mult	include/uthash.h	/^   unsigned expand_mult;$/;"	m	struct:UT_hash_bucket	access:public
+f_ctrl	include/iaic_ioctl.h	/^	uint32_t                      f_ctrl[2];$/;"	m	struct:__anon11	access:public
+fabs	include/iaic_core.h	34;"	d
+force_unlock	include/iaic_ioctl.h	/^	int                             force_unlock;$/;"	m	struct:__anon5	access:public
+format	include/iaic_ioctl.h	/^	aip_v20_ioctl_f_format_t      format;$/;"	m	struct:__anon15	access:public
+get16bits	include/uthash.h	692;"	d
+get16bits	include/uthash.h	695;"	d
+get16bits	include/uthash.h	699;"	d
+get_img_info	src/iaic_api.c	/^void get_img_info(iaic_img_format_t format,$/;"	f	signature:(iaic_img_format_t format, int wdt, int hgt, int *bpp, int *chn, int *stride, int *size)
+handle	include/iaic_core.h	/^	int handle;$/;"	m	struct:__anon33	access:public
+handle	include/iaic_core.h	/^	int handle;$/;"	m	struct:__anon34	access:public
+handle	include/iaic_core.h	/^	int handle;$/;"	m	struct:block	access:public
+handle	include/iaic_ioctl.h	/^	int                             handle;$/;"	m	struct:__anon3	access:public
+handle	include/iaic_ioctl.h	/^	int                           handle;$/;"	m	struct:__anon20	access:public
+hashv	include/uthash.h	/^   unsigned hashv;                   \/* result of hash-fcn(key)        *\/$/;"	m	struct:UT_hash_handle	access:public
+hh_head	include/uthash.h	/^   struct UT_hash_handle *hh_head;$/;"	m	struct:UT_hash_bucket	typeref:struct:UT_hash_bucket::UT_hash_handle	access:public
+hh_next	include/uthash.h	/^   struct UT_hash_handle *hh_next;   \/* next hh in bucket order        *\/$/;"	m	struct:UT_hash_handle	typeref:struct:UT_hash_handle::UT_hash_handle	access:public
+hh_prev	include/uthash.h	/^   struct UT_hash_handle *hh_prev;   \/* previous hh in bucket order    *\/$/;"	m	struct:UT_hash_handle	typeref:struct:UT_hash_handle::UT_hash_handle	access:public
+hho	include/uthash.h	/^   ptrdiff_t hho; \/* hash handle offset (byte pos of hash handle in element *\/$/;"	m	struct:UT_hash_table	access:public
+i_rdhwr	include/iaic.h	44;"	d
+iaic_aip_f_chain	include/iaic.h	169;"	d
+iaic_aip_f_chain_submit	src/iaic_api.c	/^iaic_ret_code_t iaic_aip_f_chain_submit(iaic_ctx_t *ctx, iaic_f_submit_t *submit)$/;"	f	signature:(iaic_ctx_t *ctx, iaic_f_submit_t *submit)
+iaic_aip_f_wait	src/iaic_api.c	/^iaic_ret_code_t iaic_aip_f_wait(iaic_ctx_t *ctx,$/;"	f	signature:(iaic_ctx_t *ctx, uint64_t seqno, uint64_t timeout_ns, int64_t *wait_time)
+iaic_aip_p_chain	include/iaic.h	194;"	d
+iaic_aip_p_chain_submit	src/iaic_api.c	/^iaic_ret_code_t iaic_aip_p_chain_submit(iaic_ctx_t *ctx, iaic_p_submit_t *submit)$/;"	f	signature:(iaic_ctx_t *ctx, iaic_p_submit_t *submit)
+iaic_aip_p_wait	src/iaic_api.c	/^iaic_ret_code_t iaic_aip_p_wait(iaic_ctx_t *ctx,$/;"	f	signature:(iaic_ctx_t *ctx, uint64_t seqno, uint64_t timeout_ns, int64_t *wait_time)
+iaic_aip_t	include/iaic.h	229;"	d
+iaic_aip_t_ctrl_value	include/iaic.h	/^static inline uint32_t iaic_aip_t_ctrl_value(iaic_ctx_t *ctx)$/;"	f	signature:(iaic_ctx_t *ctx)
+iaic_aip_t_submit	src/iaic_api.c	/^iaic_ret_code_t iaic_aip_t_submit(iaic_ctx_t *ctx, iaic_t_submit_t *submit)$/;"	f	signature:(iaic_ctx_t *ctx, iaic_t_submit_t *submit)
+iaic_aip_t_wait	src/iaic_api.c	/^iaic_ret_code_t iaic_aip_t_wait(iaic_ctx_t *ctx,$/;"	f	signature:(iaic_ctx_t *ctx, uint64_t seqno, uint64_t timeout_ns, int64_t *wait_time)
+iaic_aip_task_start	include/iaic.h	/^static inline void iaic_aip_task_start(iaic_ctx_t *ctx)$/;"	f	signature:(iaic_ctx_t *ctx)
+iaic_aip_wait	include/iaic.h	146;"	d
+iaic_alloc_bo	src/iaic_bo.c	/^iaic_ret_code_t iaic_alloc_bo(iaic_ctx_t *ctx, size_t size, iaic_bo_t *bo)$/;"	f	signature:(iaic_ctx_t *ctx, size_t size, iaic_bo_t *bo)
+iaic_bo_t	include/iaic_core.h	/^} iaic_bo_t;$/;"	t	typeref:struct:__anon33
+iaic_cacheflush	src/iaic_api.c	/^iaic_ret_code_t iaic_cacheflush(iaic_ctx_t *ctx, void *vaddr, size_t size, dma_data_direction_t dir)$/;"	f	signature:(iaic_ctx_t *ctx, void *vaddr, size_t size, dma_data_direction_t dir)
+iaic_convert_config	src/iaic_api.c	/^iaic_ret_code_t iaic_convert_config(iaic_ctx_t *ctx,$/;"	f	signature:(iaic_ctx_t *ctx, uint32_t pos_in, uint32_t pos_out, uint32_t order, uint32_t alpha, uint32_t offset0, uint32_t offset1, uint32_t *param, void *node, char *name, uint64_t *seqno)
+iaic_convert_exit	src/iaic_api.c	/^iaic_ret_code_t iaic_convert_exit(iaic_ctx_t *ctx)$/;"	f	signature:(iaic_ctx_t *ctx)
+iaic_convert_reg_read	src/iaic_api.c	/^void iaic_convert_reg_read(iaic_ctx_t *ctx)$/;"	f	signature:(iaic_ctx_t *ctx)
+iaic_convert_start	src/iaic_api.c	/^void iaic_convert_start(iaic_ctx_t *ctx,$/;"	f	signature:(iaic_ctx_t *ctx, uint32_t dst_base, uint32_t task_len)
+iaic_convert_wait	src/iaic_api.c	/^void iaic_convert_wait(iaic_ctx_t *ctx)$/;"	f	signature:(iaic_ctx_t *ctx)
+iaic_create_bo	src/iaic_api.c	/^iaic_ret_code_t iaic_create_bo(iaic_ctx_t *ctx, size_t size, iaic_bo_t *bo)$/;"	f	signature:(iaic_ctx_t *ctx, size_t size, iaic_bo_t *bo)
+iaic_create_fnode	src/iaic_api.c	/^iaic_ret_code_t iaic_create_fnode(iaic_ctx_t *ctx,$/;"	f	signature:(iaic_ctx_t *ctx, int num, iaic_bo_t *bo)
+iaic_create_pnode	src/iaic_api.c	/^iaic_ret_code_t iaic_create_pnode(iaic_ctx_t *ctx,$/;"	f	signature:(iaic_ctx_t *ctx, int num, iaic_bo_t *bo)
+iaic_ctx_destroy	src/iaic_api.c	/^iaic_ret_code_t iaic_ctx_destroy(iaic_ctx_t *ctx)$/;"	f	signature:(iaic_ctx_t *ctx)
+iaic_ctx_init	include/iaic.h	22;"	d
+iaic_ctx_init_internal	src/iaic_api.c	/^iaic_ret_code_t iaic_ctx_init_internal(iaic_ctx_t *ctx, size_t mem_size)$/;"	f	signature:(iaic_ctx_t *ctx, size_t mem_size)
+iaic_ctx_t	include/iaic.h	/^} iaic_ctx_t;$/;"	t	typeref:struct:__anon30
+iaic_cvt_format	src/iaic_api.c	/^iaic_bo_t iaic_cvt_format(iaic_ctx_t *ctx,$/;"	f	signature:(iaic_ctx_t *ctx, iaic_bo_t src_bo, size_t wdt, size_t hgt, iaic_img_format_t format)
+iaic_destroy_bo	src/iaic_api.c	/^iaic_ret_code_t iaic_destroy_bo(iaic_ctx_t *ctx, iaic_bo_t *bo)$/;"	f	signature:(iaic_ctx_t *ctx, iaic_bo_t *bo)
+iaic_f_node_t	include/iaic.h	/^typedef aip_v20_f_node_t iaic_f_node_t;$/;"	t
+iaic_f_submit_t	include/iaic.h	/^typedef aip_v20_ioctl_submit_f_t iaic_f_submit_t;$/;"	t
+iaic_fast_alloc_bo	src/iaic_bo.c	/^iaic_ret_code_t iaic_fast_alloc_bo(iaic_ctx_t *ctx, size_t size, iaic_bo_t *bo)$/;"	f	signature:(iaic_ctx_t *ctx, size_t size, iaic_bo_t *bo)
+iaic_fast_free_bo	src/iaic_bo.c	/^iaic_ret_code_t iaic_fast_free_bo(iaic_ctx_t *ctx, iaic_bo_t *bo)$/;"	f	signature:(iaic_ctx_t *ctx, iaic_bo_t *bo)
+iaic_fast_iob	include/iaic.h	38;"	d
+iaic_free_bo	src/iaic_bo.c	/^iaic_ret_code_t iaic_free_bo(iaic_ctx_t *ctx, iaic_bo_t *bo)$/;"	f	signature:(iaic_ctx_t *ctx, iaic_bo_t *bo)
+iaic_get_bo_free	src/iaic_bo.c	/^int iaic_get_bo_free(iaic_ctx_t *ctx)$/;"	f	signature:(iaic_ctx_t *ctx)
+iaic_get_cma_free	include/iaic.h	264;"	d
+iaic_get_cma_total	include/iaic.h	263;"	d
+iaic_get_mem_free	include/iaic.h	262;"	d
+iaic_get_mem_total	include/iaic.h	261;"	d
+iaic_get_meminfo	src/iaic_api.c	/^int iaic_get_meminfo(iaic_ctx_t *ctx, int mode)$/;"	f	signature:(iaic_ctx_t *ctx, int mode)
+iaic_get_status	src/iaic_api.c	/^iaic_ret_code_t iaic_get_status(iaic_ctx_t *ctx, iaic_status_t *status)$/;"	f	signature:(iaic_ctx_t *ctx, iaic_status_t *status)
+iaic_img_format_t	include/iaic.h	/^} iaic_img_format_t;$/;"	t	typeref:enum:__anon31
+iaic_img_read	src/iaic_api.c	/^iaic_bo_t iaic_img_read($/;"	f	signature:( iaic_ctx_t *ctx, char *img_path, size_t wdt, size_t hgt, iaic_img_format_t format)
+iaic_img_show	src/iaic_api.c	/^iaic_ret_code_t iaic_img_show($/;"	f	signature:( iaic_bo_t img_bo, char *out_path)
+iaic_ioctl	src/iaic_core.c	/^int iaic_ioctl(int fd, unsigned long request, void *arg)$/;"	f	signature:(int fd, unsigned long request, void *arg)
+iaic_nna_mutex_lock	include/iaic.h	90;"	d
+iaic_nna_mutex_lock_internal	src/iaic_api.c	/^iaic_ret_code_t iaic_nna_mutex_lock_internal(iaic_ctx_t *ctx, int is_try, char *name)$/;"	f	signature:(iaic_ctx_t *ctx, int is_try, char *name)
+iaic_nna_mutex_lock_name	include/iaic.h	98;"	d
+iaic_nna_mutex_trylock	include/iaic.h	106;"	d
+iaic_nna_mutex_trylock_name	include/iaic.h	114;"	d
+iaic_nna_mutex_unlock	include/iaic.h	122;"	d
+iaic_nna_mutex_unlock_force	include/iaic.h	138;"	d
+iaic_nna_mutex_unlock_internal	src/iaic_api.c	/^iaic_ret_code_t iaic_nna_mutex_unlock_internal(iaic_ctx_t *ctx, int cpumask, int is_force)$/;"	f	signature:(iaic_ctx_t *ctx, int cpumask, int is_force)
+iaic_nna_mutex_unlock_set	include/iaic.h	130;"	d
+iaic_nna_oram_alloc	src/iaic_api.c	/^iaic_ret_code_t iaic_nna_oram_alloc(iaic_ctx_t *ctx, size_t size, iaic_oram_t *oram)$/;"	f	signature:(iaic_ctx_t *ctx, size_t size, iaic_oram_t *oram)
+iaic_nna_oram_free	src/iaic_api.c	/^iaic_ret_code_t iaic_nna_oram_free(iaic_ctx_t *ctx, iaic_oram_t *oram)$/;"	f	signature:(iaic_ctx_t *ctx, iaic_oram_t *oram)
+iaic_nna_status	src/iaic_api.c	/^iaic_ret_code_t iaic_nna_status(iaic_ctx_t *ctx, iaic_nna_status_t *status)$/;"	f	signature:(iaic_ctx_t *ctx, iaic_nna_status_t *status)
+iaic_nna_status_t	include/iaic.h	/^} iaic_nna_status_t;$/;"	t	typeref:struct:__anon28
+iaic_nndma_rch0_start	include/iaic.h	55;"	d
+iaic_nndma_rch0_wait	include/iaic.h	49;"	d
+iaic_nndma_rch1_start	include/iaic.h	62;"	d
+iaic_nndma_rch1_wait	include/iaic.h	50;"	d
+iaic_nndma_rch2_start	include/iaic.h	69;"	d
+iaic_nndma_rch2_wait	include/iaic.h	51;"	d
+iaic_nndma_start	src/iaic_api.c	/^iaic_ret_code_t iaic_nndma_start(iaic_ctx_t *ctx,$/;"	f	signature:(iaic_ctx_t *ctx, uint32_t bo_paddr, uint32_t oram_paddr, size_t size, uint32_t dma_oft)
+iaic_nndma_wch0_start	include/iaic.h	76;"	d
+iaic_nndma_wch0_wait	include/iaic.h	52;"	d
+iaic_nndma_wch1_start	include/iaic.h	83;"	d
+iaic_nndma_wch1_wait	include/iaic.h	53;"	d
+iaic_oram_t	include/iaic_core.h	/^} iaic_oram_t;$/;"	t	typeref:struct:__anon34
+iaic_p_node_t	include/iaic.h	/^typedef aip_v20_p_node_t iaic_p_node_t;$/;"	t
+iaic_p_submit_t	include/iaic.h	/^typedef aip_v20_ioctl_submit_p_t iaic_p_submit_t;$/;"	t
+iaic_perspective	src/iaic_api.c	/^iaic_bo_t iaic_perspective(iaic_ctx_t *ctx,$/;"	f	signature:(iaic_ctx_t *ctx, iaic_bo_t src_bo, size_t src_w, size_t src_h, size_t dst_w, size_t dst_h, iaic_img_format_t format, float matrix[9])
+iaic_perspective_reg_read	src/iaic_api.c	/^void iaic_perspective_reg_read(iaic_ctx_t *ctx)$/;"	f	signature:(iaic_ctx_t *ctx)
+iaic_priority_t	include/iaic.h	/^} iaic_priority_t;$/;"	t	typeref:enum:__anon26
+iaic_readl	include/iaic.h	/^static inline uint32_t iaic_readl(iaic_ctx_t *ctx, uint32_t offset)$/;"	f	signature:(iaic_ctx_t *ctx, uint32_t offset)
+iaic_resize	src/iaic_api.c	/^iaic_bo_t iaic_resize(iaic_ctx_t *ctx,$/;"	f	signature:(iaic_ctx_t *ctx, iaic_bo_t src_bo, size_t src_w, size_t src_h, size_t dst_w, size_t dst_h, iaic_img_format_t format)
+iaic_ret_code_t	include/iaic_core.h	/^} iaic_ret_code_t;$/;"	t	typeref:enum:__anon32
+iaic_set_nice	include/iaic.h	258;"	d
+iaic_set_proc_nice	src/iaic_core.c	/^int iaic_set_proc_nice(int aip_fd, int32_t value)$/;"	f	signature:(int aip_fd, int32_t value)
+iaic_status_t	include/iaic.h	/^} iaic_status_t;$/;"	t	typeref:struct:__anon27
+iaic_t_node_t	include/iaic.h	/^typedef aip_v20_t_node_t iaic_t_node_t;$/;"	t
+iaic_t_submit_t	include/iaic.h	/^typedef aip_v20_ioctl_submit_t_t iaic_t_submit_t;$/;"	t
+iaic_wait	include/iaic.h	/^typedef aip_v20_ioctl_wait_t iaic_wait;$/;"	t
+iaic_writel	include/iaic.h	/^static inline void iaic_writel(iaic_ctx_t *ctx,$/;"	f	signature:(iaic_ctx_t *ctx, uint32_t offset, uint32_t value)
+ideal_chain_maxlen	include/uthash.h	/^   unsigned ideal_chain_maxlen;$/;"	m	struct:UT_hash_table	access:public
+idle	include/iaic_core.h	/^	int idle; \/\/ 状态，1表示空闲，0表示占用$/;"	m	struct:block	access:public
+ineff_expands	include/uthash.h	/^   unsigned ineff_expands, noexpand;$/;"	m	struct:UT_hash_table	access:public
+is_bo	include/iaic_core.h	/^	int is_bo; \/\/ 记录bo的节点，1表示是，2表示否$/;"	m	struct:block	access:public
+jz_aip_v20_shared_data	include/iaic_ioctl.h	/^struct jz_aip_v20_shared_data {$/;"	s
+jz_aip_v20_shared_data::seqno	include/iaic_ioctl.h	/^	uint64_t seqno;$/;"	m	struct:jz_aip_v20_shared_data	access:public
+key	include/uthash.h	/^   const void *key;                  \/* ptr to enclosing struct's key  *\/$/;"	m	struct:UT_hash_handle	access:public
+keylen	include/uthash.h	/^   unsigned keylen;                  \/* enclosing struct's key len     *\/$/;"	m	struct:UT_hash_handle	access:public
+lib_version	include/iaic.h	/^	uint32_t lib_version;$/;"	m	struct:__anon27	access:public
+list_entry	include/iaic_list.h	123;"	d
+list_first_entry	include/iaic_list.h	127;"	d
+list_last_entry	include/iaic_list.h	132;"	d
+list_move	include/iaic_list.h	/^static inline void list_move(struct aip_list *list,$/;"	f	signature:(struct aip_list *list, struct aip_list *head)
+list_move_tail	include/iaic_list.h	/^static inline void list_move_tail(struct aip_list *list,$/;"	f	signature:(struct aip_list *list, struct aip_list *head)
+log2_num_buckets	include/uthash.h	/^   unsigned num_buckets, log2_num_buckets;$/;"	m	struct:UT_hash_table	access:public
+max_mem_size	include/iaic.h	/^	size_t max_mem_size;$/;"	m	struct:__anon30	access:public
+mem_fd	include/iaic.h	/^	int mem_fd;$/;"	m	struct:__anon30	access:public
+mem_free	include/iaic_ioctl.h	/^	uint32_t mem_free;$/;"	m	struct:__anon23	access:public
+mem_total	include/iaic_ioctl.h	/^	uint32_t mem_total;$/;"	m	struct:__anon23	access:public
+mode	include/iaic_ioctl.h	/^	aip_v20_ioctl_p_mode_t        mode;$/;"	m	struct:__anon16	access:public
+mode	include/iaic_ioctl.h	/^	uint32_t                      mode[2];$/;"	m	struct:__anon12	access:public
+mutex_lock	include/iaic.h	/^	pthread_mutex_t mutex_lock;$/;"	m	struct:__anon30	access:public
+name	include/iaic_ioctl.h	/^	char                           *name;$/;"	m	struct:__anon4	access:public
+name	include/iaic_ioctl.h	/^	char                         *name;$/;"	m	struct:__anon15	access:public
+name	include/iaic_ioctl.h	/^	char                         *name;$/;"	m	struct:__anon16	access:public
+name	include/iaic_ioctl.h	/^	char                         *name;$/;"	m	struct:__anon17	access:public
+next	include/iaic_core.h	/^	struct aip_list *next;$/;"	m	struct:aip_list	typeref:struct:aip_list::aip_list	access:public
+next	include/uthash.h	/^   void *next;                       \/* next element in app order      *\/$/;"	m	struct:UT_hash_handle	access:public
+nna_status	include/iaic.h	/^	iaic_nna_status_t nna_status;$/;"	m	struct:__anon30	access:public
+node	include/iaic_core.h	/^	struct aip_list node;$/;"	m	struct:block	typeref:struct:block::aip_list	access:public
+node	include/iaic_ioctl.h	/^	void                         *node;$/;"	m	struct:__anon17	access:public
+node_handle	include/iaic_ioctl.h	/^	int                           node_handle;$/;"	m	struct:__anon15	access:public
+node_handle	include/iaic_ioctl.h	/^	int                           node_handle;$/;"	m	struct:__anon16	access:public
+node_num	include/iaic_ioctl.h	/^	size_t                        node_num;$/;"	m	struct:__anon15	access:public
+node_num	include/iaic_ioctl.h	/^	size_t                        node_num;$/;"	m	struct:__anon16	access:public
+noexpand	include/uthash.h	/^   unsigned ineff_expands, noexpand;$/;"	m	struct:UT_hash_table	access:public
+nonideal_items	include/uthash.h	/^   unsigned nonideal_items;$/;"	m	struct:UT_hash_table	access:public
+num_buckets	include/uthash.h	/^   unsigned num_buckets, log2_num_buckets;$/;"	m	struct:UT_hash_table	access:public
+num_items	include/uthash.h	/^   unsigned num_items;$/;"	m	struct:UT_hash_table	access:public
+offset	include/iaic_core.h	/^	uint32_t offset;$/;"	m	struct:__anon34	access:public
+offset	include/iaic_ioctl.h	/^	aip_v20_ioctl_offset_t        offset;$/;"	m	struct:__anon16	access:public
+offset	include/iaic_ioctl.h	/^	aip_v20_ioctl_offset_t        offset;$/;"	m	struct:__anon17	access:public
+offset	include/iaic_ioctl.h	/^	uint32_t                      offset[2];$/;"	m	struct:__anon12	access:public
+offset	include/iaic_ioctl.h	/^	uint32_t                      offset[2];$/;"	m	struct:__anon14	access:public
+op	include/iaic_ioctl.h	/^	aip_v20_ioctl_action_t op;$/;"	m	struct:__anon22	access:public
+op	include/iaic_ioctl.h	/^	aip_v20_ioctl_action_t op;$/;"	m	struct:__anon23	access:public
+op	include/iaic_ioctl.h	/^	aip_v20_ioctl_action_t op;$/;"	m	struct:__anon24	access:public
+op	include/iaic_ioctl.h	/^	aip_v20_ioctl_action_t op;$/;"	m	struct:__anon25	access:public
+op	include/iaic_ioctl.h	/^	aip_v20_ioctl_bo_op_t         op;$/;"	m	struct:__anon20	access:public
+op	include/iaic_ioctl.h	/^	aip_v20_ioctl_ch_op_t         op;$/;"	m	struct:__anon15	access:public
+op	include/iaic_ioctl.h	/^	aip_v20_ioctl_ch_op_t         op;$/;"	m	struct:__anon16	access:public
+op	include/iaic_ioctl.h	/^	aip_v20_ioctl_ch_op_t         op;$/;"	m	struct:__anon17	access:public
+op	include/iaic_ioctl.h	/^	aip_v20_ioctl_ch_op_t         op;$/;"	m	struct:__anon18	access:public
+op	include/iaic_ioctl.h	/^	aip_v20_ioctl_nna_op_t          op;$/;"	m	struct:__anon2	access:public
+op	include/iaic_ioctl.h	/^	aip_v20_ioctl_nna_op_t          op;$/;"	m	struct:__anon3	access:public
+op	include/iaic_ioctl.h	/^	aip_v20_ioctl_nna_op_t          op;$/;"	m	struct:__anon4	access:public
+op	include/iaic_ioctl.h	/^	aip_v20_ioctl_nna_op_t          op;$/;"	m	struct:__anon5	access:public
+oram_pbase	include/iaic.h	/^	void *oram_pbase;$/;"	m	struct:__anon28	access:public
+oram_pbase	include/iaic_ioctl.h	/^	uint32_t                        oram_pbase;$/;"	m	struct:__anon2	access:public
+oram_size	include/iaic.h	/^	size_t oram_size;$/;"	m	struct:__anon28	access:public
+oram_size	include/iaic_ioctl.h	/^	size_t                          oram_size;$/;"	m	struct:__anon2	access:public
+oram_vbase	include/iaic.h	/^	void *oram_vbase;$/;"	m	struct:__anon28	access:public
+order	include/iaic_ioctl.h	/^	aip_v20_ioctl_order_t         order;$/;"	m	struct:__anon14	access:public
+p_ctrl	include/iaic_ioctl.h	/^	uint32_t                      p_ctrl[2];$/;"	m	struct:__anon12	access:public
+paddr	include/iaic_core.h	/^	void *paddr;$/;"	m	struct:__anon33	access:public
+paddr	include/iaic_core.h	/^	void *paddr;$/;"	m	struct:__anon34	access:public
+paddr	include/iaic_core.h	/^	void *paddr;$/;"	m	struct:block	access:public
+paddr	include/iaic_ioctl.h	/^	uint32_t                      paddr;$/;"	m	struct:__anon15	access:public
+paddr	include/iaic_ioctl.h	/^	uint32_t                      paddr;$/;"	m	struct:__anon16	access:public
+paddr	include/iaic_ioctl.h	/^	void                         *paddr;$/;"	m	struct:__anon20	access:public
+paddr	include/iaic_ioctl.h	/^	void *                          paddr;$/;"	m	struct:__anon3	access:public
+param	include/iaic_ioctl.h	/^	void                         *param;$/;"	m	struct:__anon16	access:public
+param	include/iaic_ioctl.h	/^	void                         *param;$/;"	m	struct:__anon17	access:public
+pos_in	include/iaic_ioctl.h	/^	aip_v20_ioctl_dat_pos_t       pos_in;$/;"	m	struct:__anon15	access:public
+pos_in	include/iaic_ioctl.h	/^	aip_v20_ioctl_dat_pos_t       pos_in;$/;"	m	struct:__anon16	access:public
+pos_in	include/iaic_ioctl.h	/^	aip_v20_ioctl_dat_pos_t       pos_in;$/;"	m	struct:__anon17	access:public
+pos_out	include/iaic_ioctl.h	/^	aip_v20_ioctl_dat_pos_t       pos_out;$/;"	m	struct:__anon15	access:public
+pos_out	include/iaic_ioctl.h	/^	aip_v20_ioctl_dat_pos_t       pos_out;$/;"	m	struct:__anon16	access:public
+pos_out	include/iaic_ioctl.h	/^	aip_v20_ioctl_dat_pos_t       pos_out;$/;"	m	struct:__anon17	access:public
+prev	include/iaic_core.h	/^	struct aip_list *prev;$/;"	m	struct:aip_list	typeref:struct:aip_list::aip_list	access:public
+prev	include/uthash.h	/^   void *prev;                       \/* prev element in app order      *\/$/;"	m	struct:UT_hash_handle	access:public
+round	include/iaic_core.h	33;"	d
+round_down	include/iaic_core.h	32;"	d
+round_up	include/iaic_core.h	31;"	d
+scale_x	include/iaic_ioctl.h	/^	uint32_t                      scale_x[2];$/;"	m	struct:__anon11	access:public
+scale_y	include/iaic_ioctl.h	/^	uint32_t                      scale_y[2];$/;"	m	struct:__anon11	access:public
+seqno	include/iaic_ioctl.h	/^	uint64_t                      seqno;$/;"	m	struct:__anon15	access:public
+seqno	include/iaic_ioctl.h	/^	uint64_t                      seqno;$/;"	m	struct:__anon16	access:public
+seqno	include/iaic_ioctl.h	/^	uint64_t                      seqno;$/;"	m	struct:__anon17	access:public
+seqno	include/iaic_ioctl.h	/^	uint64_t                      seqno;$/;"	m	struct:__anon18	access:public
+seqno	include/iaic_ioctl.h	/^	uint64_t seqno;$/;"	m	struct:jz_aip_v20_shared_data	access:public
+shared_bo	include/iaic.h	/^	iaic_bo_t shared_bo;$/;"	m	struct:__anon30	access:public
+signature	include/uthash.h	/^   uint32_t signature; \/* used only to find hash tables in external analysis *\/$/;"	m	struct:UT_hash_table	access:public
+size	include/iaic_core.h	/^	size_t size; \/\/ 使用大小$/;"	m	struct:block	access:public
+size	include/iaic_core.h	/^	size_t size;$/;"	m	struct:__anon33	access:public
+size	include/iaic_core.h	/^	size_t size;$/;"	m	struct:__anon34	access:public
+size	include/iaic_ioctl.h	/^	size_t                          size;$/;"	m	struct:__anon3	access:public
+size	include/iaic_ioctl.h	/^	size_t                        size;$/;"	m	struct:__anon20	access:public
+size	include/iaic_ioctl.h	/^	size_t size;$/;"	m	struct:__anon24	access:public
+spin_lock	include/iaic.h	/^	pthread_spinlock_t spin_lock;$/;"	m	struct:__anon30	access:public
+src_base_uv	include/iaic_ioctl.h	/^	uint32_t                      src_base_uv[2];$/;"	m	struct:__anon11	access:public
+src_base_uv	include/iaic_ioctl.h	/^	uint32_t                      src_base_uv[2];$/;"	m	struct:__anon12	access:public
+src_base_y	include/iaic_ioctl.h	/^	uint32_t                      src_base_y[2];$/;"	m	struct:__anon11	access:public
+src_base_y	include/iaic_ioctl.h	/^	uint32_t                      src_base_y[2];$/;"	m	struct:__anon12	access:public
+src_cbase	include/iaic_ioctl.h	/^	uint32_t                      src_cbase;$/;"	m	struct:__anon13	access:public
+src_h	include/iaic_ioctl.h	/^	uint32_t                      src_h;$/;"	m	struct:__anon13	access:public
+src_size	include/iaic_ioctl.h	/^	uint32_t                      src_size[2];$/;"	m	struct:__anon11	access:public
+src_size	include/iaic_ioctl.h	/^	uint32_t                      src_size[2];$/;"	m	struct:__anon12	access:public
+src_stride	include/iaic_ioctl.h	/^	uint32_t                      src_stride;$/;"	m	struct:__anon13	access:public
+src_stride	include/iaic_ioctl.h	/^	uint32_t                      src_stride[2];$/;"	m	struct:__anon12	access:public
+src_w	include/iaic_ioctl.h	/^	uint32_t                      src_w;$/;"	m	struct:__anon13	access:public
+src_ybase	include/iaic_ioctl.h	/^	uint32_t                      src_ybase;$/;"	m	struct:__anon13	access:public
+status	include/iaic.h	/^	iaic_status_t status;$/;"	m	struct:__anon30	access:public
+stride	include/iaic_ioctl.h	/^	uint32_t                      stride[2];$/;"	m	struct:__anon11	access:public
+t_dst_base	include/iaic_ioctl.h	/^	uint32_t                      t_dst_base;$/;"	m	struct:__anon18	access:public
+t_task_len	include/iaic_ioctl.h	/^	uint32_t                      t_task_len;$/;"	m	struct:__anon18	access:public
+tail	include/uthash.h	/^   struct UT_hash_handle *tail; \/* tail hh in app order, for fast append    *\/$/;"	m	struct:UT_hash_table	typeref:struct:UT_hash_table::UT_hash_handle	access:public
+task_len	include/iaic_ioctl.h	/^	uint32_t                      task_len;$/;"	m	struct:__anon13	access:public
+tbl	include/uthash.h	/^   struct UT_hash_table *tbl;$/;"	m	struct:UT_hash_handle	typeref:struct:UT_hash_handle::UT_hash_table	access:public
+thread	include/iaic.h	/^	pthread_t thread;$/;"	m	struct:__anon30	access:public
+timeout	include/iaic_ioctl.h	/^	uint32_t                      timeout[2];$/;"	m	struct:__anon11	access:public
+timeout	include/iaic_ioctl.h	/^	uint32_t                      timeout[2];$/;"	m	struct:__anon12	access:public
+timeout_ns	include/iaic_ioctl.h	/^	uint64_t                      timeout_ns;$/;"	m	struct:__anon18	access:public
+total_l2c_size	include/iaic.h	/^	size_t total_l2c_size;$/;"	m	struct:__anon28	access:public
+total_l2c_size	include/iaic_ioctl.h	/^	size_t                          total_l2c_size;$/;"	m	struct:__anon2	access:public
+trans_x	include/iaic_ioctl.h	/^	int32_t                       trans_x[2];$/;"	m	struct:__anon11	access:public
+trans_y	include/iaic_ioctl.h	/^	int32_t                       trans_y[2];$/;"	m	struct:__anon11	access:public
+uint32_t	include/uthash.h	/^typedef unsigned int uint32_t;$/;"	t
+uint8_t	include/uthash.h	/^typedef unsigned char uint8_t;$/;"	t
+uthash_bzero	include/uthash.h	84;"	d
+uthash_expand_fyi	include/uthash.h	102;"	d
+uthash_fatal	include/uthash.h	123;"	d
+uthash_free	include/uthash.h	81;"	d
+uthash_malloc	include/uthash.h	78;"	d
+uthash_noexpand_fyi	include/uthash.h	99;"	d
+uthash_nonfatal_oom	include/uthash.h	113;"	d
+uthash_strlen	include/uthash.h	87;"	d
+vaddr	include/iaic_core.h	/^	void *vaddr;$/;"	m	struct:__anon33	access:public
+vaddr	include/iaic_core.h	/^	void *vaddr;$/;"	m	struct:__anon34	access:public
+vaddr	include/iaic_core.h	/^	void *vaddr;$/;"	m	struct:block	access:public
+vaddr	include/iaic_ioctl.h	/^	void *vaddr;$/;"	m	struct:__anon24	access:public
+value	include/iaic_ioctl.h	/^	int32_t value;$/;"	m	struct:__anon25	access:public
+wait_time	include/iaic_ioctl.h	/^	int64_t                       wait_time;$/;"	m	struct:__anon18	access:public
