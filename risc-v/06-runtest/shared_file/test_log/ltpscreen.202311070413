@@ -1,0 +1,3396 @@
+<<<test_start>>>
+tag=cgroup_core01 stime=1699330418
+cmdline="cgroup_core01"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tst_cgroup.c:686: TINFO: Mounted V2 CGroups on /mnt/tmp/ltp-mLjpfZQnHO/cgroup_unified
+tst_test.c:1558: TINFO: Timeout per run is 0h 50m 00s
+cgroup_core01.c:63: TPASS: test_lesser_euid_open passed: EACCES (13)
+
+Summary:
+passed   1
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=1 termination_type=exited termination_id=0 corefile=no
+cutime=10 cstime=10
+<<<test_end>>>
+<<<test_start>>>
+tag=cgroup_core03 stime=1699330419
+cmdline="cgroup_core03"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tst_cgroup.c:686: TINFO: Mounted V2 CGroups on /mnt/tmp/ltp-mLjpfZQnHO/cgroup_unified
+tst_test.c:1558: TINFO: Timeout per run is 0h 50m 20s
+tst_buffers.c:55: TINFO: Test is using guarded buffers
+cgroup_core03.c:99: TPASS: cg_count_procs(cg_child_test_simple) passed
+cgroup_core03.c:105: TPASS: cg_count_procs(cg_child_test_simple) passed
+
+Summary:
+passed   2
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=7 cstime=15
+<<<test_end>>>
+<<<test_start>>>
+tag=cgroup stime=1699330419
+cmdline="cgroup_regression_test.sh"
+contacts=""
+analysis=exit
+<<<test_output>>>
+cgroup_regression_test 1 TINFO: timeout per run is 8h 20m 0s
+cgroup_regression_test 1 TPASS: no kernel bug was found
+cgroup_regression_test 2 TPASS: notify_on_release is inherited
+cgroup_regression_test 3 TCONF: CONFIG_SCHED_DEBUG is not enabled
+cgroup_regression_test 4 TCONF: CONFIG_LOCKDEP is not enabled
+cgroup_regression_test 5 TPASS: no kernel bug was found
+cgroup_regression_test 6 TPASS: no kernel bug was found
+tst_cgroup.c:686: TINFO: Mounted V2 CGroups on /mnt/tmp/ltp-mLjpfZQnHO/cgroup_unified
+tst_cgroup.c:744: TINFO: Mounted V1 pids CGroup on /mnt/tmp/ltp-mLjpfZQnHO/cgroup_pids
+tst_cgroup.c:570: TBROK: Available V2 controllers are changing between scans?
+cgroup_regression_test 7 TBROK: 'tst_cgctl require' exited
+
+Summary:
+passed   4
+failed   0
+broken   1
+skipped  2
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=65 termination_type=exited termination_id=2 corefile=no
+cutime=2307 cstime=6470
+<<<test_end>>>
+<<<test_start>>>
+tag=memcg_regression stime=1699330484
+cmdline="memcg_regression_test.sh"
+contacts=""
+analysis=exit
+<<<test_output>>>
+memcg_regression_test 1 TINFO: timeout per run is 8h 20m 0s
+memcg_regression_test 1 TINFO: test starts with cgroup version 2
+memcg_regression_test 1 TPASS: no kernel bug was found
+memcg_regression_test 2 TCONF: Cgroup v2 found, skipping test
+memcg_regression_test 3 TPASS: no kernel bug was found
+Killed
+memcg_regression_test 4 TPASS: no kernel bug was found
+
+Summary:
+passed   3
+failed   0
+broken   0
+skipped  1
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=16 termination_type=exited termination_id=0 corefile=no
+cutime=167 cstime=1445
+<<<test_end>>>
+<<<test_start>>>
+tag=memcg_test_3 stime=1699330500
+cmdline="memcg_test_3"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tst_test.c:1558: TINFO: Timeout per run is 0h 50m 00s
+memcg_test_3.c:58: TPASS: Bug not reproduced
+
+Summary:
+passed   1
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=30 termination_type=exited termination_id=0 corefile=no
+cutime=306 cstime=5579
+<<<test_end>>>
+<<<test_start>>>
+tag=memcg_failcnt stime=1699330530
+cmdline="memcg_failcnt.sh"
+contacts=""
+analysis=exit
+<<<test_output>>>
+memcg_failcnt 1 TINFO: timeout per run is 8h 20m 0s
+memcg_failcnt 1 TCONF: memory controller mounted on cgroup v2 hierarchy, skipping test.
+
+Summary:
+passed   0
+failed   0
+broken   0
+skipped  1
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=1 termination_type=exited termination_id=32 corefile=no
+cutime=67 cstime=125
+<<<test_end>>>
+<<<test_start>>>
+tag=memcg_force_empty stime=1699330531
+cmdline="memcg_force_empty.sh"
+contacts=""
+analysis=exit
+<<<test_output>>>
+memcg_force_empty 1 TINFO: timeout per run is 8h 20m 0s
+memcg_force_empty 1 TCONF: memory controller mounted on cgroup v2 hierarchy, skipping test.
+
+Summary:
+passed   0
+failed   0
+broken   0
+skipped  1
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=2 termination_type=exited termination_id=32 corefile=no
+cutime=49 cstime=109
+<<<test_end>>>
+<<<test_start>>>
+tag=memcg_limit_in_bytes stime=1699330533
+cmdline="memcg_limit_in_bytes.sh"
+contacts=""
+analysis=exit
+<<<test_output>>>
+memcg_limit_in_bytes 1 TINFO: timeout per run is 8h 20m 0s
+memcg_limit_in_bytes 1 TCONF: memory controller mounted on cgroup v2 hierarchy, skipping test.
+
+Summary:
+passed   0
+failed   0
+broken   0
+skipped  1
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=1 termination_type=exited termination_id=32 corefile=no
+cutime=51 cstime=115
+<<<test_end>>>
+<<<test_start>>>
+tag=memcg_stat_rss stime=1699330534
+cmdline="memcg_stat_rss.sh"
+contacts=""
+analysis=exit
+<<<test_output>>>
+memcg_stat_rss 1 TINFO: timeout per run is 8h 20m 0s
+memcg_stat_rss 1 TCONF: memory controller mounted on cgroup v2 hierarchy, skipping test.
+
+Summary:
+passed   0
+failed   0
+broken   0
+skipped  1
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=2 termination_type=exited termination_id=32 corefile=no
+cutime=49 cstime=118
+<<<test_end>>>
+<<<test_start>>>
+tag=memcg_subgroup_charge stime=1699330536
+cmdline="memcg_subgroup_charge.sh"
+contacts=""
+analysis=exit
+<<<test_output>>>
+memcg_subgroup_charge 1 TINFO: timeout per run is 8h 20m 0s
+memcg_subgroup_charge 1 TCONF: memory controller mounted on cgroup v2 hierarchy, skipping test.
+
+Summary:
+passed   0
+failed   0
+broken   0
+skipped  1
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=1 termination_type=exited termination_id=32 corefile=no
+cutime=47 cstime=120
+<<<test_end>>>
+<<<test_start>>>
+tag=memcg_max_usage_in_bytes stime=1699330537
+cmdline="memcg_max_usage_in_bytes_test.sh"
+contacts=""
+analysis=exit
+<<<test_output>>>
+memcg_max_usage_in_bytes_test 1 TINFO: timeout per run is 8h 20m 0s
+memcg_max_usage_in_bytes_test 1 TCONF: memory controller mounted on cgroup v2 hierarchy, skipping test.
+
+Summary:
+passed   0
+failed   0
+broken   0
+skipped  1
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=2 termination_type=exited termination_id=32 corefile=no
+cutime=48 cstime=115
+<<<test_end>>>
+<<<test_start>>>
+tag=memcg_move_charge_at_immigrate stime=1699330539
+cmdline="memcg_move_charge_at_immigrate_test.sh"
+contacts=""
+analysis=exit
+<<<test_output>>>
+memcg_move_charge_at_immigrate_test 1 TINFO: timeout per run is 8h 20m 0s
+memcg_move_charge_at_immigrate_test 1 TCONF: memory controller mounted on cgroup v2 hierarchy, skipping test.
+
+Summary:
+passed   0
+failed   0
+broken   0
+skipped  1
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=1 termination_type=exited termination_id=32 corefile=no
+cutime=45 cstime=106
+<<<test_end>>>
+<<<test_start>>>
+tag=memcg_memsw_limit_in_bytes stime=1699330540
+cmdline="memcg_memsw_limit_in_bytes_test.sh"
+contacts=""
+analysis=exit
+<<<test_output>>>
+memcg_memsw_limit_in_bytes_test 1 TINFO: timeout per run is 8h 20m 0s
+memcg_memsw_limit_in_bytes_test 1 TCONF: memory controller mounted on cgroup v2 hierarchy, skipping test.
+
+Summary:
+passed   0
+failed   0
+broken   0
+skipped  1
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=2 termination_type=exited termination_id=32 corefile=no
+cutime=44 cstime=105
+<<<test_end>>>
+<<<test_start>>>
+tag=memcg_stat stime=1699330542
+cmdline="memcg_stat_test.sh"
+contacts=""
+analysis=exit
+<<<test_output>>>
+memcg_stat_test 1 TINFO: timeout per run is 8h 20m 0s
+memcg_stat_test 1 TCONF: memory controller mounted on cgroup v2 hierarchy, skipping test.
+
+Summary:
+passed   0
+failed   0
+broken   0
+skipped  1
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=1 termination_type=exited termination_id=32 corefile=no
+cutime=50 cstime=108
+<<<test_end>>>
+<<<test_start>>>
+tag=memcg_use_hierarchy stime=1699330543
+cmdline="memcg_use_hierarchy_test.sh"
+contacts=""
+analysis=exit
+<<<test_output>>>
+memcg_use_hierarchy_test 1 TINFO: timeout per run is 8h 20m 0s
+memcg_use_hierarchy_test 1 TCONF: memory controller mounted on cgroup v2 hierarchy, skipping test.
+
+Summary:
+passed   0
+failed   0
+broken   0
+skipped  1
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=1 termination_type=exited termination_id=32 corefile=no
+cutime=46 cstime=109
+<<<test_end>>>
+<<<test_start>>>
+tag=memcg_usage_in_bytes stime=1699330544
+cmdline="memcg_usage_in_bytes_test.sh"
+contacts=""
+analysis=exit
+<<<test_output>>>
+memcg_usage_in_bytes_test 1 TINFO: timeout per run is 8h 20m 0s
+memcg_usage_in_bytes_test 1 TCONF: memory controller mounted on cgroup v2 hierarchy, skipping test.
+
+Summary:
+passed   0
+failed   0
+broken   0
+skipped  1
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=2 termination_type=exited termination_id=32 corefile=no
+cutime=51 cstime=120
+<<<test_end>>>
+<<<test_start>>>
+tag=memcg_control stime=1699330546
+cmdline="memcg_control_test.sh"
+contacts=""
+analysis=exit
+<<<test_output>>>
+memcg_control_test 1 TINFO: timeout per run is 8h 20m 0s
+memcg_control_test 1 TINFO: Test starts with cgroup version 2
+memcg_control_test 1 TINFO: Test #1: Checking if the memory usage limit imposed by the topmost group is enforced
+memcg_control_test 1 TPASS: Test #1: passed
+
+Summary:
+passed   1
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=2 termination_type=exited termination_id=0 corefile=no
+cutime=41 cstime=143
+<<<test_end>>>
+<<<test_start>>>
+tag=memcontrol01 stime=1699330548
+cmdline="memcontrol01"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tst_test.c:1558: TINFO: Timeout per run is 0h 50m 00s
+memcontrol01.c:32: TPASS: child should have memory controller returned 1
+memcontrol01.c:35: TPASS: child2 should not have memory controller returned 1
+
+Summary:
+passed   2
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=1 termination_type=exited termination_id=0 corefile=no
+cutime=5 cstime=7
+<<<test_end>>>
+<<<test_start>>>
+tag=memcontrol02 stime=1699330549
+cmdline="memcontrol02"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tst_device.c:317: TINFO: Using test device LTP_DEV='/dev/loop0'
+tst_test.c:1558: TINFO: Timeout per run is 0h 50m 00s
+tst_supported_fs_types.c:90: TINFO: Kernel supports ext2
+tst_supported_fs_types.c:55: TINFO: mkfs.ext2 does exist
+tst_supported_fs_types.c:90: TINFO: Kernel supports ext3
+tst_supported_fs_types.c:55: TINFO: mkfs.ext3 does exist
+tst_supported_fs_types.c:90: TINFO: Kernel supports ext4
+tst_supported_fs_types.c:55: TINFO: mkfs.ext4 does exist
+tst_supported_fs_types.c:90: TINFO: Kernel supports btrfs
+tst_supported_fs_types.c:55: TINFO: mkfs.btrfs does exist
+tst_supported_fs_types.c:90: TINFO: Kernel supports vfat
+tst_supported_fs_types.c:55: TINFO: mkfs.vfat does exist
+tst_supported_fs_types.c:90: TINFO: Kernel supports tmpfs
+tst_supported_fs_types.c:42: TINFO: mkfs is not needed for tmpfs
+tst_test.c:1634: TINFO: === Testing on ext2 ===
+tst_test.c:1093: TINFO: Formatting /dev/loop0 with ext2 opts='' extra opts=''
+mke2fs 1.46.5 (30-Dec-2021)
+memcontrol02.c:93: TPASS: Expect: (current=0) == 0
+memcontrol02.c:99: TINFO: Added proc to memcg: memory.current=143360
+memcontrol02.c:46: TPASS: Expect: (memory.current=52572160) >= (size=52428800)
+memcontrol02.c:51: TPASS: Expect: (memory.stat.anon=52441088) > 0
+memcontrol02.c:52: TPASS: Expect: (size=52428800) ~= (memory.stat.anon=52441088)
+memcontrol02.c:54: TPASS: Expect: (memory.current=52572160) ~= (memory.stat.anon=52441088)
+memcontrol02.c:93: TPASS: Expect: (current=0) == 0
+memcontrol02.c:99: TINFO: Added proc to memcg: memory.current=131072
+memcontrol02.c:69: TINFO: Created temp file: memory.current=131072
+memcontrol02.c:74: TPASS: Expect: (memory.current=53739520) >= (size=52428800)
+memcontrol02.c:78: TPASS: Expect: (memory.stat.file=52498432) > 0
+memcontrol02.c:80: TPASS: Expect: (memory.current=53739520) ~= (memory.stat.file=52498432)
+tst_test.c:1634: TINFO: === Testing on ext3 ===
+tst_test.c:1093: TINFO: Formatting /dev/loop0 with ext3 opts='' extra opts=''
+mke2fs 1.46.5 (30-Dec-2021)
+memcontrol02.c:93: TPASS: Expect: (current=0) == 0
+memcontrol02.c:99: TINFO: Added proc to memcg: memory.current=143360
+memcontrol02.c:46: TPASS: Expect: (memory.current=52572160) >= (size=52428800)
+memcontrol02.c:51: TPASS: Expect: (memory.stat.anon=52441088) > 0
+memcontrol02.c:52: TPASS: Expect: (size=52428800) ~= (memory.stat.anon=52441088)
+memcontrol02.c:54: TPASS: Expect: (memory.current=52572160) ~= (memory.stat.anon=52441088)
+memcontrol02.c:93: TPASS: Expect: (current=0) == 0
+memcontrol02.c:99: TINFO: Added proc to memcg: memory.current=131072
+memcontrol02.c:69: TINFO: Created temp file: memory.current=131072
+memcontrol02.c:74: TPASS: Expect: (memory.current=53870592) >= (size=52428800)
+memcontrol02.c:78: TPASS: Expect: (memory.stat.file=52551680) > 0
+memcontrol02.c:80: TPASS: Expect: (memory.current=53870592) ~= (memory.stat.file=52551680)
+tst_test.c:1634: TINFO: === Testing on ext4 ===
+tst_test.c:1093: TINFO: Formatting /dev/loop0 with ext4 opts='' extra opts=''
+mke2fs 1.46.5 (30-Dec-2021)
+memcontrol02.c:93: TPASS: Expect: (current=0) == 0
+memcontrol02.c:99: TINFO: Added proc to memcg: memory.current=143360
+memcontrol02.c:46: TPASS: Expect: (memory.current=52572160) >= (size=52428800)
+memcontrol02.c:51: TPASS: Expect: (memory.stat.anon=52441088) > 0
+memcontrol02.c:52: TPASS: Expect: (size=52428800) ~= (memory.stat.anon=52441088)
+memcontrol02.c:54: TPASS: Expect: (memory.current=52572160) ~= (memory.stat.anon=52441088)
+memcontrol02.c:93: TPASS: Expect: (current=0) == 0
+memcontrol02.c:99: TINFO: Added proc to memcg: memory.current=143360
+memcontrol02.c:69: TINFO: Created temp file: memory.current=143360
+memcontrol02.c:74: TPASS: Expect: (memory.current=53788672) >= (size=52428800)
+memcontrol02.c:78: TPASS: Expect: (memory.stat.file=52436992) > 0
+memcontrol02.c:80: TPASS: Expect: (memory.current=53788672) ~= (memory.stat.file=52436992)
+tst_test.c:1634: TINFO: === Testing on btrfs ===
+tst_test.c:1093: TINFO: Formatting /dev/loop0 with btrfs opts='' extra opts=''
+memcontrol02.c:93: TPASS: Expect: (current=0) == 0
+memcontrol02.c:99: TINFO: Added proc to memcg: memory.current=143360
+memcontrol02.c:46: TPASS: Expect: (memory.current=52572160) >= (size=52428800)
+memcontrol02.c:51: TPASS: Expect: (memory.stat.anon=52441088) > 0
+memcontrol02.c:52: TPASS: Expect: (size=52428800) ~= (memory.stat.anon=52441088)
+memcontrol02.c:54: TPASS: Expect: (memory.current=52572160) ~= (memory.stat.anon=52441088)
+memcontrol02.c:93: TPASS: Expect: (current=0) == 0
+memcontrol02.c:99: TINFO: Added proc to memcg: memory.current=131072
+memcontrol02.c:69: TINFO: Created temp file: memory.current=131072
+memcontrol02.c:74: TPASS: Expect: (memory.current=52559872) >= (size=52428800)
+memcontrol02.c:78: TPASS: Expect: (memory.stat.file=52445184) > 0
+memcontrol02.c:80: TPASS: Expect: (memory.current=52559872) ~= (memory.stat.file=52445184)
+tst_test.c:1634: TINFO: === Testing on vfat ===
+tst_test.c:1093: TINFO: Formatting /dev/loop0 with vfat opts='' extra opts=''
+memcontrol02.c:93: TPASS: Expect: (current=0) == 0
+memcontrol02.c:99: TINFO: Added proc to memcg: memory.current=143360
+memcontrol02.c:46: TPASS: Expect: (memory.current=52572160) >= (size=52428800)
+memcontrol02.c:51: TPASS: Expect: (memory.stat.anon=52441088) > 0
+memcontrol02.c:52: TPASS: Expect: (size=52428800) ~= (memory.stat.anon=52441088)
+memcontrol02.c:54: TPASS: Expect: (memory.current=52572160) ~= (memory.stat.anon=52441088)
+memcontrol02.c:93: TPASS: Expect: (current=0) == 0
+memcontrol02.c:99: TINFO: Added proc to memcg: memory.current=131072
+memcontrol02.c:69: TINFO: Created temp file: memory.current=131072
+memcontrol02.c:74: TPASS: Expect: (memory.current=61341696) >= (size=52428800)
+memcontrol02.c:78: TPASS: Expect: (memory.stat.file=52482048) > 0
+memcontrol02.c:80: TPASS: Expect: (memory.current=61341696) ~= (memory.stat.file=52482048)
+tst_test.c:1634: TINFO: === Testing on tmpfs ===
+tst_test.c:1093: TINFO: Skipping mkfs for TMPFS filesystem
+tst_test.c:1067: TCONF: No enough memory for tmpfs use
+
+Summary:
+passed   45
+failed   0
+broken   0
+skipped  1
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=49 termination_type=exited termination_id=0 corefile=no
+cutime=244 cstime=3016
+<<<test_end>>>
+<<<test_start>>>
+tag=memcontrol03 stime=1699330598
+cmdline="memcontrol03"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tst_device.c:317: TINFO: Using test device LTP_DEV='/dev/loop0'
+tst_test.c:1558: TINFO: Timeout per run is 0h 50m 00s
+tst_supported_fs_types.c:90: TINFO: Kernel supports ext2
+tst_supported_fs_types.c:55: TINFO: mkfs.ext2 does exist
+tst_supported_fs_types.c:90: TINFO: Kernel supports ext3
+tst_supported_fs_types.c:55: TINFO: mkfs.ext3 does exist
+tst_supported_fs_types.c:90: TINFO: Kernel supports ext4
+tst_supported_fs_types.c:55: TINFO: mkfs.ext4 does exist
+tst_supported_fs_types.c:90: TINFO: Kernel supports btrfs
+tst_supported_fs_types.c:55: TINFO: mkfs.btrfs does exist
+tst_supported_fs_types.c:157: TINFO: Skipping vfat as requested by the test
+tst_supported_fs_types.c:157: TINFO: Skipping exfat as requested by the test
+tst_supported_fs_types.c:157: TINFO: Skipping ntfs as requested by the test
+tst_supported_fs_types.c:157: TINFO: Skipping tmpfs as requested by the test
+tst_test.c:1634: TINFO: === Testing on ext2 ===
+tst_test.c:1093: TINFO: Formatting /dev/loop0 with ext2 opts='' extra opts=''
+mke2fs 1.46.5 (30-Dec-2021)
+mnt_dir:/mnt/tmp/ltp-mLjpfZQnHO/cgroup_unified
+mnt_dir:/mnt/tmp/ltp-mLjpfZQnHO/cgroup_pids
+memcontrol03.c:144: TINFO: Child 3979 in leaf_C: Allocating pagecache: 52428800
+memcontrol03.c:144: TINFO: Child 3980 in leaf_D: Allocating pagecache: 52428800
+memcontrol03.c:144: TINFO: Child 3981 in leaf_F: Allocating pagecache: 52428800
+memcontrol03.c:107: TINFO: Child 3982 in trunk_G: Allocating anon: 155189248
+memcontrol03.c:121: TPASS: Child 3982 exited
+memcontrol03.c:207: TPASS: Expect: (A/B memory.current=54329344) ~= 52428800
+memcontrol03.c:213: TPASS: Expect: (A/B/C memory.current=30617600) ~= 34603008
+memcontrol03.c:215: TPASS: Expect: (A/B/D memory.current=22568960) ~= 17825792
+memcontrol03.c:217: TPASS: Expect: (A/B/E memory.current=0) ~= 0
+memcontrol03.c:107: TINFO: Child 3983 in trunk_G: Allocating anon: 178257920
+memcontrol03.c:116: TPASS: Child 3983 killed by OOM
+memcontrol03.c:223: TPASS: Expect: (A/B memory.current=52465664) ~= 52428800
+tst_test.c:1634: TINFO: === Testing on ext3 ===
+tst_test.c:1093: TINFO: Formatting /dev/loop0 with ext3 opts='' extra opts=''
+mke2fs 1.46.5 (30-Dec-2021)
+mnt_dir:/mnt/tmp/ltp-mLjpfZQnHO/cgroup_unified
+mnt_dir:/mnt/tmp/ltp-mLjpfZQnHO/cgroup_pids
+memcontrol03.c:144: TINFO: Child 3989 in leaf_C: Allocating pagecache: 52428800
+memcontrol03.c:144: TINFO: Child 3990 in leaf_D: Allocating pagecache: 52428800
+memcontrol03.c:144: TINFO: Child 3991 in leaf_F: Allocating pagecache: 52428800
+memcontrol03.c:107: TINFO: Child 3992 in trunk_G: Allocating anon: 155189248
+memcontrol03.c:121: TPASS: Child 3992 exited
+memcontrol03.c:207: TPASS: Expect: (A/B memory.current=54280192) ~= 52428800
+memcontrol03.c:213: TPASS: Expect: (A/B/C memory.current=30576640) ~= 34603008
+memcontrol03.c:215: TPASS: Expect: (A/B/D memory.current=22507520) ~= 17825792
+memcontrol03.c:217: TPASS: Expect: (A/B/E memory.current=0) ~= 0
+memcontrol03.c:107: TINFO: Child 3993 in trunk_G: Allocating anon: 178257920
+memcontrol03.c:116: TPASS: Child 3993 killed by OOM
+memcontrol03.c:223: TPASS: Expect: (A/B memory.current=52506624) ~= 52428800
+tst_test.c:1634: TINFO: === Testing on ext4 ===
+tst_test.c:1093: TINFO: Formatting /dev/loop0 with ext4 opts='' extra opts=''
+mke2fs 1.46.5 (30-Dec-2021)
+mnt_dir:/mnt/tmp/ltp-mLjpfZQnHO/cgroup_unified
+mnt_dir:/mnt/tmp/ltp-mLjpfZQnHO/cgroup_pids
+memcontrol03.c:144: TINFO: Child 3999 in leaf_C: Allocating pagecache: 52428800
+memcontrol03.c:144: TINFO: Child 4000 in leaf_D: Allocating pagecache: 52428800
+memcontrol03.c:144: TINFO: Child 4001 in leaf_F: Allocating pagecache: 52428800
+memcontrol03.c:107: TINFO: Child 4002 in trunk_G: Allocating anon: 155189248
+memcontrol03.c:121: TPASS: Child 4002 exited
+memcontrol03.c:207: TPASS: Expect: (A/B memory.current=54296576) ~= 52428800
+memcontrol03.c:213: TPASS: Expect: (A/B/C memory.current=30666752) ~= 34603008
+memcontrol03.c:215: TPASS: Expect: (A/B/D memory.current=22597632) ~= 17825792
+memcontrol03.c:217: TPASS: Expect: (A/B/E memory.current=0) ~= 0
+memcontrol03.c:107: TINFO: Child 4003 in trunk_G: Allocating anon: 178257920
+memcontrol03.c:116: TPASS: Child 4003 killed by OOM
+memcontrol03.c:223: TPASS: Expect: (A/B memory.current=52461568) ~= 52428800
+tst_test.c:1634: TINFO: === Testing on btrfs ===
+tst_test.c:1093: TINFO: Formatting /dev/loop0 with btrfs opts='' extra opts=''
+mnt_dir:/mnt/tmp/ltp-mLjpfZQnHO/cgroup_unified
+mnt_dir:/mnt/tmp/ltp-mLjpfZQnHO/cgroup_pids
+memcontrol03.c:144: TINFO: Child 4025 in leaf_C: Allocating pagecache: 52428800
+memcontrol03.c:144: TINFO: Child 4027 in leaf_D: Allocating pagecache: 52428800
+memcontrol03.c:144: TINFO: Child 4028 in leaf_F: Allocating pagecache: 52428800
+memcontrol03.c:107: TINFO: Child 4029 in trunk_G: Allocating anon: 155189248
+memcontrol03.c:121: TPASS: Child 4029 exited
+memcontrol03.c:207: TPASS: Expect: (A/B memory.current=54349824) ~= 52428800
+memcontrol03.c:213: TPASS: Expect: (A/B/C memory.current=30715904) ~= 34603008
+memcontrol03.c:215: TPASS: Expect: (A/B/D memory.current=22749184) ~= 17825792
+memcontrol03.c:217: TPASS: Expect: (A/B/E memory.current=0) ~= 0
+memcontrol03.c:107: TINFO: Child 4030 in trunk_G: Allocating anon: 178257920
+memcontrol03.c:116: TPASS: Child 4030 killed by OOM
+memcontrol03.c:223: TPASS: Expect: (A/B memory.current=52457472) ~= 52428800
+
+Summary:
+passed   28
+failed   0
+broken   0
+skipped  0
+warnings 0
+mnt_dir:/mnt/tmp/ltp-mLjpfZQnHO/cgroup_unified
+mnt_dir:/mnt/tmp/ltp-mLjpfZQnHO/cgroup_pids
+<<<execution_status>>>
+initiation_status="ok"
+duration=93 termination_type=exited termination_id=0 corefile=no
+cutime=297 cstime=7620
+<<<test_end>>>
+<<<test_start>>>
+tag=cgroup_fj_function_debug stime=1699330691
+cmdline="cgroup_fj_function.sh debug"
+contacts=""
+analysis=exit
+<<<test_output>>>
+cgroup_fj_function 1 TINFO: timeout per run is 8h 20m 0s
+tst_cgroup.c:736: TINFO: Could not mount V1 CGroup on /mnt/tmp/ltp-mLjpfZQnHO/cgroup_debug: EINVAL (22)
+tst_cgroup.c:844: TCONF: 'debug' controller required, but not available
+cgroup_fj_function 1 TCONF: 'tst_cgctl require' exited. Controller is probably not available?
+cgroup_fj_function 1 TINFO: Removing all ltp subgroups...
+
+Summary:
+passed   0
+failed   0
+broken   0
+skipped  1
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=1 termination_type=exited termination_id=32 corefile=no
+cutime=36 cstime=79
+<<<test_end>>>
+<<<test_start>>>
+tag=cgroup_fj_function_cpuset stime=1699330692
+cmdline="cgroup_fj_function.sh cpuset"
+contacts=""
+analysis=exit
+<<<test_output>>>
+cgroup_fj_function 1 TINFO: timeout per run is 8h 20m 0s
+cgroup_fj_function 1 TINFO: test starts with cgroup version 2
+cgroup_fj_function 1 TCONF: Controller mounted on cgroup2 hierarchy, skipping test
+cgroup_fj_function 2 TCONF: Controller mounted on cgroup2 hierarchy, skipping test
+cgroup_fj_function 3 TCONF: Controller mounted on cgroup2 hierarchy, skipping test
+cgroup_fj_function 4 TINFO: Attaching task 4103 to /mnt/tmp/ltp-mLjpfZQnHO/cgroup_unified/ltp/test-4058/ltp_1
+cgroup_fj_function 4 TPASS: Group /mnt/tmp/ltp-mLjpfZQnHO/cgroup_unified/ltp/test-4058/ltp_1 with task 4103 cannot be removed
+cgroup_fj_function 5 TPASS: Dir /mnt/tmp/ltp-mLjpfZQnHO/cgroup_unified/ltp/test-4058/ltp_1 with subdir 'a' cannot be removed
+cgroup_fj_function 6 TCONF: Controller mounted on cgroup2 hierarchy, skipping test
+cgroup_fj_function 7 TPASS: Tasks file /mnt/tmp/ltp-mLjpfZQnHO/cgroup_unified/ltp/test-4058/ltp_1/tasks cannot be removed
+cgroup_fj_function 8 TCONF: Controller mounted on cgroup2 hierarchy, skipping test
+cgroup_fj_function 9 TCONF: Controller mounted on cgroup2 hierarchy, skipping test
+cgroup_fj_function 10 TINFO: Removing all ltp subgroups...
+
+Summary:
+passed   3
+failed   0
+broken   0
+skipped  6
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=3 termination_type=exited termination_id=0 corefile=no
+cutime=69 cstime=231
+<<<test_end>>>
+<<<test_start>>>
+tag=cgroup_fj_function_cpu stime=1699330695
+cmdline="cgroup_fj_function.sh cpu"
+contacts=""
+analysis=exit
+<<<test_output>>>
+cgroup_fj_function 1 TINFO: timeout per run is 8h 20m 0s
+cgroup_fj_function 1 TINFO: test starts with cgroup version 2
+cgroup_fj_function 1 TCONF: Controller mounted on cgroup2 hierarchy, skipping test
+cgroup_fj_function 2 TCONF: Controller mounted on cgroup2 hierarchy, skipping test
+cgroup_fj_function 3 TCONF: Controller mounted on cgroup2 hierarchy, skipping test
+cgroup_fj_function 4 TINFO: Attaching task 4188 to /mnt/tmp/ltp-mLjpfZQnHO/cgroup_unified/ltp/test-4143/ltp_1
+cgroup_fj_function 4 TPASS: Group /mnt/tmp/ltp-mLjpfZQnHO/cgroup_unified/ltp/test-4143/ltp_1 with task 4188 cannot be removed
+cgroup_fj_function 5 TPASS: Dir /mnt/tmp/ltp-mLjpfZQnHO/cgroup_unified/ltp/test-4143/ltp_1 with subdir 'a' cannot be removed
+cgroup_fj_function 6 TCONF: Controller mounted on cgroup2 hierarchy, skipping test
+cgroup_fj_function 7 TPASS: Tasks file /mnt/tmp/ltp-mLjpfZQnHO/cgroup_unified/ltp/test-4143/ltp_1/tasks cannot be removed
+cgroup_fj_function 8 TCONF: Controller mounted on cgroup2 hierarchy, skipping test
+cgroup_fj_function 9 TCONF: Controller mounted on cgroup2 hierarchy, skipping test
+cgroup_fj_function 10 TINFO: Removing all ltp subgroups...
+
+Summary:
+passed   3
+failed   0
+broken   0
+skipped  6
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=3 termination_type=exited termination_id=0 corefile=no
+cutime=67 cstime=242
+<<<test_end>>>
+<<<test_start>>>
+tag=cgroup_fj_function_cpuacct stime=1699330698
+cmdline="cgroup_fj_function.sh cpuacct"
+contacts=""
+analysis=exit
+<<<test_output>>>
+cgroup_fj_function 1 TINFO: timeout per run is 8h 20m 0s
+tst_cgroup.c:744: TINFO: Mounted V1 cpuacct CGroup on /mnt/tmp/ltp-mLjpfZQnHO/cgroup_cpuacct
+cgroup_fj_function 1 TINFO: test starts with cgroup version 1
+cgroup_fj_function 1 TINFO: Attaching task 4271 to /mnt/tmp/ltp-mLjpfZQnHO/cgroup_cpuacct/ltp/test-4227/ltp_1
+cgroup_fj_function 1 TINFO: Attaching task 4271 to /mnt/tmp/ltp-mLjpfZQnHO/cgroup_cpuacct/ltp/test-4227
+cgroup_fj_function 1 TPASS: Task attached successfully
+cgroup_fj_function 2 TPASS: Successfully moved /mnt/tmp/ltp-mLjpfZQnHO/cgroup_cpuacct/ltp/test-4227/ltp_2 to /mnt/tmp/ltp-mLjpfZQnHO/cgroup_cpuacct/ltp/test-4227/ltp_3
+cgroup_fj_function 3 TPASS: Failed to move /mnt/tmp/ltp-mLjpfZQnHO/cgroup_cpuacct/ltp/test-4227/ltp_2 over existing /mnt/tmp/ltp-mLjpfZQnHO/cgroup_cpuacct/ltp/test-4227/ltp_1
+cgroup_fj_function 4 TINFO: Attaching task 4271 to /mnt/tmp/ltp-mLjpfZQnHO/cgroup_cpuacct/ltp/test-4227/ltp_1
+cgroup_fj_function 4 TPASS: Group /mnt/tmp/ltp-mLjpfZQnHO/cgroup_cpuacct/ltp/test-4227/ltp_1 with task 4271 cannot be removed
+cgroup_fj_function 5 TPASS: Dir /mnt/tmp/ltp-mLjpfZQnHO/cgroup_cpuacct/ltp/test-4227/ltp_1 with subdir 'a' cannot be removed
+cgroup_fj_function 6 TPASS: Subgroup /mnt/tmp/ltp-mLjpfZQnHO/cgroup_cpuacct/ltp/test-4227/ltp_1 cannot be moved to /mnt/tmp/ltp-mLjpfZQnHO/LTP_cgroup_fj_function.KjKtll6Et1/ltp
+cgroup_fj_function 7 TPASS: Tasks file /mnt/tmp/ltp-mLjpfZQnHO/cgroup_cpuacct/ltp/test-4227/ltp_1/tasks cannot be removed
+cgroup_fj_function 8 TPASS: Cannot write invalid values to /mnt/tmp/ltp-mLjpfZQnHO/cgroup_cpuacct/ltp/test-4227/ltp_1/notify_on_release
+cgroup_fj_function 9 TPASS: Set /mnt/tmp/ltp-mLjpfZQnHO/cgroup_cpuacct/ltp/test-4227/ltp_1/notify_on_release to 1
+cgroup_fj_function 10 TINFO: Removing all ltp subgroups...
+
+Summary:
+passed   9
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=4 termination_type=exited termination_id=0 corefile=no
+cutime=82 cstime=292
+<<<test_end>>>
+<<<test_start>>>
+tag=cgroup_fj_function_memory stime=1699330702
+cmdline="cgroup_fj_function.sh memory"
+contacts=""
+analysis=exit
+<<<test_output>>>
+cgroup_fj_function 1 TINFO: timeout per run is 8h 20m 0s
+cgroup_fj_function 1 TINFO: test starts with cgroup version 2
+cgroup_fj_function 1 TCONF: Controller mounted on cgroup2 hierarchy, skipping test
+cgroup_fj_function 2 TCONF: Controller mounted on cgroup2 hierarchy, skipping test
+cgroup_fj_function 3 TCONF: Controller mounted on cgroup2 hierarchy, skipping test
+cgroup_fj_function 4 TINFO: Attaching task 4367 to /mnt/tmp/ltp-mLjpfZQnHO/cgroup_unified/ltp/test-4322/ltp_1
+cgroup_fj_function 4 TPASS: Group /mnt/tmp/ltp-mLjpfZQnHO/cgroup_unified/ltp/test-4322/ltp_1 with task 4367 cannot be removed
+cgroup_fj_function 5 TPASS: Dir /mnt/tmp/ltp-mLjpfZQnHO/cgroup_unified/ltp/test-4322/ltp_1 with subdir 'a' cannot be removed
+cgroup_fj_function 6 TCONF: Controller mounted on cgroup2 hierarchy, skipping test
+cgroup_fj_function 7 TPASS: Tasks file /mnt/tmp/ltp-mLjpfZQnHO/cgroup_unified/ltp/test-4322/ltp_1/tasks cannot be removed
+cgroup_fj_function 8 TCONF: Controller mounted on cgroup2 hierarchy, skipping test
+cgroup_fj_function 9 TCONF: Controller mounted on cgroup2 hierarchy, skipping test
+cgroup_fj_function 10 TINFO: Removing all ltp subgroups...
+
+Summary:
+passed   3
+failed   0
+broken   0
+skipped  6
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=2 termination_type=exited termination_id=0 corefile=no
+cutime=71 cstime=224
+<<<test_end>>>
+<<<test_start>>>
+tag=cgroup_fj_function_freezer stime=1699330704
+cmdline="cgroup_fj_function.sh freezer"
+contacts=""
+analysis=exit
+<<<test_output>>>
+cgroup_fj_function 1 TINFO: timeout per run is 8h 20m 0s
+tst_cgroup.c:744: TINFO: Mounted V1 freezer CGroup on /mnt/tmp/ltp-mLjpfZQnHO/cgroup_freezer
+cgroup_fj_function 1 TINFO: test starts with cgroup version 1
+cgroup_fj_function 1 TINFO: Attaching task 4450 to /mnt/tmp/ltp-mLjpfZQnHO/cgroup_freezer/ltp/test-4406/ltp_1
+cgroup_fj_function 1 TINFO: Attaching task 4450 to /mnt/tmp/ltp-mLjpfZQnHO/cgroup_freezer/ltp/test-4406
+cgroup_fj_function 1 TPASS: Task attached successfully
+cgroup_fj_function 2 TPASS: Successfully moved /mnt/tmp/ltp-mLjpfZQnHO/cgroup_freezer/ltp/test-4406/ltp_2 to /mnt/tmp/ltp-mLjpfZQnHO/cgroup_freezer/ltp/test-4406/ltp_3
+cgroup_fj_function 3 TPASS: Failed to move /mnt/tmp/ltp-mLjpfZQnHO/cgroup_freezer/ltp/test-4406/ltp_2 over existing /mnt/tmp/ltp-mLjpfZQnHO/cgroup_freezer/ltp/test-4406/ltp_1
+cgroup_fj_function 4 TINFO: Attaching task 4450 to /mnt/tmp/ltp-mLjpfZQnHO/cgroup_freezer/ltp/test-4406/ltp_1
+cgroup_fj_function 4 TPASS: Group /mnt/tmp/ltp-mLjpfZQnHO/cgroup_freezer/ltp/test-4406/ltp_1 with task 4450 cannot be removed
+cgroup_fj_function 5 TPASS: Dir /mnt/tmp/ltp-mLjpfZQnHO/cgroup_freezer/ltp/test-4406/ltp_1 with subdir 'a' cannot be removed
+cgroup_fj_function 6 TPASS: Subgroup /mnt/tmp/ltp-mLjpfZQnHO/cgroup_freezer/ltp/test-4406/ltp_1 cannot be moved to /mnt/tmp/ltp-mLjpfZQnHO/LTP_cgroup_fj_function.YaoC4yTaYd/ltp
+cgroup_fj_function 7 TPASS: Tasks file /mnt/tmp/ltp-mLjpfZQnHO/cgroup_freezer/ltp/test-4406/ltp_1/tasks cannot be removed
+cgroup_fj_function 8 TPASS: Cannot write invalid values to /mnt/tmp/ltp-mLjpfZQnHO/cgroup_freezer/ltp/test-4406/ltp_1/notify_on_release
+cgroup_fj_function 9 TPASS: Set /mnt/tmp/ltp-mLjpfZQnHO/cgroup_freezer/ltp/test-4406/ltp_1/notify_on_release to 1
+cgroup_fj_function 10 TINFO: Removing all ltp subgroups...
+
+Summary:
+passed   9
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=3 termination_type=exited termination_id=0 corefile=no
+cutime=77 cstime=251
+<<<test_end>>>
+<<<test_start>>>
+tag=cgroup_fj_function_devices stime=1699330707
+cmdline="cgroup_fj_function.sh devices"
+contacts=""
+analysis=exit
+<<<test_output>>>
+cgroup_fj_function 1 TINFO: timeout per run is 8h 20m 0s
+tst_cgroup.c:744: TINFO: Mounted V1 devices CGroup on /mnt/tmp/ltp-mLjpfZQnHO/cgroup_devices
+cgroup_fj_function 1 TINFO: test starts with cgroup version 1
+cgroup_fj_function 1 TINFO: Attaching task 4544 to /mnt/tmp/ltp-mLjpfZQnHO/cgroup_devices/ltp/test-4500/ltp_1
+cgroup_fj_function 1 TINFO: Attaching task 4544 to /mnt/tmp/ltp-mLjpfZQnHO/cgroup_devices/ltp/test-4500
+cgroup_fj_function 1 TPASS: Task attached successfully
+cgroup_fj_function 2 TPASS: Successfully moved /mnt/tmp/ltp-mLjpfZQnHO/cgroup_devices/ltp/test-4500/ltp_2 to /mnt/tmp/ltp-mLjpfZQnHO/cgroup_devices/ltp/test-4500/ltp_3
+cgroup_fj_function 3 TPASS: Failed to move /mnt/tmp/ltp-mLjpfZQnHO/cgroup_devices/ltp/test-4500/ltp_2 over existing /mnt/tmp/ltp-mLjpfZQnHO/cgroup_devices/ltp/test-4500/ltp_1
+cgroup_fj_function 4 TINFO: Attaching task 4544 to /mnt/tmp/ltp-mLjpfZQnHO/cgroup_devices/ltp/test-4500/ltp_1
+cgroup_fj_function 4 TPASS: Group /mnt/tmp/ltp-mLjpfZQnHO/cgroup_devices/ltp/test-4500/ltp_1 with task 4544 cannot be removed
+cgroup_fj_function 5 TPASS: Dir /mnt/tmp/ltp-mLjpfZQnHO/cgroup_devices/ltp/test-4500/ltp_1 with subdir 'a' cannot be removed
+cgroup_fj_function 6 TPASS: Subgroup /mnt/tmp/ltp-mLjpfZQnHO/cgroup_devices/ltp/test-4500/ltp_1 cannot be moved to /mnt/tmp/ltp-mLjpfZQnHO/LTP_cgroup_fj_function.iN7C9vF56g/ltp
+cgroup_fj_function 7 TPASS: Tasks file /mnt/tmp/ltp-mLjpfZQnHO/cgroup_devices/ltp/test-4500/ltp_1/tasks cannot be removed
+cgroup_fj_function 8 TPASS: Cannot write invalid values to /mnt/tmp/ltp-mLjpfZQnHO/cgroup_devices/ltp/test-4500/ltp_1/notify_on_release
+cgroup_fj_function 9 TPASS: Set /mnt/tmp/ltp-mLjpfZQnHO/cgroup_devices/ltp/test-4500/ltp_1/notify_on_release to 1
+cgroup_fj_function 10 TINFO: Removing all ltp subgroups...
+
+Summary:
+passed   9
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=4 termination_type=exited termination_id=0 corefile=no
+cutime=72 cstime=261
+<<<test_end>>>
+<<<test_start>>>
+tag=cgroup_fj_function_blkio stime=1699330711
+cmdline="cgroup_fj_function.sh blkio"
+contacts=""
+analysis=exit
+<<<test_output>>>
+cgroup_fj_function 1 TINFO: timeout per run is 8h 20m 0s
+tst_cgroup.c:708: TCONF: IO controller found on V2 root, skipping blkio mount that would unmount IO controller
+tst_cgroup.c:844: TCONF: 'blkio' controller required, but not available
+cgroup_fj_function 1 TCONF: 'tst_cgctl require' exited. Controller is probably not available?
+cgroup_fj_function 1 TINFO: Removing all ltp subgroups...
+
+Summary:
+passed   0
+failed   0
+broken   0
+skipped  1
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=1 termination_type=exited termination_id=32 corefile=no
+cutime=35 cstime=85
+<<<test_end>>>
+<<<test_start>>>
+tag=cgroup_fj_function_net_cls stime=1699330712
+cmdline="cgroup_fj_function.sh net_cls"
+contacts=""
+analysis=exit
+<<<test_output>>>
+cgroup_fj_function 1 TINFO: timeout per run is 8h 20m 0s
+tst_cgroup.c:744: TINFO: Mounted V1 net_cls CGroup on /mnt/tmp/ltp-mLjpfZQnHO/cgroup_net_cls
+cgroup_fj_function 1 TINFO: test starts with cgroup version 1
+cgroup_fj_function 1 TINFO: Attaching task 4666 to /mnt/tmp/ltp-mLjpfZQnHO/cgroup_net_cls/ltp/test-4622/ltp_1
+cgroup_fj_function 1 TINFO: Attaching task 4666 to /mnt/tmp/ltp-mLjpfZQnHO/cgroup_net_cls/ltp/test-4622
+cgroup_fj_function 1 TPASS: Task attached successfully
+cgroup_fj_function 2 TPASS: Successfully moved /mnt/tmp/ltp-mLjpfZQnHO/cgroup_net_cls/ltp/test-4622/ltp_2 to /mnt/tmp/ltp-mLjpfZQnHO/cgroup_net_cls/ltp/test-4622/ltp_3
+cgroup_fj_function 3 TPASS: Failed to move /mnt/tmp/ltp-mLjpfZQnHO/cgroup_net_cls/ltp/test-4622/ltp_2 over existing /mnt/tmp/ltp-mLjpfZQnHO/cgroup_net_cls/ltp/test-4622/ltp_1
+cgroup_fj_function 4 TINFO: Attaching task 4666 to /mnt/tmp/ltp-mLjpfZQnHO/cgroup_net_cls/ltp/test-4622/ltp_1
+cgroup_fj_function 4 TPASS: Group /mnt/tmp/ltp-mLjpfZQnHO/cgroup_net_cls/ltp/test-4622/ltp_1 with task 4666 cannot be removed
+cgroup_fj_function 5 TPASS: Dir /mnt/tmp/ltp-mLjpfZQnHO/cgroup_net_cls/ltp/test-4622/ltp_1 with subdir 'a' cannot be removed
+cgroup_fj_function 6 TPASS: Subgroup /mnt/tmp/ltp-mLjpfZQnHO/cgroup_net_cls/ltp/test-4622/ltp_1 cannot be moved to /mnt/tmp/ltp-mLjpfZQnHO/LTP_cgroup_fj_function.wgn8RJXaLI/ltp
+cgroup_fj_function 7 TPASS: Tasks file /mnt/tmp/ltp-mLjpfZQnHO/cgroup_net_cls/ltp/test-4622/ltp_1/tasks cannot be removed
+cgroup_fj_function 8 TPASS: Cannot write invalid values to /mnt/tmp/ltp-mLjpfZQnHO/cgroup_net_cls/ltp/test-4622/ltp_1/notify_on_release
+cgroup_fj_function 9 TPASS: Set /mnt/tmp/ltp-mLjpfZQnHO/cgroup_net_cls/ltp/test-4622/ltp_1/notify_on_release to 1
+cgroup_fj_function 10 TINFO: Removing all ltp subgroups...
+
+Summary:
+passed   9
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=3 termination_type=exited termination_id=0 corefile=no
+cutime=85 cstime=279
+<<<test_end>>>
+<<<test_start>>>
+tag=cgroup_fj_function_perf_event stime=1699330715
+cmdline="cgroup_fj_function.sh perf_event"
+contacts=""
+analysis=exit
+<<<test_output>>>
+cgroup_fj_function 1 TINFO: timeout per run is 8h 20m 0s
+tst_cgroup.c:744: TINFO: Mounted V1 perf_event CGroup on /mnt/tmp/ltp-mLjpfZQnHO/cgroup_perf_event
+cgroup_fj_function 1 TINFO: test starts with cgroup version 1
+cgroup_fj_function 1 TINFO: Attaching task 4760 to /mnt/tmp/ltp-mLjpfZQnHO/cgroup_perf_event/ltp/test-4716/ltp_1
+cgroup_fj_function 1 TINFO: Attaching task 4760 to /mnt/tmp/ltp-mLjpfZQnHO/cgroup_perf_event/ltp/test-4716
+cgroup_fj_function 1 TPASS: Task attached successfully
+cgroup_fj_function 2 TPASS: Successfully moved /mnt/tmp/ltp-mLjpfZQnHO/cgroup_perf_event/ltp/test-4716/ltp_2 to /mnt/tmp/ltp-mLjpfZQnHO/cgroup_perf_event/ltp/test-4716/ltp_3
+cgroup_fj_function 3 TPASS: Failed to move /mnt/tmp/ltp-mLjpfZQnHO/cgroup_perf_event/ltp/test-4716/ltp_2 over existing /mnt/tmp/ltp-mLjpfZQnHO/cgroup_perf_event/ltp/test-4716/ltp_1
+cgroup_fj_function 4 TINFO: Attaching task 4760 to /mnt/tmp/ltp-mLjpfZQnHO/cgroup_perf_event/ltp/test-4716/ltp_1
+cgroup_fj_function 4 TPASS: Group /mnt/tmp/ltp-mLjpfZQnHO/cgroup_perf_event/ltp/test-4716/ltp_1 with task 4760 cannot be removed
+cgroup_fj_function 5 TPASS: Dir /mnt/tmp/ltp-mLjpfZQnHO/cgroup_perf_event/ltp/test-4716/ltp_1 with subdir 'a' cannot be removed
+cgroup_fj_function 6 TPASS: Subgroup /mnt/tmp/ltp-mLjpfZQnHO/cgroup_perf_event/ltp/test-4716/ltp_1 cannot be moved to /mnt/tmp/ltp-mLjpfZQnHO/LTP_cgroup_fj_function.SpLac2HyHW/ltp
+cgroup_fj_function 7 TPASS: Tasks file /mnt/tmp/ltp-mLjpfZQnHO/cgroup_perf_event/ltp/test-4716/ltp_1/tasks cannot be removed
+cgroup_fj_function 8 TPASS: Cannot write invalid values to /mnt/tmp/ltp-mLjpfZQnHO/cgroup_perf_event/ltp/test-4716/ltp_1/notify_on_release
+cgroup_fj_function 9 TPASS: Set /mnt/tmp/ltp-mLjpfZQnHO/cgroup_perf_event/ltp/test-4716/ltp_1/notify_on_release to 1
+cgroup_fj_function 10 TINFO: Removing all ltp subgroups...
+
+Summary:
+passed   9
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=3 termination_type=exited termination_id=0 corefile=no
+cutime=75 cstime=283
+<<<test_end>>>
+<<<test_start>>>
+tag=cgroup_fj_function_net_prio stime=1699330718
+cmdline="cgroup_fj_function.sh net_prio"
+contacts=""
+analysis=exit
+<<<test_output>>>
+cgroup_fj_function 1 TINFO: timeout per run is 8h 20m 0s
+tst_cgroup.c:744: TINFO: Mounted V1 net_prio CGroup on /mnt/tmp/ltp-mLjpfZQnHO/cgroup_net_prio
+cgroup_fj_function 1 TINFO: test starts with cgroup version 1
+cgroup_fj_function 1 TINFO: Attaching task 4854 to /mnt/tmp/ltp-mLjpfZQnHO/cgroup_net_prio/ltp/test-4810/ltp_1
+cgroup_fj_function 1 TINFO: Attaching task 4854 to /mnt/tmp/ltp-mLjpfZQnHO/cgroup_net_prio/ltp/test-4810
+cgroup_fj_function 1 TPASS: Task attached successfully
+cgroup_fj_function 2 TPASS: Successfully moved /mnt/tmp/ltp-mLjpfZQnHO/cgroup_net_prio/ltp/test-4810/ltp_2 to /mnt/tmp/ltp-mLjpfZQnHO/cgroup_net_prio/ltp/test-4810/ltp_3
+cgroup_fj_function 3 TPASS: Failed to move /mnt/tmp/ltp-mLjpfZQnHO/cgroup_net_prio/ltp/test-4810/ltp_2 over existing /mnt/tmp/ltp-mLjpfZQnHO/cgroup_net_prio/ltp/test-4810/ltp_1
+cgroup_fj_function 4 TINFO: Attaching task 4854 to /mnt/tmp/ltp-mLjpfZQnHO/cgroup_net_prio/ltp/test-4810/ltp_1
+cgroup_fj_function 4 TPASS: Group /mnt/tmp/ltp-mLjpfZQnHO/cgroup_net_prio/ltp/test-4810/ltp_1 with task 4854 cannot be removed
+cgroup_fj_function 5 TPASS: Dir /mnt/tmp/ltp-mLjpfZQnHO/cgroup_net_prio/ltp/test-4810/ltp_1 with subdir 'a' cannot be removed
+cgroup_fj_function 6 TPASS: Subgroup /mnt/tmp/ltp-mLjpfZQnHO/cgroup_net_prio/ltp/test-4810/ltp_1 cannot be moved to /mnt/tmp/ltp-mLjpfZQnHO/LTP_cgroup_fj_function.okqQDx73gu/ltp
+cgroup_fj_function 7 TPASS: Tasks file /mnt/tmp/ltp-mLjpfZQnHO/cgroup_net_prio/ltp/test-4810/ltp_1/tasks cannot be removed
+cgroup_fj_function 8 TPASS: Cannot write invalid values to /mnt/tmp/ltp-mLjpfZQnHO/cgroup_net_prio/ltp/test-4810/ltp_1/notify_on_release
+cgroup_fj_function 9 TPASS: Set /mnt/tmp/ltp-mLjpfZQnHO/cgroup_net_prio/ltp/test-4810/ltp_1/notify_on_release to 1
+cgroup_fj_function 10 TINFO: Removing all ltp subgroups...
+
+Summary:
+passed   9
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=4 termination_type=exited termination_id=0 corefile=no
+cutime=70 cstime=263
+<<<test_end>>>
+<<<test_start>>>
+tag=cgroup_fj_function_hugetlb stime=1699330722
+cmdline="cgroup_fj_function.sh hugetlb"
+contacts=""
+analysis=exit
+<<<test_output>>>
+cgroup_fj_function 1 TINFO: timeout per run is 8h 20m 0s
+tst_cgroup.c:744: TINFO: Mounted V1 hugetlb CGroup on /mnt/tmp/ltp-mLjpfZQnHO/cgroup_hugetlb
+tst_cgroup.c:570: TBROK: Available V2 controllers are changing between scans?
+cgroup_fj_function 1 TBROK: 'tst_cgctl require' exited
+cgroup_fj_function 1 TINFO: Removing all ltp subgroups...
+
+Summary:
+passed   0
+failed   0
+broken   1
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=1 termination_type=exited termination_id=2 corefile=no
+cutime=31 cstime=88
+<<<test_end>>>
+<<<test_start>>>
+tag=controllers stime=1699330723
+cmdline="test_controllers.sh"
+contacts=""
+analysis=exit
+<<<test_output>>>
+TEST 1: CPU CONTROLLER TESTING
+RUNNING SETUP.....
+TEST STARTED: Please avoid using system while this test executes
+Successfully launched def task 4989 too
+TASKS FIRED
+Cpu controller test executed successfully.Results written to file
+Please review the results in /root/ltp-install/output/cpuctl_results_12.txt
+Cleanup called
+TEST 3: CPU CONTROLLER TESTING
+RUNNING SETUP.....
+TEST STARTED: Please avoid using system while this test executes
+Successfully launched def task 5033 too
+TASKS FIRED
+Cpu controller test executed successfully.Results written to file
+Please review the results in /root/ltp-install/output/cpuctl_results_3.txt
+Cleanup called
+TEST 4: CPU CONTROLLER TESTING
+RUNNING SETUP.....
+TEST STARTED: Please avoid using system while this test executes
+Successfully launched def task 5097 too
+TASKS FIRED
+Cpu controller test executed successfully.Results written to file
+Please review the results in /root/ltp-install/output/cpuctl_results_4.txt
+Cleanup called
+TEST 5: CPU CONTROLLER TESTING
+RUNNING SETUP.....
+TEST STARTED: Please avoid using system while this test executes
+Successfully launched def task 5160 too
+TASKS FIRED
+Cpu controller test executed successfully.Results written to file
+Please review the results in /root/ltp-install/output/cpuctl_results_5.txt
+Cleanup called
+TEST 6: CPU CONTROLLER STRESS TESTING
+RUNNING SETUP.....
+TEST STARTED: Please avoid using system while this test executes
+Successfully launched def task 5290 too
+TASKS FIRED
+Cpu controller test executed successfully.Results written to file
+Please review the results in /root/ltp-install/output/cpuctl_results_stress-678.txt
+Cleanup called
+TEST 7: CPU CONTROLLER STRESS TESTING
+RUNNING SETUP.....
+TEST STARTED: Please avoid using system while this test executes
+Successfully launched def task 5474 too
+TASKS FIRED
+Cpu controller test executed successfully.Results written to file
+Please review the results in /root/ltp-install/output/cpuctl_results_stress-678.txt
+Cleanup called
+TEST 8: CPU CONTROLLER STRESS TESTING
+RUNNING SETUP.....
+TEST STARTED: Please avoid using system while this test executes
+Successfully launched def task 5603 too
+TASKS FIRED
+Cpu controller test executed successfully.Results written to file
+Please review the results in /root/ltp-install/output/cpuctl_results_stress-678.txt
+Cleanup called
+TEST 9: CPU CONTROLLER STRESS TESTING
+RUNNING SETUP.....
+TEST STARTED: Please avoid using system while this test executes
+Successfully launched def task 6693 too
+TASKS FIRED
+Cpu controller test executed successfully.Results written to file
+Please review the results in /root/ltp-install/output/cpuctl_results_stress-9.txt
+Cleanup called
+TEST 10: CPU CONTROLLER STRESS TESTING
+RUNNING SETUP.....
+TEST STARTED: Please avoid using system while this test executes
+Successfully launched def task 7736 too
+TASKS FIRED
+Cpu controller test executed successfully.Results written to file
+Please review the results in /root/ltp-install/output/cpuctl_results_stress-10.txt
+Cleanup called
+TINFO Running cpuctl Latency Test 1
+TINFO 	The latency check task started
+FAIL 	The Latency test 1 failed
+Max latency observed = 4294953295 in Iteration 0
+The results FAIL is just intuitive and not exact failure. Please look at cpuctl_testplan.txt in the test directory.
+Task 7857 exited abnormally with return value: 1
+TBROK Test could'nt execute for expected duration
+Doing cleanup
+Cleanup done for latency test 1
+
+TINFO Running cpuctl Latency Test 2
+TINFO 	The latency check task started
+FAIL 	The Latency test 2 failed
+Max latency observed = 4294933295 in Iteration 0
+The results FAIL is just intuitive and not exact failure. Please look at cpuctl_testplan.txt in the test directory.
+Task 8076 exited abnormally with return value: 1
+TBROK Test could'nt execute for expected duration
+Doing cleanup
+Cleanup done for latency test 2
+
+ps: bad -o argument 'rtprio', supported arguments: user,group,comm,args,pid,ppid,pgid,tty,vsz,sid,stat,rss
+cpuctl_test_fj    1  TPASS  :  case1    PASS
+cpuctl_test_fj    1  TPASS  :  case2    PASS
+cpuctl_test_fj    1  TPASS  :  case3    PASS
+cpuctl_test_fj    1  TPASS  :  case4    PASS
+cpuctl_fj_simple_echo: write error: Invalid argument
+cpuctl_test_fj    1  TPASS  :  case5    PASS
+cpuctl_fj_simple_echo: write error: Invalid argument
+cpuctl_test_fj    1  TPASS  :  case6    PASS
+cpuctl_fj_simple_echo: write error: Invalid argument
+cpuctl_test_fj    1  TPASS  :  case7    PASS
+cpuctl_test_fj    1  TPASS  :  case8    PASS
+cpuctl_test_fj    1  TPASS  :  case9    PASS
+cpuctl_test_fj    1  TPASS  :  case10    PASS
+cpuctl_test_fj    1  TPASS  :  case11    PASS
+cpuctl_test_fj    1  TPASS  :  case12    PASS
+cpuctl_test_fj    1  TPASS  :  case13    PASS
+cpuctl_test_fj    1  TPASS  :  case14    PASS
+cpuctl_fj_simple_echo: write error: Invalid argument
+cpuctl_test_fj    1  TPASS  :  case15    PASS
+cpuctl_fj_simple_echo: write error: Invalid argument
+cpuctl_test_fj    1  TPASS  :  case16    PASS
+cpuctl_fj_simple_echo: write error: Invalid argument
+cpuctl_test_fj    1  TPASS  :  case17    PASS
+cpuctl_test_fj    1  TPASS  :  case18    PASS
+top: invalid option -- 'p'
+BusyBox v1.36.1 (2023-08-17 15:06:18 CST) multi-call binary.
+
+Usage: top [-b] [-n COUNT] [-d SECONDS]
+
+Show a view of process activity in real time.
+Read the status of all processes from /proc each SECONDS
+and show a screenful of them.
+Keys:
+	N/M/P/T: sort by pid/mem/cpu/time
+	R: reverse sort
+	Q,^C: exit
+Options:
+	-b	Batch mode
+	-n N	Exit after N iterations
+	-d SEC	Delay between updates
+pid 8414 cpu_usage 
+cpuctl_test_fj    1  TFAIL  :  ltpapicmd.c:188: case19    FAIL
+top: invalid option -- 'p'
+BusyBox v1.36.1 (2023-08-17 15:06:18 CST) multi-call binary.
+
+Usage: top [-b] [-n COUNT] [-d SECONDS]
+
+Show a view of process activity in real time.
+Read the status of all processes from /proc each SECONDS
+and show a screenful of them.
+Keys:
+	N/M/P/T: sort by pid/mem/cpu/time
+	R: reverse sort
+	Q,^C: exit
+Options:
+	-b	Batch mode
+	-n N	Exit after N iterations
+	-d SEC	Delay between updates
+pid 8438 cpu_usage 
+cpuctl_test_fj    1  TFAIL  :  ltpapicmd.c:188: case20    FAIL
+top: invalid option -- 'p'
+BusyBox v1.36.1 (2023-08-17 15:06:18 CST) multi-call binary.
+
+Usage: top [-b] [-n COUNT] [-d SECONDS]
+
+Show a view of process activity in real time.
+Read the status of all processes from /proc each SECONDS
+and show a screenful of them.
+Keys:
+	N/M/P/T: sort by pid/mem/cpu/time
+	R: reverse sort
+	Q,^C: exit
+Options:
+	-b	Batch mode
+	-n N	Exit after N iterations
+	-d SEC	Delay between updates
+pid 8462 cpu_usage 
+cpuctl_test_fj    1  TFAIL  :  ltpapicmd.c:188: case21    FAIL
+top: invalid option -- 'p'
+BusyBox v1.36.1 (2023-08-17 15:06:18 CST) multi-call binary.
+
+Usage: top [-b] [-n COUNT] [-d SECONDS]
+
+Show a view of process activity in real time.
+Read the status of all processes from /proc each SECONDS
+and show a screenful of them.
+Keys:
+	N/M/P/T: sort by pid/mem/cpu/time
+	R: reverse sort
+	Q,^C: exit
+Options:
+	-b	Batch mode
+	-n N	Exit after N iterations
+	-d SEC	Delay between updates
+pid 8496 cpu_usage 
+cpuctl_test_fj    1  TFAIL  :  ltpapicmd.c:188: case22    FAIL
+TEST 1: MEMORY CONTROLLER TESTING
+RUNNING SETUP.....
+ERROR: Could not mount cgroup filesystem on /dev/memctl..Exiting test
+Cleanup called
+TEST 2: MEMORY CONTROLLER TESTING
+RUNNING SETUP.....
+ERROR: Could not mount cgroup filesystem on /dev/memctl..Exiting test
+Cleanup called
+CONTROLLERS TESTCASES: WARNING
+Either Kernel does not support for io controller or functionality is not enabled
+Skipping all block device I/O throttling testcases....
+Variable TST_TOTAL is set to 0, must be greater than zero
+/root/ltp-install/testcases/bin/test_controllers.sh: line 105: /root/ltp-install/testcases/bin/run_cpuacct_test.sh: No such file or directory
+/root/ltp-install/testcases/bin/test_controllers.sh: line 106: /root/ltp-install/testcases/bin/run_cpuacct_test.sh: No such file or directory
+<<<execution_status>>>
+initiation_status="ok"
+duration=2216 termination_type=exited termination_id=0 corefile=no
+cutime=383306 cstime=21478
+<<<test_end>>>
+<<<test_start>>>
+tag=cpuacct_1_1 stime=1699332939
+cmdline="cpuacct.sh 1 1"
+contacts=""
+analysis=exit
+<<<test_output>>>
+cpuacct 1 TINFO: timeout per run is 8h 20m 0s
+tst_pid.c:84: TINFO: Cannot read session user limits from '/sys/fs/cgroup/user.slice/user-0.slice/pids.max'
+tst_pid.c:84: TINFO: Cannot read session user limits from '/sys/fs/cgroup/pids/user.slice/user-0.slice/pids.max'
+cpuacct 1 TINFO: task limit fulfilled (approximate need 1, limit 7478)
+cpuacct 1 TINFO: cpuacct: 
+cpuacct 1 TINFO: Creating 1 subgroups each with 1 processes
+cpuacct 1 TPASS: cpuacct.usage is not equal to 0 for every subgroup
+cpuacct 1 TPASS: cpuacct.usage equal to subgroup*/cpuacct.usage
+cpuacct 2 TINFO: removing created directories
+cpuacct 2 TINFO: Umounting cpuacct
+
+Summary:
+passed   2
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=2 termination_type=exited termination_id=0 corefile=no
+cutime=43 cstime=159
+<<<test_end>>>
+<<<test_start>>>
+tag=cpuacct_1_10 stime=1699332941
+cmdline="cpuacct.sh 1 10"
+contacts=""
+analysis=exit
+<<<test_output>>>
+cpuacct 1 TINFO: timeout per run is 8h 20m 0s
+tst_pid.c:84: TINFO: Cannot read session user limits from '/sys/fs/cgroup/user.slice/user-0.slice/pids.max'
+tst_pid.c:84: TINFO: Cannot read session user limits from '/sys/fs/cgroup/pids/user.slice/user-0.slice/pids.max'
+cpuacct 1 TINFO: task limit fulfilled (approximate need 10, limit 7478)
+cpuacct 1 TINFO: cpuacct: 
+cpuacct 1 TINFO: Creating 1 subgroups each with 10 processes
+cpuacct 1 TPASS: cpuacct.usage is not equal to 0 for every subgroup
+cpuacct 1 TPASS: cpuacct.usage equal to subgroup*/cpuacct.usage
+cpuacct 2 TINFO: removing created directories
+cpuacct 2 TINFO: Umounting cpuacct
+
+Summary:
+passed   2
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=2 termination_type=exited termination_id=0 corefile=no
+cutime=69 cstime=178
+<<<test_end>>>
+<<<test_start>>>
+tag=cpuacct_10_10 stime=1699332943
+cmdline="cpuacct.sh 10 10"
+contacts=""
+analysis=exit
+<<<test_output>>>
+cpuacct 1 TINFO: timeout per run is 8h 20m 0s
+tst_pid.c:84: TINFO: Cannot read session user limits from '/sys/fs/cgroup/user.slice/user-0.slice/pids.max'
+tst_pid.c:84: TINFO: Cannot read session user limits from '/sys/fs/cgroup/pids/user.slice/user-0.slice/pids.max'
+cpuacct 1 TINFO: task limit fulfilled (approximate need 100, limit 7478)
+cpuacct 1 TINFO: cpuacct: 
+cpuacct 1 TINFO: Creating 10 subgroups each with 10 processes
+cpuacct 1 TPASS: cpuacct.usage is not equal to 0 for every subgroup
+cpuacct 1 TPASS: cpuacct.usage equal to subgroup*/cpuacct.usage
+cpuacct 2 TINFO: removing created directories
+cpuacct 2 TINFO: Umounting cpuacct
+
+Summary:
+passed   2
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=5 termination_type=exited termination_id=0 corefile=no
+cutime=258 cstime=532
+<<<test_end>>>
+<<<test_start>>>
+tag=cpuacct_1_100 stime=1699332948
+cmdline="cpuacct.sh 1 100"
+contacts=""
+analysis=exit
+<<<test_output>>>
+cpuacct 1 TINFO: timeout per run is 8h 20m 0s
+tst_pid.c:84: TINFO: Cannot read session user limits from '/sys/fs/cgroup/user.slice/user-0.slice/pids.max'
+tst_pid.c:84: TINFO: Cannot read session user limits from '/sys/fs/cgroup/pids/user.slice/user-0.slice/pids.max'
+cpuacct 1 TINFO: task limit fulfilled (approximate need 100, limit 7478)
+cpuacct 1 TINFO: cpuacct: 
+cpuacct 1 TINFO: Creating 1 subgroups each with 100 processes
+cpuacct 1 TPASS: cpuacct.usage is not equal to 0 for every subgroup
+cpuacct 1 TPASS: cpuacct.usage equal to subgroup*/cpuacct.usage
+cpuacct 2 TINFO: removing created directories
+cpuacct 2 TINFO: Umounting cpuacct
+
+Summary:
+passed   2
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=4 termination_type=exited termination_id=0 corefile=no
+cutime=229 cstime=401
+<<<test_end>>>
+<<<test_start>>>
+tag=cpuacct_100_1 stime=1699332952
+cmdline="cpuacct.sh 100 1"
+contacts=""
+analysis=exit
+<<<test_output>>>
+cpuacct 1 TINFO: timeout per run is 8h 20m 0s
+tst_pid.c:84: TINFO: Cannot read session user limits from '/sys/fs/cgroup/user.slice/user-0.slice/pids.max'
+tst_pid.c:84: TINFO: Cannot read session user limits from '/sys/fs/cgroup/pids/user.slice/user-0.slice/pids.max'
+cpuacct 1 TINFO: task limit fulfilled (approximate need 100, limit 7478)
+cpuacct 1 TINFO: cpuacct: 
+cpuacct 1 TINFO: Creating 100 subgroups each with 1 processes
+cpuacct 1 TPASS: cpuacct.usage is not equal to 0 for every subgroup
+cpuacct 1 TPASS: cpuacct.usage equal to subgroup*/cpuacct.usage
+cpuacct 2 TINFO: removing created directories
+cpuacct 2 TINFO: Umounting cpuacct
+
+Summary:
+passed   2
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=16 termination_type=exited termination_id=0 corefile=no
+cutime=370 cstime=1651
+<<<test_end>>>
+<<<test_start>>>
+tag=cpuacct_100_100 stime=1699332968
+cmdline="cpuacct.sh 100 100"
+contacts=""
+analysis=exit
+<<<test_output>>>
+cpuacct 1 TINFO: timeout per run is 8h 20m 0s
+tst_pid.c:84: TINFO: Cannot read session user limits from '/sys/fs/cgroup/user.slice/user-0.slice/pids.max'
+tst_pid.c:84: TINFO: Cannot read session user limits from '/sys/fs/cgroup/pids/user.slice/user-0.slice/pids.max'
+cpuacct 1 TCONF: limit of tasks is too low (approximate need 10000, limit 7478)
+
+Summary:
+passed   0
+failed   0
+broken   0
+skipped  1
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=1 termination_type=exited termination_id=32 corefile=no
+cutime=31 cstime=74
+<<<test_end>>>
+<<<test_start>>>
+tag=cpuset_base_ops stime=1699332969
+cmdline="cpuset_base_ops_testset.sh"
+contacts=""
+analysis=exit
+<<<test_output>>>
+cat: /sys/devices/system/node/has_normal_memory: No such file or directory
+cpuset_base_ops 1 TINFO: CPUs are numbered continuously starting at 0 (0-1)
+cpuset_base_ops 1 TCONF: The total of nodes is less than 2
+<<<execution_status>>>
+initiation_status="ok"
+duration=1 termination_type=exited termination_id=32 corefile=no
+cutime=17 cstime=46
+<<<test_end>>>
+<<<test_start>>>
+tag=cpuset_inherit stime=1699332970
+cmdline="cpuset_inherit_testset.sh"
+contacts=""
+analysis=exit
+<<<test_output>>>
+cat: /sys/devices/system/node/has_normal_memory: No such file or directory
+cpuset_inherit 1 TINFO: CPUs are numbered continuously starting at 0 (0-1)
+cpuset_inherit 1 TCONF: The total of nodes is less than 1
+<<<execution_status>>>
+initiation_status="ok"
+duration=1 termination_type=exited termination_id=32 corefile=no
+cutime=16 cstime=46
+<<<test_end>>>
+<<<test_start>>>
+tag=cpuset_exclusive stime=1699332971
+cmdline="cpuset_exclusive_test.sh"
+contacts=""
+analysis=exit
+<<<test_output>>>
+cat: /sys/devices/system/node/has_normal_memory: No such file or directory
+cpuset_exclusive 1 TINFO: CPUs are numbered continuously starting at 0 (0-1)
+cpuset_exclusive 1 TCONF: The total of nodes is less than 2
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=32 corefile=no
+cutime=13 cstime=46
+<<<test_end>>>
+<<<test_start>>>
+tag=cpuset_hierarchy stime=1699332971
+cmdline="cpuset_hierarchy_test.sh"
+contacts=""
+analysis=exit
+<<<test_output>>>
+cat: /sys/devices/system/node/has_normal_memory: No such file or directory
+cpuset_hierarchy 1 TINFO: CPUs are numbered continuously starting at 0 (0-1)
+cpuset_hierarchy 1 TCONF: The total of nodes is less than 2
+<<<execution_status>>>
+initiation_status="ok"
+duration=1 termination_type=exited termination_id=32 corefile=no
+cutime=16 cstime=37
+<<<test_end>>>
+<<<test_start>>>
+tag=cpuset_syscall stime=1699332972
+cmdline="cpuset_syscall_testset.sh"
+contacts=""
+analysis=exit
+<<<test_output>>>
+cat: /sys/devices/system/node/has_normal_memory: No such file or directory
+cpuset_syscall 1 TINFO: CPUs are numbered continuously starting at 0 (0-1)
+cpuset_syscall 1 TCONF: The total of nodes is less than 2
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=32 corefile=no
+cutime=16 cstime=42
+<<<test_end>>>
+<<<test_start>>>
+tag=cpuset_sched_domains stime=1699332972
+cmdline="cpuset_sched_domains_test.sh"
+contacts=""
+analysis=exit
+<<<test_output>>>
+cat: /sys/devices/system/node/has_normal_memory: No such file or directory
+cpuset_sched_domains 1 TCONF: The total of CPUs is less than 4
+<<<execution_status>>>
+initiation_status="ok"
+duration=1 termination_type=exited termination_id=32 corefile=no
+cutime=15 cstime=44
+<<<test_end>>>
+<<<test_start>>>
+tag=cpuset_load_balance stime=1699332973
+cmdline="cpuset_load_balance_test.sh"
+contacts=""
+analysis=exit
+<<<test_output>>>
+cat: /sys/devices/system/node/has_normal_memory: No such file or directory
+cpuset_load_balance 1 TCONF: The total of CPUs is less than 4
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=32 corefile=no
+cutime=15 cstime=42
+<<<test_end>>>
+<<<test_start>>>
+tag=cpuset_hotplug stime=1699332973
+cmdline="cpuset_hotplug_test.sh"
+contacts=""
+analysis=exit
+<<<test_output>>>
+cat: /sys/devices/system/node/has_normal_memory: No such file or directory
+cpuset_hotplug 1 TINFO: CPUs are numbered continuously starting at 0 (0-1)
+cpuset_hotplug 1 TCONF: The total of nodes is less than 1
+<<<execution_status>>>
+initiation_status="ok"
+duration=1 termination_type=exited termination_id=32 corefile=no
+cutime=16 cstime=43
+<<<test_end>>>
+<<<test_start>>>
+tag=cpuset_memory stime=1699332974
+cmdline="cpuset_memory_testset.sh"
+contacts=""
+analysis=exit
+<<<test_output>>>
+cat: /sys/devices/system/node/has_normal_memory: No such file or directory
+cpuset_memory 1 TINFO: CPUs are numbered continuously starting at 0 (0-1)
+cpuset_memory 1 TCONF: The total of nodes is less than 2
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=32 corefile=no
+cutime=15 cstime=45
+<<<test_end>>>
+<<<test_start>>>
+tag=cpuset_memory_pressure stime=1699332974
+cmdline="cpuset_memory_pressure_testset.sh"
+contacts=""
+analysis=exit
+<<<test_output>>>
+cat: /sys/devices/system/node/has_normal_memory: No such file or directory
+cpuset_memory_pressure 1 TINFO: CPUs are numbered continuously starting at 0 (0-1)
+cpuset_memory_pressure 1 TCONF: The total of nodes is less than 2
+<<<execution_status>>>
+initiation_status="ok"
+duration=1 termination_type=exited termination_id=32 corefile=no
+cutime=12 cstime=46
+<<<test_end>>>
+<<<test_start>>>
+tag=cpuset_memory_spread stime=1699332975
+cmdline="cpuset_memory_spread_testset.sh"
+contacts=""
+analysis=exit
+<<<test_output>>>
+cat: /sys/devices/system/node/has_normal_memory: No such file or directory
+cpuset_memory_spread 1 TINFO: CPUs are numbered continuously starting at 0 (0-1)
+cpuset_memory_spread 1 TCONF: The total of nodes is less than 2
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=32 corefile=no
+cutime=16 cstime=41
+<<<test_end>>>
+<<<test_start>>>
+tag=cpuset_regression_test stime=1699332975
+cmdline="cpuset_regression_test.sh"
+contacts=""
+analysis=exit
+<<<test_output>>>
+cpuset_regression_test 1 TINFO: timeout per run is 8h 20m 0s
+cpuset_regression_test 1 TINFO: test starts with cgroup version 2
+cpuset_regression_test 1 TCONF: cgroup v2 found, skipping test
+
+Summary:
+passed   0
+failed   0
+broken   0
+skipped  1
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=2 termination_type=exited termination_id=32 corefile=no
+cutime=46 cstime=123
+<<<test_end>>>
+<<<test_start>>>
+tag=cgroup_xattr stime=1699332977
+cmdline="cgroup_xattr"
+contacts=""
+analysis=exit
+<<<test_output>>>
+cgroup_xattr    0  TINFO  :  mount options 0: xattr,cpuset,cpu,cpuacct,blkio,memory (hier = 0)
+cgroup_xattr    0  TINFO  :  Can't mount: 
+cgroup_xattr    0  TINFO  :  mount options 1: xattr,devices (hier = 200)
+cgroup_xattr    0  TINFO  :  mount options 2: xattr,freezer (hier = 199)
+cgroup_xattr    0  TINFO  :  mount options 3: xattr,net_cls (hier = 201)
+cgroup_xattr    0  TINFO  :  mount options 4: xattr,perf_event (hier = 202)
+cgroup_xattr    0  TINFO  :  mount options 5: xattr,net_prio (hier = 203)
+cgroup_xattr    0  TINFO  :  mount options 6: xattr,hugetlb (hier = 204)
+cgroup_xattr    0  TINFO  :  mount options 7: xattr,pids (hier = 197)
+cgroup_xattr    0  TINFO  :  In dir .
+cgroup_xattr    1  TPASS  :  Expect: can't set xattr key 'security.' to file 'devices.list'
+cgroup_xattr    2  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'devices.list'
+cgroup_xattr    3  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'devices.list'
+cgroup_xattr    4  TPASS  :  Expect: can't set xattr key 'user.' to file 'devices.list'
+cgroup_xattr    5  TPASS  :  Expect: can't set xattr key 'system.' to file 'devices.list'
+cgroup_xattr    6  TPASS  :  Expect: can't set xattr key 'security.' to file 'cgroup.clone_children'
+cgroup_xattr    7  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'cgroup.clone_children'
+cgroup_xattr    8  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'cgroup.clone_children'
+cgroup_xattr    9  TPASS  :  Expect: can't set xattr key 'user.' to file 'cgroup.clone_children'
+cgroup_xattr   10  TPASS  :  Expect: can't set xattr key 'system.' to file 'cgroup.clone_children'
+cgroup_xattr   11  TPASS  :  Expect: can't set xattr key 'security.' to file 'release_agent'
+cgroup_xattr   12  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'release_agent'
+cgroup_xattr   13  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'release_agent'
+cgroup_xattr   14  TPASS  :  Expect: can't set xattr key 'user.' to file 'release_agent'
+cgroup_xattr   15  TPASS  :  Expect: can't set xattr key 'system.' to file 'release_agent'
+cgroup_xattr   16  TPASS  :  Expect: can't set xattr key 'security.' to file 'devices.allow'
+cgroup_xattr   17  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'devices.allow'
+cgroup_xattr   18  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'devices.allow'
+cgroup_xattr   19  TPASS  :  Expect: can't set xattr key 'user.' to file 'devices.allow'
+cgroup_xattr   20  TPASS  :  Expect: can't set xattr key 'system.' to file 'devices.allow'
+cgroup_xattr   21  TPASS  :  Expect: can't set xattr key 'security.' to file 'tasks'
+cgroup_xattr   22  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'tasks'
+cgroup_xattr   23  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'tasks'
+cgroup_xattr   24  TPASS  :  Expect: can't set xattr key 'user.' to file 'tasks'
+cgroup_xattr   25  TPASS  :  Expect: can't set xattr key 'system.' to file 'tasks'
+cgroup_xattr   26  TPASS  :  Expect: can't set xattr key 'security.' to file 'notify_on_release'
+cgroup_xattr   27  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'notify_on_release'
+cgroup_xattr   28  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'notify_on_release'
+cgroup_xattr   29  TPASS  :  Expect: can't set xattr key 'user.' to file 'notify_on_release'
+cgroup_xattr   30  TPASS  :  Expect: can't set xattr key 'system.' to file 'notify_on_release'
+cgroup_xattr   31  TPASS  :  Expect: can't set xattr key 'security.' to file 'cgroup.procs'
+cgroup_xattr   32  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'cgroup.procs'
+cgroup_xattr   33  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'cgroup.procs'
+cgroup_xattr   34  TPASS  :  Expect: can't set xattr key 'user.' to file 'cgroup.procs'
+cgroup_xattr   35  TPASS  :  Expect: can't set xattr key 'system.' to file 'cgroup.procs'
+cgroup_xattr    0  TINFO  :  In dir test
+cgroup_xattr   36  TPASS  :  Expect: can't set xattr key 'security.' to file 'devices.list'
+cgroup_xattr   37  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'devices.list'
+cgroup_xattr   38  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'devices.list'
+cgroup_xattr   39  TPASS  :  Expect: can't set xattr key 'user.' to file 'devices.list'
+cgroup_xattr   40  TPASS  :  Expect: can't set xattr key 'system.' to file 'devices.list'
+cgroup_xattr   41  TPASS  :  Expect: can't set xattr key 'security.' to file 'cgroup.clone_children'
+cgroup_xattr   42  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'cgroup.clone_children'
+cgroup_xattr   43  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'cgroup.clone_children'
+cgroup_xattr   44  TPASS  :  Expect: can't set xattr key 'user.' to file 'cgroup.clone_children'
+cgroup_xattr   45  TPASS  :  Expect: can't set xattr key 'system.' to file 'cgroup.clone_children'
+cgroup_xattr   46  TPASS  :  Expect: can't set xattr key 'security.' to file 'devices.allow'
+cgroup_xattr   47  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'devices.allow'
+cgroup_xattr   48  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'devices.allow'
+cgroup_xattr   49  TPASS  :  Expect: can't set xattr key 'user.' to file 'devices.allow'
+cgroup_xattr   50  TPASS  :  Expect: can't set xattr key 'system.' to file 'devices.allow'
+cgroup_xattr   51  TPASS  :  Expect: can't set xattr key 'security.' to file 'tasks'
+cgroup_xattr   52  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'tasks'
+cgroup_xattr   53  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'tasks'
+cgroup_xattr   54  TPASS  :  Expect: can't set xattr key 'user.' to file 'tasks'
+cgroup_xattr   55  TPASS  :  Expect: can't set xattr key 'system.' to file 'tasks'
+cgroup_xattr   56  TPASS  :  Expect: can't set xattr key 'security.' to file 'notify_on_release'
+cgroup_xattr   57  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'notify_on_release'
+cgroup_xattr   58  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'notify_on_release'
+cgroup_xattr   59  TPASS  :  Expect: can't set xattr key 'user.' to file 'notify_on_release'
+cgroup_xattr   60  TPASS  :  Expect: can't set xattr key 'system.' to file 'notify_on_release'
+cgroup_xattr   61  TPASS  :  Expect: can't set xattr key 'security.' to file 'cgroup.procs'
+cgroup_xattr   62  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'cgroup.procs'
+cgroup_xattr   63  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'cgroup.procs'
+cgroup_xattr   64  TPASS  :  Expect: can't set xattr key 'user.' to file 'cgroup.procs'
+cgroup_xattr   65  TPASS  :  Expect: can't set xattr key 'system.' to file 'cgroup.procs'
+cgroup_xattr   66  TPASS  :  Expect: can't set xattr key 'security.' to file 'devices.deny'
+cgroup_xattr   67  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'devices.deny'
+cgroup_xattr   68  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'devices.deny'
+cgroup_xattr   69  TPASS  :  Expect: can't set xattr key 'user.' to file 'devices.deny'
+cgroup_xattr   70  TPASS  :  Expect: can't set xattr key 'system.' to file 'devices.deny'
+cgroup_xattr    0  TINFO  :  In dir .
+cgroup_xattr   71  TPASS  :  Expect: can't set xattr key 'security.' to file 'test'
+cgroup_xattr   72  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'test'
+cgroup_xattr   73  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'test'
+cgroup_xattr   74  TPASS  :  Expect: can't set xattr key 'user.' to file 'test'
+cgroup_xattr   75  TPASS  :  Expect: can't set xattr key 'system.' to file 'test'
+cgroup_xattr   76  TPASS  :  Expect: can't set xattr key 'security.' to file 'devices.deny'
+cgroup_xattr   77  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'devices.deny'
+cgroup_xattr   78  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'devices.deny'
+cgroup_xattr   79  TPASS  :  Expect: can't set xattr key 'user.' to file 'devices.deny'
+cgroup_xattr   80  TPASS  :  Expect: can't set xattr key 'system.' to file 'devices.deny'
+cgroup_xattr   81  TPASS  :  Expect: can't set xattr key 'security.' to file 'cgroup.sane_behavior'
+cgroup_xattr   82  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'cgroup.sane_behavior'
+cgroup_xattr   83  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'cgroup.sane_behavior'
+cgroup_xattr   84  TPASS  :  Expect: can't set xattr key 'user.' to file 'cgroup.sane_behavior'
+cgroup_xattr   85  TPASS  :  Expect: can't set xattr key 'system.' to file 'cgroup.sane_behavior'
+cgroup_xattr    0  TINFO  :  In dir .
+cgroup_xattr   86  TPASS  :  Expect: can't read xattr security. of file 'devices.list'
+cgroup_xattr   87  TPASS  :  Expect: can read xattr trusted.test of file 'devices.list'
+cgroup_xattr   88  TPASS  :  Expect: values equal
+cgroup_xattr   89  TPASS  :  Expect: can't read xattr trusted. of file 'devices.list'
+cgroup_xattr   90  TPASS  :  Expect: can't read xattr user. of file 'devices.list'
+cgroup_xattr   91  TPASS  :  Expect: can't read xattr system. of file 'devices.list'
+cgroup_xattr   92  TPASS  :  Expect: can't read xattr security. of file 'cgroup.clone_children'
+cgroup_xattr   93  TPASS  :  Expect: can read xattr trusted.test of file 'cgroup.clone_children'
+cgroup_xattr   94  TPASS  :  Expect: values equal
+cgroup_xattr   95  TPASS  :  Expect: can't read xattr trusted. of file 'cgroup.clone_children'
+cgroup_xattr   96  TPASS  :  Expect: can't read xattr user. of file 'cgroup.clone_children'
+cgroup_xattr   97  TPASS  :  Expect: can't read xattr system. of file 'cgroup.clone_children'
+cgroup_xattr   98  TPASS  :  Expect: can't read xattr security. of file 'release_agent'
+cgroup_xattr   99  TPASS  :  Expect: can read xattr trusted.test of file 'release_agent'
+cgroup_xattr  100  TPASS  :  Expect: values equal
+cgroup_xattr  101  TPASS  :  Expect: can't read xattr trusted. of file 'release_agent'
+cgroup_xattr  102  TPASS  :  Expect: can't read xattr user. of file 'release_agent'
+cgroup_xattr  103  TPASS  :  Expect: can't read xattr system. of file 'release_agent'
+cgroup_xattr  104  TPASS  :  Expect: can't read xattr security. of file 'devices.allow'
+cgroup_xattr  105  TPASS  :  Expect: can read xattr trusted.test of file 'devices.allow'
+cgroup_xattr  106  TPASS  :  Expect: values equal
+cgroup_xattr  107  TPASS  :  Expect: can't read xattr trusted. of file 'devices.allow'
+cgroup_xattr  108  TPASS  :  Expect: can't read xattr user. of file 'devices.allow'
+cgroup_xattr  109  TPASS  :  Expect: can't read xattr system. of file 'devices.allow'
+cgroup_xattr  110  TPASS  :  Expect: can't read xattr security. of file 'tasks'
+cgroup_xattr  111  TPASS  :  Expect: can read xattr trusted.test of file 'tasks'
+cgroup_xattr  112  TPASS  :  Expect: values equal
+cgroup_xattr  113  TPASS  :  Expect: can't read xattr trusted. of file 'tasks'
+cgroup_xattr  114  TPASS  :  Expect: can't read xattr user. of file 'tasks'
+cgroup_xattr  115  TPASS  :  Expect: can't read xattr system. of file 'tasks'
+cgroup_xattr  116  TPASS  :  Expect: can't read xattr security. of file 'notify_on_release'
+cgroup_xattr  117  TPASS  :  Expect: can read xattr trusted.test of file 'notify_on_release'
+cgroup_xattr  118  TPASS  :  Expect: values equal
+cgroup_xattr  119  TPASS  :  Expect: can't read xattr trusted. of file 'notify_on_release'
+cgroup_xattr  120  TPASS  :  Expect: can't read xattr user. of file 'notify_on_release'
+cgroup_xattr  121  TPASS  :  Expect: can't read xattr system. of file 'notify_on_release'
+cgroup_xattr  122  TPASS  :  Expect: can't read xattr security. of file 'cgroup.procs'
+cgroup_xattr  123  TPASS  :  Expect: can read xattr trusted.test of file 'cgroup.procs'
+cgroup_xattr  124  TPASS  :  Expect: values equal
+cgroup_xattr  125  TPASS  :  Expect: can't read xattr trusted. of file 'cgroup.procs'
+cgroup_xattr  126  TPASS  :  Expect: can't read xattr user. of file 'cgroup.procs'
+cgroup_xattr  127  TPASS  :  Expect: can't read xattr system. of file 'cgroup.procs'
+cgroup_xattr    0  TINFO  :  In dir test
+cgroup_xattr  128  TPASS  :  Expect: can't read xattr security. of file 'devices.list'
+cgroup_xattr  129  TPASS  :  Expect: can read xattr trusted.test of file 'devices.list'
+cgroup_xattr  130  TPASS  :  Expect: values equal
+cgroup_xattr  131  TPASS  :  Expect: can't read xattr trusted. of file 'devices.list'
+cgroup_xattr  132  TPASS  :  Expect: can't read xattr user. of file 'devices.list'
+cgroup_xattr  133  TPASS  :  Expect: can't read xattr system. of file 'devices.list'
+cgroup_xattr  134  TPASS  :  Expect: can't read xattr security. of file 'cgroup.clone_children'
+cgroup_xattr  135  TPASS  :  Expect: can read xattr trusted.test of file 'cgroup.clone_children'
+cgroup_xattr  136  TPASS  :  Expect: values equal
+cgroup_xattr  137  TPASS  :  Expect: can't read xattr trusted. of file 'cgroup.clone_children'
+cgroup_xattr  138  TPASS  :  Expect: can't read xattr user. of file 'cgroup.clone_children'
+cgroup_xattr  139  TPASS  :  Expect: can't read xattr system. of file 'cgroup.clone_children'
+cgroup_xattr  140  TPASS  :  Expect: can't read xattr security. of file 'devices.allow'
+cgroup_xattr  141  TPASS  :  Expect: can read xattr trusted.test of file 'devices.allow'
+cgroup_xattr  142  TPASS  :  Expect: values equal
+cgroup_xattr  143  TPASS  :  Expect: can't read xattr trusted. of file 'devices.allow'
+cgroup_xattr  144  TPASS  :  Expect: can't read xattr user. of file 'devices.allow'
+cgroup_xattr  145  TPASS  :  Expect: can't read xattr system. of file 'devices.allow'
+cgroup_xattr  146  TPASS  :  Expect: can't read xattr security. of file 'tasks'
+cgroup_xattr  147  TPASS  :  Expect: can read xattr trusted.test of file 'tasks'
+cgroup_xattr  148  TPASS  :  Expect: values equal
+cgroup_xattr  149  TPASS  :  Expect: can't read xattr trusted. of file 'tasks'
+cgroup_xattr  150  TPASS  :  Expect: can't read xattr user. of file 'tasks'
+cgroup_xattr  151  TPASS  :  Expect: can't read xattr system. of file 'tasks'
+cgroup_xattr  152  TPASS  :  Expect: can't read xattr security. of file 'notify_on_release'
+cgroup_xattr  153  TPASS  :  Expect: can read xattr trusted.test of file 'notify_on_release'
+cgroup_xattr  154  TPASS  :  Expect: values equal
+cgroup_xattr  155  TPASS  :  Expect: can't read xattr trusted. of file 'notify_on_release'
+cgroup_xattr  156  TPASS  :  Expect: can't read xattr user. of file 'notify_on_release'
+cgroup_xattr  157  TPASS  :  Expect: can't read xattr system. of file 'notify_on_release'
+cgroup_xattr  158  TPASS  :  Expect: can't read xattr security. of file 'cgroup.procs'
+cgroup_xattr  159  TPASS  :  Expect: can read xattr trusted.test of file 'cgroup.procs'
+cgroup_xattr  160  TPASS  :  Expect: values equal
+cgroup_xattr  161  TPASS  :  Expect: can't read xattr trusted. of file 'cgroup.procs'
+cgroup_xattr  162  TPASS  :  Expect: can't read xattr user. of file 'cgroup.procs'
+cgroup_xattr  163  TPASS  :  Expect: can't read xattr system. of file 'cgroup.procs'
+cgroup_xattr  164  TPASS  :  Expect: can't read xattr security. of file 'devices.deny'
+cgroup_xattr  165  TPASS  :  Expect: can read xattr trusted.test of file 'devices.deny'
+cgroup_xattr  166  TPASS  :  Expect: values equal
+cgroup_xattr  167  TPASS  :  Expect: can't read xattr trusted. of file 'devices.deny'
+cgroup_xattr  168  TPASS  :  Expect: can't read xattr user. of file 'devices.deny'
+cgroup_xattr  169  TPASS  :  Expect: can't read xattr system. of file 'devices.deny'
+cgroup_xattr    0  TINFO  :  In dir .
+cgroup_xattr  170  TPASS  :  Expect: can't read xattr security. of file 'test'
+cgroup_xattr  171  TPASS  :  Expect: can read xattr trusted.test of file 'test'
+cgroup_xattr  172  TPASS  :  Expect: values equal
+cgroup_xattr  173  TPASS  :  Expect: can't read xattr trusted. of file 'test'
+cgroup_xattr  174  TPASS  :  Expect: can't read xattr user. of file 'test'
+cgroup_xattr  175  TPASS  :  Expect: can't read xattr system. of file 'test'
+cgroup_xattr  176  TPASS  :  Expect: can't read xattr security. of file 'devices.deny'
+cgroup_xattr  177  TPASS  :  Expect: can read xattr trusted.test of file 'devices.deny'
+cgroup_xattr  178  TPASS  :  Expect: values equal
+cgroup_xattr  179  TPASS  :  Expect: can't read xattr trusted. of file 'devices.deny'
+cgroup_xattr  180  TPASS  :  Expect: can't read xattr user. of file 'devices.deny'
+cgroup_xattr  181  TPASS  :  Expect: can't read xattr system. of file 'devices.deny'
+cgroup_xattr  182  TPASS  :  Expect: can't read xattr security. of file 'cgroup.sane_behavior'
+cgroup_xattr  183  TPASS  :  Expect: can read xattr trusted.test of file 'cgroup.sane_behavior'
+cgroup_xattr  184  TPASS  :  Expect: values equal
+cgroup_xattr  185  TPASS  :  Expect: can't read xattr trusted. of file 'cgroup.sane_behavior'
+cgroup_xattr  186  TPASS  :  Expect: can't read xattr user. of file 'cgroup.sane_behavior'
+cgroup_xattr  187  TPASS  :  Expect: can't read xattr system. of file 'cgroup.sane_behavior'
+cgroup_xattr    0  TINFO  :  In dir .
+cgroup_xattr  188  TPASS  :  Expect: can't set xattr key 'security.' to file 'cgroup.clone_children'
+cgroup_xattr  189  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'cgroup.clone_children'
+cgroup_xattr  190  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'cgroup.clone_children'
+cgroup_xattr  191  TPASS  :  Expect: can't set xattr key 'user.' to file 'cgroup.clone_children'
+cgroup_xattr  192  TPASS  :  Expect: can't set xattr key 'system.' to file 'cgroup.clone_children'
+cgroup_xattr  193  TPASS  :  Expect: can't set xattr key 'security.' to file 'release_agent'
+cgroup_xattr  194  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'release_agent'
+cgroup_xattr  195  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'release_agent'
+cgroup_xattr  196  TPASS  :  Expect: can't set xattr key 'user.' to file 'release_agent'
+cgroup_xattr  197  TPASS  :  Expect: can't set xattr key 'system.' to file 'release_agent'
+cgroup_xattr  198  TPASS  :  Expect: can't set xattr key 'security.' to file 'tasks'
+cgroup_xattr  199  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'tasks'
+cgroup_xattr  200  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'tasks'
+cgroup_xattr  201  TPASS  :  Expect: can't set xattr key 'user.' to file 'tasks'
+cgroup_xattr  202  TPASS  :  Expect: can't set xattr key 'system.' to file 'tasks'
+cgroup_xattr  203  TPASS  :  Expect: can't set xattr key 'security.' to file 'notify_on_release'
+cgroup_xattr  204  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'notify_on_release'
+cgroup_xattr  205  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'notify_on_release'
+cgroup_xattr  206  TPASS  :  Expect: can't set xattr key 'user.' to file 'notify_on_release'
+cgroup_xattr  207  TPASS  :  Expect: can't set xattr key 'system.' to file 'notify_on_release'
+cgroup_xattr  208  TPASS  :  Expect: can't set xattr key 'security.' to file 'cgroup.procs'
+cgroup_xattr  209  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'cgroup.procs'
+cgroup_xattr  210  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'cgroup.procs'
+cgroup_xattr  211  TPASS  :  Expect: can't set xattr key 'user.' to file 'cgroup.procs'
+cgroup_xattr  212  TPASS  :  Expect: can't set xattr key 'system.' to file 'cgroup.procs'
+cgroup_xattr    0  TINFO  :  In dir test
+cgroup_xattr  213  TPASS  :  Expect: can't set xattr key 'security.' to file 'freezer.parent_freezing'
+cgroup_xattr  214  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'freezer.parent_freezing'
+cgroup_xattr  215  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'freezer.parent_freezing'
+cgroup_xattr  216  TPASS  :  Expect: can't set xattr key 'user.' to file 'freezer.parent_freezing'
+cgroup_xattr  217  TPASS  :  Expect: can't set xattr key 'system.' to file 'freezer.parent_freezing'
+cgroup_xattr  218  TPASS  :  Expect: can't set xattr key 'security.' to file 'cgroup.clone_children'
+cgroup_xattr  219  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'cgroup.clone_children'
+cgroup_xattr  220  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'cgroup.clone_children'
+cgroup_xattr  221  TPASS  :  Expect: can't set xattr key 'user.' to file 'cgroup.clone_children'
+cgroup_xattr  222  TPASS  :  Expect: can't set xattr key 'system.' to file 'cgroup.clone_children'
+cgroup_xattr  223  TPASS  :  Expect: can't set xattr key 'security.' to file 'freezer.state'
+cgroup_xattr  224  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'freezer.state'
+cgroup_xattr  225  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'freezer.state'
+cgroup_xattr  226  TPASS  :  Expect: can't set xattr key 'user.' to file 'freezer.state'
+cgroup_xattr  227  TPASS  :  Expect: can't set xattr key 'system.' to file 'freezer.state'
+cgroup_xattr  228  TPASS  :  Expect: can't set xattr key 'security.' to file 'tasks'
+cgroup_xattr  229  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'tasks'
+cgroup_xattr  230  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'tasks'
+cgroup_xattr  231  TPASS  :  Expect: can't set xattr key 'user.' to file 'tasks'
+cgroup_xattr  232  TPASS  :  Expect: can't set xattr key 'system.' to file 'tasks'
+cgroup_xattr  233  TPASS  :  Expect: can't set xattr key 'security.' to file 'notify_on_release'
+cgroup_xattr  234  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'notify_on_release'
+cgroup_xattr  235  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'notify_on_release'
+cgroup_xattr  236  TPASS  :  Expect: can't set xattr key 'user.' to file 'notify_on_release'
+cgroup_xattr  237  TPASS  :  Expect: can't set xattr key 'system.' to file 'notify_on_release'
+cgroup_xattr  238  TPASS  :  Expect: can't set xattr key 'security.' to file 'cgroup.procs'
+cgroup_xattr  239  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'cgroup.procs'
+cgroup_xattr  240  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'cgroup.procs'
+cgroup_xattr  241  TPASS  :  Expect: can't set xattr key 'user.' to file 'cgroup.procs'
+cgroup_xattr  242  TPASS  :  Expect: can't set xattr key 'system.' to file 'cgroup.procs'
+cgroup_xattr  243  TPASS  :  Expect: can't set xattr key 'security.' to file 'freezer.self_freezing'
+cgroup_xattr  244  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'freezer.self_freezing'
+cgroup_xattr  245  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'freezer.self_freezing'
+cgroup_xattr  246  TPASS  :  Expect: can't set xattr key 'user.' to file 'freezer.self_freezing'
+cgroup_xattr  247  TPASS  :  Expect: can't set xattr key 'system.' to file 'freezer.self_freezing'
+cgroup_xattr    0  TINFO  :  In dir .
+cgroup_xattr  248  TPASS  :  Expect: can't set xattr key 'security.' to file 'test'
+cgroup_xattr  249  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'test'
+cgroup_xattr  250  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'test'
+cgroup_xattr  251  TPASS  :  Expect: can't set xattr key 'user.' to file 'test'
+cgroup_xattr  252  TPASS  :  Expect: can't set xattr key 'system.' to file 'test'
+cgroup_xattr  253  TPASS  :  Expect: can't set xattr key 'security.' to file 'cgroup.sane_behavior'
+cgroup_xattr  254  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'cgroup.sane_behavior'
+cgroup_xattr  255  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'cgroup.sane_behavior'
+cgroup_xattr  256  TPASS  :  Expect: can't set xattr key 'user.' to file 'cgroup.sane_behavior'
+cgroup_xattr  257  TPASS  :  Expect: can't set xattr key 'system.' to file 'cgroup.sane_behavior'
+cgroup_xattr    0  TINFO  :  In dir .
+cgroup_xattr  258  TPASS  :  Expect: can't read xattr security. of file 'cgroup.clone_children'
+cgroup_xattr  259  TPASS  :  Expect: can read xattr trusted.test of file 'cgroup.clone_children'
+cgroup_xattr  260  TPASS  :  Expect: values equal
+cgroup_xattr  261  TPASS  :  Expect: can't read xattr trusted. of file 'cgroup.clone_children'
+cgroup_xattr  262  TPASS  :  Expect: can't read xattr user. of file 'cgroup.clone_children'
+cgroup_xattr  263  TPASS  :  Expect: can't read xattr system. of file 'cgroup.clone_children'
+cgroup_xattr  264  TPASS  :  Expect: can't read xattr security. of file 'release_agent'
+cgroup_xattr  265  TPASS  :  Expect: can read xattr trusted.test of file 'release_agent'
+cgroup_xattr  266  TPASS  :  Expect: values equal
+cgroup_xattr  267  TPASS  :  Expect: can't read xattr trusted. of file 'release_agent'
+cgroup_xattr  268  TPASS  :  Expect: can't read xattr user. of file 'release_agent'
+cgroup_xattr  269  TPASS  :  Expect: can't read xattr system. of file 'release_agent'
+cgroup_xattr  270  TPASS  :  Expect: can't read xattr security. of file 'tasks'
+cgroup_xattr  271  TPASS  :  Expect: can read xattr trusted.test of file 'tasks'
+cgroup_xattr  272  TPASS  :  Expect: values equal
+cgroup_xattr  273  TPASS  :  Expect: can't read xattr trusted. of file 'tasks'
+cgroup_xattr  274  TPASS  :  Expect: can't read xattr user. of file 'tasks'
+cgroup_xattr  275  TPASS  :  Expect: can't read xattr system. of file 'tasks'
+cgroup_xattr  276  TPASS  :  Expect: can't read xattr security. of file 'notify_on_release'
+cgroup_xattr  277  TPASS  :  Expect: can read xattr trusted.test of file 'notify_on_release'
+cgroup_xattr  278  TPASS  :  Expect: values equal
+cgroup_xattr  279  TPASS  :  Expect: can't read xattr trusted. of file 'notify_on_release'
+cgroup_xattr  280  TPASS  :  Expect: can't read xattr user. of file 'notify_on_release'
+cgroup_xattr  281  TPASS  :  Expect: can't read xattr system. of file 'notify_on_release'
+cgroup_xattr  282  TPASS  :  Expect: can't read xattr security. of file 'cgroup.procs'
+cgroup_xattr  283  TPASS  :  Expect: can read xattr trusted.test of file 'cgroup.procs'
+cgroup_xattr  284  TPASS  :  Expect: values equal
+cgroup_xattr  285  TPASS  :  Expect: can't read xattr trusted. of file 'cgroup.procs'
+cgroup_xattr  286  TPASS  :  Expect: can't read xattr user. of file 'cgroup.procs'
+cgroup_xattr  287  TPASS  :  Expect: can't read xattr system. of file 'cgroup.procs'
+cgroup_xattr    0  TINFO  :  In dir test
+cgroup_xattr  288  TPASS  :  Expect: can't read xattr security. of file 'freezer.parent_freezing'
+cgroup_xattr  289  TPASS  :  Expect: can read xattr trusted.test of file 'freezer.parent_freezing'
+cgroup_xattr  290  TPASS  :  Expect: values equal
+cgroup_xattr  291  TPASS  :  Expect: can't read xattr trusted. of file 'freezer.parent_freezing'
+cgroup_xattr  292  TPASS  :  Expect: can't read xattr user. of file 'freezer.parent_freezing'
+cgroup_xattr  293  TPASS  :  Expect: can't read xattr system. of file 'freezer.parent_freezing'
+cgroup_xattr  294  TPASS  :  Expect: can't read xattr security. of file 'cgroup.clone_children'
+cgroup_xattr  295  TPASS  :  Expect: can read xattr trusted.test of file 'cgroup.clone_children'
+cgroup_xattr  296  TPASS  :  Expect: values equal
+cgroup_xattr  297  TPASS  :  Expect: can't read xattr trusted. of file 'cgroup.clone_children'
+cgroup_xattr  298  TPASS  :  Expect: can't read xattr user. of file 'cgroup.clone_children'
+cgroup_xattr  299  TPASS  :  Expect: can't read xattr system. of file 'cgroup.clone_children'
+cgroup_xattr  300  TPASS  :  Expect: can't read xattr security. of file 'freezer.state'
+cgroup_xattr  301  TPASS  :  Expect: can read xattr trusted.test of file 'freezer.state'
+cgroup_xattr  302  TPASS  :  Expect: values equal
+cgroup_xattr  303  TPASS  :  Expect: can't read xattr trusted. of file 'freezer.state'
+cgroup_xattr  304  TPASS  :  Expect: can't read xattr user. of file 'freezer.state'
+cgroup_xattr  305  TPASS  :  Expect: can't read xattr system. of file 'freezer.state'
+cgroup_xattr  306  TPASS  :  Expect: can't read xattr security. of file 'tasks'
+cgroup_xattr  307  TPASS  :  Expect: can read xattr trusted.test of file 'tasks'
+cgroup_xattr  308  TPASS  :  Expect: values equal
+cgroup_xattr  309  TPASS  :  Expect: can't read xattr trusted. of file 'tasks'
+cgroup_xattr  310  TPASS  :  Expect: can't read xattr user. of file 'tasks'
+cgroup_xattr  311  TPASS  :  Expect: can't read xattr system. of file 'tasks'
+cgroup_xattr  312  TPASS  :  Expect: can't read xattr security. of file 'notify_on_release'
+cgroup_xattr  313  TPASS  :  Expect: can read xattr trusted.test of file 'notify_on_release'
+cgroup_xattr  314  TPASS  :  Expect: values equal
+cgroup_xattr  315  TPASS  :  Expect: can't read xattr trusted. of file 'notify_on_release'
+cgroup_xattr  316  TPASS  :  Expect: can't read xattr user. of file 'notify_on_release'
+cgroup_xattr  317  TPASS  :  Expect: can't read xattr system. of file 'notify_on_release'
+cgroup_xattr  318  TPASS  :  Expect: can't read xattr security. of file 'cgroup.procs'
+cgroup_xattr  319  TPASS  :  Expect: can read xattr trusted.test of file 'cgroup.procs'
+cgroup_xattr  320  TPASS  :  Expect: values equal
+cgroup_xattr  321  TPASS  :  Expect: can't read xattr trusted. of file 'cgroup.procs'
+cgroup_xattr  322  TPASS  :  Expect: can't read xattr user. of file 'cgroup.procs'
+cgroup_xattr  323  TPASS  :  Expect: can't read xattr system. of file 'cgroup.procs'
+cgroup_xattr  324  TPASS  :  Expect: can't read xattr security. of file 'freezer.self_freezing'
+cgroup_xattr  325  TPASS  :  Expect: can read xattr trusted.test of file 'freezer.self_freezing'
+cgroup_xattr  326  TPASS  :  Expect: values equal
+cgroup_xattr  327  TPASS  :  Expect: can't read xattr trusted. of file 'freezer.self_freezing'
+cgroup_xattr  328  TPASS  :  Expect: can't read xattr user. of file 'freezer.self_freezing'
+cgroup_xattr  329  TPASS  :  Expect: can't read xattr system. of file 'freezer.self_freezing'
+cgroup_xattr    0  TINFO  :  In dir .
+cgroup_xattr  330  TPASS  :  Expect: can't read xattr security. of file 'test'
+cgroup_xattr  331  TPASS  :  Expect: can read xattr trusted.test of file 'test'
+cgroup_xattr  332  TPASS  :  Expect: values equal
+cgroup_xattr  333  TPASS  :  Expect: can't read xattr trusted. of file 'test'
+cgroup_xattr  334  TPASS  :  Expect: can't read xattr user. of file 'test'
+cgroup_xattr  335  TPASS  :  Expect: can't read xattr system. of file 'test'
+cgroup_xattr  336  TPASS  :  Expect: can't read xattr security. of file 'cgroup.sane_behavior'
+cgroup_xattr  337  TPASS  :  Expect: can read xattr trusted.test of file 'cgroup.sane_behavior'
+cgroup_xattr  338  TPASS  :  Expect: values equal
+cgroup_xattr  339  TPASS  :  Expect: can't read xattr trusted. of file 'cgroup.sane_behavior'
+cgroup_xattr  340  TPASS  :  Expect: can't read xattr user. of file 'cgroup.sane_behavior'
+cgroup_xattr  341  TPASS  :  Expect: can't read xattr system. of file 'cgroup.sane_behavior'
+cgroup_xattr    0  TINFO  :  In dir .
+cgroup_xattr  342  TPASS  :  Expect: can't set xattr key 'security.' to file 'cgroup.clone_children'
+cgroup_xattr  343  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'cgroup.clone_children'
+cgroup_xattr  344  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'cgroup.clone_children'
+cgroup_xattr  345  TPASS  :  Expect: can't set xattr key 'user.' to file 'cgroup.clone_children'
+cgroup_xattr  346  TPASS  :  Expect: can't set xattr key 'system.' to file 'cgroup.clone_children'
+cgroup_xattr  347  TPASS  :  Expect: can't set xattr key 'security.' to file 'release_agent'
+cgroup_xattr  348  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'release_agent'
+cgroup_xattr  349  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'release_agent'
+cgroup_xattr  350  TPASS  :  Expect: can't set xattr key 'user.' to file 'release_agent'
+cgroup_xattr  351  TPASS  :  Expect: can't set xattr key 'system.' to file 'release_agent'
+cgroup_xattr  352  TPASS  :  Expect: can't set xattr key 'security.' to file 'net_cls.classid'
+cgroup_xattr  353  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'net_cls.classid'
+cgroup_xattr  354  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'net_cls.classid'
+cgroup_xattr  355  TPASS  :  Expect: can't set xattr key 'user.' to file 'net_cls.classid'
+cgroup_xattr  356  TPASS  :  Expect: can't set xattr key 'system.' to file 'net_cls.classid'
+cgroup_xattr  357  TPASS  :  Expect: can't set xattr key 'security.' to file 'tasks'
+cgroup_xattr  358  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'tasks'
+cgroup_xattr  359  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'tasks'
+cgroup_xattr  360  TPASS  :  Expect: can't set xattr key 'user.' to file 'tasks'
+cgroup_xattr  361  TPASS  :  Expect: can't set xattr key 'system.' to file 'tasks'
+cgroup_xattr  362  TPASS  :  Expect: can't set xattr key 'security.' to file 'notify_on_release'
+cgroup_xattr  363  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'notify_on_release'
+cgroup_xattr  364  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'notify_on_release'
+cgroup_xattr  365  TPASS  :  Expect: can't set xattr key 'user.' to file 'notify_on_release'
+cgroup_xattr  366  TPASS  :  Expect: can't set xattr key 'system.' to file 'notify_on_release'
+cgroup_xattr  367  TPASS  :  Expect: can't set xattr key 'security.' to file 'cgroup.procs'
+cgroup_xattr  368  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'cgroup.procs'
+cgroup_xattr  369  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'cgroup.procs'
+cgroup_xattr  370  TPASS  :  Expect: can't set xattr key 'user.' to file 'cgroup.procs'
+cgroup_xattr  371  TPASS  :  Expect: can't set xattr key 'system.' to file 'cgroup.procs'
+cgroup_xattr    0  TINFO  :  In dir test
+cgroup_xattr  372  TPASS  :  Expect: can't set xattr key 'security.' to file 'cgroup.clone_children'
+cgroup_xattr  373  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'cgroup.clone_children'
+cgroup_xattr  374  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'cgroup.clone_children'
+cgroup_xattr  375  TPASS  :  Expect: can't set xattr key 'user.' to file 'cgroup.clone_children'
+cgroup_xattr  376  TPASS  :  Expect: can't set xattr key 'system.' to file 'cgroup.clone_children'
+cgroup_xattr  377  TPASS  :  Expect: can't set xattr key 'security.' to file 'net_cls.classid'
+cgroup_xattr  378  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'net_cls.classid'
+cgroup_xattr  379  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'net_cls.classid'
+cgroup_xattr  380  TPASS  :  Expect: can't set xattr key 'user.' to file 'net_cls.classid'
+cgroup_xattr  381  TPASS  :  Expect: can't set xattr key 'system.' to file 'net_cls.classid'
+cgroup_xattr  382  TPASS  :  Expect: can't set xattr key 'security.' to file 'tasks'
+cgroup_xattr  383  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'tasks'
+cgroup_xattr  384  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'tasks'
+cgroup_xattr  385  TPASS  :  Expect: can't set xattr key 'user.' to file 'tasks'
+cgroup_xattr  386  TPASS  :  Expect: can't set xattr key 'system.' to file 'tasks'
+cgroup_xattr  387  TPASS  :  Expect: can't set xattr key 'security.' to file 'notify_on_release'
+cgroup_xattr  388  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'notify_on_release'
+cgroup_xattr  389  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'notify_on_release'
+cgroup_xattr  390  TPASS  :  Expect: can't set xattr key 'user.' to file 'notify_on_release'
+cgroup_xattr  391  TPASS  :  Expect: can't set xattr key 'system.' to file 'notify_on_release'
+cgroup_xattr  392  TPASS  :  Expect: can't set xattr key 'security.' to file 'cgroup.procs'
+cgroup_xattr  393  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'cgroup.procs'
+cgroup_xattr  394  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'cgroup.procs'
+cgroup_xattr  395  TPASS  :  Expect: can't set xattr key 'user.' to file 'cgroup.procs'
+cgroup_xattr  396  TPASS  :  Expect: can't set xattr key 'system.' to file 'cgroup.procs'
+cgroup_xattr    0  TINFO  :  In dir .
+cgroup_xattr  397  TPASS  :  Expect: can't set xattr key 'security.' to file 'test'
+cgroup_xattr  398  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'test'
+cgroup_xattr  399  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'test'
+cgroup_xattr  400  TPASS  :  Expect: can't set xattr key 'user.' to file 'test'
+cgroup_xattr  401  TPASS  :  Expect: can't set xattr key 'system.' to file 'test'
+cgroup_xattr  402  TPASS  :  Expect: can't set xattr key 'security.' to file 'cgroup.sane_behavior'
+cgroup_xattr  403  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'cgroup.sane_behavior'
+cgroup_xattr  404  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'cgroup.sane_behavior'
+cgroup_xattr  405  TPASS  :  Expect: can't set xattr key 'user.' to file 'cgroup.sane_behavior'
+cgroup_xattr  406  TPASS  :  Expect: can't set xattr key 'system.' to file 'cgroup.sane_behavior'
+cgroup_xattr    0  TINFO  :  In dir .
+cgroup_xattr  407  TPASS  :  Expect: can't read xattr security. of file 'cgroup.clone_children'
+cgroup_xattr  408  TPASS  :  Expect: can read xattr trusted.test of file 'cgroup.clone_children'
+cgroup_xattr  409  TPASS  :  Expect: values equal
+cgroup_xattr  410  TPASS  :  Expect: can't read xattr trusted. of file 'cgroup.clone_children'
+cgroup_xattr  411  TPASS  :  Expect: can't read xattr user. of file 'cgroup.clone_children'
+cgroup_xattr  412  TPASS  :  Expect: can't read xattr system. of file 'cgroup.clone_children'
+cgroup_xattr  413  TPASS  :  Expect: can't read xattr security. of file 'release_agent'
+cgroup_xattr  414  TPASS  :  Expect: can read xattr trusted.test of file 'release_agent'
+cgroup_xattr  415  TPASS  :  Expect: values equal
+cgroup_xattr  416  TPASS  :  Expect: can't read xattr trusted. of file 'release_agent'
+cgroup_xattr  417  TPASS  :  Expect: can't read xattr user. of file 'release_agent'
+cgroup_xattr  418  TPASS  :  Expect: can't read xattr system. of file 'release_agent'
+cgroup_xattr  419  TPASS  :  Expect: can't read xattr security. of file 'net_cls.classid'
+cgroup_xattr  420  TPASS  :  Expect: can read xattr trusted.test of file 'net_cls.classid'
+cgroup_xattr  421  TPASS  :  Expect: values equal
+cgroup_xattr  422  TPASS  :  Expect: can't read xattr trusted. of file 'net_cls.classid'
+cgroup_xattr  423  TPASS  :  Expect: can't read xattr user. of file 'net_cls.classid'
+cgroup_xattr  424  TPASS  :  Expect: can't read xattr system. of file 'net_cls.classid'
+cgroup_xattr  425  TPASS  :  Expect: can't read xattr security. of file 'tasks'
+cgroup_xattr  426  TPASS  :  Expect: can read xattr trusted.test of file 'tasks'
+cgroup_xattr  427  TPASS  :  Expect: values equal
+cgroup_xattr  428  TPASS  :  Expect: can't read xattr trusted. of file 'tasks'
+cgroup_xattr  429  TPASS  :  Expect: can't read xattr user. of file 'tasks'
+cgroup_xattr  430  TPASS  :  Expect: can't read xattr system. of file 'tasks'
+cgroup_xattr  431  TPASS  :  Expect: can't read xattr security. of file 'notify_on_release'
+cgroup_xattr  432  TPASS  :  Expect: can read xattr trusted.test of file 'notify_on_release'
+cgroup_xattr  433  TPASS  :  Expect: values equal
+cgroup_xattr  434  TPASS  :  Expect: can't read xattr trusted. of file 'notify_on_release'
+cgroup_xattr  435  TPASS  :  Expect: can't read xattr user. of file 'notify_on_release'
+cgroup_xattr  436  TPASS  :  Expect: can't read xattr system. of file 'notify_on_release'
+cgroup_xattr  437  TPASS  :  Expect: can't read xattr security. of file 'cgroup.procs'
+cgroup_xattr  438  TPASS  :  Expect: can read xattr trusted.test of file 'cgroup.procs'
+cgroup_xattr  439  TPASS  :  Expect: values equal
+cgroup_xattr  440  TPASS  :  Expect: can't read xattr trusted. of file 'cgroup.procs'
+cgroup_xattr  441  TPASS  :  Expect: can't read xattr user. of file 'cgroup.procs'
+cgroup_xattr  442  TPASS  :  Expect: can't read xattr system. of file 'cgroup.procs'
+cgroup_xattr    0  TINFO  :  In dir test
+cgroup_xattr  443  TPASS  :  Expect: can't read xattr security. of file 'cgroup.clone_children'
+cgroup_xattr  444  TPASS  :  Expect: can read xattr trusted.test of file 'cgroup.clone_children'
+cgroup_xattr  445  TPASS  :  Expect: values equal
+cgroup_xattr  446  TPASS  :  Expect: can't read xattr trusted. of file 'cgroup.clone_children'
+cgroup_xattr  447  TPASS  :  Expect: can't read xattr user. of file 'cgroup.clone_children'
+cgroup_xattr  448  TPASS  :  Expect: can't read xattr system. of file 'cgroup.clone_children'
+cgroup_xattr  449  TPASS  :  Expect: can't read xattr security. of file 'net_cls.classid'
+cgroup_xattr  450  TPASS  :  Expect: can read xattr trusted.test of file 'net_cls.classid'
+cgroup_xattr  451  TPASS  :  Expect: values equal
+cgroup_xattr  452  TPASS  :  Expect: can't read xattr trusted. of file 'net_cls.classid'
+cgroup_xattr  453  TPASS  :  Expect: can't read xattr user. of file 'net_cls.classid'
+cgroup_xattr  454  TPASS  :  Expect: can't read xattr system. of file 'net_cls.classid'
+cgroup_xattr  455  TPASS  :  Expect: can't read xattr security. of file 'tasks'
+cgroup_xattr  456  TPASS  :  Expect: can read xattr trusted.test of file 'tasks'
+cgroup_xattr  457  TPASS  :  Expect: values equal
+cgroup_xattr  458  TPASS  :  Expect: can't read xattr trusted. of file 'tasks'
+cgroup_xattr  459  TPASS  :  Expect: can't read xattr user. of file 'tasks'
+cgroup_xattr  460  TPASS  :  Expect: can't read xattr system. of file 'tasks'
+cgroup_xattr  461  TPASS  :  Expect: can't read xattr security. of file 'notify_on_release'
+cgroup_xattr  462  TPASS  :  Expect: can read xattr trusted.test of file 'notify_on_release'
+cgroup_xattr  463  TPASS  :  Expect: values equal
+cgroup_xattr  464  TPASS  :  Expect: can't read xattr trusted. of file 'notify_on_release'
+cgroup_xattr  465  TPASS  :  Expect: can't read xattr user. of file 'notify_on_release'
+cgroup_xattr  466  TPASS  :  Expect: can't read xattr system. of file 'notify_on_release'
+cgroup_xattr  467  TPASS  :  Expect: can't read xattr security. of file 'cgroup.procs'
+cgroup_xattr  468  TPASS  :  Expect: can read xattr trusted.test of file 'cgroup.procs'
+cgroup_xattr  469  TPASS  :  Expect: values equal
+cgroup_xattr  470  TPASS  :  Expect: can't read xattr trusted. of file 'cgroup.procs'
+cgroup_xattr  471  TPASS  :  Expect: can't read xattr user. of file 'cgroup.procs'
+cgroup_xattr  472  TPASS  :  Expect: can't read xattr system. of file 'cgroup.procs'
+cgroup_xattr    0  TINFO  :  In dir .
+cgroup_xattr  473  TPASS  :  Expect: can't read xattr security. of file 'test'
+cgroup_xattr  474  TPASS  :  Expect: can read xattr trusted.test of file 'test'
+cgroup_xattr  475  TPASS  :  Expect: values equal
+cgroup_xattr  476  TPASS  :  Expect: can't read xattr trusted. of file 'test'
+cgroup_xattr  477  TPASS  :  Expect: can't read xattr user. of file 'test'
+cgroup_xattr  478  TPASS  :  Expect: can't read xattr system. of file 'test'
+cgroup_xattr  479  TPASS  :  Expect: can't read xattr security. of file 'cgroup.sane_behavior'
+cgroup_xattr  480  TPASS  :  Expect: can read xattr trusted.test of file 'cgroup.sane_behavior'
+cgroup_xattr  481  TPASS  :  Expect: values equal
+cgroup_xattr  482  TPASS  :  Expect: can't read xattr trusted. of file 'cgroup.sane_behavior'
+cgroup_xattr  483  TPASS  :  Expect: can't read xattr user. of file 'cgroup.sane_behavior'
+cgroup_xattr  484  TPASS  :  Expect: can't read xattr system. of file 'cgroup.sane_behavior'
+cgroup_xattr    0  TINFO  :  In dir .
+cgroup_xattr  485  TPASS  :  Expect: can't set xattr key 'security.' to file 'cgroup.clone_children'
+cgroup_xattr  486  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'cgroup.clone_children'
+cgroup_xattr  487  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'cgroup.clone_children'
+cgroup_xattr  488  TPASS  :  Expect: can't set xattr key 'user.' to file 'cgroup.clone_children'
+cgroup_xattr  489  TPASS  :  Expect: can't set xattr key 'system.' to file 'cgroup.clone_children'
+cgroup_xattr  490  TPASS  :  Expect: can't set xattr key 'security.' to file 'release_agent'
+cgroup_xattr  491  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'release_agent'
+cgroup_xattr  492  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'release_agent'
+cgroup_xattr  493  TPASS  :  Expect: can't set xattr key 'user.' to file 'release_agent'
+cgroup_xattr  494  TPASS  :  Expect: can't set xattr key 'system.' to file 'release_agent'
+cgroup_xattr  495  TPASS  :  Expect: can't set xattr key 'security.' to file 'tasks'
+cgroup_xattr  496  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'tasks'
+cgroup_xattr  497  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'tasks'
+cgroup_xattr  498  TPASS  :  Expect: can't set xattr key 'user.' to file 'tasks'
+cgroup_xattr  499  TPASS  :  Expect: can't set xattr key 'system.' to file 'tasks'
+cgroup_xattr  500  TPASS  :  Expect: can't set xattr key 'security.' to file 'notify_on_release'
+cgroup_xattr  501  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'notify_on_release'
+cgroup_xattr  502  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'notify_on_release'
+cgroup_xattr  503  TPASS  :  Expect: can't set xattr key 'user.' to file 'notify_on_release'
+cgroup_xattr  504  TPASS  :  Expect: can't set xattr key 'system.' to file 'notify_on_release'
+cgroup_xattr  505  TPASS  :  Expect: can't set xattr key 'security.' to file 'cgroup.procs'
+cgroup_xattr  506  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'cgroup.procs'
+cgroup_xattr  507  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'cgroup.procs'
+cgroup_xattr  508  TPASS  :  Expect: can't set xattr key 'user.' to file 'cgroup.procs'
+cgroup_xattr  509  TPASS  :  Expect: can't set xattr key 'system.' to file 'cgroup.procs'
+cgroup_xattr    0  TINFO  :  In dir test
+cgroup_xattr  510  TPASS  :  Expect: can't set xattr key 'security.' to file 'cgroup.clone_children'
+cgroup_xattr  511  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'cgroup.clone_children'
+cgroup_xattr  512  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'cgroup.clone_children'
+cgroup_xattr  513  TPASS  :  Expect: can't set xattr key 'user.' to file 'cgroup.clone_children'
+cgroup_xattr  514  TPASS  :  Expect: can't set xattr key 'system.' to file 'cgroup.clone_children'
+cgroup_xattr  515  TPASS  :  Expect: can't set xattr key 'security.' to file 'tasks'
+cgroup_xattr  516  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'tasks'
+cgroup_xattr  517  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'tasks'
+cgroup_xattr  518  TPASS  :  Expect: can't set xattr key 'user.' to file 'tasks'
+cgroup_xattr  519  TPASS  :  Expect: can't set xattr key 'system.' to file 'tasks'
+cgroup_xattr  520  TPASS  :  Expect: can't set xattr key 'security.' to file 'notify_on_release'
+cgroup_xattr  521  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'notify_on_release'
+cgroup_xattr  522  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'notify_on_release'
+cgroup_xattr  523  TPASS  :  Expect: can't set xattr key 'user.' to file 'notify_on_release'
+cgroup_xattr  524  TPASS  :  Expect: can't set xattr key 'system.' to file 'notify_on_release'
+cgroup_xattr  525  TPASS  :  Expect: can't set xattr key 'security.' to file 'cgroup.procs'
+cgroup_xattr  526  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'cgroup.procs'
+cgroup_xattr  527  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'cgroup.procs'
+cgroup_xattr  528  TPASS  :  Expect: can't set xattr key 'user.' to file 'cgroup.procs'
+cgroup_xattr  529  TPASS  :  Expect: can't set xattr key 'system.' to file 'cgroup.procs'
+cgroup_xattr    0  TINFO  :  In dir .
+cgroup_xattr  530  TPASS  :  Expect: can't set xattr key 'security.' to file 'test'
+cgroup_xattr  531  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'test'
+cgroup_xattr  532  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'test'
+cgroup_xattr  533  TPASS  :  Expect: can't set xattr key 'user.' to file 'test'
+cgroup_xattr  534  TPASS  :  Expect: can't set xattr key 'system.' to file 'test'
+cgroup_xattr  535  TPASS  :  Expect: can't set xattr key 'security.' to file 'cgroup.sane_behavior'
+cgroup_xattr  536  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'cgroup.sane_behavior'
+cgroup_xattr  537  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'cgroup.sane_behavior'
+cgroup_xattr  538  TPASS  :  Expect: can't set xattr key 'user.' to file 'cgroup.sane_behavior'
+cgroup_xattr  539  TPASS  :  Expect: can't set xattr key 'system.' to file 'cgroup.sane_behavior'
+cgroup_xattr    0  TINFO  :  In dir .
+cgroup_xattr  540  TPASS  :  Expect: can't read xattr security. of file 'cgroup.clone_children'
+cgroup_xattr  541  TPASS  :  Expect: can read xattr trusted.test of file 'cgroup.clone_children'
+cgroup_xattr  542  TPASS  :  Expect: values equal
+cgroup_xattr  543  TPASS  :  Expect: can't read xattr trusted. of file 'cgroup.clone_children'
+cgroup_xattr  544  TPASS  :  Expect: can't read xattr user. of file 'cgroup.clone_children'
+cgroup_xattr  545  TPASS  :  Expect: can't read xattr system. of file 'cgroup.clone_children'
+cgroup_xattr  546  TPASS  :  Expect: can't read xattr security. of file 'release_agent'
+cgroup_xattr  547  TPASS  :  Expect: can read xattr trusted.test of file 'release_agent'
+cgroup_xattr  548  TPASS  :  Expect: values equal
+cgroup_xattr  549  TPASS  :  Expect: can't read xattr trusted. of file 'release_agent'
+cgroup_xattr  550  TPASS  :  Expect: can't read xattr user. of file 'release_agent'
+cgroup_xattr  551  TPASS  :  Expect: can't read xattr system. of file 'release_agent'
+cgroup_xattr  552  TPASS  :  Expect: can't read xattr security. of file 'tasks'
+cgroup_xattr  553  TPASS  :  Expect: can read xattr trusted.test of file 'tasks'
+cgroup_xattr  554  TPASS  :  Expect: values equal
+cgroup_xattr  555  TPASS  :  Expect: can't read xattr trusted. of file 'tasks'
+cgroup_xattr  556  TPASS  :  Expect: can't read xattr user. of file 'tasks'
+cgroup_xattr  557  TPASS  :  Expect: can't read xattr system. of file 'tasks'
+cgroup_xattr  558  TPASS  :  Expect: can't read xattr security. of file 'notify_on_release'
+cgroup_xattr  559  TPASS  :  Expect: can read xattr trusted.test of file 'notify_on_release'
+cgroup_xattr  560  TPASS  :  Expect: values equal
+cgroup_xattr  561  TPASS  :  Expect: can't read xattr trusted. of file 'notify_on_release'
+cgroup_xattr  562  TPASS  :  Expect: can't read xattr user. of file 'notify_on_release'
+cgroup_xattr  563  TPASS  :  Expect: can't read xattr system. of file 'notify_on_release'
+cgroup_xattr  564  TPASS  :  Expect: can't read xattr security. of file 'cgroup.procs'
+cgroup_xattr  565  TPASS  :  Expect: can read xattr trusted.test of file 'cgroup.procs'
+cgroup_xattr  566  TPASS  :  Expect: values equal
+cgroup_xattr  567  TPASS  :  Expect: can't read xattr trusted. of file 'cgroup.procs'
+cgroup_xattr  568  TPASS  :  Expect: can't read xattr user. of file 'cgroup.procs'
+cgroup_xattr  569  TPASS  :  Expect: can't read xattr system. of file 'cgroup.procs'
+cgroup_xattr    0  TINFO  :  In dir test
+cgroup_xattr  570  TPASS  :  Expect: can't read xattr security. of file 'cgroup.clone_children'
+cgroup_xattr  571  TPASS  :  Expect: can read xattr trusted.test of file 'cgroup.clone_children'
+cgroup_xattr  572  TPASS  :  Expect: values equal
+cgroup_xattr  573  TPASS  :  Expect: can't read xattr trusted. of file 'cgroup.clone_children'
+cgroup_xattr  574  TPASS  :  Expect: can't read xattr user. of file 'cgroup.clone_children'
+cgroup_xattr  575  TPASS  :  Expect: can't read xattr system. of file 'cgroup.clone_children'
+cgroup_xattr  576  TPASS  :  Expect: can't read xattr security. of file 'tasks'
+cgroup_xattr  577  TPASS  :  Expect: can read xattr trusted.test of file 'tasks'
+cgroup_xattr  578  TPASS  :  Expect: values equal
+cgroup_xattr  579  TPASS  :  Expect: can't read xattr trusted. of file 'tasks'
+cgroup_xattr  580  TPASS  :  Expect: can't read xattr user. of file 'tasks'
+cgroup_xattr  581  TPASS  :  Expect: can't read xattr system. of file 'tasks'
+cgroup_xattr  582  TPASS  :  Expect: can't read xattr security. of file 'notify_on_release'
+cgroup_xattr  583  TPASS  :  Expect: can read xattr trusted.test of file 'notify_on_release'
+cgroup_xattr  584  TPASS  :  Expect: values equal
+cgroup_xattr  585  TPASS  :  Expect: can't read xattr trusted. of file 'notify_on_release'
+cgroup_xattr  586  TPASS  :  Expect: can't read xattr user. of file 'notify_on_release'
+cgroup_xattr  587  TPASS  :  Expect: can't read xattr system. of file 'notify_on_release'
+cgroup_xattr  588  TPASS  :  Expect: can't read xattr security. of file 'cgroup.procs'
+cgroup_xattr  589  TPASS  :  Expect: can read xattr trusted.test of file 'cgroup.procs'
+cgroup_xattr  590  TPASS  :  Expect: values equal
+cgroup_xattr  591  TPASS  :  Expect: can't read xattr trusted. of file 'cgroup.procs'
+cgroup_xattr  592  TPASS  :  Expect: can't read xattr user. of file 'cgroup.procs'
+cgroup_xattr  593  TPASS  :  Expect: can't read xattr system. of file 'cgroup.procs'
+cgroup_xattr    0  TINFO  :  In dir .
+cgroup_xattr  594  TPASS  :  Expect: can't read xattr security. of file 'test'
+cgroup_xattr  595  TPASS  :  Expect: can read xattr trusted.test of file 'test'
+cgroup_xattr  596  TPASS  :  Expect: values equal
+cgroup_xattr  597  TPASS  :  Expect: can't read xattr trusted. of file 'test'
+cgroup_xattr  598  TPASS  :  Expect: can't read xattr user. of file 'test'
+cgroup_xattr  599  TPASS  :  Expect: can't read xattr system. of file 'test'
+cgroup_xattr  600  TPASS  :  Expect: can't read xattr security. of file 'cgroup.sane_behavior'
+cgroup_xattr  601  TPASS  :  Expect: can read xattr trusted.test of file 'cgroup.sane_behavior'
+cgroup_xattr  602  TPASS  :  Expect: values equal
+cgroup_xattr  603  TPASS  :  Expect: can't read xattr trusted. of file 'cgroup.sane_behavior'
+cgroup_xattr  604  TPASS  :  Expect: can't read xattr user. of file 'cgroup.sane_behavior'
+cgroup_xattr  605  TPASS  :  Expect: can't read xattr system. of file 'cgroup.sane_behavior'
+cgroup_xattr    0  TINFO  :  In dir .
+cgroup_xattr  606  TPASS  :  Expect: can't set xattr key 'security.' to file 'cgroup.clone_children'
+cgroup_xattr  607  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'cgroup.clone_children'
+cgroup_xattr  608  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'cgroup.clone_children'
+cgroup_xattr  609  TPASS  :  Expect: can't set xattr key 'user.' to file 'cgroup.clone_children'
+cgroup_xattr  610  TPASS  :  Expect: can't set xattr key 'system.' to file 'cgroup.clone_children'
+cgroup_xattr  611  TPASS  :  Expect: can't set xattr key 'security.' to file 'release_agent'
+cgroup_xattr  612  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'release_agent'
+cgroup_xattr  613  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'release_agent'
+cgroup_xattr  614  TPASS  :  Expect: can't set xattr key 'user.' to file 'release_agent'
+cgroup_xattr  615  TPASS  :  Expect: can't set xattr key 'system.' to file 'release_agent'
+cgroup_xattr  616  TPASS  :  Expect: can't set xattr key 'security.' to file 'net_prio.ifpriomap'
+cgroup_xattr  617  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'net_prio.ifpriomap'
+cgroup_xattr  618  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'net_prio.ifpriomap'
+cgroup_xattr  619  TPASS  :  Expect: can't set xattr key 'user.' to file 'net_prio.ifpriomap'
+cgroup_xattr  620  TPASS  :  Expect: can't set xattr key 'system.' to file 'net_prio.ifpriomap'
+cgroup_xattr  621  TPASS  :  Expect: can't set xattr key 'security.' to file 'tasks'
+cgroup_xattr  622  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'tasks'
+cgroup_xattr  623  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'tasks'
+cgroup_xattr  624  TPASS  :  Expect: can't set xattr key 'user.' to file 'tasks'
+cgroup_xattr  625  TPASS  :  Expect: can't set xattr key 'system.' to file 'tasks'
+cgroup_xattr  626  TPASS  :  Expect: can't set xattr key 'security.' to file 'notify_on_release'
+cgroup_xattr  627  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'notify_on_release'
+cgroup_xattr  628  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'notify_on_release'
+cgroup_xattr  629  TPASS  :  Expect: can't set xattr key 'user.' to file 'notify_on_release'
+cgroup_xattr  630  TPASS  :  Expect: can't set xattr key 'system.' to file 'notify_on_release'
+cgroup_xattr  631  TPASS  :  Expect: can't set xattr key 'security.' to file 'cgroup.procs'
+cgroup_xattr  632  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'cgroup.procs'
+cgroup_xattr  633  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'cgroup.procs'
+cgroup_xattr  634  TPASS  :  Expect: can't set xattr key 'user.' to file 'cgroup.procs'
+cgroup_xattr  635  TPASS  :  Expect: can't set xattr key 'system.' to file 'cgroup.procs'
+cgroup_xattr  636  TPASS  :  Expect: can't set xattr key 'security.' to file 'net_prio.prioidx'
+cgroup_xattr  637  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'net_prio.prioidx'
+cgroup_xattr  638  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'net_prio.prioidx'
+cgroup_xattr  639  TPASS  :  Expect: can't set xattr key 'user.' to file 'net_prio.prioidx'
+cgroup_xattr  640  TPASS  :  Expect: can't set xattr key 'system.' to file 'net_prio.prioidx'
+cgroup_xattr    0  TINFO  :  In dir test
+cgroup_xattr  641  TPASS  :  Expect: can't set xattr key 'security.' to file 'cgroup.clone_children'
+cgroup_xattr  642  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'cgroup.clone_children'
+cgroup_xattr  643  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'cgroup.clone_children'
+cgroup_xattr  644  TPASS  :  Expect: can't set xattr key 'user.' to file 'cgroup.clone_children'
+cgroup_xattr  645  TPASS  :  Expect: can't set xattr key 'system.' to file 'cgroup.clone_children'
+cgroup_xattr  646  TPASS  :  Expect: can't set xattr key 'security.' to file 'net_prio.ifpriomap'
+cgroup_xattr  647  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'net_prio.ifpriomap'
+cgroup_xattr  648  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'net_prio.ifpriomap'
+cgroup_xattr  649  TPASS  :  Expect: can't set xattr key 'user.' to file 'net_prio.ifpriomap'
+cgroup_xattr  650  TPASS  :  Expect: can't set xattr key 'system.' to file 'net_prio.ifpriomap'
+cgroup_xattr  651  TPASS  :  Expect: can't set xattr key 'security.' to file 'tasks'
+cgroup_xattr  652  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'tasks'
+cgroup_xattr  653  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'tasks'
+cgroup_xattr  654  TPASS  :  Expect: can't set xattr key 'user.' to file 'tasks'
+cgroup_xattr  655  TPASS  :  Expect: can't set xattr key 'system.' to file 'tasks'
+cgroup_xattr  656  TPASS  :  Expect: can't set xattr key 'security.' to file 'notify_on_release'
+cgroup_xattr  657  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'notify_on_release'
+cgroup_xattr  658  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'notify_on_release'
+cgroup_xattr  659  TPASS  :  Expect: can't set xattr key 'user.' to file 'notify_on_release'
+cgroup_xattr  660  TPASS  :  Expect: can't set xattr key 'system.' to file 'notify_on_release'
+cgroup_xattr  661  TPASS  :  Expect: can't set xattr key 'security.' to file 'cgroup.procs'
+cgroup_xattr  662  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'cgroup.procs'
+cgroup_xattr  663  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'cgroup.procs'
+cgroup_xattr  664  TPASS  :  Expect: can't set xattr key 'user.' to file 'cgroup.procs'
+cgroup_xattr  665  TPASS  :  Expect: can't set xattr key 'system.' to file 'cgroup.procs'
+cgroup_xattr  666  TPASS  :  Expect: can't set xattr key 'security.' to file 'net_prio.prioidx'
+cgroup_xattr  667  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'net_prio.prioidx'
+cgroup_xattr  668  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'net_prio.prioidx'
+cgroup_xattr  669  TPASS  :  Expect: can't set xattr key 'user.' to file 'net_prio.prioidx'
+cgroup_xattr  670  TPASS  :  Expect: can't set xattr key 'system.' to file 'net_prio.prioidx'
+cgroup_xattr    0  TINFO  :  In dir .
+cgroup_xattr  671  TPASS  :  Expect: can't set xattr key 'security.' to file 'test'
+cgroup_xattr  672  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'test'
+cgroup_xattr  673  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'test'
+cgroup_xattr  674  TPASS  :  Expect: can't set xattr key 'user.' to file 'test'
+cgroup_xattr  675  TPASS  :  Expect: can't set xattr key 'system.' to file 'test'
+cgroup_xattr  676  TPASS  :  Expect: can't set xattr key 'security.' to file 'cgroup.sane_behavior'
+cgroup_xattr  677  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'cgroup.sane_behavior'
+cgroup_xattr  678  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'cgroup.sane_behavior'
+cgroup_xattr  679  TPASS  :  Expect: can't set xattr key 'user.' to file 'cgroup.sane_behavior'
+cgroup_xattr  680  TPASS  :  Expect: can't set xattr key 'system.' to file 'cgroup.sane_behavior'
+cgroup_xattr    0  TINFO  :  In dir .
+cgroup_xattr  681  TPASS  :  Expect: can't read xattr security. of file 'cgroup.clone_children'
+cgroup_xattr  682  TPASS  :  Expect: can read xattr trusted.test of file 'cgroup.clone_children'
+cgroup_xattr  683  TPASS  :  Expect: values equal
+cgroup_xattr  684  TPASS  :  Expect: can't read xattr trusted. of file 'cgroup.clone_children'
+cgroup_xattr  685  TPASS  :  Expect: can't read xattr user. of file 'cgroup.clone_children'
+cgroup_xattr  686  TPASS  :  Expect: can't read xattr system. of file 'cgroup.clone_children'
+cgroup_xattr  687  TPASS  :  Expect: can't read xattr security. of file 'release_agent'
+cgroup_xattr  688  TPASS  :  Expect: can read xattr trusted.test of file 'release_agent'
+cgroup_xattr  689  TPASS  :  Expect: values equal
+cgroup_xattr  690  TPASS  :  Expect: can't read xattr trusted. of file 'release_agent'
+cgroup_xattr  691  TPASS  :  Expect: can't read xattr user. of file 'release_agent'
+cgroup_xattr  692  TPASS  :  Expect: can't read xattr system. of file 'release_agent'
+cgroup_xattr  693  TPASS  :  Expect: can't read xattr security. of file 'net_prio.ifpriomap'
+cgroup_xattr  694  TPASS  :  Expect: can read xattr trusted.test of file 'net_prio.ifpriomap'
+cgroup_xattr  695  TPASS  :  Expect: values equal
+cgroup_xattr  696  TPASS  :  Expect: can't read xattr trusted. of file 'net_prio.ifpriomap'
+cgroup_xattr  697  TPASS  :  Expect: can't read xattr user. of file 'net_prio.ifpriomap'
+cgroup_xattr  698  TPASS  :  Expect: can't read xattr system. of file 'net_prio.ifpriomap'
+cgroup_xattr  699  TPASS  :  Expect: can't read xattr security. of file 'tasks'
+cgroup_xattr  700  TPASS  :  Expect: can read xattr trusted.test of file 'tasks'
+cgroup_xattr  701  TPASS  :  Expect: values equal
+cgroup_xattr  702  TPASS  :  Expect: can't read xattr trusted. of file 'tasks'
+cgroup_xattr  703  TPASS  :  Expect: can't read xattr user. of file 'tasks'
+cgroup_xattr  704  TPASS  :  Expect: can't read xattr system. of file 'tasks'
+cgroup_xattr  705  TPASS  :  Expect: can't read xattr security. of file 'notify_on_release'
+cgroup_xattr  706  TPASS  :  Expect: can read xattr trusted.test of file 'notify_on_release'
+cgroup_xattr  707  TPASS  :  Expect: values equal
+cgroup_xattr  708  TPASS  :  Expect: can't read xattr trusted. of file 'notify_on_release'
+cgroup_xattr  709  TPASS  :  Expect: can't read xattr user. of file 'notify_on_release'
+cgroup_xattr  710  TPASS  :  Expect: can't read xattr system. of file 'notify_on_release'
+cgroup_xattr  711  TPASS  :  Expect: can't read xattr security. of file 'cgroup.procs'
+cgroup_xattr  712  TPASS  :  Expect: can read xattr trusted.test of file 'cgroup.procs'
+cgroup_xattr  713  TPASS  :  Expect: values equal
+cgroup_xattr  714  TPASS  :  Expect: can't read xattr trusted. of file 'cgroup.procs'
+cgroup_xattr  715  TPASS  :  Expect: can't read xattr user. of file 'cgroup.procs'
+cgroup_xattr  716  TPASS  :  Expect: can't read xattr system. of file 'cgroup.procs'
+cgroup_xattr  717  TPASS  :  Expect: can't read xattr security. of file 'net_prio.prioidx'
+cgroup_xattr  718  TPASS  :  Expect: can read xattr trusted.test of file 'net_prio.prioidx'
+cgroup_xattr  719  TPASS  :  Expect: values equal
+cgroup_xattr  720  TPASS  :  Expect: can't read xattr trusted. of file 'net_prio.prioidx'
+cgroup_xattr  721  TPASS  :  Expect: can't read xattr user. of file 'net_prio.prioidx'
+cgroup_xattr  722  TPASS  :  Expect: can't read xattr system. of file 'net_prio.prioidx'
+cgroup_xattr    0  TINFO  :  In dir test
+cgroup_xattr  723  TPASS  :  Expect: can't read xattr security. of file 'cgroup.clone_children'
+cgroup_xattr  724  TPASS  :  Expect: can read xattr trusted.test of file 'cgroup.clone_children'
+cgroup_xattr  725  TPASS  :  Expect: values equal
+cgroup_xattr  726  TPASS  :  Expect: can't read xattr trusted. of file 'cgroup.clone_children'
+cgroup_xattr  727  TPASS  :  Expect: can't read xattr user. of file 'cgroup.clone_children'
+cgroup_xattr  728  TPASS  :  Expect: can't read xattr system. of file 'cgroup.clone_children'
+cgroup_xattr  729  TPASS  :  Expect: can't read xattr security. of file 'net_prio.ifpriomap'
+cgroup_xattr  730  TPASS  :  Expect: can read xattr trusted.test of file 'net_prio.ifpriomap'
+cgroup_xattr  731  TPASS  :  Expect: values equal
+cgroup_xattr  732  TPASS  :  Expect: can't read xattr trusted. of file 'net_prio.ifpriomap'
+cgroup_xattr  733  TPASS  :  Expect: can't read xattr user. of file 'net_prio.ifpriomap'
+cgroup_xattr  734  TPASS  :  Expect: can't read xattr system. of file 'net_prio.ifpriomap'
+cgroup_xattr  735  TPASS  :  Expect: can't read xattr security. of file 'tasks'
+cgroup_xattr  736  TPASS  :  Expect: can read xattr trusted.test of file 'tasks'
+cgroup_xattr  737  TPASS  :  Expect: values equal
+cgroup_xattr  738  TPASS  :  Expect: can't read xattr trusted. of file 'tasks'
+cgroup_xattr  739  TPASS  :  Expect: can't read xattr user. of file 'tasks'
+cgroup_xattr  740  TPASS  :  Expect: can't read xattr system. of file 'tasks'
+cgroup_xattr  741  TPASS  :  Expect: can't read xattr security. of file 'notify_on_release'
+cgroup_xattr  742  TPASS  :  Expect: can read xattr trusted.test of file 'notify_on_release'
+cgroup_xattr  743  TPASS  :  Expect: values equal
+cgroup_xattr  744  TPASS  :  Expect: can't read xattr trusted. of file 'notify_on_release'
+cgroup_xattr  745  TPASS  :  Expect: can't read xattr user. of file 'notify_on_release'
+cgroup_xattr  746  TPASS  :  Expect: can't read xattr system. of file 'notify_on_release'
+cgroup_xattr  747  TPASS  :  Expect: can't read xattr security. of file 'cgroup.procs'
+cgroup_xattr  748  TPASS  :  Expect: can read xattr trusted.test of file 'cgroup.procs'
+cgroup_xattr  749  TPASS  :  Expect: values equal
+cgroup_xattr  750  TPASS  :  Expect: can't read xattr trusted. of file 'cgroup.procs'
+cgroup_xattr  751  TPASS  :  Expect: can't read xattr user. of file 'cgroup.procs'
+cgroup_xattr  752  TPASS  :  Expect: can't read xattr system. of file 'cgroup.procs'
+cgroup_xattr  753  TPASS  :  Expect: can't read xattr security. of file 'net_prio.prioidx'
+cgroup_xattr  754  TPASS  :  Expect: can read xattr trusted.test of file 'net_prio.prioidx'
+cgroup_xattr  755  TPASS  :  Expect: values equal
+cgroup_xattr  756  TPASS  :  Expect: can't read xattr trusted. of file 'net_prio.prioidx'
+cgroup_xattr  757  TPASS  :  Expect: can't read xattr user. of file 'net_prio.prioidx'
+cgroup_xattr  758  TPASS  :  Expect: can't read xattr system. of file 'net_prio.prioidx'
+cgroup_xattr    0  TINFO  :  In dir .
+cgroup_xattr  759  TPASS  :  Expect: can't read xattr security. of file 'test'
+cgroup_xattr  760  TPASS  :  Expect: can read xattr trusted.test of file 'test'
+cgroup_xattr  761  TPASS  :  Expect: values equal
+cgroup_xattr  762  TPASS  :  Expect: can't read xattr trusted. of file 'test'
+cgroup_xattr  763  TPASS  :  Expect: can't read xattr user. of file 'test'
+cgroup_xattr  764  TPASS  :  Expect: can't read xattr system. of file 'test'
+cgroup_xattr  765  TPASS  :  Expect: can't read xattr security. of file 'cgroup.sane_behavior'
+cgroup_xattr  766  TPASS  :  Expect: can read xattr trusted.test of file 'cgroup.sane_behavior'
+cgroup_xattr  767  TPASS  :  Expect: values equal
+cgroup_xattr  768  TPASS  :  Expect: can't read xattr trusted. of file 'cgroup.sane_behavior'
+cgroup_xattr  769  TPASS  :  Expect: can't read xattr user. of file 'cgroup.sane_behavior'
+cgroup_xattr  770  TPASS  :  Expect: can't read xattr system. of file 'cgroup.sane_behavior'
+cgroup_xattr    0  TINFO  :  In dir .
+cgroup_xattr  771  TPASS  :  Expect: can't set xattr key 'security.' to file 'hugetlb.4MB.rsvd.max_usage_in_bytes'
+cgroup_xattr  772  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'hugetlb.4MB.rsvd.max_usage_in_bytes'
+cgroup_xattr  773  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'hugetlb.4MB.rsvd.max_usage_in_bytes'
+cgroup_xattr  774  TPASS  :  Expect: can't set xattr key 'user.' to file 'hugetlb.4MB.rsvd.max_usage_in_bytes'
+cgroup_xattr  775  TPASS  :  Expect: can't set xattr key 'system.' to file 'hugetlb.4MB.rsvd.max_usage_in_bytes'
+cgroup_xattr  776  TPASS  :  Expect: can't set xattr key 'security.' to file 'hugetlb.4MB.limit_in_bytes'
+cgroup_xattr  777  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'hugetlb.4MB.limit_in_bytes'
+cgroup_xattr  778  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'hugetlb.4MB.limit_in_bytes'
+cgroup_xattr  779  TPASS  :  Expect: can't set xattr key 'user.' to file 'hugetlb.4MB.limit_in_bytes'
+cgroup_xattr  780  TPASS  :  Expect: can't set xattr key 'system.' to file 'hugetlb.4MB.limit_in_bytes'
+cgroup_xattr  781  TPASS  :  Expect: can't set xattr key 'security.' to file 'hugetlb.4MB.rsvd.limit_in_bytes'
+cgroup_xattr  782  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'hugetlb.4MB.rsvd.limit_in_bytes'
+cgroup_xattr  783  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'hugetlb.4MB.rsvd.limit_in_bytes'
+cgroup_xattr  784  TPASS  :  Expect: can't set xattr key 'user.' to file 'hugetlb.4MB.rsvd.limit_in_bytes'
+cgroup_xattr  785  TPASS  :  Expect: can't set xattr key 'system.' to file 'hugetlb.4MB.rsvd.limit_in_bytes'
+cgroup_xattr  786  TPASS  :  Expect: can't set xattr key 'security.' to file 'cgroup.clone_children'
+cgroup_xattr  787  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'cgroup.clone_children'
+cgroup_xattr  788  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'cgroup.clone_children'
+cgroup_xattr  789  TPASS  :  Expect: can't set xattr key 'user.' to file 'cgroup.clone_children'
+cgroup_xattr  790  TPASS  :  Expect: can't set xattr key 'system.' to file 'cgroup.clone_children'
+cgroup_xattr  791  TPASS  :  Expect: can't set xattr key 'security.' to file 'release_agent'
+cgroup_xattr  792  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'release_agent'
+cgroup_xattr  793  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'release_agent'
+cgroup_xattr  794  TPASS  :  Expect: can't set xattr key 'user.' to file 'release_agent'
+cgroup_xattr  795  TPASS  :  Expect: can't set xattr key 'system.' to file 'release_agent'
+cgroup_xattr  796  TPASS  :  Expect: can't set xattr key 'security.' to file 'hugetlb.4MB.max_usage_in_bytes'
+cgroup_xattr  797  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'hugetlb.4MB.max_usage_in_bytes'
+cgroup_xattr  798  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'hugetlb.4MB.max_usage_in_bytes'
+cgroup_xattr  799  TPASS  :  Expect: can't set xattr key 'user.' to file 'hugetlb.4MB.max_usage_in_bytes'
+cgroup_xattr  800  TPASS  :  Expect: can't set xattr key 'system.' to file 'hugetlb.4MB.max_usage_in_bytes'
+cgroup_xattr  801  TPASS  :  Expect: can't set xattr key 'security.' to file 'hugetlb.4MB.usage_in_bytes'
+cgroup_xattr  802  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'hugetlb.4MB.usage_in_bytes'
+cgroup_xattr  803  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'hugetlb.4MB.usage_in_bytes'
+cgroup_xattr  804  TPASS  :  Expect: can't set xattr key 'user.' to file 'hugetlb.4MB.usage_in_bytes'
+cgroup_xattr  805  TPASS  :  Expect: can't set xattr key 'system.' to file 'hugetlb.4MB.usage_in_bytes'
+cgroup_xattr  806  TPASS  :  Expect: can't set xattr key 'security.' to file 'tasks'
+cgroup_xattr  807  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'tasks'
+cgroup_xattr  808  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'tasks'
+cgroup_xattr  809  TPASS  :  Expect: can't set xattr key 'user.' to file 'tasks'
+cgroup_xattr  810  TPASS  :  Expect: can't set xattr key 'system.' to file 'tasks'
+cgroup_xattr  811  TPASS  :  Expect: can't set xattr key 'security.' to file 'hugetlb.4MB.rsvd.usage_in_bytes'
+cgroup_xattr  812  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'hugetlb.4MB.rsvd.usage_in_bytes'
+cgroup_xattr  813  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'hugetlb.4MB.rsvd.usage_in_bytes'
+cgroup_xattr  814  TPASS  :  Expect: can't set xattr key 'user.' to file 'hugetlb.4MB.rsvd.usage_in_bytes'
+cgroup_xattr  815  TPASS  :  Expect: can't set xattr key 'system.' to file 'hugetlb.4MB.rsvd.usage_in_bytes'
+cgroup_xattr  816  TPASS  :  Expect: can't set xattr key 'security.' to file 'notify_on_release'
+cgroup_xattr  817  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'notify_on_release'
+cgroup_xattr  818  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'notify_on_release'
+cgroup_xattr  819  TPASS  :  Expect: can't set xattr key 'user.' to file 'notify_on_release'
+cgroup_xattr  820  TPASS  :  Expect: can't set xattr key 'system.' to file 'notify_on_release'
+cgroup_xattr  821  TPASS  :  Expect: can't set xattr key 'security.' to file 'cgroup.procs'
+cgroup_xattr  822  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'cgroup.procs'
+cgroup_xattr  823  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'cgroup.procs'
+cgroup_xattr  824  TPASS  :  Expect: can't set xattr key 'user.' to file 'cgroup.procs'
+cgroup_xattr  825  TPASS  :  Expect: can't set xattr key 'system.' to file 'cgroup.procs'
+cgroup_xattr  826  TPASS  :  Expect: can't set xattr key 'security.' to file 'hugetlb.4MB.failcnt'
+cgroup_xattr  827  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'hugetlb.4MB.failcnt'
+cgroup_xattr  828  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'hugetlb.4MB.failcnt'
+cgroup_xattr  829  TPASS  :  Expect: can't set xattr key 'user.' to file 'hugetlb.4MB.failcnt'
+cgroup_xattr  830  TPASS  :  Expect: can't set xattr key 'system.' to file 'hugetlb.4MB.failcnt'
+cgroup_xattr    0  TINFO  :  In dir test
+cgroup_xattr  831  TPASS  :  Expect: can't set xattr key 'security.' to file 'hugetlb.4MB.rsvd.max_usage_in_bytes'
+cgroup_xattr  832  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'hugetlb.4MB.rsvd.max_usage_in_bytes'
+cgroup_xattr  833  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'hugetlb.4MB.rsvd.max_usage_in_bytes'
+cgroup_xattr  834  TPASS  :  Expect: can't set xattr key 'user.' to file 'hugetlb.4MB.rsvd.max_usage_in_bytes'
+cgroup_xattr  835  TPASS  :  Expect: can't set xattr key 'system.' to file 'hugetlb.4MB.rsvd.max_usage_in_bytes'
+cgroup_xattr  836  TPASS  :  Expect: can't set xattr key 'security.' to file 'hugetlb.4MB.limit_in_bytes'
+cgroup_xattr  837  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'hugetlb.4MB.limit_in_bytes'
+cgroup_xattr  838  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'hugetlb.4MB.limit_in_bytes'
+cgroup_xattr  839  TPASS  :  Expect: can't set xattr key 'user.' to file 'hugetlb.4MB.limit_in_bytes'
+cgroup_xattr  840  TPASS  :  Expect: can't set xattr key 'system.' to file 'hugetlb.4MB.limit_in_bytes'
+cgroup_xattr  841  TPASS  :  Expect: can't set xattr key 'security.' to file 'hugetlb.4MB.rsvd.limit_in_bytes'
+cgroup_xattr  842  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'hugetlb.4MB.rsvd.limit_in_bytes'
+cgroup_xattr  843  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'hugetlb.4MB.rsvd.limit_in_bytes'
+cgroup_xattr  844  TPASS  :  Expect: can't set xattr key 'user.' to file 'hugetlb.4MB.rsvd.limit_in_bytes'
+cgroup_xattr  845  TPASS  :  Expect: can't set xattr key 'system.' to file 'hugetlb.4MB.rsvd.limit_in_bytes'
+cgroup_xattr  846  TPASS  :  Expect: can't set xattr key 'security.' to file 'cgroup.clone_children'
+cgroup_xattr  847  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'cgroup.clone_children'
+cgroup_xattr  848  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'cgroup.clone_children'
+cgroup_xattr  849  TPASS  :  Expect: can't set xattr key 'user.' to file 'cgroup.clone_children'
+cgroup_xattr  850  TPASS  :  Expect: can't set xattr key 'system.' to file 'cgroup.clone_children'
+cgroup_xattr  851  TPASS  :  Expect: can't set xattr key 'security.' to file 'hugetlb.4MB.max_usage_in_bytes'
+cgroup_xattr  852  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'hugetlb.4MB.max_usage_in_bytes'
+cgroup_xattr  853  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'hugetlb.4MB.max_usage_in_bytes'
+cgroup_xattr  854  TPASS  :  Expect: can't set xattr key 'user.' to file 'hugetlb.4MB.max_usage_in_bytes'
+cgroup_xattr  855  TPASS  :  Expect: can't set xattr key 'system.' to file 'hugetlb.4MB.max_usage_in_bytes'
+cgroup_xattr  856  TPASS  :  Expect: can't set xattr key 'security.' to file 'hugetlb.4MB.usage_in_bytes'
+cgroup_xattr  857  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'hugetlb.4MB.usage_in_bytes'
+cgroup_xattr  858  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'hugetlb.4MB.usage_in_bytes'
+cgroup_xattr  859  TPASS  :  Expect: can't set xattr key 'user.' to file 'hugetlb.4MB.usage_in_bytes'
+cgroup_xattr  860  TPASS  :  Expect: can't set xattr key 'system.' to file 'hugetlb.4MB.usage_in_bytes'
+cgroup_xattr  861  TPASS  :  Expect: can't set xattr key 'security.' to file 'tasks'
+cgroup_xattr  862  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'tasks'
+cgroup_xattr  863  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'tasks'
+cgroup_xattr  864  TPASS  :  Expect: can't set xattr key 'user.' to file 'tasks'
+cgroup_xattr  865  TPASS  :  Expect: can't set xattr key 'system.' to file 'tasks'
+cgroup_xattr  866  TPASS  :  Expect: can't set xattr key 'security.' to file 'hugetlb.4MB.rsvd.usage_in_bytes'
+cgroup_xattr  867  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'hugetlb.4MB.rsvd.usage_in_bytes'
+cgroup_xattr  868  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'hugetlb.4MB.rsvd.usage_in_bytes'
+cgroup_xattr  869  TPASS  :  Expect: can't set xattr key 'user.' to file 'hugetlb.4MB.rsvd.usage_in_bytes'
+cgroup_xattr  870  TPASS  :  Expect: can't set xattr key 'system.' to file 'hugetlb.4MB.rsvd.usage_in_bytes'
+cgroup_xattr  871  TPASS  :  Expect: can't set xattr key 'security.' to file 'notify_on_release'
+cgroup_xattr  872  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'notify_on_release'
+cgroup_xattr  873  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'notify_on_release'
+cgroup_xattr  874  TPASS  :  Expect: can't set xattr key 'user.' to file 'notify_on_release'
+cgroup_xattr  875  TPASS  :  Expect: can't set xattr key 'system.' to file 'notify_on_release'
+cgroup_xattr  876  TPASS  :  Expect: can't set xattr key 'security.' to file 'cgroup.procs'
+cgroup_xattr  877  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'cgroup.procs'
+cgroup_xattr  878  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'cgroup.procs'
+cgroup_xattr  879  TPASS  :  Expect: can't set xattr key 'user.' to file 'cgroup.procs'
+cgroup_xattr  880  TPASS  :  Expect: can't set xattr key 'system.' to file 'cgroup.procs'
+cgroup_xattr  881  TPASS  :  Expect: can't set xattr key 'security.' to file 'hugetlb.4MB.failcnt'
+cgroup_xattr  882  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'hugetlb.4MB.failcnt'
+cgroup_xattr  883  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'hugetlb.4MB.failcnt'
+cgroup_xattr  884  TPASS  :  Expect: can't set xattr key 'user.' to file 'hugetlb.4MB.failcnt'
+cgroup_xattr  885  TPASS  :  Expect: can't set xattr key 'system.' to file 'hugetlb.4MB.failcnt'
+cgroup_xattr  886  TPASS  :  Expect: can't set xattr key 'security.' to file 'hugetlb.4MB.rsvd.failcnt'
+cgroup_xattr  887  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'hugetlb.4MB.rsvd.failcnt'
+cgroup_xattr  888  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'hugetlb.4MB.rsvd.failcnt'
+cgroup_xattr  889  TPASS  :  Expect: can't set xattr key 'user.' to file 'hugetlb.4MB.rsvd.failcnt'
+cgroup_xattr  890  TPASS  :  Expect: can't set xattr key 'system.' to file 'hugetlb.4MB.rsvd.failcnt'
+cgroup_xattr  891  TPASS  :  Expect: can't set xattr key 'security.' to file 'hugetlb.4MB.numa_stat'
+cgroup_xattr  892  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'hugetlb.4MB.numa_stat'
+cgroup_xattr  893  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'hugetlb.4MB.numa_stat'
+cgroup_xattr  894  TPASS  :  Expect: can't set xattr key 'user.' to file 'hugetlb.4MB.numa_stat'
+cgroup_xattr  895  TPASS  :  Expect: can't set xattr key 'system.' to file 'hugetlb.4MB.numa_stat'
+cgroup_xattr    0  TINFO  :  In dir .
+cgroup_xattr  896  TPASS  :  Expect: can't set xattr key 'security.' to file 'test'
+cgroup_xattr  897  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'test'
+cgroup_xattr  898  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'test'
+cgroup_xattr  899  TPASS  :  Expect: can't set xattr key 'user.' to file 'test'
+cgroup_xattr  900  TPASS  :  Expect: can't set xattr key 'system.' to file 'test'
+cgroup_xattr  901  TPASS  :  Expect: can't set xattr key 'security.' to file 'hugetlb.4MB.rsvd.failcnt'
+cgroup_xattr  902  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'hugetlb.4MB.rsvd.failcnt'
+cgroup_xattr  903  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'hugetlb.4MB.rsvd.failcnt'
+cgroup_xattr  904  TPASS  :  Expect: can't set xattr key 'user.' to file 'hugetlb.4MB.rsvd.failcnt'
+cgroup_xattr  905  TPASS  :  Expect: can't set xattr key 'system.' to file 'hugetlb.4MB.rsvd.failcnt'
+cgroup_xattr  906  TPASS  :  Expect: can't set xattr key 'security.' to file 'hugetlb.4MB.numa_stat'
+cgroup_xattr  907  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'hugetlb.4MB.numa_stat'
+cgroup_xattr  908  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'hugetlb.4MB.numa_stat'
+cgroup_xattr  909  TPASS  :  Expect: can't set xattr key 'user.' to file 'hugetlb.4MB.numa_stat'
+cgroup_xattr  910  TPASS  :  Expect: can't set xattr key 'system.' to file 'hugetlb.4MB.numa_stat'
+cgroup_xattr  911  TPASS  :  Expect: can't set xattr key 'security.' to file 'cgroup.sane_behavior'
+cgroup_xattr  912  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'cgroup.sane_behavior'
+cgroup_xattr  913  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'cgroup.sane_behavior'
+cgroup_xattr  914  TPASS  :  Expect: can't set xattr key 'user.' to file 'cgroup.sane_behavior'
+cgroup_xattr  915  TPASS  :  Expect: can't set xattr key 'system.' to file 'cgroup.sane_behavior'
+cgroup_xattr    0  TINFO  :  In dir .
+cgroup_xattr  916  TPASS  :  Expect: can't read xattr security. of file 'hugetlb.4MB.rsvd.max_usage_in_bytes'
+cgroup_xattr  917  TPASS  :  Expect: can read xattr trusted.test of file 'hugetlb.4MB.rsvd.max_usage_in_bytes'
+cgroup_xattr  918  TPASS  :  Expect: values equal
+cgroup_xattr  919  TPASS  :  Expect: can't read xattr trusted. of file 'hugetlb.4MB.rsvd.max_usage_in_bytes'
+cgroup_xattr  920  TPASS  :  Expect: can't read xattr user. of file 'hugetlb.4MB.rsvd.max_usage_in_bytes'
+cgroup_xattr  921  TPASS  :  Expect: can't read xattr system. of file 'hugetlb.4MB.rsvd.max_usage_in_bytes'
+cgroup_xattr  922  TPASS  :  Expect: can't read xattr security. of file 'hugetlb.4MB.limit_in_bytes'
+cgroup_xattr  923  TPASS  :  Expect: can read xattr trusted.test of file 'hugetlb.4MB.limit_in_bytes'
+cgroup_xattr  924  TPASS  :  Expect: values equal
+cgroup_xattr  925  TPASS  :  Expect: can't read xattr trusted. of file 'hugetlb.4MB.limit_in_bytes'
+cgroup_xattr  926  TPASS  :  Expect: can't read xattr user. of file 'hugetlb.4MB.limit_in_bytes'
+cgroup_xattr  927  TPASS  :  Expect: can't read xattr system. of file 'hugetlb.4MB.limit_in_bytes'
+cgroup_xattr  928  TPASS  :  Expect: can't read xattr security. of file 'hugetlb.4MB.rsvd.limit_in_bytes'
+cgroup_xattr  929  TPASS  :  Expect: can read xattr trusted.test of file 'hugetlb.4MB.rsvd.limit_in_bytes'
+cgroup_xattr  930  TPASS  :  Expect: values equal
+cgroup_xattr  931  TPASS  :  Expect: can't read xattr trusted. of file 'hugetlb.4MB.rsvd.limit_in_bytes'
+cgroup_xattr  932  TPASS  :  Expect: can't read xattr user. of file 'hugetlb.4MB.rsvd.limit_in_bytes'
+cgroup_xattr  933  TPASS  :  Expect: can't read xattr system. of file 'hugetlb.4MB.rsvd.limit_in_bytes'
+cgroup_xattr  934  TPASS  :  Expect: can't read xattr security. of file 'cgroup.clone_children'
+cgroup_xattr  935  TPASS  :  Expect: can read xattr trusted.test of file 'cgroup.clone_children'
+cgroup_xattr  936  TPASS  :  Expect: values equal
+cgroup_xattr  937  TPASS  :  Expect: can't read xattr trusted. of file 'cgroup.clone_children'
+cgroup_xattr  938  TPASS  :  Expect: can't read xattr user. of file 'cgroup.clone_children'
+cgroup_xattr  939  TPASS  :  Expect: can't read xattr system. of file 'cgroup.clone_children'
+cgroup_xattr  940  TPASS  :  Expect: can't read xattr security. of file 'release_agent'
+cgroup_xattr  941  TPASS  :  Expect: can read xattr trusted.test of file 'release_agent'
+cgroup_xattr  942  TPASS  :  Expect: values equal
+cgroup_xattr  943  TPASS  :  Expect: can't read xattr trusted. of file 'release_agent'
+cgroup_xattr  944  TPASS  :  Expect: can't read xattr user. of file 'release_agent'
+cgroup_xattr  945  TPASS  :  Expect: can't read xattr system. of file 'release_agent'
+cgroup_xattr  946  TPASS  :  Expect: can't read xattr security. of file 'hugetlb.4MB.max_usage_in_bytes'
+cgroup_xattr  947  TPASS  :  Expect: can read xattr trusted.test of file 'hugetlb.4MB.max_usage_in_bytes'
+cgroup_xattr  948  TPASS  :  Expect: values equal
+cgroup_xattr  949  TPASS  :  Expect: can't read xattr trusted. of file 'hugetlb.4MB.max_usage_in_bytes'
+cgroup_xattr  950  TPASS  :  Expect: can't read xattr user. of file 'hugetlb.4MB.max_usage_in_bytes'
+cgroup_xattr  951  TPASS  :  Expect: can't read xattr system. of file 'hugetlb.4MB.max_usage_in_bytes'
+cgroup_xattr  952  TPASS  :  Expect: can't read xattr security. of file 'hugetlb.4MB.usage_in_bytes'
+cgroup_xattr  953  TPASS  :  Expect: can read xattr trusted.test of file 'hugetlb.4MB.usage_in_bytes'
+cgroup_xattr  954  TPASS  :  Expect: values equal
+cgroup_xattr  955  TPASS  :  Expect: can't read xattr trusted. of file 'hugetlb.4MB.usage_in_bytes'
+cgroup_xattr  956  TPASS  :  Expect: can't read xattr user. of file 'hugetlb.4MB.usage_in_bytes'
+cgroup_xattr  957  TPASS  :  Expect: can't read xattr system. of file 'hugetlb.4MB.usage_in_bytes'
+cgroup_xattr  958  TPASS  :  Expect: can't read xattr security. of file 'tasks'
+cgroup_xattr  959  TPASS  :  Expect: can read xattr trusted.test of file 'tasks'
+cgroup_xattr  960  TPASS  :  Expect: values equal
+cgroup_xattr  961  TPASS  :  Expect: can't read xattr trusted. of file 'tasks'
+cgroup_xattr  962  TPASS  :  Expect: can't read xattr user. of file 'tasks'
+cgroup_xattr  963  TPASS  :  Expect: can't read xattr system. of file 'tasks'
+cgroup_xattr  964  TPASS  :  Expect: can't read xattr security. of file 'hugetlb.4MB.rsvd.usage_in_bytes'
+cgroup_xattr  965  TPASS  :  Expect: can read xattr trusted.test of file 'hugetlb.4MB.rsvd.usage_in_bytes'
+cgroup_xattr  966  TPASS  :  Expect: values equal
+cgroup_xattr  967  TPASS  :  Expect: can't read xattr trusted. of file 'hugetlb.4MB.rsvd.usage_in_bytes'
+cgroup_xattr  968  TPASS  :  Expect: can't read xattr user. of file 'hugetlb.4MB.rsvd.usage_in_bytes'
+cgroup_xattr  969  TPASS  :  Expect: can't read xattr system. of file 'hugetlb.4MB.rsvd.usage_in_bytes'
+cgroup_xattr  970  TPASS  :  Expect: can't read xattr security. of file 'notify_on_release'
+cgroup_xattr  971  TPASS  :  Expect: can read xattr trusted.test of file 'notify_on_release'
+cgroup_xattr  972  TPASS  :  Expect: values equal
+cgroup_xattr  973  TPASS  :  Expect: can't read xattr trusted. of file 'notify_on_release'
+cgroup_xattr  974  TPASS  :  Expect: can't read xattr user. of file 'notify_on_release'
+cgroup_xattr  975  TPASS  :  Expect: can't read xattr system. of file 'notify_on_release'
+cgroup_xattr  976  TPASS  :  Expect: can't read xattr security. of file 'cgroup.procs'
+cgroup_xattr  977  TPASS  :  Expect: can read xattr trusted.test of file 'cgroup.procs'
+cgroup_xattr  978  TPASS  :  Expect: values equal
+cgroup_xattr  979  TPASS  :  Expect: can't read xattr trusted. of file 'cgroup.procs'
+cgroup_xattr  980  TPASS  :  Expect: can't read xattr user. of file 'cgroup.procs'
+cgroup_xattr  981  TPASS  :  Expect: can't read xattr system. of file 'cgroup.procs'
+cgroup_xattr  982  TPASS  :  Expect: can't read xattr security. of file 'hugetlb.4MB.failcnt'
+cgroup_xattr  983  TPASS  :  Expect: can read xattr trusted.test of file 'hugetlb.4MB.failcnt'
+cgroup_xattr  984  TPASS  :  Expect: values equal
+cgroup_xattr  985  TPASS  :  Expect: can't read xattr trusted. of file 'hugetlb.4MB.failcnt'
+cgroup_xattr  986  TPASS  :  Expect: can't read xattr user. of file 'hugetlb.4MB.failcnt'
+cgroup_xattr  987  TPASS  :  Expect: can't read xattr system. of file 'hugetlb.4MB.failcnt'
+cgroup_xattr    0  TINFO  :  In dir test
+cgroup_xattr  988  TPASS  :  Expect: can't read xattr security. of file 'hugetlb.4MB.rsvd.max_usage_in_bytes'
+cgroup_xattr  989  TPASS  :  Expect: can read xattr trusted.test of file 'hugetlb.4MB.rsvd.max_usage_in_bytes'
+cgroup_xattr  990  TPASS  :  Expect: values equal
+cgroup_xattr  991  TPASS  :  Expect: can't read xattr trusted. of file 'hugetlb.4MB.rsvd.max_usage_in_bytes'
+cgroup_xattr  992  TPASS  :  Expect: can't read xattr user. of file 'hugetlb.4MB.rsvd.max_usage_in_bytes'
+cgroup_xattr  993  TPASS  :  Expect: can't read xattr system. of file 'hugetlb.4MB.rsvd.max_usage_in_bytes'
+cgroup_xattr  994  TPASS  :  Expect: can't read xattr security. of file 'hugetlb.4MB.limit_in_bytes'
+cgroup_xattr  995  TPASS  :  Expect: can read xattr trusted.test of file 'hugetlb.4MB.limit_in_bytes'
+cgroup_xattr  996  TPASS  :  Expect: values equal
+cgroup_xattr  997  TPASS  :  Expect: can't read xattr trusted. of file 'hugetlb.4MB.limit_in_bytes'
+cgroup_xattr  998  TPASS  :  Expect: can't read xattr user. of file 'hugetlb.4MB.limit_in_bytes'
+cgroup_xattr  999  TPASS  :  Expect: can't read xattr system. of file 'hugetlb.4MB.limit_in_bytes'
+cgroup_xattr 1000  TPASS  :  Expect: can't read xattr security. of file 'hugetlb.4MB.rsvd.limit_in_bytes'
+cgroup_xattr 1001  TPASS  :  Expect: can read xattr trusted.test of file 'hugetlb.4MB.rsvd.limit_in_bytes'
+cgroup_xattr 1002  TPASS  :  Expect: values equal
+cgroup_xattr 1003  TPASS  :  Expect: can't read xattr trusted. of file 'hugetlb.4MB.rsvd.limit_in_bytes'
+cgroup_xattr 1004  TPASS  :  Expect: can't read xattr user. of file 'hugetlb.4MB.rsvd.limit_in_bytes'
+cgroup_xattr 1005  TPASS  :  Expect: can't read xattr system. of file 'hugetlb.4MB.rsvd.limit_in_bytes'
+cgroup_xattr 1006  TPASS  :  Expect: can't read xattr security. of file 'cgroup.clone_children'
+cgroup_xattr 1007  TPASS  :  Expect: can read xattr trusted.test of file 'cgroup.clone_children'
+cgroup_xattr 1008  TPASS  :  Expect: values equal
+cgroup_xattr 1009  TPASS  :  Expect: can't read xattr trusted. of file 'cgroup.clone_children'
+cgroup_xattr 1010  TPASS  :  Expect: can't read xattr user. of file 'cgroup.clone_children'
+cgroup_xattr 1011  TPASS  :  Expect: can't read xattr system. of file 'cgroup.clone_children'
+cgroup_xattr 1012  TPASS  :  Expect: can't read xattr security. of file 'hugetlb.4MB.max_usage_in_bytes'
+cgroup_xattr 1013  TPASS  :  Expect: can read xattr trusted.test of file 'hugetlb.4MB.max_usage_in_bytes'
+cgroup_xattr 1014  TPASS  :  Expect: values equal
+cgroup_xattr 1015  TPASS  :  Expect: can't read xattr trusted. of file 'hugetlb.4MB.max_usage_in_bytes'
+cgroup_xattr 1016  TPASS  :  Expect: can't read xattr user. of file 'hugetlb.4MB.max_usage_in_bytes'
+cgroup_xattr 1017  TPASS  :  Expect: can't read xattr system. of file 'hugetlb.4MB.max_usage_in_bytes'
+cgroup_xattr 1018  TPASS  :  Expect: can't read xattr security. of file 'hugetlb.4MB.usage_in_bytes'
+cgroup_xattr 1019  TPASS  :  Expect: can read xattr trusted.test of file 'hugetlb.4MB.usage_in_bytes'
+cgroup_xattr 1020  TPASS  :  Expect: values equal
+cgroup_xattr 1021  TPASS  :  Expect: can't read xattr trusted. of file 'hugetlb.4MB.usage_in_bytes'
+cgroup_xattr 1022  TPASS  :  Expect: can't read xattr user. of file 'hugetlb.4MB.usage_in_bytes'
+cgroup_xattr 1023  TPASS  :  Expect: can't read xattr system. of file 'hugetlb.4MB.usage_in_bytes'
+cgroup_xattr 1024  TPASS  :  Expect: can't read xattr security. of file 'tasks'
+cgroup_xattr 1025  TPASS  :  Expect: can read xattr trusted.test of file 'tasks'
+cgroup_xattr 1026  TPASS  :  Expect: values equal
+cgroup_xattr 1027  TPASS  :  Expect: can't read xattr trusted. of file 'tasks'
+cgroup_xattr 1028  TPASS  :  Expect: can't read xattr user. of file 'tasks'
+cgroup_xattr 1029  TPASS  :  Expect: can't read xattr system. of file 'tasks'
+cgroup_xattr 1030  TPASS  :  Expect: can't read xattr security. of file 'hugetlb.4MB.rsvd.usage_in_bytes'
+cgroup_xattr 1031  TPASS  :  Expect: can read xattr trusted.test of file 'hugetlb.4MB.rsvd.usage_in_bytes'
+cgroup_xattr 1032  TPASS  :  Expect: values equal
+cgroup_xattr 1033  TPASS  :  Expect: can't read xattr trusted. of file 'hugetlb.4MB.rsvd.usage_in_bytes'
+cgroup_xattr 1034  TPASS  :  Expect: can't read xattr user. of file 'hugetlb.4MB.rsvd.usage_in_bytes'
+cgroup_xattr 1035  TPASS  :  Expect: can't read xattr system. of file 'hugetlb.4MB.rsvd.usage_in_bytes'
+cgroup_xattr 1036  TPASS  :  Expect: can't read xattr security. of file 'notify_on_release'
+cgroup_xattr 1037  TPASS  :  Expect: can read xattr trusted.test of file 'notify_on_release'
+cgroup_xattr 1038  TPASS  :  Expect: values equal
+cgroup_xattr 1039  TPASS  :  Expect: can't read xattr trusted. of file 'notify_on_release'
+cgroup_xattr 1040  TPASS  :  Expect: can't read xattr user. of file 'notify_on_release'
+cgroup_xattr 1041  TPASS  :  Expect: can't read xattr system. of file 'notify_on_release'
+cgroup_xattr 1042  TPASS  :  Expect: can't read xattr security. of file 'cgroup.procs'
+cgroup_xattr 1043  TPASS  :  Expect: can read xattr trusted.test of file 'cgroup.procs'
+cgroup_xattr 1044  TPASS  :  Expect: values equal
+cgroup_xattr 1045  TPASS  :  Expect: can't read xattr trusted. of file 'cgroup.procs'
+cgroup_xattr 1046  TPASS  :  Expect: can't read xattr user. of file 'cgroup.procs'
+cgroup_xattr 1047  TPASS  :  Expect: can't read xattr system. of file 'cgroup.procs'
+cgroup_xattr 1048  TPASS  :  Expect: can't read xattr security. of file 'hugetlb.4MB.failcnt'
+cgroup_xattr 1049  TPASS  :  Expect: can read xattr trusted.test of file 'hugetlb.4MB.failcnt'
+cgroup_xattr 1050  TPASS  :  Expect: values equal
+cgroup_xattr 1051  TPASS  :  Expect: can't read xattr trusted. of file 'hugetlb.4MB.failcnt'
+cgroup_xattr 1052  TPASS  :  Expect: can't read xattr user. of file 'hugetlb.4MB.failcnt'
+cgroup_xattr 1053  TPASS  :  Expect: can't read xattr system. of file 'hugetlb.4MB.failcnt'
+cgroup_xattr 1054  TPASS  :  Expect: can't read xattr security. of file 'hugetlb.4MB.rsvd.failcnt'
+cgroup_xattr 1055  TPASS  :  Expect: can read xattr trusted.test of file 'hugetlb.4MB.rsvd.failcnt'
+cgroup_xattr 1056  TPASS  :  Expect: values equal
+cgroup_xattr 1057  TPASS  :  Expect: can't read xattr trusted. of file 'hugetlb.4MB.rsvd.failcnt'
+cgroup_xattr 1058  TPASS  :  Expect: can't read xattr user. of file 'hugetlb.4MB.rsvd.failcnt'
+cgroup_xattr 1059  TPASS  :  Expect: can't read xattr system. of file 'hugetlb.4MB.rsvd.failcnt'
+cgroup_xattr 1060  TPASS  :  Expect: can't read xattr security. of file 'hugetlb.4MB.numa_stat'
+cgroup_xattr 1061  TPASS  :  Expect: can read xattr trusted.test of file 'hugetlb.4MB.numa_stat'
+cgroup_xattr 1062  TPASS  :  Expect: values equal
+cgroup_xattr 1063  TPASS  :  Expect: can't read xattr trusted. of file 'hugetlb.4MB.numa_stat'
+cgroup_xattr 1064  TPASS  :  Expect: can't read xattr user. of file 'hugetlb.4MB.numa_stat'
+cgroup_xattr 1065  TPASS  :  Expect: can't read xattr system. of file 'hugetlb.4MB.numa_stat'
+cgroup_xattr    0  TINFO  :  In dir .
+cgroup_xattr 1066  TPASS  :  Expect: can't read xattr security. of file 'test'
+cgroup_xattr 1067  TPASS  :  Expect: can read xattr trusted.test of file 'test'
+cgroup_xattr 1068  TPASS  :  Expect: values equal
+cgroup_xattr 1069  TPASS  :  Expect: can't read xattr trusted. of file 'test'
+cgroup_xattr 1070  TPASS  :  Expect: can't read xattr user. of file 'test'
+cgroup_xattr 1071  TPASS  :  Expect: can't read xattr system. of file 'test'
+cgroup_xattr 1072  TPASS  :  Expect: can't read xattr security. of file 'hugetlb.4MB.rsvd.failcnt'
+cgroup_xattr 1073  TPASS  :  Expect: can read xattr trusted.test of file 'hugetlb.4MB.rsvd.failcnt'
+cgroup_xattr 1074  TPASS  :  Expect: values equal
+cgroup_xattr 1075  TPASS  :  Expect: can't read xattr trusted. of file 'hugetlb.4MB.rsvd.failcnt'
+cgroup_xattr 1076  TPASS  :  Expect: can't read xattr user. of file 'hugetlb.4MB.rsvd.failcnt'
+cgroup_xattr 1077  TPASS  :  Expect: can't read xattr system. of file 'hugetlb.4MB.rsvd.failcnt'
+cgroup_xattr 1078  TPASS  :  Expect: can't read xattr security. of file 'hugetlb.4MB.numa_stat'
+cgroup_xattr 1079  TPASS  :  Expect: can read xattr trusted.test of file 'hugetlb.4MB.numa_stat'
+cgroup_xattr 1080  TPASS  :  Expect: values equal
+cgroup_xattr 1081  TPASS  :  Expect: can't read xattr trusted. of file 'hugetlb.4MB.numa_stat'
+cgroup_xattr 1082  TPASS  :  Expect: can't read xattr user. of file 'hugetlb.4MB.numa_stat'
+cgroup_xattr 1083  TPASS  :  Expect: can't read xattr system. of file 'hugetlb.4MB.numa_stat'
+cgroup_xattr 1084  TPASS  :  Expect: can't read xattr security. of file 'cgroup.sane_behavior'
+cgroup_xattr 1085  TPASS  :  Expect: can read xattr trusted.test of file 'cgroup.sane_behavior'
+cgroup_xattr 1086  TPASS  :  Expect: values equal
+cgroup_xattr 1087  TPASS  :  Expect: can't read xattr trusted. of file 'cgroup.sane_behavior'
+cgroup_xattr 1088  TPASS  :  Expect: can't read xattr user. of file 'cgroup.sane_behavior'
+cgroup_xattr 1089  TPASS  :  Expect: can't read xattr system. of file 'cgroup.sane_behavior'
+cgroup_xattr    0  TINFO  :  In dir .
+cgroup_xattr 1090  TPASS  :  Expect: can't set xattr key 'security.' to file 'cgroup.clone_children'
+cgroup_xattr 1091  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'cgroup.clone_children'
+cgroup_xattr 1092  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'cgroup.clone_children'
+cgroup_xattr 1093  TPASS  :  Expect: can't set xattr key 'user.' to file 'cgroup.clone_children'
+cgroup_xattr 1094  TPASS  :  Expect: can't set xattr key 'system.' to file 'cgroup.clone_children'
+cgroup_xattr 1095  TPASS  :  Expect: can't set xattr key 'security.' to file 'release_agent'
+cgroup_xattr 1096  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'release_agent'
+cgroup_xattr 1097  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'release_agent'
+cgroup_xattr 1098  TPASS  :  Expect: can't set xattr key 'user.' to file 'release_agent'
+cgroup_xattr 1099  TPASS  :  Expect: can't set xattr key 'system.' to file 'release_agent'
+cgroup_xattr 1100  TPASS  :  Expect: can't set xattr key 'security.' to file 'tasks'
+cgroup_xattr 1101  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'tasks'
+cgroup_xattr 1102  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'tasks'
+cgroup_xattr 1103  TPASS  :  Expect: can't set xattr key 'user.' to file 'tasks'
+cgroup_xattr 1104  TPASS  :  Expect: can't set xattr key 'system.' to file 'tasks'
+cgroup_xattr 1105  TPASS  :  Expect: can't set xattr key 'security.' to file 'notify_on_release'
+cgroup_xattr 1106  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'notify_on_release'
+cgroup_xattr 1107  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'notify_on_release'
+cgroup_xattr 1108  TPASS  :  Expect: can't set xattr key 'user.' to file 'notify_on_release'
+cgroup_xattr 1109  TPASS  :  Expect: can't set xattr key 'system.' to file 'notify_on_release'
+cgroup_xattr 1110  TPASS  :  Expect: can't set xattr key 'security.' to file 'cgroup.procs'
+cgroup_xattr 1111  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'cgroup.procs'
+cgroup_xattr 1112  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'cgroup.procs'
+cgroup_xattr 1113  TPASS  :  Expect: can't set xattr key 'user.' to file 'cgroup.procs'
+cgroup_xattr 1114  TPASS  :  Expect: can't set xattr key 'system.' to file 'cgroup.procs'
+cgroup_xattr    0  TINFO  :  In dir test
+cgroup_xattr 1115  TPASS  :  Expect: can't set xattr key 'security.' to file 'pids.current'
+cgroup_xattr 1116  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'pids.current'
+cgroup_xattr 1117  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'pids.current'
+cgroup_xattr 1118  TPASS  :  Expect: can't set xattr key 'user.' to file 'pids.current'
+cgroup_xattr 1119  TPASS  :  Expect: can't set xattr key 'system.' to file 'pids.current'
+cgroup_xattr 1120  TPASS  :  Expect: can't set xattr key 'security.' to file 'cgroup.clone_children'
+cgroup_xattr 1121  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'cgroup.clone_children'
+cgroup_xattr 1122  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'cgroup.clone_children'
+cgroup_xattr 1123  TPASS  :  Expect: can't set xattr key 'user.' to file 'cgroup.clone_children'
+cgroup_xattr 1124  TPASS  :  Expect: can't set xattr key 'system.' to file 'cgroup.clone_children'
+cgroup_xattr 1125  TPASS  :  Expect: can't set xattr key 'security.' to file 'pids.max'
+cgroup_xattr 1126  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'pids.max'
+cgroup_xattr 1127  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'pids.max'
+cgroup_xattr 1128  TPASS  :  Expect: can't set xattr key 'user.' to file 'pids.max'
+cgroup_xattr 1129  TPASS  :  Expect: can't set xattr key 'system.' to file 'pids.max'
+cgroup_xattr 1130  TPASS  :  Expect: can't set xattr key 'security.' to file 'pids.events'
+cgroup_xattr 1131  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'pids.events'
+cgroup_xattr 1132  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'pids.events'
+cgroup_xattr 1133  TPASS  :  Expect: can't set xattr key 'user.' to file 'pids.events'
+cgroup_xattr 1134  TPASS  :  Expect: can't set xattr key 'system.' to file 'pids.events'
+cgroup_xattr 1135  TPASS  :  Expect: can't set xattr key 'security.' to file 'tasks'
+cgroup_xattr 1136  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'tasks'
+cgroup_xattr 1137  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'tasks'
+cgroup_xattr 1138  TPASS  :  Expect: can't set xattr key 'user.' to file 'tasks'
+cgroup_xattr 1139  TPASS  :  Expect: can't set xattr key 'system.' to file 'tasks'
+cgroup_xattr 1140  TPASS  :  Expect: can't set xattr key 'security.' to file 'notify_on_release'
+cgroup_xattr 1141  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'notify_on_release'
+cgroup_xattr 1142  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'notify_on_release'
+cgroup_xattr 1143  TPASS  :  Expect: can't set xattr key 'user.' to file 'notify_on_release'
+cgroup_xattr 1144  TPASS  :  Expect: can't set xattr key 'system.' to file 'notify_on_release'
+cgroup_xattr 1145  TPASS  :  Expect: can't set xattr key 'security.' to file 'cgroup.procs'
+cgroup_xattr 1146  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'cgroup.procs'
+cgroup_xattr 1147  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'cgroup.procs'
+cgroup_xattr 1148  TPASS  :  Expect: can't set xattr key 'user.' to file 'cgroup.procs'
+cgroup_xattr 1149  TPASS  :  Expect: can't set xattr key 'system.' to file 'cgroup.procs'
+cgroup_xattr    0  TINFO  :  In dir .
+cgroup_xattr 1150  TPASS  :  Expect: can't set xattr key 'security.' to file 'test'
+cgroup_xattr 1151  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'test'
+cgroup_xattr 1152  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'test'
+cgroup_xattr 1153  TPASS  :  Expect: can't set xattr key 'user.' to file 'test'
+cgroup_xattr 1154  TPASS  :  Expect: can't set xattr key 'system.' to file 'test'
+cgroup_xattr 1155  TPASS  :  Expect: can't set xattr key 'security.' to file 'cgroup.sane_behavior'
+cgroup_xattr 1156  TPASS  :  Expect: can set xattr key 'trusted.test' to file 'cgroup.sane_behavior'
+cgroup_xattr 1157  TPASS  :  Expect: can't set xattr key 'trusted.' to file 'cgroup.sane_behavior'
+cgroup_xattr 1158  TPASS  :  Expect: can't set xattr key 'user.' to file 'cgroup.sane_behavior'
+cgroup_xattr 1159  TPASS  :  Expect: can't set xattr key 'system.' to file 'cgroup.sane_behavior'
+cgroup_xattr    0  TINFO  :  In dir .
+cgroup_xattr 1160  TPASS  :  Expect: can't read xattr security. of file 'cgroup.clone_children'
+cgroup_xattr 1161  TPASS  :  Expect: can read xattr trusted.test of file 'cgroup.clone_children'
+cgroup_xattr 1162  TPASS  :  Expect: values equal
+cgroup_xattr 1163  TPASS  :  Expect: can't read xattr trusted. of file 'cgroup.clone_children'
+cgroup_xattr 1164  TPASS  :  Expect: can't read xattr user. of file 'cgroup.clone_children'
+cgroup_xattr 1165  TPASS  :  Expect: can't read xattr system. of file 'cgroup.clone_children'
+cgroup_xattr 1166  TPASS  :  Expect: can't read xattr security. of file 'release_agent'
+cgroup_xattr 1167  TPASS  :  Expect: can read xattr trusted.test of file 'release_agent'
+cgroup_xattr 1168  TPASS  :  Expect: values equal
+cgroup_xattr 1169  TPASS  :  Expect: can't read xattr trusted. of file 'release_agent'
+cgroup_xattr 1170  TPASS  :  Expect: can't read xattr user. of file 'release_agent'
+cgroup_xattr 1171  TPASS  :  Expect: can't read xattr system. of file 'release_agent'
+cgroup_xattr 1172  TPASS  :  Expect: can't read xattr security. of file 'tasks'
+cgroup_xattr 1173  TPASS  :  Expect: can read xattr trusted.test of file 'tasks'
+cgroup_xattr 1174  TPASS  :  Expect: values equal
+cgroup_xattr 1175  TPASS  :  Expect: can't read xattr trusted. of file 'tasks'
+cgroup_xattr 1176  TPASS  :  Expect: can't read xattr user. of file 'tasks'
+cgroup_xattr 1177  TPASS  :  Expect: can't read xattr system. of file 'tasks'
+cgroup_xattr 1178  TPASS  :  Expect: can't read xattr security. of file 'notify_on_release'
+cgroup_xattr 1179  TPASS  :  Expect: can read xattr trusted.test of file 'notify_on_release'
+cgroup_xattr 1180  TPASS  :  Expect: values equal
+cgroup_xattr 1181  TPASS  :  Expect: can't read xattr trusted. of file 'notify_on_release'
+cgroup_xattr 1182  TPASS  :  Expect: can't read xattr user. of file 'notify_on_release'
+cgroup_xattr 1183  TPASS  :  Expect: can't read xattr system. of file 'notify_on_release'
+cgroup_xattr 1184  TPASS  :  Expect: can't read xattr security. of file 'cgroup.procs'
+cgroup_xattr 1185  TPASS  :  Expect: can read xattr trusted.test of file 'cgroup.procs'
+cgroup_xattr 1186  TPASS  :  Expect: values equal
+cgroup_xattr 1187  TPASS  :  Expect: can't read xattr trusted. of file 'cgroup.procs'
+cgroup_xattr 1188  TPASS  :  Expect: can't read xattr user. of file 'cgroup.procs'
+cgroup_xattr 1189  TPASS  :  Expect: can't read xattr system. of file 'cgroup.procs'
+cgroup_xattr    0  TINFO  :  In dir test
+cgroup_xattr 1190  TPASS  :  Expect: can't read xattr security. of file 'pids.current'
+cgroup_xattr 1191  TPASS  :  Expect: can read xattr trusted.test of file 'pids.current'
+cgroup_xattr 1192  TPASS  :  Expect: values equal
+cgroup_xattr 1193  TPASS  :  Expect: can't read xattr trusted. of file 'pids.current'
+cgroup_xattr 1194  TPASS  :  Expect: can't read xattr user. of file 'pids.current'
+cgroup_xattr 1195  TPASS  :  Expect: can't read xattr system. of file 'pids.current'
+cgroup_xattr 1196  TPASS  :  Expect: can't read xattr security. of file 'cgroup.clone_children'
+cgroup_xattr 1197  TPASS  :  Expect: can read xattr trusted.test of file 'cgroup.clone_children'
+cgroup_xattr 1198  TPASS  :  Expect: values equal
+cgroup_xattr 1199  TPASS  :  Expect: can't read xattr trusted. of file 'cgroup.clone_children'
+cgroup_xattr 1200  TPASS  :  Expect: can't read xattr user. of file 'cgroup.clone_children'
+cgroup_xattr 1201  TPASS  :  Expect: can't read xattr system. of file 'cgroup.clone_children'
+cgroup_xattr 1202  TPASS  :  Expect: can't read xattr security. of file 'pids.max'
+cgroup_xattr 1203  TPASS  :  Expect: can read xattr trusted.test of file 'pids.max'
+cgroup_xattr 1204  TPASS  :  Expect: values equal
+cgroup_xattr 1205  TPASS  :  Expect: can't read xattr trusted. of file 'pids.max'
+cgroup_xattr 1206  TPASS  :  Expect: can't read xattr user. of file 'pids.max'
+cgroup_xattr 1207  TPASS  :  Expect: can't read xattr system. of file 'pids.max'
+cgroup_xattr 1208  TPASS  :  Expect: can't read xattr security. of file 'pids.events'
+cgroup_xattr 1209  TPASS  :  Expect: can read xattr trusted.test of file 'pids.events'
+cgroup_xattr 1210  TPASS  :  Expect: values equal
+cgroup_xattr 1211  TPASS  :  Expect: can't read xattr trusted. of file 'pids.events'
+cgroup_xattr 1212  TPASS  :  Expect: can't read xattr user. of file 'pids.events'
+cgroup_xattr 1213  TPASS  :  Expect: can't read xattr system. of file 'pids.events'
+cgroup_xattr 1214  TPASS  :  Expect: can't read xattr security. of file 'tasks'
+cgroup_xattr 1215  TPASS  :  Expect: can read xattr trusted.test of file 'tasks'
+cgroup_xattr 1216  TPASS  :  Expect: values equal
+cgroup_xattr 1217  TPASS  :  Expect: can't read xattr trusted. of file 'tasks'
+cgroup_xattr 1218  TPASS  :  Expect: can't read xattr user. of file 'tasks'
+cgroup_xattr 1219  TPASS  :  Expect: can't read xattr system. of file 'tasks'
+cgroup_xattr 1220  TPASS  :  Expect: can't read xattr security. of file 'notify_on_release'
+cgroup_xattr 1221  TPASS  :  Expect: can read xattr trusted.test of file 'notify_on_release'
+cgroup_xattr 1222  TPASS  :  Expect: values equal
+cgroup_xattr 1223  TPASS  :  Expect: can't read xattr trusted. of file 'notify_on_release'
+cgroup_xattr 1224  TPASS  :  Expect: can't read xattr user. of file 'notify_on_release'
+cgroup_xattr 1225  TPASS  :  Expect: can't read xattr system. of file 'notify_on_release'
+cgroup_xattr 1226  TPASS  :  Expect: can't read xattr security. of file 'cgroup.procs'
+cgroup_xattr 1227  TPASS  :  Expect: can read xattr trusted.test of file 'cgroup.procs'
+cgroup_xattr 1228  TPASS  :  Expect: values equal
+cgroup_xattr 1229  TPASS  :  Expect: can't read xattr trusted. of file 'cgroup.procs'
+cgroup_xattr 1230  TPASS  :  Expect: can't read xattr user. of file 'cgroup.procs'
+cgroup_xattr 1231  TPASS  :  Expect: can't read xattr system. of file 'cgroup.procs'
+cgroup_xattr    0  TINFO  :  In dir .
+cgroup_xattr 1232  TPASS  :  Expect: can't read xattr security. of file 'test'
+cgroup_xattr 1233  TPASS  :  Expect: can read xattr trusted.test of file 'test'
+cgroup_xattr 1234  TPASS  :  Expect: values equal
+cgroup_xattr 1235  TPASS  :  Expect: can't read xattr trusted. of file 'test'
+cgroup_xattr 1236  TPASS  :  Expect: can't read xattr user. of file 'test'
+cgroup_xattr 1237  TPASS  :  Expect: can't read xattr system. of file 'test'
+cgroup_xattr 1238  TPASS  :  Expect: can't read xattr security. of file 'cgroup.sane_behavior'
+cgroup_xattr 1239  TPASS  :  Expect: can read xattr trusted.test of file 'cgroup.sane_behavior'
+cgroup_xattr 1240  TPASS  :  Expect: values equal
+cgroup_xattr 1241  TPASS  :  Expect: can't read xattr trusted. of file 'cgroup.sane_behavior'
+cgroup_xattr 1242  TPASS  :  Expect: can't read xattr user. of file 'cgroup.sane_behavior'
+cgroup_xattr 1243  TPASS  :  Expect: can't read xattr system. of file 'cgroup.sane_behavior'
+cgroup_xattr    0  TINFO  :  All test-cases have been completed, summary:
+cgroup_xattr    0  TINFO  :  Set tests result: PASS
+cgroup_xattr    0  TINFO  :  Get tests result: PASS
+<<<execution_status>>>
+initiation_status="ok"
+duration=0 termination_type=exited termination_id=0 corefile=no
+cutime=12 cstime=62
+<<<test_end>>>
+<<<test_start>>>
+tag=io_control01 stime=1699332977
+cmdline="io_control01"
+contacts=""
+analysis=exit
+<<<test_output>>>
+tst_device.c:317: TINFO: Using test device LTP_DEV='/dev/loop0'
+tst_test.c:1558: TINFO: Timeout per run is 0h 50m 00s
+tst_supported_fs_types.c:90: TINFO: Kernel supports ext2
+tst_supported_fs_types.c:55: TINFO: mkfs.ext2 does exist
+tst_supported_fs_types.c:90: TINFO: Kernel supports ext3
+tst_supported_fs_types.c:55: TINFO: mkfs.ext3 does exist
+tst_supported_fs_types.c:90: TINFO: Kernel supports ext4
+tst_supported_fs_types.c:55: TINFO: mkfs.ext4 does exist
+tst_supported_fs_types.c:90: TINFO: Kernel supports btrfs
+tst_supported_fs_types.c:55: TINFO: mkfs.btrfs does exist
+tst_supported_fs_types.c:90: TINFO: Kernel supports vfat
+tst_supported_fs_types.c:55: TINFO: mkfs.vfat does exist
+tst_supported_fs_types.c:157: TINFO: Skipping ntfs as requested by the test
+tst_supported_fs_types.c:157: TINFO: Skipping tmpfs as requested by the test
+tst_test.c:1634: TINFO: === Testing on ext2 ===
+tst_test.c:1093: TINFO: Formatting /dev/loop0 with ext2 opts='' extra opts=''
+mke2fs 1.46.5 (30-Dec-2021)
+io_control01.c:95: TPASS: Did some IO in the IO controller
+io_control01.c:111: TPASS: Found 7:0 in io.stat
+io_control01.c:112: TPASS: Expect: (rbytes=28672) > (st_rbytes=0)
+io_control01.c:115: TPASS: Expect: (wbytes=32768) > (st_wbytes=0)
+io_control01.c:118: TPASS: Expect: (rios=4) > (st_rios=0)
+io_control01.c:121: TPASS: Expect: (wios=12) > (st_wios=0)
+tst_test.c:1634: TINFO: === Testing on ext3 ===
+tst_test.c:1093: TINFO: Formatting /dev/loop0 with ext3 opts='' extra opts=''
+mke2fs 1.46.5 (30-Dec-2021)
+io_control01.c:67: TINFO: Found 7:0 in io.stat
+io_control01.c:95: TPASS: Did some IO in the IO controller
+io_control01.c:111: TPASS: Found 7:0 in io.stat
+io_control01.c:112: TPASS: Expect: (rbytes=102400) > (st_rbytes=28672)
+io_control01.c:115: TPASS: Expect: (wbytes=53248) > (st_wbytes=36864)
+io_control01.c:118: TPASS: Expect: (rios=19) > (st_rios=4)
+io_control01.c:121: TPASS: Expect: (wios=17) > (st_wios=13)
+tst_test.c:1634: TINFO: === Testing on ext4 ===
+tst_test.c:1093: TINFO: Formatting /dev/loop0 with ext4 opts='' extra opts=''
+mke2fs 1.46.5 (30-Dec-2021)
+io_control01.c:67: TINFO: Found 7:0 in io.stat
+io_control01.c:95: TPASS: Did some IO in the IO controller
+io_control01.c:111: TPASS: Found 7:0 in io.stat
+io_control01.c:112: TPASS: Expect: (rbytes=139264) > (st_rbytes=102400)
+io_control01.c:115: TPASS: Expect: (wbytes=69632) > (st_wbytes=53248)
+io_control01.c:118: TPASS: Expect: (rios=25) > (st_rios=19)
+io_control01.c:121: TPASS: Expect: (wios=21) > (st_wios=17)
+tst_test.c:1634: TINFO: === Testing on btrfs ===
+tst_test.c:1093: TINFO: Formatting /dev/loop0 with btrfs opts='' extra opts=''
+io_control01.c:67: TINFO: Found 7:0 in io.stat
+io_control01.c:95: TPASS: Did some IO in the IO controller
+io_control01.c:111: TPASS: Found 7:0 in io.stat
+io_control01.c:112: TPASS: Expect: (rbytes=155648) > (st_rbytes=139264)
+io_control01.c:115: TPASS: Expect: (wbytes=364544) > (st_wbytes=69632)
+io_control01.c:118: TPASS: Expect: (rios=26) > (st_rios=25)
+io_control01.c:121: TPASS: Expect: (wios=49) > (st_wios=21)
+tst_test.c:1634: TINFO: === Testing on vfat ===
+tst_test.c:1093: TINFO: Formatting /dev/loop0 with vfat opts='' extra opts=''
+io_control01.c:67: TINFO: Found 7:0 in io.stat
+io_control01.c:95: TPASS: Did some IO in the IO controller
+io_control01.c:111: TPASS: Found 7:0 in io.stat
+io_control01.c:112: TPASS: Expect: (rbytes=172032) > (st_rbytes=155648)
+io_control01.c:115: TPASS: Expect: (wbytes=780288) > (st_wbytes=757760)
+io_control01.c:118: TPASS: Expect: (rios=27) > (st_rios=26)
+io_control01.c:121: TPASS: Expect: (wios=77) > (st_wios=57)
+
+Summary:
+passed   30
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=17 termination_type=exited termination_id=0 corefile=no
+cutime=222 cstime=520
+<<<test_end>>>
+<<<test_start>>>
+tag=pids_1_1 stime=1699332994
+cmdline="pids.sh 1 1 0"
+contacts=""
+analysis=exit
+<<<test_output>>>
+pids 1 TINFO: timeout per run is 8h 20m 0s
+pids 1 TINFO: test starts with cgroup version 1
+pids 1 TINFO: Running testcase 1 with 1 processes
+pids 1 TPASS: fork didn't fail
+
+Summary:
+passed   1
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=2 termination_type=exited termination_id=0 corefile=no
+cutime=134 cstime=135
+<<<test_end>>>
+<<<test_start>>>
+tag=pids_1_100 stime=1699332996
+cmdline="pids.sh 1 100 0"
+contacts=""
+analysis=exit
+<<<test_output>>>
+pids 1 TINFO: timeout per run is 8h 20m 0s
+pids 1 TINFO: test starts with cgroup version 1
+pids 1 TINFO: Running testcase 1 with 100 processes
+pids 1 TPASS: fork didn't fail
+
+Summary:
+passed   1
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=12 termination_type=exited termination_id=0 corefile=no
+cutime=560 cstime=897
+<<<test_end>>>
+<<<test_start>>>
+tag=pids_2_1 stime=1699333008
+cmdline="pids.sh 2 1 0"
+contacts=""
+analysis=exit
+<<<test_output>>>
+pids 1 TINFO: timeout per run is 8h 20m 0s
+pids 1 TINFO: test starts with cgroup version 1
+pids 1 TINFO: Running testcase 2 with 1 processes
+pids 1 TINFO: limit the number of pid to 1
+pids 1 TPASS: fork failed as expected
+
+Summary:
+passed   1
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=2 termination_type=exited termination_id=0 corefile=no
+cutime=84 cstime=132
+<<<test_end>>>
+<<<test_start>>>
+tag=pids_2_100 stime=1699333010
+cmdline="pids.sh 2 100 0"
+contacts=""
+analysis=exit
+<<<test_output>>>
+pids 1 TINFO: timeout per run is 8h 20m 0s
+pids 1 TINFO: test starts with cgroup version 1
+pids 1 TINFO: Running testcase 2 with 100 processes
+pids 1 TINFO: limit the number of pid to 100
+pids 1 TPASS: fork failed as expected
+
+Summary:
+passed   1
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=10 termination_type=exited termination_id=0 corefile=no
+cutime=269 cstime=903
+<<<test_end>>>
+<<<test_start>>>
+tag=pids_3_0 stime=1699333020
+cmdline="pids.sh 3 0 0"
+contacts=""
+analysis=exit
+<<<test_output>>>
+pids 1 TINFO: timeout per run is 8h 20m 0s
+pids 1 TINFO: test starts with cgroup version 1
+pids 1 TINFO: Running testcase 3 with 0 processes
+pids 1 TINFO: limit the number of avalaible pid to 2
+pids 1 TPASS: fork worked as expected
+
+Summary:
+passed   1
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=2 termination_type=exited termination_id=0 corefile=no
+cutime=57 cstime=124
+<<<test_end>>>
+<<<test_start>>>
+tag=pids_3_100 stime=1699333022
+cmdline="pids.sh 3 100 0"
+contacts=""
+analysis=exit
+<<<test_output>>>
+pids 1 TINFO: timeout per run is 8h 20m 0s
+pids 1 TINFO: test starts with cgroup version 1
+pids 1 TINFO: Running testcase 3 with 100 processes
+pids 1 TINFO: limit the number of avalaible pid to 102
+pids 1 TPASS: fork worked as expected
+
+Summary:
+passed   1
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=9 termination_type=exited termination_id=0 corefile=no
+cutime=186 cstime=903
+<<<test_end>>>
+<<<test_start>>>
+tag=pids_4_1 stime=1699333031
+cmdline="pids.sh 4 1 0"
+contacts=""
+analysis=exit
+<<<test_output>>>
+pids 1 TINFO: timeout per run is 8h 20m 0s
+pids 1 TINFO: test starts with cgroup version 1
+pids 1 TINFO: Running testcase 4 with 1 processes
+pids 1 TINFO: limit the number of avalaible pid to 0
+pids 1 TPASS: all process were attached
+
+Summary:
+passed   1
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=1 termination_type=exited termination_id=0 corefile=no
+cutime=66 cstime=131
+<<<test_end>>>
+<<<test_start>>>
+tag=pids_4_100 stime=1699333032
+cmdline="pids.sh 4 100 0"
+contacts=""
+analysis=exit
+<<<test_output>>>
+pids 1 TINFO: timeout per run is 8h 20m 0s
+pids 1 TINFO: test starts with cgroup version 1
+pids 1 TINFO: Running testcase 4 with 100 processes
+pids 1 TINFO: limit the number of avalaible pid to 0
+pids 1 TPASS: all process were attached
+
+Summary:
+passed   1
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=9 termination_type=exited termination_id=0 corefile=no
+cutime=138 cstime=902
+<<<test_end>>>
+<<<test_start>>>
+tag=pids_5_1 stime=1699333041
+cmdline="pids.sh 5 1 0"
+contacts=""
+analysis=exit
+<<<test_output>>>
+pids 1 TINFO: timeout per run is 8h 20m 0s
+pids 1 TINFO: test starts with cgroup version 1
+pids 1 TINFO: Running testcase 5 with 1 processes
+pids 1 TINFO: try to limit the number of avalaible pid to -1
+sh: write error: Invalid argument
+pids 1 TPASS: didn't manage to set the limit to -1
+
+Summary:
+passed   1
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=2 termination_type=exited termination_id=0 corefile=no
+cutime=45 cstime=115
+<<<test_end>>>
+<<<test_start>>>
+tag=pids_6_1 stime=1699333043
+cmdline="pids.sh 6 1 0"
+contacts=""
+analysis=exit
+<<<test_output>>>
+pids 1 TINFO: timeout per run is 8h 20m 0s
+pids 1 TINFO: test starts with cgroup version 1
+pids 1 TINFO: Running testcase 6 with 1 processes
+pids 1 TINFO: set a limit that is smaller than current number of pids
+pids 1 TPASS: fork failed as expected
+
+Summary:
+passed   1
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=1 termination_type=exited termination_id=0 corefile=no
+cutime=52 cstime=137
+<<<test_end>>>
+<<<test_start>>>
+tag=pids_6_100 stime=1699333044
+cmdline="pids.sh 6 100 0"
+contacts=""
+analysis=exit
+<<<test_output>>>
+pids 1 TINFO: timeout per run is 8h 20m 0s
+pids 1 TINFO: test starts with cgroup version 1
+pids 1 TINFO: Running testcase 6 with 100 processes
+pids 1 TINFO: set a limit that is smaller than current number of pids
+pids 1 TPASS: fork failed as expected
+
+Summary:
+passed   1
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=9 termination_type=exited termination_id=0 corefile=no
+cutime=135 cstime=913
+<<<test_end>>>
+<<<test_start>>>
+tag=pids_7_10 stime=1699333053
+cmdline="pids.sh 7 10 5"
+contacts=""
+analysis=exit
+<<<test_output>>>
+pids 1 TINFO: timeout per run is 8h 20m 0s
+pids 1 TINFO: test starts with cgroup version 1
+pids 1 TINFO: Running testcase 7 with 10 processes
+pids 1 TINFO: the number of all child cgroup tasks larger than its parent limit
+pids 1 TPASS: parent cgroup fork failed as expected
+pids 1 TPASS: child1 cgroup fork failed as expected
+pids 1 TPASS: child2 cgroup fork failed as expected
+pids 1 TPASS: child3 cgroup fork failed as expected
+pids 1 TPASS: child4 cgroup fork failed as expected
+pids 1 TPASS: child5 cgroup fork failed as expected
+
+Summary:
+passed   6
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=4 termination_type=exited termination_id=0 corefile=no
+cutime=78 cstime=297
+<<<test_end>>>
+<<<test_start>>>
+tag=pids_7_1000 stime=1699333057
+cmdline="pids.sh 7 1000 100"
+contacts=""
+analysis=exit
+<<<test_output>>>
+pids 1 TINFO: timeout per run is 8h 20m 0s
+pids 1 TINFO: test starts with cgroup version 1
+pids 1 TINFO: Running testcase 7 with 1000 processes
+pids 1 TINFO: the number of all child cgroup tasks larger than its parent limit
+pids 1 TPASS: parent cgroup fork failed as expected
+pids 1 TPASS: child1 cgroup fork failed as expected
+pids 1 TPASS: child2 cgroup fork failed as expected
+pids 1 TPASS: child3 cgroup fork failed as expected
+pids 1 TPASS: child4 cgroup fork failed as expected
+pids 1 TPASS: child5 cgroup fork failed as expected
+pids 1 TPASS: child6 cgroup fork failed as expected
+pids 1 TPASS: child7 cgroup fork failed as expected
+pids 1 TPASS: child8 cgroup fork failed as expected
+pids 1 TPASS: child9 cgroup fork failed as expected
+pids 1 TPASS: child10 cgroup fork failed as expected
+pids 1 TPASS: child11 cgroup fork failed as expected
+pids 1 TPASS: child12 cgroup fork failed as expected
+pids 1 TPASS: child13 cgroup fork failed as expected
+pids 1 TPASS: child14 cgroup fork failed as expected
+pids 1 TPASS: child15 cgroup fork failed as expected
+pids 1 TPASS: child16 cgroup fork failed as expected
+pids 1 TPASS: child17 cgroup fork failed as expected
+pids 1 TPASS: child18 cgroup fork failed as expected
+pids 1 TPASS: child19 cgroup fork failed as expected
+pids 1 TPASS: child20 cgroup fork failed as expected
+pids 1 TPASS: child21 cgroup fork failed as expected
+pids 1 TPASS: child22 cgroup fork failed as expected
+pids 1 TPASS: child23 cgroup fork failed as expected
+pids 1 TPASS: child24 cgroup fork failed as expected
+pids 1 TPASS: child25 cgroup fork failed as expected
+pids 1 TPASS: child26 cgroup fork failed as expected
+pids 1 TPASS: child27 cgroup fork failed as expected
+pids 1 TPASS: child28 cgroup fork failed as expected
+pids 1 TPASS: child29 cgroup fork failed as expected
+pids 1 TPASS: child30 cgroup fork failed as expected
+pids 1 TPASS: child31 cgroup fork failed as expected
+pids 1 TPASS: child32 cgroup fork failed as expected
+pids 1 TPASS: child33 cgroup fork failed as expected
+pids 1 TPASS: child34 cgroup fork failed as expected
+pids 1 TPASS: child35 cgroup fork failed as expected
+pids 1 TPASS: child36 cgroup fork failed as expected
+pids 1 TPASS: child37 cgroup fork failed as expected
+pids 1 TPASS: child38 cgroup fork failed as expected
+pids 1 TPASS: child39 cgroup fork failed as expected
+pids 1 TPASS: child40 cgroup fork failed as expected
+pids 1 TPASS: child41 cgroup fork failed as expected
+pids 1 TPASS: child42 cgroup fork failed as expected
+pids 1 TPASS: child43 cgroup fork failed as expected
+pids 1 TPASS: child44 cgroup fork failed as expected
+pids 1 TPASS: child45 cgroup fork failed as expected
+pids 1 TPASS: child46 cgroup fork failed as expected
+pids 1 TPASS: child47 cgroup fork failed as expected
+pids 1 TPASS: child48 cgroup fork failed as expected
+pids 1 TPASS: child49 cgroup fork failed as expected
+pids 1 TPASS: child50 cgroup fork failed as expected
+pids 1 TPASS: child51 cgroup fork failed as expected
+pids 1 TPASS: child52 cgroup fork failed as expected
+pids 1 TPASS: child53 cgroup fork failed as expected
+pids 1 TPASS: child54 cgroup fork failed as expected
+pids 1 TPASS: child55 cgroup fork failed as expected
+pids 1 TPASS: child56 cgroup fork failed as expected
+pids 1 TPASS: child57 cgroup fork failed as expected
+pids 1 TPASS: child58 cgroup fork failed as expected
+pids 1 TPASS: child59 cgroup fork failed as expected
+pids 1 TPASS: child60 cgroup fork failed as expected
+pids 1 TPASS: child61 cgroup fork failed as expected
+pids 1 TPASS: child62 cgroup fork failed as expected
+pids 1 TPASS: child63 cgroup fork failed as expected
+pids 1 TPASS: child64 cgroup fork failed as expected
+pids 1 TPASS: child65 cgroup fork failed as expected
+pids 1 TPASS: child66 cgroup fork failed as expected
+pids 1 TPASS: child67 cgroup fork failed as expected
+pids 1 TPASS: child68 cgroup fork failed as expected
+pids 1 TPASS: child69 cgroup fork failed as expected
+pids 1 TPASS: child70 cgroup fork failed as expected
+pids 1 TPASS: child71 cgroup fork failed as expected
+pids 1 TPASS: child72 cgroup fork failed as expected
+pids 1 TPASS: child73 cgroup fork failed as expected
+pids 1 TPASS: child74 cgroup fork failed as expected
+pids 1 TPASS: child75 cgroup fork failed as expected
+pids 1 TPASS: child76 cgroup fork failed as expected
+pids 1 TPASS: child77 cgroup fork failed as expected
+pids 1 TPASS: child78 cgroup fork failed as expected
+pids 1 TPASS: child79 cgroup fork failed as expected
+pids 1 TPASS: child80 cgroup fork failed as expected
+pids 1 TPASS: child81 cgroup fork failed as expected
+pids 1 TPASS: child82 cgroup fork failed as expected
+pids 1 TPASS: child83 cgroup fork failed as expected
+pids 1 TPASS: child84 cgroup fork failed as expected
+pids 1 TPASS: child85 cgroup fork failed as expected
+pids 1 TPASS: child86 cgroup fork failed as expected
+pids 1 TPASS: child87 cgroup fork failed as expected
+pids 1 TPASS: child88 cgroup fork failed as expected
+pids 1 TPASS: child89 cgroup fork failed as expected
+pids 1 TPASS: child90 cgroup fork failed as expected
+pids 1 TPASS: child91 cgroup fork failed as expected
+pids 1 TPASS: child92 cgroup fork failed as expected
+pids 1 TPASS: child93 cgroup fork failed as expected
+pids 1 TPASS: child94 cgroup fork failed as expected
+pids 1 TPASS: child95 cgroup fork failed as expected
+pids 1 TPASS: child96 cgroup fork failed as expected
+pids 1 TPASS: child97 cgroup fork failed as expected
+pids 1 TPASS: child98 cgroup fork failed as expected
+pids 1 TPASS: child99 cgroup fork failed as expected
+pids 1 TPASS: child100 cgroup fork failed as expected
+
+Summary:
+passed   101
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=101 termination_type=exited termination_id=0 corefile=no
+cutime=1064 cstime=10355
+<<<test_end>>>
+<<<test_start>>>
+tag=pids_8_2 stime=1699333158
+cmdline="pids.sh 8 2 0"
+contacts=""
+analysis=exit
+<<<test_output>>>
+pids 1 TINFO: timeout per run is 8h 20m 0s
+pids 1 TINFO: test starts with cgroup version 1
+pids 1 TINFO: Running testcase 8 with 2 processes
+pids 1 TINFO: set child cgroup limit smaller than its parent limit
+pids 1 TPASS: fork failed as expected
+
+Summary:
+passed   1
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=1 termination_type=exited termination_id=0 corefile=no
+cutime=48 cstime=145
+<<<test_end>>>
+<<<test_start>>>
+tag=pids_8_100 stime=1699333159
+cmdline="pids.sh 8 100 0"
+contacts=""
+analysis=exit
+<<<test_output>>>
+pids 1 TINFO: timeout per run is 8h 20m 0s
+pids 1 TINFO: test starts with cgroup version 1
+pids 1 TINFO: Running testcase 8 with 100 processes
+pids 1 TINFO: set child cgroup limit smaller than its parent limit
+pids 1 TPASS: fork failed as expected
+
+Summary:
+passed   1
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=8 termination_type=exited termination_id=0 corefile=no
+cutime=107 cstime=878
+<<<test_end>>>
+<<<test_start>>>
+tag=pids_9_2 stime=1699333167
+cmdline="pids.sh 9 2 0"
+contacts=""
+analysis=exit
+<<<test_output>>>
+pids 1 TINFO: timeout per run is 8h 20m 0s
+pids 1 TINFO: test starts with cgroup version 1
+pids 1 TINFO: Running testcase 9 with 2 processes
+pids 1 TINFO: migrate cgroup
+pids 1 TPASS: migrate pid 14410 from cgroup1 to cgroup2 as expected
+pids 1 TPASS: migrate child1 cgroup as expected
+pids 1 TPASS: migrate child2 cgroup as expected
+pids 1 TPASS: child1 fork worked as expected
+pids 1 TPASS: child2 fork failed as expected
+
+Summary:
+passed   5
+failed   0
+broken   0
+skipped  0
+warnings 0
+<<<execution_status>>>
+initiation_status="ok"
+duration=3 termination_type=exited termination_id=0 corefile=no
+cutime=52 cstime=193
+<<<test_end>>>
+<<<test_start>>>
+tag=pids_9_100 stime=1699333170
+cmdline="pids.sh 9 100 0"
+contacts=""
+analysis=exit
+<<<test_output>>>
+pids 1 TINFO: timeout per run is 8h 20m 0s
+pids 1 TINFO: test starts with cgroup version 1
+pids 1 TINFO: Running testcase 9 with 100 processes
+pids 1 TINFO: migrate cgroup
+pids 1 TPASS: migrate pid 14476 from cgroup1 to cgroup2 as expected
+pids 1 TPASS: migrate child1 cgroup as expected
+pids 1 TPASS: migrate child2 cgroup as expected
+pids 1 TPASS: child1 fork worked as expected
+pids 1 TPASS: child2 fork failed as expected
+
+Summary:
+passed   5
+failed   0
+broken   0
+skipped  0
+warnings 0
+incrementing stop
+<<<execution_status>>>
+initiation_status="ok"
+duration=15 termination_type=exited termination_id=0 corefile=no
+cutime=164 cstime=1692
+<<<test_end>>>

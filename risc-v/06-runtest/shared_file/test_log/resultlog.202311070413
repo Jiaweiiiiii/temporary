@@ -1,0 +1,83 @@
+Test Start Time: Tue Nov  7 04:13:38 2023
+-----------------------------------------
+Testcase                                           Result     Exit Value
+--------                                           ------     ----------
+cgroup_core01                                      PASS       0    
+cgroup_core03                                      PASS       0    
+cgroup                                             FAIL       2    
+memcg_regression                                   PASS       0    
+memcg_test_3                                       PASS       0    
+memcg_failcnt                                      CONF       32   
+memcg_force_empty                                  CONF       32   
+memcg_limit_in_bytes                               CONF       32   
+memcg_stat_rss                                     CONF       32   
+memcg_subgroup_charge                              CONF       32   
+memcg_max_usage_in_bytes                           CONF       32   
+memcg_move_charge_at_immigrate                     CONF       32   
+memcg_memsw_limit_in_bytes                         CONF       32   
+memcg_stat                                         CONF       32   
+memcg_use_hierarchy                                CONF       32   
+memcg_usage_in_bytes                               CONF       32   
+memcg_control                                      PASS       0    
+memcontrol01                                       PASS       0    
+memcontrol02                                       PASS       0    
+memcontrol03                                       PASS       0    
+cgroup_fj_function_debug                           CONF       32   
+cgroup_fj_function_cpuset                          PASS       0    
+cgroup_fj_function_cpu                             PASS       0    
+cgroup_fj_function_cpuacct                         PASS       0    
+cgroup_fj_function_memory                          PASS       0    
+cgroup_fj_function_freezer                         PASS       0    
+cgroup_fj_function_devices                         PASS       0    
+cgroup_fj_function_blkio                           CONF       32   
+cgroup_fj_function_net_cls                         PASS       0    
+cgroup_fj_function_perf_event                      PASS       0    
+cgroup_fj_function_net_prio                        PASS       0    
+cgroup_fj_function_hugetlb                         FAIL       2    
+controllers                                        PASS       0    
+cpuacct_1_1                                        PASS       0    
+cpuacct_1_10                                       PASS       0    
+cpuacct_10_10                                      PASS       0    
+cpuacct_1_100                                      PASS       0    
+cpuacct_100_1                                      PASS       0    
+cpuacct_100_100                                    CONF       32   
+cpuset_base_ops                                    CONF       32   
+cpuset_inherit                                     CONF       32   
+cpuset_exclusive                                   CONF       32   
+cpuset_hierarchy                                   CONF       32   
+cpuset_syscall                                     CONF       32   
+cpuset_sched_domains                               CONF       32   
+cpuset_load_balance                                CONF       32   
+cpuset_hotplug                                     CONF       32   
+cpuset_memory                                      CONF       32   
+cpuset_memory_pressure                             CONF       32   
+cpuset_memory_spread                               CONF       32   
+cpuset_regression_test                             CONF       32   
+cgroup_xattr                                       PASS       0    
+io_control01                                       PASS       0    
+pids_1_1                                           PASS       0    
+pids_1_100                                         PASS       0    
+pids_2_1                                           PASS       0    
+pids_2_100                                         PASS       0    
+pids_3_0                                           PASS       0    
+pids_3_100                                         PASS       0    
+pids_4_1                                           PASS       0    
+pids_4_100                                         PASS       0    
+pids_5_1                                           PASS       0    
+pids_6_1                                           PASS       0    
+pids_6_100                                         PASS       0    
+pids_7_10                                          PASS       0    
+pids_7_1000                                        PASS       0    
+pids_8_2                                           PASS       0    
+pids_8_100                                         PASS       0    
+pids_9_2                                           PASS       0    
+pids_9_100                                         PASS       0    
+
+-----------------------------------------------
+Total Tests: 70
+Total Skipped Tests: 26
+Total Failures: 2
+Kernel Version: 6.0.9-00018-g331bee2a5d40
+Machine Architecture: riscv32
+Hostname: nutles
+
